@@ -1,17 +1,14 @@
 import React from 'react';
+import "./Student.css";
 
-function Student({img1, img2, student1, student2, description1, description2}) {
+function Student({img, student, level, info}) {
     return (
-        <div className="student__container">
-            <div className="student">
-                <img className="student_img" src={img1}></img>
-                <div className="student__name">{student1}</div>
-                <div className="student__info">{description1}</div>
-            </div>
-            <div className="student">
-                <img className="student__img" src={img2}></img>
-                <div className="student__name">{student2}</div>
-                <div className="student__info">{description2}</div>
+        <div className="student">
+            <img className="student_img" src={img}></img>
+            <div className="info__container">
+                <div className="student__name">{student}</div>
+                <div className="student__level">{level}</div>
+                <div className="student__info">{info}</div>
             </div>
         </div>
     )

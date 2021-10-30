@@ -1,0 +1,41 @@
+.member__container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.member__container img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.info__container {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.member__name {
+  letter-spacing: 1px;
+  font-size: 120%;
+  text-shadow: 2px 2px 2px #333;
+  color: #ff9100;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.member__level {
+  letter-spacing: 1px;
+  font-size: 100%;
+  text-shadow: 2px 2px 2px #ff9100;
+  color: #fff;
+  font-weight: 400;
+}
+
+.member__info {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-align: justify;
+  margin-top: 10px;
+}

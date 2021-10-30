@@ -2,7 +2,9 @@
   height: 450px;
   width: 75%;
   object-fit: cover;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
   background-repeat: no-repeat;
   overflow: visible;
   z-index: 1;
