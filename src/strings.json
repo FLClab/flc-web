@@ -1,0 +1,22 @@
+{
+    "Intro":  {
+        "label": "Introduction",
+        "content": "We are a multidisciplinary group using super-resolution microscopy in combination with machine learning to investigate the structure and function of neurobiological systems.",
+        "readmore": "Read More"
+    },
+    "Research": {
+        "SuperResolution": {
+            "label": "Super-Resolution",
+            "description": "Microscopy has revolutionized the biological sciences, but there are many biological questions that conventional microscopy is unable to answer due to the diffraction of light in conventional systems. A conventional light microscope is unable to visualize objects smaller than the diffraction limit of ~250 nm. Our lab uses and develops super-resolution microscopy methods to visualize objects smaller than the diffraction limit in both fixed and living cells."
+        },
+        "MachineLearning": {
+            "label": "Machine Learning",
+            "description": "We develop machine learning methods to optimize image acquisition and analysis. In particular we develop Reinforcement learning, Active learning as well as supervised and unsupervised learning methods."
+        },
+        "Neuro": {
+            "label": "Cellular and Molecular Neuroscience",
+            "description": "We use optical nanoscopy to explore several aspects of neuronal structure and function. Our areas of interest include synaptic protein localization, mitochondrial dynamics, and functional imaging. "
+        }
+    }
+
+}

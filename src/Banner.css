@@ -1,0 +1,13 @@
+.banner {
+  height: 450px;
+  width: 75%;
+  object-fit: cover;
+  margin: auto;
+  background-repeat: no-repeat;
+  overflow: visible;
+  z-index: 1;
+}
+
+.banner img {
+  align-items: center;
+}
