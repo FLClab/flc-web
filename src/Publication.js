@@ -2,11 +2,6 @@ import React, {useEffect} from 'react';
 import "./Publication.css";
 
 function Publication({data}){
-
-    useEffect( () => {
-        console.log(data.source);
-    }, []);
-
     return (
         <div className="publication__container">
             <span className="publication__authors">{data.authors}</span>
