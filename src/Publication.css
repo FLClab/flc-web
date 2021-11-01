@@ -18,3 +18,10 @@
   line-height: 1.4;
   color: #8f8f8f;
 }
+
+.publication__link {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: #007bff;
+  text-decoration: none;
+}

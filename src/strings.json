@@ -30,35 +30,43 @@
         },
         "Albert":{
             "name": "Albert Michaud-Gagnon",
-            "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique."
+            "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique.",
+            "image": "./img/members/Albert_Michaud_crop.png"
         },
         "Andreanne": {
             "name": "Andréanne Deschênes",
-            "info": "My PhD project consists in designing a multimodal super-resolution microscope which we will use to study how proteins reorganize in neurons when the strength of their connections are altered by activity. We also aim to use this microscope to investigate the influence of diet on the permeability of the gut."
+            "info": "My PhD project consists in designing a multimodal super-resolution microscope which we will use to study how proteins reorganize in neurons when the strength of their connections are altered by activity. We also aim to use this microscope to investigate the influence of diet on the permeability of the gut.",
+            "image": "./img/members/Andreanne_Deschenes_crop.JPG"
         },
         "Anthony": {
             "name": "Anthony Bilodeau",
-            "info": "My PhD project consists in building a super-resolution microscope that will be able to adapt to the sample using reinforcement learning. During my master, I developed weakly-supervised techniques to facilitate the analysis of microscopy images. "
+            "info": "My PhD project consists in building a super-resolution microscope that will be able to adapt to the sample using reinforcement learning. During my master, I developed weakly-supervised techniques to facilitate the analysis of microscopy images. ",
+            "image": "./img/members/Anthony_Bilodeau_crop.JPG"
         },
         "Alexandre": {
             "name": "Alexandre Boulay",
-            "info": "I am currently an undergraduate student in bioinformatics. I am working on applying a deep learning approach to the quantitative analysis of electron microscopy images of a rabbit retina. This project as well as the many other captivating projects ongoing in this lab have really caught my interest in both machine learning and neurosciences. I therefore intend to pursue my studies in those fields in the next few years."
+            "info": "I am currently an undergraduate student in bioinformatics. I am working on applying a deep learning approach to the quantitative analysis of electron microscopy images of a rabbit retina. This project as well as the many other captivating projects ongoing in this lab have really caught my interest in both machine learning and neurosciences. I therefore intend to pursue my studies in those fields in the next few years.",
+            "image": "./img/members/Alexandre_Boulay_crop.JPG"
         },
         "AntoineG": {
             "name": "Antoine Girard",
-            "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique."
+            "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique.",
+            "image": "./img/members/Antoine_Girard_crop.png"
         },
         "AntoineO": {
             "name": "Antoine Séverin Ollier",
-            "info": "After obtaining my degree in Engineering from x University in France, I decided to continue my studies in the field of microscopy and machine learning. I decided to join a multidisciplinary lab because I was interested in collaborating with other scientists. In my Master’s degree project, I am working on implementing a new type of detector that will allow us to make temporal and hyperspectral images on the STED microscope. I’m also working on machine learning algorithms that will enhance the amount of acquired signal in low-photon conditions."      
+            "info": "After obtaining my degree in Engineering from x University in France, I decided to continue my studies in the field of microscopy and machine learning. I decided to join a multidisciplinary lab because I was interested in collaborating with other scientists. In my Master’s degree project, I am working on implementing a new type of detector that will allow us to make temporal and hyperspectral images on the STED microscope. I’m also working on machine learning algorithms that will enhance the amount of acquired signal in low-photon conditions.",
+            "image": "./img/members/AntoineSeverinOllier.JPG"   
         },
         "Benoit": {
             "name": "Benoit Turcotte",
-            "info": "The objective of my project is to use reinforcement learning to learn an optimal imaging scheme that would allow to image Ca2+ signaling events by maximizing resolution while minimizing photobleaching. The training will be done in simulation, which means we will also study how well an optimal policy learned in simulation transfers to real life, and how we can further fine tune it."
+            "info": "The objective of my project is to use reinforcement learning to learn an optimal imaging scheme that would allow to image Ca2+ signaling events by maximizing resolution while minimizing photobleaching. The training will be done in simulation, which means we will also study how well an optimal policy learned in simulation transfers to real life, and how we can further fine tune it.",
+            "image": "./img/members/Benoit_Turcotte_crop.JPG"
         },
         "Catherine": { 
             "name": "Catherine Bouchard",
-            "info": "After a bachelor's degree in engineering physics, I'm pursuing my studies in the field of machine learning to extend my knowledge to new methods applied to subjects I was already passionate about, such as photonics and life science. My project focuses specifically on the application of deep neural networks for algorithmic super-resolution of fluorescence microscopy images."
+            "info": "After a bachelor's degree in engineering physics, I'm pursuing my studies in the field of machine learning to extend my knowledge to new methods applied to subjects I was already passionate about, such as photonics and life science. My project focuses specifically on the application of deep neural networks for algorithmic super-resolution of fluorescence microscopy images.",
+            "image": "./img/members/Catherine_Bouchard_crop.png"
         },
         "Flavie": {
             "name": "Flavie Lavoie-Cardinal",
@@ -66,47 +74,58 @@
         },
         "Frederic": {
             "name": "Frédéric Beaupré",
-            "info": "TBD."
+            "info": "TBD.",
+            "image": "./img/gallery/SynapticProteins.png"
         },
         "JM": {
             "name": "Jean-Michel Bellavance",
-            "info": " During my first year of bachelor’s degree in Microbiology, I completed a summer internship in a neuroscience laboratory where I learned the patch-clamp technique. I loved participating in this experience because of the challenge of being immersed in a field that I knew almost nothing of with a task as hard as to complete a patch-clamp project during the summer. My interest in psychology also further motivated me to start a master’s degree in Neuroscience. In Flavie’s lab, I will now combine STED microscopy and functional imaging to try to elucidate causal mechanisms of different diseases like ALS and Parkinson’s disease. I will focus on synaptic symptoms in these disease models."
+            "info": " During my first year of bachelor’s degree in Microbiology, I completed a summer internship in a neuroscience laboratory where I learned the patch-clamp technique. I loved participating in this experience because of the challenge of being immersed in a field that I knew almost nothing of with a task as hard as to complete a patch-clamp project during the summer. My interest in psychology also further motivated me to start a master’s degree in Neuroscience. In Flavie’s lab, I will now combine STED microscopy and functional imaging to try to elucidate causal mechanisms of different diseases like ALS and Parkinson’s disease. I will focus on synaptic symptoms in these disease models.",
+            "image": "./img/members/JeanMichelBellavance_crop.png"
         },
         "Laurence": {
             "name": "Laurence Fontaine",
-            "info": "TBD."
+            "info": "TBD.",
+            "image": "./img/members/Laurence_Fontaine_crop.png"
         },
         "Owen": {
             "name": "Owen Ferguson",
-            "info": "Parkinson’s disease affects more than 10 million people worldwide, and I’m interested in the mechanisms that lead to the death of dopamine-producing neurons in the disease. I am using stem cells from human patients to create neurons with Parkinson’s disease traits and I am using super-resolution microscopy to observe the differences between the mitochondria of healthy people and Parkinson’s disease patients."
+            "info": "Parkinson’s disease affects more than 10 million people worldwide, and I’m interested in the mechanisms that lead to the death of dopamine-producing neurons in the disease. I am using stem cells from human patients to create neurons with Parkinson’s disease traits and I am using super-resolution microscopy to observe the differences between the mitochondria of healthy people and Parkinson’s disease patients.",
+            "image": "./img/members/OwenFerguson_crop.JPG"
         },
         "Philippe": {
             "name": "Philippe Gagnon",
-            "info": "I am currently an undergraduate student in physics engineering."
+            "info": "I am currently an undergraduate student in physics engineering.",
+            "image": "./img/members/Philippe_Gagnon_crop.png"
         },
         "Renaud": {
             "name": "Renaud Bernatchez",
-            "info": "While completing internships in the lab during my bachelor’s degree in bioinformatics, I became fascinated with the application of deep learning to analyse microscopy images. However, such approaches require large amounts of painstakingly annotated data. The goal of my master’s degree is to use active learning to reduce the amount of annotated data required to train deep learning models to analyse fluorescence microscopy images."
+            "info": "While completing internships in the lab during my bachelor’s degree in bioinformatics, I became fascinated with the application of deep learning to analyse microscopy images. However, such approaches require large amounts of painstakingly annotated data. The goal of my master’s degree is to use active learning to reduce the amount of annotated data required to train deep learning models to analyse fluorescence microscopy images.",
+            "image": "./img/members/renaud_bernatchez_crop.png"
         },
         "Theresa": {
             "name": "Theresa Wiesner",
-            "info": "Coming from cancer research with focus on high throughput screening for drug development in the early years of my bachelor, I got fascinated during an internship with functional assays such as field recordings to study neuronal cell behaviour. I got hooked on doing my master in bio-photonics to learn functional imaging. During my PhD I combined functional assays, super-resolution imaging and computational tools to quantitatively assess and explore synaptic protein organization and remodeling due to synaptic plasticity. Being a scientist for me is not a job, but a lifestyle in which I can be continuously curious and explore across fields, be it from neuroscience, photonics to machine learning. In another life, I would be a diplomat who writes fiction books on the side."
+            "info": "Coming from cancer research with focus on high throughput screening for drug development in the early years of my bachelor, I got fascinated during an internship with functional assays such as field recordings to study neuronal cell behaviour. I got hooked on doing my master in bio-photonics to learn functional imaging. During my PhD I combined functional assays, super-resolution imaging and computational tools to quantitatively assess and explore synaptic protein organization and remodeling due to synaptic plasticity. Being a scientist for me is not a job, but a lifestyle in which I can be continuously curious and explore across fields, be it from neuroscience, photonics to machine learning. In another life, I would be a diplomat who writes fiction books on the side.",
+            "image": "./img/members/Theresa_Wiesner_crop.png"
         },
         "Valerie": {
             "name": "Valérie Clavet-Fournier",
-            "info": "TBD."
+            "info": "TBD.",
+            "image": "./img/gallery/SynapticProteins.png"
         },
         "Vincent":{
             "name": "Vincent Boily",
-            "info": "TBD."
+            "info": "TBD.",
+            "image": "./img/gallery/SynapticProteins.png"
         },
         "William": {
             "name": "William Leclerc",
-            "info": "During my bachelor's degree in bioinformatics, I was introduced to the symbiosis between the field of machine learning and several aspects of neuroscience. My interests now revolve around what artificial intelligence, and particularly deep learning, can teach us about living organisms and the ways they learn. My master's project focuses more specifically on the detection of anomalies related to bacteria in culture. I aspire to combine my approaches from diverse fields to open the way to bold and multidisciplinary ideas."
+            "info": "During my bachelor's degree in bioinformatics, I was introduced to the symbiosis between the field of machine learning and several aspects of neuroscience. My interests now revolve around what artificial intelligence, and particularly deep learning, can teach us about living organisms and the ways they learn. My master's project focuses more specifically on the detection of anomalies related to bacteria in culture. I aspire to combine my approaches from diverse fields to open the way to bold and multidisciplinary ideas.",
+            "image": "./img/members/WilliamL_crop.png"
         },
         "Zoe": {
             "name": "Zoé Zhuang",
-            "info": "TBD."
+            "info": "TBD.",
+            "image": "./img/gallery/SynapticProteins.png"
         }
     },
     "Gallery": {
@@ -115,11 +134,62 @@
     "Publications": {
         "label": "Publications",
         "MicraNet": {
-            "authors": "Bilodeau, A., Delmas, C.V., Parent, M., De Koninck, P., Durand, A., Lavoie-Cardinal, F. (2021).",
-            "title": "MICRA-Net: MICRoscopy Analysis Neural Network to solve detection, classification, and segmentation from a single simple auxiliary task.",
+            "authors": "Bilodeau, A., Delmas, C.V., Parent, M., De Koninck, P., Durand, A., Lavoie-Cardinal, F. (2021). ",
+            "title": "MICRA-Net: MICRoscopy Analysis Neural Network to solve detection, classification, and segmentation from a single simple auxiliary task. ",
             "source": "https://www.biorxiv.org/content/10.1101/2021.07.19.452964v1.abstract",
             "journal": "bioRxiv"
+        },
+        "TAGAN": {
+            "authors": "Bouchard, C., Wiesner, T., Deschênes, A., Lavoie-Cardinal, F., Gagné, C. (2021). ",
+            "title": "Task-Assisted GAN for Resolution Enhancement and Modality Translation in Fluorescence Microscopy. ",
+            "source": "https://www.biorxiv.org/content/10.1101/2021.07.19.452964v1.abstract",
+            "journal": "bioRxiv"
+        },
+        "Theresa": {
+            "authors": "Wiesner, T., Bilodeau, A., Bernatchez, R., Deschênes, A., Raulier, B, De Koninck, P., Lavoie-Cardinal, F. (2020). ",
+            "title": "Activity-dependent remodeling of synaptic protein organization revealed by high throughput analysis of STED nanoscopy images. ",
+            "source": "https://www.frontiersin.org/articles/10.3389/fncir.2020.00057/full",
+            "journal": "Frontiers in neural circuit"
+        },
+        "FActin": {
+            "authors": "Lavoie-Cardinal, F., Bilodeau, A., Mado, L., Gardner, M-A., Wiesner, T., Gabrielle, L., Gagné, C., (2020). ",
+            "title": "Neuronal activity remodels the F-actin based submembrane lattice in dendrites but not axons of hippocampal neurons. ",
+            "source": "https://www.nature.com/articles/s41598-020-68180-2",
+            "journal": "Scientific Reports"
+        },
+        "FluoLifetime": {
+            "authors": "Tardif, C., Nadeau, G., Labrecque, S., Côté, D., Lavoie-Cardinal, F., De Koninck, P., (2019). ",
+            "title": "Fluorescence lifetime imaging nanoscopy for measuring Förster resonance energy transfer in cellular nanodomains. ",
+            "source": "https://www.spiedigitallibrary.org/journals/neurophotonics/volume-6/issue-01/015002/Fluorescence-lifetime-imaging-nanoscopy-for-measuring-F%C3%B6rster-resonance-energy-transfer/10.1117/1.NPh.6.1.015002.full?SSO=1",
+            "journal": "Neurophotonics"
+        },
+        "MLAuto": {
+            "authors": "Durand, A., Wiesner, T., Gardner, M. A., Robitaille, L. É., Bilodeau, A., Gagné, C., De Koninck, P. & Lavoie-Cardinal, F. (2018). ",
+            "title": "A machine learning approach for online automated optimization of super-resolution optical microscopy. ",
+            "source": "https://www-nature-com.acces.bibl.ulaval.ca/articles/s41467-018-07668-y",
+            "journal": "Nature communications"
+        },
+        "GoldNano": {
+            "authors": "Lavoie-Cardinal, F., Salesse, C., Bergeron, É., Meunier, M., & De Koninck, P. (2016). ",
+            "title": "Gold nanoparticle-assisted all optical localized stimulation and monitoring of Ca 2+ signaling in neurons. ",
+            "source": "https://www-nature-com.acces.bibl.ulaval.ca/articles/srep20619", 
+            "journal": "Scientific Reports"
+        }, 
+        "RESOLFT": {
+            "authors": "Lavoie-Cardinal, F., Jensen, N.A., Westphal, V., Stiel, A.C., Chmyrov, A., Bierwagen, J., Testa, I., Jakobs, S. and Hell, S.W. (2014).",
+            "title": "Two-Color RESOLFT Nanoscopy with Green and Red Fluorescent Photochromic Proteins.", 
+            "source": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cphc.201301016",
+            "journal": "ChemPhysChem"
         }
+    },
+    "Affiliations": {
+        "label": "Affiliations"
+    },
+    "Funding": {
+        "label": "Funding"
+    },
+    "ContactUs": {
+        "label": "Contact Us"
     }
 
 }

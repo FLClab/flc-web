@@ -7,6 +7,7 @@ import Research from "./Research";
 import Student from "./Student";
 import Member from "./Member";
 import Publication from "./Publication";
+import StudentSet from "./StudentSet"
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
 import img_Alexandre from "./img/members/Alexandre_Boulay_crop.JPG";
@@ -57,137 +58,105 @@ function App() {
       <div className="students__label">
         {strings.Members.students}
       </div>
-      <div className="student-pair__container">
-        <Student 
-          img={img_Albert}
-          level={strings.Members.Levels.masters}
-          student={strings.Members.Albert.name}
-          info={strings.Members.Albert.info}
-        />
-        <Student 
-          img={img_Alexandre}
-          level={strings.Members.Levels.undergrad}
-          student={strings.Members.Alexandre.name}
-          info={strings.Members.Alexandre.info}
-        />
-      </div>
-      <div className="student-pair__container">
-        <Student 
-          img={img_Andreanne}
-          level={strings.Members.Levels.phd}
-          student={strings.Members.Andreanne.name}
-          info={strings.Members.Andreanne.info}
-        />
-        <Student 
-          img={img_Anthony}
-          level={strings.Members.Levels.phd}
-          student={strings.Members.Anthony.name}
-          info={strings.Members.Anthony.info}
-        />
-      </div>
-      <div className="student-pair__container">
-        <Student 
-          img={img_AntoineG}
-          level={strings.Members.Levels.masters}
-          student={strings.Members.AntoineG.name}
-          info={strings.Members.AntoineG.info}
-        />
-        <Student 
-          img={img_AntoineO}
-          level={strings.Members.Levels.masters}
-          student={strings.Members.AntoineO.name}
-          info={strings.Members.AntoineO.info}
-        />
-      </div>
-      <div className="student-pair__container">
-        <Student 
-          img={img_Benoit}
-          level={strings.Members.Levels.masters}
-          student={strings.Members.Benoit.name}
-          info={strings.Members.Benoit.info}
-        />
-        <Student 
-          img={img_Catherine}
-          level={strings.Members.Levels.phd}
-          student={strings.Members.Catherine.name}
-          info={strings.Members.Catherine.info}
-        />
-      </div>
-      <div className="student-pair__container">
-        <Student 
-          img={synapses}
-          level={strings.Members.Levels.masters}
-          student={strings.Members.Frederic.name}
-          info={strings.Members.Frederic.info}
-        />
-        <Student 
-          img={img_JM}
-          level={strings.Members.Levels.masters}
-          student={strings.Members.JM.name}
-          info={strings.Members.JM.info}
-        />
-      </div>
-      <div className="student-pair__container">
-        <Student 
-          img={img_Laurence}
-          level={strings.Members.Levels.undergrad}
-          student={strings.Members.Laurence.name}
-          info={strings.Members.Laurence.info}
-        />
-        <Student 
-          img={img_Owen}
-          level={strings.Members.Levels.phd}
-          student={strings.Members.Owen.name}
-          info={strings.Members.Owen.info}
-        />
-      </div>
-      <div className="student-pair__container">
-        <Student 
-          img={img_Philippe}
-          level={strings.Members.Levels.undergrad}
-          student={strings.Members.Philippe.name}
-          info={strings.Members.Philippe.info}
-        />
-        <Student 
-          img={img_Renaud}
-          level={strings.Members.Levels.masters}
-          student={strings.Members.Renaud.name}
-          info={strings.Members.Renaud.info}
-        />
-      </div>
-      <div className="student-pair__container">
-        <Student 
+      <StudentSet
+        student1={strings.Members.Albert}
+        level1={strings.Members.Levels.masters}
+        image1={img_Albert}
+        student2={strings.Members.Alexandre}
+        level2={strings.Members.Levels.undergrad}
+        image2={img_Alexandre}
+        student3={strings.Members.Andreanne}
+        level3={strings.Members.Levels.phd}
+        image3={img_Andreanne}
+        student4={strings.Members.Anthony}
+        level4={strings.Members.Levels.phd}
+        image4={img_Anthony}
+      />
+      <StudentSet 
+        student1={strings.Members.Benoit}
+        level1={strings.Members.Levels.masters}
+        image1={img_Benoit}
+        student2={strings.Members.Catherine}
+        level2={strings.Members.Levels.phd}
+        image2={img_Catherine}
+        student3={strings.Members.Frederic}
+        level3={strings.Members.Levels.masters}
+        image3={synapses}
+        student4={strings.Members.JM}
+        level4={strings.Members.Levels.masters}
+        image4={img_JM}
+      />
+      <StudentSet
+        student1={strings.Members.Laurence}
+        level1={strings.Members.Levels.undergrad}
+        image1={img_Laurence}
+        student2={strings.Members.Owen}
+        level2={strings.Members.Levels.phd}
+        image2={img_Owen}
+        student3={strings.Members.Philippe}
+        level3={strings.Members.Levels.undergrad}
+        image3={img_Philippe}
+        student4={strings.Members.Renaud}
+        level4={strings.Members.masters}
+        image4={img_Renaud}
+      />
+      <div className="trailing-students__container">
+        <Student
           img={img_William}
-          level={strings.Members.Levels.masters}
           student={strings.Members.William.name}
+          level={strings.Members.Levels.masters}
           info={strings.Members.William.info}
         />
-        <Student 
+        <Student
           img={synapses}
-          level={strings.Members.Levels.undergrad}
           student={strings.Members.Zoe.name}
+          level={strings.Members.Levels.undergrad}
           info={strings.Members.Zoe.info}
         />
       </div>
-
+      {/* <StudentSet
+        student1={strings.Members.William}
+        level1={strings.Members.Levels.masters}
+        image1={img_William}
+        student2={strings.Members.Zoe}
+        level2={strings.Members.Levels.undergrad}
+        image2={synapses}
+        student3={null}
+        level3={null}
+        image3={null}
+        student4={null}
+        level4={null}
+        image4={null}
+      /> */}
       { /* Gallery */ }
       <div className="gallery__label">
         {strings.Gallery.label}
       </div>
 
-      { /* Publications */ }
       <div className="publications__label">
         {strings.Publications.label}
       </div>
-      
-      <Publication
-        authors={strings.Publications.MicraNet.authors}
-        title={strings.Publications.MicraNet.title}
-        link={strings.Publications.MicraNet.source}
-        journal={strings.Publications.MicraNet.journal}
-      />
-      
+      <Publication data={strings.Publications.MicraNet} />
+      <Publication data={strings.Publications.TAGAN} />
+      <Publication data={strings.Publications.Theresa} />
+      <Publication data={strings.Publications.FActin} />
+      <Publication data={strings.Publications.FluoLifetime} />
+      <Publication data={strings.Publications.MLAuto} />
+      <Publication data={strings.Publications.GoldNano} />
+      <Publication data={strings.Publications.RESOLFT} />
 
+      <div className="affiliations__label">
+        {strings.Affiliations.label}
+      </div>
+
+      <div className="funding__label">
+        {strings.Funding.label}
+      </div>
+
+      <div className="contact__label">
+        {strings.ContactUs.label}
+      </div>
+  
     </div>
   );
 }
