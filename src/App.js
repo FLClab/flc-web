@@ -32,8 +32,6 @@ import img_William from "./img/members/WilliamL_crop.png";
 import synapses from "./img/gallery/SynapticProteins.png";
 import strings from "./strings.json";
 
-
-
 function App() {
   return (
     <div className="app">
