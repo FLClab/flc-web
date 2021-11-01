@@ -39,6 +39,7 @@
   text-shadow: 2px 2px 2px #ff9100;
   color: #fff;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .student__info {
@@ -47,4 +48,14 @@
   color: #8f8f8f;
   text-align: justify;
   margin-top: 10px;
+}
+
+.toggle-info__button {
+  border: none;
+  background: none;
+  color: #8f8f8f;
+}
+
+.toggle-info__button:hover {
+  color: #ff9100;
 }
