@@ -145,7 +145,7 @@ function App() {
       <div className="contact__label" id="contact-section">
         {strings.ContactUs.label}
         <hr className="contact__hr"></hr>
-        <ContactUs description={strings.ContactUs.description} email={strings.Members.Flavie.email}/>
+        <ContactUs description={strings.ContactUs.description} email={strings.Members.Flavie.email} />
       </div>
   
     </div>
