@@ -20,12 +20,29 @@ body {
 .gallery__label,
 .publications__label,
 .affiliations__label,
-.funding__label,
-.contact__label {
+.funding__label {
   text-align: center;
   color: #ff9100;
   margin-bottom: 40px;
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.2;
+  margin-top: 80px;
+}
+
+.contact__label {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-image: url("./img/4colors_rotated_crop.png");
+  background-size: cover;
+}
+
+hr.contact__hr {
+  border: 1px solid white;
+  margin-bottom: 40px;
 }

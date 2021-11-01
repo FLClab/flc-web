@@ -70,7 +70,8 @@
         },
         "Flavie": {
             "name": "Flavie Lavoie-Cardinal",
-            "info": "Lorem Ipsum"
+            "info": "Lorem Ipsum",
+            "email": "flavie.lavoie-cardinal@cervo.ulaval.ca"
         },
         "Frederic": {
             "name": "Frédéric Beaupré",
@@ -189,7 +190,8 @@
         "label": "Funding"
     },
     "ContactUs": {
-        "label": "Contact Us"
+        "label": "Contact Us",
+        "description": "If you're an undergrad, graduate or post-graduate student looking for a research project in a dynamic and multi disciplinary lab, contact us!"
     }
 
 }

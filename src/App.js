@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Affiliations from "./Affiliations";
 import Nav from "./Nav";
 import Banner from "./Banner";
+import ContactUs from "./ContactUs";
+import Funding from "./Funding";
 import Intro from "./Intro";
 import Research from "./Research";
 import Student from "./Student";
 import Member from "./Member";
+import MemberPair from './MemberPair';
 import Publication from "./Publication";
 import StudentSet from "./StudentSet"
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
@@ -32,30 +36,27 @@ import strings from "./strings.json";
 function App() {
   return (
     <div className="app">
-      <Nav />
-      <Banner />
-      <Intro />
-      <Research />
+      <Nav id="nav-section" />
+      <Banner id="banner-section" />
+      <div id="intro-section">
+        <Intro/>
+      </div>
+      <Research id="research-section" />
 
       {/* Members */}
-      <div className="members__label">
+      <div className="members__label" id="members-section">
         {strings.Members.members}
       </div>
-      <Member 
-        img={synapses}
-        level={strings.Members.Levels.research}
-        member={strings.Members.Valerie.name}
-        info={strings.Members.Valerie.info}
+      <MemberPair
+        member1={strings.Members.Valerie}
+        member2={strings.Members.Theresa}
+        level1={strings.Members.Levels.research}
+        level2={strings.Members.Levels.postdoc}
+        image1={synapses}
+        image2={img_Theresa}
       />
-      <Member
-        img={img_Theresa}
-        level={strings.Members.Levels.postdoc}
-        member={strings.Members.Theresa.name}
-        info={strings.Members.Theresa.info}
-      />
-
       { /* Students */ }
-      <div className="students__label">
+      <div className="students__label" id="students-section">
         {strings.Members.students}
       </div>
       <StudentSet
@@ -115,11 +116,11 @@ function App() {
         image4={synapses}
       />
       { /* Gallery */ }
-      <div className="gallery__label">
+      <div className="gallery__label" id="gallery-section">
         {strings.Gallery.label}
       </div>
 
-      <div className="publications__label">
+      <div className="publications__label" id="publications-section">
         {strings.Publications.label}
       </div>
       <Publication data={strings.Publications.MicraNet} />
@@ -131,16 +132,20 @@ function App() {
       <Publication data={strings.Publications.GoldNano} />
       <Publication data={strings.Publications.RESOLFT} />
 
-      <div className="affiliations__label">
+      <div className="affiliations__label" id="affiliations-section">
         {strings.Affiliations.label}
       </div>
+      <Affiliations />
 
-      <div className="funding__label">
+      <div className="funding__label" id="funding-section">
         {strings.Funding.label}
       </div>
+      <Funding />
 
-      <div className="contact__label">
+      <div className="contact__label" id="contact-section">
         {strings.ContactUs.label}
+        <hr className="contact__hr"></hr>
+        <ContactUs description={strings.ContactUs.description} email={strings.Members.Flavie.email}/>
       </div>
   
     </div>

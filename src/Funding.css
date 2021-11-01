@@ -1,0 +1,26 @@
+.funding__container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.funding__row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.logo__item:hover,
+.logo__item-chaires.hover {
+  filter: brightness(50%);
+}
+
+.logo__item-chaires {
+  width: 20%;
+  margin: auto;
+}
+
+.logo__item-chaires img {
+  width: 80%;
+  height: 100%;
+}

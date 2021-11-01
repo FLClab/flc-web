@@ -1,13 +1,20 @@
 .member__container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-left: 30px;
   margin-bottom: 30px;
+  max-width: 50%;
+  flex: 50%;
 }
 
 .member__container img {
   max-width: 200px;
   max-height: 200px;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .info__container {
@@ -19,7 +26,7 @@
   letter-spacing: 1px;
   font-size: 120%;
   text-shadow: 2px 2px 2px #333;
-  color: #ff9100;
+  color: #00bfff;
   margin-bottom: 20px;
   font-weight: 400;
 }
@@ -27,7 +34,7 @@
 .member__level {
   letter-spacing: 1px;
   font-size: 100%;
-  text-shadow: 2px 2px 2px #ff9100;
+  text-shadow: 2px 2px 2px #00bfff;
   color: #fff;
   font-weight: 400;
 }
