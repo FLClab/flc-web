@@ -37,6 +37,7 @@
   text-shadow: 2px 2px 2px #00bfff;
   color: #fff;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .member__info {
@@ -45,4 +46,14 @@
   color: #8f8f8f;
   text-align: justify;
   margin-top: 10px;
+}
+
+.member-toggle-info__button {
+  border: none;
+  background: none;
+  color: #8f8f8f;
+}
+
+.member-toggle-info__button:hover {
+  color: #00bfff;
 }

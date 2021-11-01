@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import "./Student.css";
 
 function Student({img, student, level, info}) {
