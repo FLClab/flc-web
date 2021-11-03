@@ -6,6 +6,7 @@ import Nav from "./Nav";
 import Banner from "./Banner";
 import ContactUs from "./ContactUs";
 import Funding from "./Funding";
+import Gallery from "./Gallery";
 import Intro from "./Intro";
 import Research from "./Research";
 import Student from "./Student";
@@ -117,6 +118,7 @@ function App() {
       { /* Gallery */ }
       <div className="gallery__label" id="gallery-section">
         {strings.Gallery.label}
+        <Gallery />
       </div>
 
       <div className="publications__label" id="publications-section">
