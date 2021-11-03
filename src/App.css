@@ -44,3 +44,17 @@ hr.contact__hr {
   border: 1px solid white;
   margin-bottom: 40px;
 }
+
+.designed__by {
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.closing__line {
+  width: 60%;
+}
