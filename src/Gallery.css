@@ -43,7 +43,7 @@
 
 .image__container:hover {
   transition: transform 450ms;
-  opacity: 0.3;
+  opacity: 0.5;
   transform: scale(1.1);
   position: relative;
 }

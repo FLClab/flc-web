@@ -9,7 +9,7 @@ import Tubulin from "./img/gallery/LIVE610_Tubulin.png";
 import synapticProteins from "./img/gallery/SynapticProteins.png";
 
 
-function Gallery(){
+function Gallery() {
     const [inFocus0, setInFocus0] = useState(false);
     const [inFocus1, setInFocus1] = useState(false);
     const [inFocus2, setInFocus2] = useState(false);
@@ -17,12 +17,12 @@ function Gallery(){
     const [inFocus4, setInFocus4] = useState(false);
     const [inFocus5, setInFocus5] = useState(false);
     const [inFocus6, setInFocus6] = useState(false);
-    
+
     const images = [
         {
             "id": 0,
             "img": actinCamkii,
-            "label": "Actin and CamkII",
+            "label": "Actin and CaMKII",
             "inFocus": inFocus0
         },
         {
@@ -30,7 +30,7 @@ function Gallery(){
             "img": BassoonHomer,
             "label": "Bassoon Homer",
             "inFocus": inFocus1
-        }, 
+        },
         {
             "id": 2,
             "img": actinSpectrin,
@@ -49,7 +49,7 @@ function Gallery(){
             "label": "Cultures",
             "inFocus": inFocus4
         },
-        {  
+        {
             "id": 5,
             "img": Tubulin,
             "label": "Tubulin",
@@ -63,8 +63,8 @@ function Gallery(){
         }
     ]
 
-    const onmouseover = (id) => {  
-        switch(id){
+    const onmouseover = (id) => {
+        switch (id) {
             case 0: {
                 setInFocus0(true);
                 break;
@@ -97,11 +97,11 @@ function Gallery(){
                 break;
             }
         }
-        
+
     }
 
     const onmouseout = (id) => {
-        switch(id){
+        switch (id) {
             case 0: {
                 setInFocus0(false);
                 break;
@@ -141,7 +141,7 @@ function Gallery(){
             <div className="row__images">
                 {images.map((image) => (
                     <div className="wrapper">
-                        <div 
+                        <div
                             key={image.id}
                             className="image__container"
                             style={{ backgroundImage: `url('${image.img}')`, backgroundSize: "cover", backgroundPositionX: "center" }}
