@@ -1,2 +1,1 @@
-# Visit the website
-[flc-web](https://flc-lab.netlify.app/).
+# Visit the website [here](https://flc-lab.netlify.app/)
