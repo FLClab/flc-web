@@ -55,7 +55,7 @@
         },
         "AntoineO": {
             "name": "Antoine Séverin Ollier",
-            "info": "After obtaining my degree in Engineering from x University in France, I decided to continue my studies in the field of microscopy and machine learning. I decided to join a multidisciplinary lab because I was interested in collaborating with other scientists. In my Master’s degree project, I am working on implementing a new type of detector that will allow us to make temporal and hyperspectral images on the STED microscope. I’m also working on machine learning algorithms that will enhance the amount of acquired signal in low-photon conditions.",
+            "info": "After obtaining my degree in Engineering from Télécom Saint-Étienne in France, I decided to continue my studies in the field of microscopy and machine learning. I decided to join a multidisciplinary lab because I was interested in collaborating with other scientists. In my Master’s degree project, I am working on implementing a new type of detector that will allow us to make temporal and hyperspectral images on the STED microscope. I’m also working on machine learning algorithms that will enhance the amount of acquired signal in low-photon conditions.",
             "image": "./img/members/AntoineSeverinOllier.JPG"   
         },
         "Benoit": {
