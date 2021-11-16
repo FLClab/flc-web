@@ -12,7 +12,7 @@ function Student({img, student, level, info}) {
 
     return (
         <div className="student">
-            <img className="student_img" src={img}></img>
+            <img className="student_img" src={img} alt=""></img>
             <div className="info__container">
                 <div className="student__name">{student}</div>
                 <div className="student__level">{level}</div>

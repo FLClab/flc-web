@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import "./Publication.css";
 
 function Publication({data}){

@@ -17,39 +17,39 @@ function Funding() {
         <div className="funding__container">
             <div className="funding__row">
                 <a href="https://fondationcervo.com/" className="logo__item">
-                    <img src={CERVO}></img>
+                    <img src={CERVO} alt=""></img>
                 </a>
                 <a href="https://www.nserc-crsng.gc.ca/" className="logo__item">
-                    <img src={NSERC}></img>
+                    <img src={NSERC} alt=""></img>
                 </a>
                 <a href="https://www.innovation.ca/" className="logo__item">
-                    <img src={INNO}></img>
+                    <img src={INNO} alt=""></img>
                 </a>
                 <a href="https://sentinellenord.ulaval.ca/" className="logo__item">
-                    <img src={Sentinelle}></img>
+                    <img src={Sentinelle} alt=""></img>
                 </a>
                 <a href="https://frq.gouv.qc.ca/nature-et-technologies/" className="logo__item">
-                    <img src={FRQNT}></img>
+                    <img src={FRQNT} alt=""></img>
                 </a>
                 <a href="https://frq.gouv.qc.ca/sante/" className="logo__item">
-                    <img src={FRQS}></img>
+                    <img src={FRQS} alt=""></img>
                 </a>
             </div>
             <div className="funding__row">
                 <a href="https://www.chairs-chaires.gc.ca/home-accueil-fra.aspx" className="logo__item-chaires">
-                    <img src={chaires}></img>
+                    <img src={chaires} alt=""></img>
                 </a>
                 <a href="https://cifar.ca" className="logo__item">
-                    <img src={CIFAR}></img>
+                    <img src={CIFAR} alt=""></img>
                 </a>
                 <a href="https://neuronex.org/" className="logo__item">
-                    <img src={NEURONEX}></img>
+                    <img src={NEURONEX} alt=""></img>
                 </a>
                 <a href="https://www.sshrc-crsh.gc.ca/funding-financement/nfrf-fnfr/index-eng.aspxs" className="logo__item">
-                    <img src={NF}></img>
+                    <img src={NF} alt=""></img>
                 </a>
                 <a href="https://www.genomequebec.com/" className="logo__item">
-                    <img src={GQ}></img>
+                    <img src={GQ} alt=""></img>
                 </a>
             </div>
         </div>

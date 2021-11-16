@@ -18,7 +18,7 @@ function Intro(){
     return (
         <div className="container">
             <div className="left" onMouseOver={onmouseover} onMouseOut={onmouseout}>
-                <img src={withMask ? group_mask : group}></img> 
+                <img src={withMask ? group_mask : group} alt=""></img> 
             </div>
             <div className="right">
                 <span className="right__title">{strings.Intro.label}</span>

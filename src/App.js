@@ -1,5 +1,4 @@
-import React, { useEffect, useState} from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Affiliations from "./Affiliations";
 import Nav from "./Nav";
@@ -9,8 +8,6 @@ import Funding from "./Funding";
 import Gallery from "./Gallery";
 import Intro from "./Intro";
 import Research from "./Research";
-import Student from "./Student";
-import Member from "./Member";
 import MemberPair from './MemberPair';
 import Publication from "./Publication";
 import StudentSet from "./StudentSet"
@@ -22,7 +19,6 @@ import img_AntoineG from "./img/members/Antoine_Girard_crop.png";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
 import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
-import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
 import img_Laurence from "./img/members/Laurence_Fontaine_crop.png";
 import img_Owen from "./img/members/OwenFerguson_crop.JPG";

@@ -12,25 +12,25 @@ function Affiliations() {
     return (
         <div className="logos__container">
             <a href="https://cervo.ulaval.ca/en" className="logo__item">
-                <img src={CERVO}></img>
+                <img src={CERVO} alt=""></img>
             </a>
             <a href="https://www.ulaval.ca/la-recherche/unites-de-recherche/centres-de-recherche-reconnus/centre-de-recherche-en-robotique-vision-et-intelligence-machine-cervim" className="logo__item">
-                <img src={CERVIM}></img>
+                <img src={CERVIM} alt=""></img>
             </a>
             <a href="https://iid.ulaval.ca/" className="logo__item">
-                <img src={IID}></img>
+                <img src={IID} alt=""></img>
             </a>
             <a href="https://ulaval.ca/" className="logo__item">
-                <img src={Laval}></img>
+                <img src={Laval} alt=""></img>
             </a>
             <a href="https://crdm.ulaval.ca/" className="logo__item">
-                <img src={crdm_ul}></img>
+                <img src={crdm_ul} alt=""></img>
             </a>
             <a href="https://rbiq-qbin.qc.ca/" className="logo__item">
-                <img src={RBIQ}></img>
+                <img src={RBIQ} alt=""></img>
             </a>
             <a href="https://https://sites.google.com/view/unique-neuro-ai/home" className="logo__item">
-                <img src={UNIQUE}></img>
+                <img src={UNIQUE} alt=""></img>
             </a>
         </div>
     )
