@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.5af0acdd.chunk.css",
-    "main.js": "./static/js/main.78bb1124.chunk.js",
-    "main.js.map": "./static/js/main.78bb1124.chunk.js.map",
+    "main.css": "./static/css/main.4d60b973.chunk.css",
+    "main.js": "./static/js/main.cdce2866.chunk.js",
+    "main.js.map": "./static/js/main.cdce2866.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.3d1d3b81.js",
     "runtime-main.js.map": "./static/js/runtime-main.3d1d3b81.js.map",
     "static/js/2.891787b2.chunk.js": "./static/js/2.891787b2.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0e338695.chunk.js": "./static/js/3.0e338695.chunk.js",
     "static/js/3.0e338695.chunk.js.map": "./static/js/3.0e338695.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.5af0acdd.chunk.css.map": "./static/css/main.5af0acdd.chunk.css.map",
+    "static/css/main.4d60b973.chunk.css.map": "./static/css/main.4d60b973.chunk.css.map",
     "static/js/2.891787b2.chunk.js.LICENSE.txt": "./static/js/2.891787b2.chunk.js.LICENSE.txt",
     "static/media/ActinSpectrin.fd755079.png": "./static/media/ActinSpectrin.fd755079.png",
     "static/media/Albert_Michaud_crop.acda3145.png": "./static/media/Albert_Michaud_crop.acda3145.png",
@@ -22,7 +22,6 @@
     "static/media/BassoonHomer.bf37bb4a.png": "./static/media/BassoonHomer.bf37bb4a.png",
     "static/media/Benoit_Turcotte_crop.68e6e36d.JPG": "./static/media/Benoit_Turcotte_crop.68e6e36d.JPG",
     "static/media/Catherine_Bouchard_crop.b1f4ec03.png": "./static/media/Catherine_Bouchard_crop.b1f4ec03.png",
-    "static/media/Flavie_Lavoie-Cardinal.d7e4b273.png": "./static/media/Flavie_Lavoie-Cardinal.d7e4b273.png",
     "static/media/FondationCERVO.75c22553.png": "./static/media/FondationCERVO.75c22553.png",
     "static/media/GQ-Logo-2.001632ca.png": "./static/media/GQ-Logo-2.001632ca.png",
     "static/media/IMG_3356_group_mask.ecc1bdf4.png": "./static/media/IMG_3356_group_mask.ecc1bdf4.png",
@@ -47,7 +46,6 @@
     "static/media/image7.06f668bf.png": "./static/media/image7.06f668bf.png",
     "static/media/logo-flclab_darkbckg.77fcdf76.svg": "./static/media/logo-flclab_darkbckg.77fcdf76.svg",
     "static/media/logo-neuronex.01ac494c.svg": "./static/media/logo-neuronex.01ac494c.svg",
-    "static/media/logo.6ce24c58.svg": "./static/media/logo.6ce24c58.svg",
     "static/media/machine-learning.b3c60412.png": "./static/media/machine-learning.b3c60412.png",
     "static/media/microscope.f8a1796b.png": "./static/media/microscope.f8a1796b.png",
     "static/media/neurons.1513980d.png": "./static/media/neurons.1513980d.png",
@@ -56,7 +54,7 @@
   "entrypoints": [
     "static/js/runtime-main.3d1d3b81.js",
     "static/js/2.891787b2.chunk.js",
-    "static/css/main.5af0acdd.chunk.css",
-    "static/js/main.78bb1124.chunk.js"
+    "static/css/main.4d60b973.chunk.css",
+    "static/js/main.cdce2866.chunk.js"
   ]
 }
