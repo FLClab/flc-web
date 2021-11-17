@@ -28,19 +28,19 @@ function Gallery() {
         {
             "id": 1,
             "img": BassoonHomer,
-            "label": "Bassoon Homer",
+            "label": "Bassoon and Homer",
             "inFocus": inFocus1
         },
         {
             "id": 2,
             "img": actinSpectrin,
-            "label": "Actin Spectrin",
+            "label": "Actin and Spectrin",
             "inFocus": inFocus2
         },
         {
             "id": 3,
             "img": confocalSted,
-            "label": "F-Actin",
+            "label": "F-Actin confocal and STED",
             "inFocus": inFocus3
         },
         {
