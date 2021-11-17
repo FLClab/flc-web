@@ -40,7 +40,7 @@ function Gallery() {
         {
             "id": 3,
             "img": confocalSted,
-            "label": "Confocal & STED",
+            "label": "F-Actin",
             "inFocus": inFocus3
         },
         {
