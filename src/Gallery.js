@@ -59,7 +59,7 @@ function Gallery() {
             "id": 6,
             "img": synapticProteins,
             "label": "Synaptic Proteins",
-            "fcn": inFocus6,
+            "inFocus": inFocus6,
         }
     ]
 
