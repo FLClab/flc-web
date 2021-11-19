@@ -23,9 +23,6 @@ function Intro(){
             <div className="right">
                 <span className="right__title">{strings.Intro.label}</span>
                 <span className="right__content">{strings.Intro.content}</span>
-                <span>
-                    <button className="readmore__button">{strings.Intro.readmore}</button>
-                </span>
             </div>
         </div>
     )
