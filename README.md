@@ -3,7 +3,7 @@
 ##  TODO
 
 ### Top section:
-- [ ] change website title from React-App to something better
+- [x] change website title from React-App to something better
 - [ ] move logo to foreground and add `SynapticProteins.png` as background image
 
 ### Navbar:
