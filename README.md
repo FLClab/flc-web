@@ -1,6 +1,9 @@
 # Visit the website [here](https://flc-lab.netlify.app/)
 
-##  TODO
+# Test incoming changes
+run `yarn start` or `npm run build` from root (flc-web directory). This will open the website in your localhost port 3000. Make sure the proposed changes did not introduce bugs/errors.
+
+# TODO
 
 ### Top section:
 - [x] change website title from React-App to something better
@@ -10,8 +13,8 @@
 
 - [ ] better implementation of active tab functionality
 ### Members :
-  - [ ] Remove Zoe from list of members (now Alumni)
-  - [ ] Crop new photos and replace synapses by photo (Fred, Alexis, Valérie)
+  - [x] Remove Zoe from list of members (now Alumni)
+  - [x] Crop new photos and replace synapses by photo (Fred, Alexis, Valérie)
 
 ### Gallery
 
