@@ -97,7 +97,7 @@ function App() {
         level3={strings.Members.Levels.undergrad}
         image3={img_Laurence}
         student4={strings.Members.Owen}
-        level4={strings.Members.phd}
+        level4={strings.Members.Levels.phd}
         image4={img_Owen}
       />
       <StudentSet
@@ -111,7 +111,7 @@ function App() {
         level3={strings.Members.Levels.masters}
         image3={img_William}
         student4={strings.Members.Alexis}
-        level4={strings.Members.phd}
+        level4={strings.Members.Levels.phd}
         image4={img_Alexis}
       />
       { /* Gallery */ }
