@@ -9,6 +9,9 @@
 ### Navbar:
 
     - [ ] better implementation of active tab functionality
+### Members :
+
+  - [ ] Crop new photos and replace synapses by photo (Fred, Alexis, Valérie)
 
 ### Gallery
 
