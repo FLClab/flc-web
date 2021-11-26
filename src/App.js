@@ -12,6 +12,7 @@ import MemberPair from './MemberPair';
 import Publication from "./Publication";
 import StudentSet from "./StudentSet"
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
+import img_Alexis from "./img/members/Alexis_Lebrun_crop.JPG";
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
 import img_Alexandre from "./img/members/Alexandre_Boulay_crop.JPG";
 import img_Anthony from "./img/members/Anthony_Bilodeau_crop.JPG";
@@ -20,10 +21,12 @@ import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
 import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
+import img_Fred from ".img/members/Fred_Beaupre_crop.jpg"
 import img_Laurence from "./img/members/Laurence_Fontaine_crop.png";
 import img_Owen from "./img/members/OwenFerguson_crop.JPG";
 import img_Philippe from "./img/members/Philippe_Gagnon_crop.png";
 import img_Renaud from "./img/members/renaud_bernatchez_crop.png";
+import img_Valerie from "./img/members/Valerie_ClavetFournier_crop.JPG";
 import img_Theresa from "./img/members/Theresa_Wiesner_crop.png";
 import img_William from "./img/members/WilliamL_crop.png";
 import synapses from "./img/gallery/SynapticProteins.png";
@@ -48,7 +51,7 @@ function App() {
         member2={strings.Members.Theresa}
         level1={strings.Members.Levels.research}
         level2={strings.Members.Levels.postdoc}
-        image1={synapses}
+        image1={img_Valerie}
         image2={img_Theresa}
       />
       { /* Students */ }
@@ -86,7 +89,7 @@ function App() {
       <StudentSet
         student1={strings.Members.Frederic}
         level1={strings.Members.Levels.masters}
-        image1={synapses}
+        image1={img_Fred}
         student2={strings.Members.JM}
         level2={strings.Members.Levels.masters}
         image2={img_JM}
@@ -107,9 +110,9 @@ function App() {
         student3={strings.Members.William}
         level3={strings.Members.Levels.masters}
         image3={img_William}
-        student4={strings.Members.Zoe}
-        level4={strings.Members.Levels.undergrad}
-        image4={synapses}
+        student4={strings.Members.Alexis}
+        level4={strings.Members.phd}
+        image4={img_Alexis}
       />
       { /* Gallery */ }
       <div className="gallery__label" id="gallery-section">
