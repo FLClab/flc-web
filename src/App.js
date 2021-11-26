@@ -21,7 +21,7 @@ import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
 import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
-import img_Fred from ".img/members/Fred_Beaupre_crop.jpg"
+import img_Fred from ".img/members/Fred_Beaupre_crop.JPG"
 import img_Laurence from "./img/members/Laurence_Fontaine_crop.png";
 import img_Owen from "./img/members/OwenFerguson_crop.JPG";
 import img_Philippe from "./img/members/Philippe_Gagnon_crop.png";
@@ -29,6 +29,7 @@ import img_Renaud from "./img/members/renaud_bernatchez_crop.png";
 import img_Valerie from "./img/members/Valerie_ClavetFournier_crop.JPG";
 import img_Theresa from "./img/members/Theresa_Wiesner_crop.png";
 import img_William from "./img/members/WilliamL_crop.png";
+import img_Vincent from "./img/members/Vincent_Boily_crop.png";
 import synapses from "./img/gallery/SynapticProteins.png";
 import strings from "./strings.json";
 
@@ -102,7 +103,7 @@ function App() {
       />
       <StudentSet
         student1={strings.Members.Philippe}
-        leve1={strings.Members.Levels.undergrad}
+        level1={strings.Members.Levels.undergrad}
         image1={img_Philippe}
         student2={strings.Members.Renaud}
         level2={strings.Members.Levels.masters}
@@ -113,6 +114,11 @@ function App() {
         student4={strings.Members.Alexis}
         level4={strings.Members.Levels.phd}
         image4={img_Alexis}
+      />
+      <StudentSet
+        student1={strings.Members.Vincent}
+        leve1={strings.Members.Levels.masters}
+        image1={img_Vincent}
       />
       { /* Gallery */ }
       <div className="gallery__label" id="gallery-section">
