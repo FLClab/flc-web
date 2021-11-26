@@ -127,8 +127,8 @@
             "name": "William Leclerc",
             "info": "During my bachelor's degree in bioinformatics, I was introduced to the symbiosis between the field of machine learning and several aspects of neuroscience. My interests now revolve around what artificial intelligence, and particularly deep learning, can teach us about living organisms and the ways they learn. My master's project focuses more specifically on the detection of anomalies related to bacteria in culture. I aspire to combine my approaches from diverse fields to open the way to bold and multidisciplinary ideas.",
             "image": "./img/members/WilliamL_crop.png"
-        },
-
+        }
+    },
     "Gallery": {
         "label": "Gallery"
     },
@@ -193,5 +193,4 @@
         "label": "Contact Us",
         "description": "If you're an undergrad, graduate or post-graduate student looking for a research project in a dynamic and multi disciplinary lab, contact us!"
     }
-
 }
