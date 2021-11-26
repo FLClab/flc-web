@@ -33,6 +33,11 @@
             "info": "TBD.",
             "image": "./img/members/Albert_Michaud_crop.png"
         },
+        "Alexis":{
+            "name": "Alexis Lebrun",
+            "info": "TBD.",
+            "image": "./img/members/Alexis_Lebrun_crop.jpg"
+        },
         "Andreanne": {
             "name": "Andréanne Deschênes",
             "info": "My PhD project consists in designing a multimodal super-resolution microscope which we will use to study how proteins reorganize in neurons when the strength of their connections are altered by activity. We also aim to use this microscope to investigate the influence of diet on the permeability of the gut.",
@@ -123,12 +128,7 @@
             "info": "During my bachelor's degree in bioinformatics, I was introduced to the symbiosis between the field of machine learning and several aspects of neuroscience. My interests now revolve around what artificial intelligence, and particularly deep learning, can teach us about living organisms and the ways they learn. My master's project focuses more specifically on the detection of anomalies related to bacteria in culture. I aspire to combine my approaches from diverse fields to open the way to bold and multidisciplinary ideas.",
             "image": "./img/members/WilliamL_crop.png"
         },
-        "Zoe": {
-            "name": "Zoé Zhuang",
-            "info": "TBD.",
-            "image": "./img/gallery/SynapticProteins.png"
-        }
-    },
+
     "Gallery": {
         "label": "Gallery"
     },
