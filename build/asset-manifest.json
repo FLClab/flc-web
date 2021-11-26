@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.4d60b973.chunk.css",
-    "main.js": "./static/js/main.0cd57612.chunk.js",
-    "main.js.map": "./static/js/main.0cd57612.chunk.js.map",
+    "main.css": "./static/css/main.633e6a9a.chunk.css",
+    "main.js": "./static/js/main.8a358254.chunk.js",
+    "main.js.map": "./static/js/main.8a358254.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.3d1d3b81.js",
     "runtime-main.js.map": "./static/js/runtime-main.3d1d3b81.js.map",
     "static/js/2.891787b2.chunk.js": "./static/js/2.891787b2.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0e338695.chunk.js": "./static/js/3.0e338695.chunk.js",
     "static/js/3.0e338695.chunk.js.map": "./static/js/3.0e338695.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.4d60b973.chunk.css.map": "./static/css/main.4d60b973.chunk.css.map",
+    "static/css/main.633e6a9a.chunk.css.map": "./static/css/main.633e6a9a.chunk.css.map",
     "static/js/2.891787b2.chunk.js.LICENSE.txt": "./static/js/2.891787b2.chunk.js.LICENSE.txt",
     "static/media/ActinSpectrin.fd755079.png": "./static/media/ActinSpectrin.fd755079.png",
     "static/media/Albert_Michaud_crop.acda3145.png": "./static/media/Albert_Michaud_crop.acda3145.png",
@@ -58,7 +58,7 @@
   "entrypoints": [
     "static/js/runtime-main.3d1d3b81.js",
     "static/js/2.891787b2.chunk.js",
-    "static/css/main.4d60b973.chunk.css",
-    "static/js/main.0cd57612.chunk.js"
+    "static/css/main.633e6a9a.chunk.css",
+    "static/js/main.8a358254.chunk.js"
   ]
 }
