@@ -66,60 +66,66 @@ function App() {
         student2={strings.Members.Alexandre}
         level2={strings.Members.Levels.undergrad}
         image2={img_Alexandre}
-        student3={strings.Members.Andreanne}
+        student3={strings.Members.Alexis}
         level3={strings.Members.Levels.phd}
-        image3={img_Andreanne}
-        student4={strings.Members.Anthony}
+        image3={img_Alexis}
+        student4={strings.Members.Andreanne}
         level4={strings.Members.Levels.phd}
-        image4={img_Anthony}
+        image4={img_Andreanne}
+
       />
       <StudentSet 
-        student1={strings.Members.AntoineG}
-        level1={strings.Members.Levels.masters}
-        image1={img_AntoineG}
-        student2={strings.Members.AntoineO}
+        student1={strings.Members.Anthony}
+        level1={strings.Members.Levels.phd}
+        image1={img_Anthony}
+        student2={strings.Members.AntoineG}
         level2={strings.Members.Levels.masters}
-        image2={img_AntoineO}
-        student3={strings.Members.Benoit}
+        image2={img_AntoineG}
+        student3={strings.Members.AntoineO}
         level3={strings.Members.Levels.masters}
-        image3={img_Benoit}
-        student4={strings.Members.Catherine}
-        level4={strings.Members.Levels.phd}
-        image4={img_Catherine}
+        image3={img_AntoineO}
+        student4={strings.Members.Benoit}
+        level4={strings.Members.Levels.masters}
+        image4={img_Benoit}
+      
       />
       <StudentSet
-        student1={strings.Members.Frederic}
-        level1={strings.Members.Levels.masters}
-        image1={img_Fred}
-        student2={strings.Members.JM}
+        student1={strings.Members.Catherine}
+        level1={strings.Members.Levels.phd}
+        image1={img_Catherine}
+        student2={strings.Members.Frederic}
         level2={strings.Members.Levels.masters}
-        image2={img_JM}
-        student3={strings.Members.Laurence}
-        level3={strings.Members.Levels.undergrad}
-        image3={img_Laurence}
-        student4={strings.Members.Owen}
-        level4={strings.Members.Levels.phd}
-        image4={img_Owen}
+        image2={img_Fred}
+        student3={strings.Members.JM}
+        level3={strings.Members.Levels.masters}
+        image3={img_JM}
+        student4={strings.Members.Laurence}
+        level4={strings.Members.Levels.undergrad}
+        image4={img_Laurence}
+
       />
       <StudentSet
-        student1={strings.Members.Philippe}
-        level1={strings.Members.Levels.undergrad}
-        image1={img_Philippe}
-        student2={strings.Members.Renaud}
-        level2={strings.Members.Levels.masters}
-        image2={img_Renaud}
-        student3={strings.Members.William}
+        student1={strings.Members.Owen}
+        level1={strings.Members.Levels.phd}
+        image1={img_Owen}
+        student2={strings.Members.Philippe}
+        level2={strings.Members.Levels.undergrad}
+        image2={img_Philippe}
+        student3={strings.Members.Renaud}
         level3={strings.Members.Levels.masters}
-        image3={img_William}
-        student4={strings.Members.Alexis}
-        level4={strings.Members.Levels.phd}
-        image4={img_Alexis}
+        image3={img_Renaud}
+        
+        student4={strings.Members.Vincent.name}
+        level4={strings.Members.Levels.masters}
+        image4={img_Vincent}
+
       />
       <Student
-        img={img_Vincent}
-        student={strings.Members.Vincent.name}
+        img={img_William}
+        student={strings.Members.William.name}
         level={strings.Members.Levels.masters}
-        info={strings.Members.Vincent.info}
+        info={strings.Members.William.info}
+
       />
       { /* Gallery */ }
       <div className="gallery__label" id="gallery-section">
