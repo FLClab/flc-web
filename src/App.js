@@ -114,8 +114,7 @@ function App() {
         student3={strings.Members.Renaud}
         level3={strings.Members.Levels.masters}
         image3={img_Renaud}
-        
-        student4={strings.Members.Vincent.name}
+        student4={strings.Members.Vincent}
         level4={strings.Members.Levels.masters}
         image4={img_Vincent}
 
