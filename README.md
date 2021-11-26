@@ -10,7 +10,7 @@
 
     - [ ] better implementation of active tab functionality
 ### Members :
-
+  - [ ] Remove Zoe from list of members (now Alumni)
   - [ ] Crop new photos and replace synapses by photo (Fred, Alexis, Valérie)
 
 ### Gallery
