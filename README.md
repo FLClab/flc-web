@@ -7,10 +7,10 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 # TODO
 
 ### Top section:
-
+- [ ] If possible switch group picture to masked picture on hover
 - [x] change website title from React-App to something better
 - [x] change domain name
-- [ ] move logo to foreground and add `SynapticProteins.png` as background image
+- [ ] move logo to foreground and add src\img\gallery\4colors.png as background image
 - [x] change title logo
 
 ### Navbar:
