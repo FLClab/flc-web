@@ -7,7 +7,8 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 # TODO
 
 ### Top section:
-- [ ] If possible switch group picture to masked picture on hover
+
+- [x] If possible switch group picture to masked picture on hover (functionality already present --> just a little slow on few first hovers)
 - [x] change website title from React-App to something better
 - [x] change domain name
 - [ ] move logo to foreground and add src\img\gallery\4colors.png as background image
