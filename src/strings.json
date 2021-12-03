@@ -90,8 +90,8 @@
         },
         "Laurence": {
             "name": "Laurence Fontaine",
-            "info": "TBD.",
-            "image": "./img/members/Laurence_Fontaine_crop.png"
+            "info": "I am an undergraduate graduate student in bioinformatics. Currently, I am working on improving the classification of a CNN on a dataset of post synaptic proteins.",
+            "image": "/.img/members/Laurence_Fontaine_crop.png"
         },
         "Owen": {
             "name": "Owen Ferguson",
