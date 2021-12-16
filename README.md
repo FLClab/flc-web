@@ -30,4 +30,4 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 
 ### Images
 
-- [] Compress large images for faster rendering
+- [ ] Compress large images for faster rendering
