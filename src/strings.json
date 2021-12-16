@@ -1,5 +1,8 @@
 {
-    "Intro":  {
+    "Banner": {
+        "groupInfo": "Intelligent nanoscopy group - Flavie Lavoie-Cardinal"
+    },
+    "Intro": {
         "label": "Introduction",
         "content": "We are a multidisciplinary group using super-resolution microscopy in combination with machine learning to investigate the structure and function of neurobiological systems.",
         "readmore": "Read More"
@@ -28,12 +31,12 @@
             "postdoc": "Postdoctoral Researcher",
             "research": "Research Professional"
         },
-        "Albert":{
+        "Albert": {
             "name": "Albert Michaud-Gagnon",
             "info": "TBD.",
             "image": "./img/members/Albert_Michaud_crop.png"
         },
-        "Alexis":{
+        "Alexis": {
             "name": "Alexis Lebrun",
             "info": "TBD.",
             "image": "./img/members/Alexis_Lebrun_crop.jpg"
@@ -61,14 +64,14 @@
         "AntoineO": {
             "name": "Antoine Séverin Ollier",
             "info": "After obtaining my degree in Engineering from Télécom Saint-Étienne in France, I decided to continue my studies in the field of microscopy and machine learning. I decided to join a multidisciplinary lab because I was interested in collaborating with other scientists. In my Master’s degree project, I am working on implementing a new type of detector that will allow us to make temporal and hyperspectral images on the STED microscope. I’m also working on machine learning algorithms that will enhance the amount of acquired signal in low-photon conditions.",
-            "image": "./img/members/AntoineSeverinOllier.JPG"   
+            "image": "./img/members/AntoineSeverinOllier.JPG"
         },
         "Benoit": {
             "name": "Benoit Turcotte",
             "info": "The objective of my project is to use reinforcement learning to learn an optimal imaging scheme that would allow to image Ca2+ signaling events by maximizing resolution while minimizing photobleaching. The training will be done in simulation, which means we will also study how well an optimal policy learned in simulation transfers to real life, and how we can further fine tune it.",
             "image": "./img/members/Benoit_Turcotte_crop.JPG"
         },
-        "Catherine": { 
+        "Catherine": {
             "name": "Catherine Bouchard",
             "info": "After a bachelor's degree in engineering physics, I'm pursuing my studies in the field of machine learning to extend my knowledge to new methods applied to subjects I was already passionate about, such as photonics and life science. My project focuses specifically on the application of deep neural networks for algorithmic super-resolution of fluorescence microscopy images.",
             "image": "./img/members/Catherine_Bouchard_crop.png"
@@ -122,7 +125,7 @@
             "info": "TBD.",
             "image": "./img/gallery/SynapticProteins.png"
         },
-        "Vincent":{
+        "Vincent": {
             "name": "Vincent Boily",
             "info": "TBD.",
             "image": "./img/gallery/SynapticProteins.png"
@@ -177,12 +180,12 @@
         "GoldNano": {
             "authors": "Lavoie-Cardinal, F., Salesse, C., Bergeron, É., Meunier, M., & De Koninck, P. (2016). ",
             "title": "Gold nanoparticle-assisted all optical localized stimulation and monitoring of Ca 2+ signaling in neurons. ",
-            "source": "https://www-nature-com.acces.bibl.ulaval.ca/articles/srep20619", 
+            "source": "https://www-nature-com.acces.bibl.ulaval.ca/articles/srep20619",
             "journal": "Scientific Reports"
-        }, 
+        },
         "RESOLFT": {
             "authors": "Lavoie-Cardinal, F., Jensen, N.A., Westphal, V., Stiel, A.C., Chmyrov, A., Bierwagen, J., Testa, I., Jakobs, S. and Hell, S.W. (2014).",
-            "title": "Two-Color RESOLFT Nanoscopy with Green and Red Fluorescent Photochromic Proteins.", 
+            "title": "Two-Color RESOLFT Nanoscopy with Green and Red Fluorescent Photochromic Proteins.",
             "source": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cphc.201301016",
             "journal": "ChemPhysChem"
         }
