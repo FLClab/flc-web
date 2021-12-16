@@ -101,7 +101,7 @@ function App() {
         level3={strings.Members.Levels.masters}
         image3={img_JM}
         student4={strings.Members.Julia}
-        level4={strings.Members.Levels.masters}
+        level4={strings.Members.Levels.phd}
         image4={synapses}
 
       />
