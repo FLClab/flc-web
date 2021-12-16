@@ -22,8 +22,12 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 
 - [x] Remove Zoe from list of members (now Alumni)
 - [x] Crop new photos and replace synapses by photo (Fred, Alexis, Valérie)
-- [ ] Add Julia Chabbert to students (synapse photo for now)
+- [x] Add Julia Chabbert to students (synapse photo for now)
 
 ### Gallery
 
 - [ ] Switch from scrollbar to dots for moving between set of 3 images
+
+### Images
+
+- [] Compress large images for faster rendering
