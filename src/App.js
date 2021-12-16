@@ -107,13 +107,13 @@ function App() {
       />
       <StudentSet
         student1={strings.Members.Laurence}
-        level1={strings.Members.Levels.undergrand}
+        level1={strings.Members.Levels.undergrad}
         image1={img_Laurence}
         student2={strings.Members.Owen}
         level2={strings.Members.Levels.phd}
         image2={img_Owen}
         student3={strings.Members.Philippe}
-        level3={strings.Members.Levels.undergrand}
+        level3={strings.Members.Levels.undergrad}
         image3={img_Philippe}
         student4={strings.Members.Renaud}
         level4={strings.Members.Levels.masters}
