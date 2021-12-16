@@ -10,8 +10,8 @@ import Intro from "./Intro";
 import Research from "./Research";
 import MemberPair from './MemberPair';
 import Publication from "./Publication";
+import StudentPair from "./StudentPair";
 import StudentSet from "./StudentSet"
-import Student from "./Student"
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
@@ -32,6 +32,7 @@ import img_Theresa from "./img/members/Theresa_Wiesner_crop.png";
 import img_William from "./img/members/WilliamL_crop.png";
 import img_Vincent from "./img/members/Vincent_Boily_crop.png";
 import strings from "./strings.json";
+import synapses from "./img/gallery/SynapticProteins.png";
 
 function App() {
   return (
@@ -99,32 +100,33 @@ function App() {
         student3={strings.Members.JM}
         level3={strings.Members.Levels.masters}
         image3={img_JM}
-        student4={strings.Members.Laurence}
-        level4={strings.Members.Levels.undergrad}
-        image4={img_Laurence}
+        student4={strings.Members.Julia}
+        level4={strings.Members.Levels.masters}
+        image4={synapses}
 
       />
       <StudentSet
-        student1={strings.Members.Owen}
-        level1={strings.Members.Levels.phd}
-        image1={img_Owen}
-        student2={strings.Members.Philippe}
-        level2={strings.Members.Levels.undergrad}
-        image2={img_Philippe}
-        student3={strings.Members.Renaud}
-        level3={strings.Members.Levels.masters}
-        image3={img_Renaud}
-        student4={strings.Members.Vincent}
+        student1={strings.Members.Laurence}
+        level1={strings.Members.Levels.undergrand}
+        image1={img_Laurence}
+        student2={strings.Members.Owen}
+        level2={strings.Members.Levels.phd}
+        image2={img_Owen}
+        student3={strings.Members.Philippe}
+        level3={strings.Members.Levels.undergrand}
+        image3={img_Philippe}
+        student4={strings.Members.Renaud}
         level4={strings.Members.Levels.masters}
-        image4={img_Vincent}
+        image4={img_Renaud}
 
       />
-      <Student
-        img={img_William}
-        student={strings.Members.William.name}
-        level={strings.Members.Levels.masters}
-        info={strings.Members.William.info}
-
+      <StudentPair
+        img1={img_Vincent}
+        student1={strings.Members.Vincent}
+        level1={strings.Members.Levels.masters}
+        img2={img_William}
+        student2={strings.Members.William}
+        level2={strings.Members.Levels.masters}
       />
       { /* Gallery */ }
       <div className="gallery__label" id="gallery-section">

@@ -2,9 +2,9 @@ import React from 'react';
 import "./StudentSet.css";
 import Student from "./Student"
 
-function StudentPair({student1, level1, image1, student2, level2, image2, student3, level3, image3, student4, level4, image4}){
+function StudentSet({student1, level1, image1, student2, level2, image2, student3, level3, image3, student4, level4, image4}){
     return (
-        <div className="student-pair__container">
+        <div className="student-set__container">
             <Student
                 img={image1}
                 level={level1}
@@ -33,4 +33,4 @@ function StudentPair({student1, level1, image1, student2, level2, image2, studen
     )
 }
 
-export default StudentPair;
+export default StudentSet;

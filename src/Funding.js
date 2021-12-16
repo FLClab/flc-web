@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Funding.css";
-import CERVO from "./img/logos/FondationCERVO.png";
 import GQ from "./img/logos/GQ-Logo-2.png";
 import NSERC from "./img/logos/image6.png";
 import INNO from "./img/logos/image7.png";
@@ -16,9 +15,6 @@ function Funding() {
     return (
         <div className="funding__container">
             <div className="funding__row">
-                <a href="https://fondationcervo.com/" className="logo__item">
-                    <img src={CERVO} alt=""></img>
-                </a>
                 <a href="https://www.nserc-crsng.gc.ca/" className="logo__item">
                     <img src={NSERC} alt=""></img>
                 </a>

@@ -88,6 +88,10 @@
             "info": " During my first year of bachelor’s degree in Microbiology, I completed a summer internship in a neuroscience laboratory where I learned the patch-clamp technique. I loved participating in this experience because of the challenge of being immersed in a field that I knew almost nothing of with a task as hard as to complete a patch-clamp project during the summer. My interest in psychology also further motivated me to start a master’s degree in Neuroscience. In Flavie’s lab, I will now combine STED microscopy and functional imaging to try to elucidate causal mechanisms of different diseases like ALS and Parkinson’s disease. I will focus on synaptic symptoms in these disease models.",
             "image": "./img/members/JeanMichelBellavance_crop.png"
         },
+        "Julia": {
+            "name": "Julia Chabbert",
+            "info": "TBD."
+        },
         "Laurence": {
             "name": "Laurence Fontaine",
             "info": "I am an undergraduate graduate student in bioinformatics. Currently, I am working on improving the classification of a CNN on a dataset of post synaptic proteins.",
