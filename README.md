@@ -6,23 +6,11 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 
 # TODO
 
-### Top section:
-
-- [x] If possible switch group picture to masked picture on hover (functionality already present --> just a little slow on few first hovers or while page is still rendering)
-- [x] change website title from React-App to something better
-- [x] change domain name
-- [x] move logo to foreground and add src\img\gallery\4colors.png as background image
-- [x] change title logo
-
 ### Navbar:
 
 - [ ] better implementation of active tab functionality
 
 ### Members :
-
-- [x] Remove Zoe from list of members (now Alumni)
-- [x] Crop new photos and replace synapses by photo (Fred, Alexis, Valérie)
-- [x] Add Julia Chabbert to students (synapse photo for now)
 
 ### Gallery
 
