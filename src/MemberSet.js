@@ -1,8 +1,8 @@
 import React from 'react';
 import Member from "./Member";
-import "./MemberPair.css";
+import "./MemberSet.css";
 
-function MemberPair({member1, member2, level1, level2, image1, image2}){
+function MemberSet({member1, member2, member3, level1, level2, level3, image1, image2, image3}){
     return (
         <div className="member-pair__container">
             <Member 
@@ -15,8 +15,13 @@ function MemberPair({member1, member2, level1, level2, image1, image2}){
                 level={level2}
                 member={member2}
             />
+            <Member 
+                img={image3}
+                level={level3}
+                member={member3}
+            />
         </div>
     )
 }
 
-export default MemberPair;
+export default MemberSet;

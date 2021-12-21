@@ -115,6 +115,10 @@
             "info": "While completing internships in the lab during my bachelor’s degree in bioinformatics, I became fascinated with the application of deep learning to analyse microscopy images. However, such approaches require large amounts of painstakingly annotated data. The goal of my master’s degree is to use active learning to reduce the amount of annotated data required to train deep learning models to analyse fluorescence microscopy images.",
             "image": "./img/members/renaud_bernatchez_crop.png"
         },
+        "Roseline": {
+            "name": "Roseline Olory",
+            "info": "TBD."
+        },
         "Theresa": {
             "name": "Theresa Wiesner",
             "info": "Coming from cancer research with focus on high throughput screening for drug development in the early years of my bachelor, I got fascinated during an internship with functional assays such as field recordings to study neuronal cell behaviour. I got hooked on doing my master in bio-photonics to learn functional imaging. During my PhD I combined functional assays, super-resolution imaging and computational tools to quantitatively assess and explore synaptic protein organization and remodeling due to synaptic plasticity. Being a scientist for me is not a job, but a lifestyle in which I can be continuously curious and explore across fields, be it from neuroscience, photonics to machine learning. In another life, I would be a diplomat who writes fiction books on the side.",

@@ -8,7 +8,7 @@ import Funding from "./Funding";
 import Gallery from "./Gallery";
 import Intro from "./Intro";
 import Research from "./Research";
-import MemberPair from './MemberPair';
+import MemberSet from './MemberSet';
 import Publication from "./Publication";
 import StudentPair from "./StudentPair";
 import StudentSet from "./StudentSet"
@@ -48,13 +48,16 @@ function App() {
       <div className="members__label" id="members-section">
         {strings.Members.members}
       </div>
-      <MemberPair
+      <MemberSet
         member1={strings.Members.Valerie}
         member2={strings.Members.Theresa}
+        member3={strings.Members.Roseline}
         level1={strings.Members.Levels.research}
         level2={strings.Members.Levels.postdoc}
+        level3={strings.Members.Levels.postdoc}
         image1={img_Valerie}
         image2={img_Theresa}
+        image3={synapses}
       />
       { /* Students */ }
       <div className="students__label" id="students-section">
