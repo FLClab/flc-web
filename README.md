@@ -11,7 +11,9 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 - [ ] better implementation of active tab functionality
 
 ### Members :
-- [] Add Roseline Olory (postdoctoral fellow) to members section
+
+- [x] Add Roseline Olory (postdoctoral fellow) to members section
+
 ### Gallery
 
 - [ ] Switch from scrollbar to dots for moving between set of 3 images
