@@ -15,7 +15,6 @@ import StudentSet from "./StudentSet"
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
-import img_Alexandre from "./img/members/Alexandre_Boulay_crop.JPG";
 import img_Anthony from "./img/members/Anthony_Bilodeau_crop.JPG";
 import img_AntoineG from "./img/members/Antoine_Girard_crop.png";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
@@ -25,7 +24,6 @@ import img_JM from "./img/members/JeanMichelBellavance_crop.png";
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg"
 import img_Laurence from "./img/members/Laurence_Fontaine_crop.png";
 import img_Owen from "./img/members/OwenFerguson_crop.JPG";
-import img_Philippe from "./img/members/Philippe_Gagnon_crop.png";
 import img_Renaud from "./img/members/renaud_bernatchez_crop.png";
 import img_Valerie from "./img/members/Valerie_ClavetFournier_crop.jpg";
 import img_Theresa from "./img/members/Theresa_Wiesner_crop.png";
