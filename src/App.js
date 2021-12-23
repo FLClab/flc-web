@@ -67,7 +67,6 @@ function App() {
         student1={strings.Members.Albert}
         level1={strings.Members.Levels.masters}
         image1={img_Albert}
-
         student2={strings.Members.Alexis}
         level2={strings.Members.Levels.phd}
         image2={img_Alexis}
@@ -80,7 +79,6 @@ function App() {
 
       />
       <StudentSet 
-
         student1={strings.Members.AntoineG}
         level1={strings.Members.Levels.masters}
         image1={img_AntoineG}
@@ -96,7 +94,6 @@ function App() {
       
       />
       <StudentSet
-
         student1={strings.Members.Frederic}
         level1={strings.Members.Levels.masters}
         image1={img_Fred}
@@ -112,7 +109,6 @@ function App() {
 
       />
       <StudentSet
-
         student1={strings.Members.Owen}
         level1={strings.Members.Levels.phd}
         image1={img_Owen}
@@ -125,8 +121,6 @@ function App() {
         student4={strings.Members.William}
         level4={strings.Members.Levels.masters}
         image4={img_William}
-
-
       />
    
       { /* Gallery */ }
