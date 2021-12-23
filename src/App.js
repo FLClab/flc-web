@@ -10,7 +10,6 @@ import Intro from "./Intro";
 import Research from "./Research";
 import MemberSet from './MemberSet';
 import Publication from "./Publication";
-import StudentPair from "./StudentPair";
 import StudentSet from "./StudentSet"
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
