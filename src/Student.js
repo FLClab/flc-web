@@ -16,6 +16,7 @@ function Student({img, student, level, info}) {
             <div className="info__container">
                 <div className="student__name">{student}</div>
                 <div className="student__level">{level}</div>
+                <div className="PI__name">{PI}</div>
                 <button id="read-more" className="toggle-info__button" onClick={onReadMoreClick}>{showMoreString}</button>
                 {showMore && <div className="student__info">{info}</div>}
             </div>
