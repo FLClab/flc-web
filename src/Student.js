@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Student.css";
 
-function Student({img, student, level,PI, info}) {
+function Student({img, student, level, info}) {
     const [showMore, setShowMore] = useState(false);
     const [showMoreString, setShowMoreString] = useState('Show more');
 
