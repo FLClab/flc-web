@@ -1,11 +1,13 @@
-# Visit the website [here](https://flc-lab.netlify.app/)
+# Visit the website [here](https://flc-lab.com/)
 
 # Test incoming changes
 
 run `yarn start` or `npm run build` from root (flc-web directory). This will open the website in your localhost port 3000. Make sure the proposed changes did not introduce bugs/errors.
 
 # TODO
+
 ### General:
+
 - [ ] Delete old version (github.io)
 
 ### Navbar:
@@ -29,8 +31,7 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 
 ### Publications
 
-- [ ] Change title to Key Publications
+- [x] Change title to Key Publications
 - [ ] Add show more button
 - [ ] Add all papers from Google scholar
 - [ ] Add Renaud and Benoît's workshop papers when published
-- [ ] 

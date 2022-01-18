@@ -10,12 +10,14 @@ function StudentPair({img1, student1, level1, img2, student2, level2}){
                 level={level1}
                 student={student1.name}
                 info={student1.info}
+                directors={student1.directors1}
             />
             <Student
                 img={img2}
                 level={level2}
                 student={student2.name}
                 info={student2.info}
+                directors={student2.directors}
             />
         </div>
     )

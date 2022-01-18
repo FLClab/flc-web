@@ -84,7 +84,8 @@
         "Frederic": {
             "name": "Frédéric Beaupré",
             "info": "The main endeavour of my project is to develop new and improved anomaly detection methods designed for the detection of early signs of neurodegeneration (in Parkinson’s disease and ALS) in synaptic populations, and the discovery of new biomarkers associated with the neurodegenerative diseases. The striking similarities between optical brain imaging and astronomical data motivates our drawing inspiration from deep-learning-based methods in the latter field for developing our image acquisition and anomaly detection approaches.",
-            "image": "./img/gallery/SynapticProteins.png"
+            "image": "./img/gallery/SynapticProteins.png",
+            "directors": "Flavie Lavoie-Cardinal, Christian Gagné"
         },
         "JM": {
             "name": "Jean-Michel Bellavance",
@@ -144,7 +145,7 @@
         "label": "Gallery"
     },
     "Publications": {
-        "label": "Publications",
+        "label": "Key Publications",
         "MicraNet": {
             "authors": "Bilodeau, A., Delmas, C.V., Parent, M., De Koninck, P., Durand, A., Lavoie-Cardinal, F. (2021). ",
             "title": "MICRA-Net: MICRoscopy Analysis Neural Network to solve detection, classification, and segmentation from a single simple auxiliary task. ",
