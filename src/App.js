@@ -135,8 +135,16 @@ function App() {
       <Publication data={strings.Publications.FActin} />
       <Publication data={strings.Publications.FluoLifetime} />
       <Publication data={strings.Publications.MLAuto} />
+      <Publication data={strings.Publications.Prefnet} />
       <Publication data={strings.Publications.GoldNano} />
       <Publication data={strings.Publications.RESOLFT} />
+      <Publication data={strings.Publications.GFP} />
+      <Publication data={strings.Publications.Mitos} />
+      <Publication data={strings.Publications.Dreiklang} />
+      <Publication data={strings.Publications.Crystals} />
+      <Publication data={strings.Publications.Crystals2} />
+      <Publication data={strings.Publications.Crystals3} />
+      <Publication data={strings.Publications.Crystals4} />
 
       <div className="affiliations__label" id="affiliations-section">
         {strings.Affiliations.label}
