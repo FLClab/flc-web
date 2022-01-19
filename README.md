@@ -16,14 +16,14 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 
 ### Members :
 
-- [ ] Add co-directors/directors under students
+- [ ] Make Font of Directors bigger (same as info)
 - [ ] Create Alumni section (link to thesis)
 
 ### Gallery
 
 - [ ] Switch from scrollbar to dots for moving between set of 3 images
 - [ ] Show image in full screen on click with description text (including name of who took the image)
-- [ ] Add brain slice images
+- [ ] Add brain slice images (Andréanne)
 
 ### Images
 
@@ -32,6 +32,6 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### Publications
 
 - [x] Change title to Key Publications
-- [ ] Add show more button
-- [ ] Add all papers from Google scholar
-- [ ] Add Renaud and Benoît's workshop papers when published
+- [ ] Add show all button
+- [ ] Add all papers from Google scholar (Andréanne)
+- [ ] Add Renaud and Benoît's workshop papers when published (Andréanne)
