@@ -76,7 +76,7 @@
             "name": "Benoit Turcotte",
             "info": "The objective of my project is to use reinforcement learning to learn an optimal imaging scheme that would allow to image Ca2+ signaling events by maximizing resolution while minimizing photobleaching. The training will be done in simulation, which means we will also study how well an optimal policy learned in simulation transfers to real life, and how we can further fine tune it.",
             "image": "./img/members/Benoit_Turcotte_crop.JPG",
-            "directors": "Flavie Lavoie-Cardinal, Audrey Durand"
+            "directors": "Audrey Durand,Flavie Lavoie-Cardinal"
         },
         "Catherine": {
             "name": "Catherine Bouchard",
