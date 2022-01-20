@@ -45,13 +45,11 @@
 }
 
 .student__director {
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   line-height: 1.4;
   color: #8f8f8f;
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .student__info {
