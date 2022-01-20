@@ -9,6 +9,7 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### General:
 
 - [ ] Delete old version (github.io)
+- [ ] Add link to Flavie's Google Scholar (next to Twitter)
 
 ### Navbar:
 
