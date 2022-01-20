@@ -15,8 +15,6 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 - [ ] better implementation of active tab functionality
 
 ### Members :
-
-- [ ] Make Font of Directors bigger (same as info)
 - [ ] Create Alumni section (link to thesis)
 
 ### Gallery
@@ -33,5 +31,4 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 
 - [x] Change title to Key Publications
 - [ ] Add show all button
-- [ ] Add all papers from Google scholar (Andréanne)
 - [ ] Add Renaud and Benoît's workshop papers when published (Andréanne)
