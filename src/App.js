@@ -28,6 +28,7 @@ import img_Valerie from "./img/members/Valerie_ClavetFournier_crop.jpg";
 import img_Theresa from "./img/members/Theresa_Wiesner_crop.png";
 import img_William from "./img/members/WilliamL_crop.png";
 import img_Vincent from "./img/members/Vincent_Boily_crop.png";
+import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
 import strings from "./strings.json";
 import synapses from "./img/gallery/SynapticProteins.png";
 
@@ -54,7 +55,7 @@ function App() {
         level3={strings.Members.Levels.postdoc}
         image1={img_Valerie}
         image2={img_Theresa}
-        image3={synapses}
+        image3={img_Roseline}
       />
       { /* Students */ }
       <div className="students__label" id="students-section">
