@@ -1,7 +1,7 @@
 import React from 'react';
 import "./ContactUs.css"
 import { FaEnvelope, FaMapMarkerAlt, FaTwitter } from 'react-icons/fa';
-import {SiGooglescholar} from 'react-icons/si'
+import {SiGooglescholar} from 'react-icons/si';
 
 function ContactUs({description, email}){
 
