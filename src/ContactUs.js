@@ -1,6 +1,7 @@
 import React from 'react';
 import "./ContactUs.css"
 import { FaEnvelope, FaMapMarkerAlt, FaTwitter } from 'react-icons/fa';
+import {SiGooglescholar} from 'react-icons/si'
 
 function ContactUs({description, email}){
 
@@ -26,6 +27,13 @@ function ContactUs({description, email}){
 
     const onTwitterOut = () => {
         document.getElementById("twitter__ref").style.color = "white";
+    }
+     const onScholarHover = () => {
+        document.getElementById("scholar__ref").style.color = "#ff9100";
+    }
+
+    const onScholarOut = () => {
+        document.getElementById("scholar__ref").style.color = "white";
     }
 
     return (
@@ -56,6 +64,17 @@ function ContactUs({description, email}){
                         href="https://twitter.com/FlcLab"
                         onMouseOver={onTwitterHover}
                         onMouseOut={onTwitterOut}
+                    >
+                        Twitter
+                    </a>
+                </div>
+                <div className="scholar">
+                    <div className="scholar_icon"><SiGooglescholar /></div>
+                    <a id="scholar__ref"
+                        className="scholar__ref"
+                        href="https://scholar.google.com/citations?user=ZrolyuIAAAAJ&hl=en&oi=ao"
+                        onMouseOver={onScholarHover}
+                        onMouseOut={onScholarOut}
                     >
                         Twitter
                     </a>
