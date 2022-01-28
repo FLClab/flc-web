@@ -9,7 +9,7 @@ import Gallery from "./Gallery";
 import Intro from "./Intro";
 import Research from "./Research";
 import MemberSet from './MemberSet';
-import Publication from "./Publication";
+import PublicationSet from "./PublicationSet";
 import StudentSet from "./StudentSet"
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
@@ -130,22 +130,7 @@ function App() {
       <div className="publications__label" id="publications-section">
         {strings.Publications.label}
       </div>
-      <Publication data={strings.Publications.MicraNet} />
-      <Publication data={strings.Publications.TAGAN} />
-      <Publication data={strings.Publications.Theresa} />
-      <Publication data={strings.Publications.FActin} />
-      <Publication data={strings.Publications.FluoLifetime} />
-      <Publication data={strings.Publications.MLAuto} />
-      <Publication data={strings.Publications.Prefnet} />
-      <Publication data={strings.Publications.GoldNano} />
-      <Publication data={strings.Publications.RESOLFT} />
-      <Publication data={strings.Publications.GFP} />
-      <Publication data={strings.Publications.Mitos} />
-      <Publication data={strings.Publications.Dreiklang} />
-      <Publication data={strings.Publications.Crystals} />
-      <Publication data={strings.Publications.Crystals2} />
-      <Publication data={strings.Publications.Crystals3} />
-      <Publication data={strings.Publications.Crystals4} />
+      <PublicationSet />
 
       <div className="affiliations__label" id="affiliations-section">
         {strings.Affiliations.label}
