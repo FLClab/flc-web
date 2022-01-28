@@ -29,7 +29,7 @@ function PublicationSet(){
         {"id": "Mitos", "data": strings.Publications.Mitos,},
         {"id": "Dreiklang", "data": strings.Publications.Dreiklang,},
         {"id": "Crystals", "data": strings.Publications.Crystals,},
-        {"id": "Crystals2", "data": strings.Publications.Crystals,},
+        {"id": "Crystals2", "data": strings.Publications.Crystals2,},
         {"id": "Crystals3", "data": strings.Publications.Crystals3,},
         {"id": "Crystals4", "data": strings.Publications.Crystals4,},
     ]
