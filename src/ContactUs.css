@@ -7,22 +7,26 @@
   text-align: center;
 }
 
-.mail {
-  color: white;
-  display: flex;
-  flex-direction: row;
-  margin-right: 50px;
-  padding-right: 50px;
-  margin-left: 50px;
-}
-
-.location,
+.mail,
 .twitter {
   color: white;
   display: flex;
   flex-direction: row;
+  padding-left: 50px;
+  margin-left: 50px;
+}
+
+.location {
+  color: white;
+  display: flex;
+  flex-direction: row;
   margin-right: 50px;
   padding-right: 50px;
+}
+
+.scholar {
+  margin-right: 55px;
+  padding-right: 55px;
 }
 
 .mail:hover {
@@ -33,15 +37,13 @@
   color: #ff9100;
 }
 
-.twitter:hover {
+.scholar:hover {
   color: #ff9100;
 }
 
-.mail__icon {
-  margin-right: 20px;
-}
-
-.twitter__icon {
+.mail__icon,
+.twitter__icon,
+.location__icon {
   margin-right: 20px;
 }
 
@@ -56,8 +58,32 @@
   text-decoration: none;
 }
 
+.scholar__ref {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 7px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
 .contact__row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.contact__last-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.scholar_img {
+  width: 50px;
+  height: 50px;
+  vertical-align: bottom;
+  margin-right: 20px;
 }

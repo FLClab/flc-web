@@ -1,6 +1,8 @@
 import React from 'react';
 import "./ContactUs.css"
 import { FaEnvelope, FaMapMarkerAlt, FaTwitter } from 'react-icons/fa';
+import strings from "./strings.json";
+import scholar_logo from "./img/icons/Google_Scholar_logo.svg";
 
 function ContactUs({description, email}){
 
@@ -28,6 +30,14 @@ function ContactUs({description, email}){
         document.getElementById("twitter__ref").style.color = "white";
     }
 
+    const onScholarHover = () => {
+        document.getElementById("scholar__ref").style.color = "#ff9100";
+    }
+
+    const onScholarOut = () => {
+        document.getElementById("scholar__ref").style.color = "white";
+    }
+
     return (
         <div className="contact__container">
             <div className="contact-us">
@@ -49,6 +59,8 @@ function ContactUs({description, email}){
                         Location on Maps
                     </a>
                 </div>
+            </div>
+            <div className="contact__last-row">
                 <div className="twitter">
                     <div className="twitter__icon"><FaTwitter /></div>
                     <a id="twitter__ref"
@@ -58,6 +70,17 @@ function ContactUs({description, email}){
                         onMouseOut={onTwitterOut}
                     >
                         Twitter
+                    </a>
+                </div>
+                <div className="scholar">
+                    <img className="scholar_img" src={scholar_logo} alt=""></img>
+                    <a id="scholar__ref"
+                        className="scholar__ref"
+                        href={strings.Members.Flavie.scholar}
+                        onMouseOver={onScholarHover}
+                        onMouseOut={onScholarOut}
+                    >
+                        Google Scholar
                     </a>
                 </div>
             </div>
