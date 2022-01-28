@@ -9,13 +9,14 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### General:
 
 - [ ] Delete old version (github.io)
-- [ ] Add link to Flavie's Google Scholar (next to Twitter)
+- [x] Add link to Flavie's Google Scholar (next to Twitter)
 
 ### Navbar:
 
 - [ ] better implementation of active tab functionality
 
 ### Members :
+
 - [ ] Create Alumni section (link to thesis)
 
 ### Gallery
@@ -31,5 +32,5 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### Publications
 
 - [x] Change title to Key Publications
-- [ ] Add show all button
+- [x] Add show all button
 - [ ] Add Renaud and Benoît's workshop papers when published (Andréanne)
