@@ -148,9 +148,9 @@ function App() {
         <ContactUs description={strings.ContactUs.description} email={strings.Members.Flavie.email} />
       </div>
 
-      <footer class="designed__by">
+      <footer className="designed__by">
           <span>Copyright &copy; 2021 FLC Lab</span>
-          <hr class="closing__line"></hr>
+          <hr className="closing__line"></hr>
           <span>Designed by: Frédéric Beaupré, Catherine Bouchard, Andréanne Deschênes</span>
         </footer>
   

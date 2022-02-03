@@ -20,30 +20,3 @@
   border-radius: 30px;
   background-color: #ff9100;
 }
-
-.image__container {
-  max-height: 250px;
-  height: 250px;
-  transition: transform 450ms;
-  margin-right: 40px;
-  max-width: 400px;
-  width: 500px;
-}
-
-.image__label {
-  color: white;
-  vertical-align: center;
-  text-align: center;
-  position: relative;
-  font-size: 1.8rem;
-  opacity: 1;
-  color: #ff9100;
-  margin-top: -150px;
-}
-
-.image__container:hover {
-  transition: transform 450ms;
-  opacity: 0.5;
-  transform: scale(1.1);
-  position: relative;
-}
