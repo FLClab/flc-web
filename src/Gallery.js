@@ -10,44 +10,48 @@ import Tubulin from "./img/gallery/LIVE610_Tubulin.png";
 import synapticProteins from "./img/gallery/SynapticProteins.png";
 
 function Gallery() {
-
-    const credit = "N/A."
-
     const images = [
         {
             "id": 0,
             "img": actinCamkii,
             "label": "Actin and CaMKII",
+            "credit": "N/A",
         },
         {
             "id": 1,
             "img": BassoonHomer,
             "label": "Bassoon and Homer",
+            "credit": "N/A",
         },
         {
             "id": 2,
             "img": actinSpectrin,
             "label": "Actin and Spectrin",
+            "credit": "N/A",
         },
         {
             "id": 3,
             "img": confocalSted,
             "label": "F-Actin confocal and STED",
+            "credit": "N/A",
         },
         {
             "id": 4,
             "img": cultures,
             "label": "Cultures",
+            "credit": "N/A",
         },
         {
             "id": 5,
             "img": Tubulin,
             "label": "Tubulin",
+            "credit": "N/A",
         },
         {
             "id": 6,
             "img": synapticProteins,
             "label": "Synaptic Proteins",
+            "credit": "N/A",
         }
     ]
 
@@ -59,7 +63,7 @@ function Gallery() {
                         <GalleryImage 
                             id={image.id}
                             imgSrc={image.img}
-                            credit={credit}
+                            credit={image.credit}
                             label={image.label}
                         />
                     </div>
