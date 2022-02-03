@@ -9,6 +9,8 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### General:
 
 - [ ] Delete old version (github.io)
+- [x] Transfer repo to FLCLab org
+- [x] Transfer netlify publish url to FLCLab repo
 - [x] Add link to Flavie's Google Scholar (next to Twitter)
 
 ### Navbar:
