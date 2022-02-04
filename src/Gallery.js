@@ -33,12 +33,12 @@ function Gallery() {
             "id": 3,
             "img": confocalSted,
             "label": "F-Actin confocal (Left) and STED (Right)",
-            "credit": "N/A",
+            "credit": "Flavie Lavoie-Cardinal",
         },
         {
             "id": 4,
             "img": cultures,
-            "label": "Cultures",
+            "label": "Neuronal cultures, MAP2 (Green), GFAP (Red), Dapi (Blue)",
             "credit": "Lauence Émond and Francine Nault",
         },
         {
