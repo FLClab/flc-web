@@ -14,44 +14,44 @@ function Gallery() {
         {
             "id": 0,
             "img": actinCamkii,
-            "label": "Actin and CaMKII",
-            "credit": "N/A",
+            "label": "F-Actin (red), CaMKII (Green) and PSD95 (Blue)",
+            "credit": "Bastian Raulier",
         },
         {
             "id": 1,
             "img": BassoonHomer,
-            "label": "Bassoon and Homer",
-            "credit": "N/A",
+            "label": "Bassoon (Magenta), Homer (Cyan) and Actin (Green)",
+            "credit": "Theresa Wiesner",
         },
         {
             "id": 2,
             "img": actinSpectrin,
-            "label": "Actin and Spectrin",
-            "credit": "N/A",
+            "label": "Actin (Green) and Spectrin (Red), confocal (Left) and STED (Right)",
+            "credit": "Flavie Lavoie-Cardinal",
         },
         {
             "id": 3,
             "img": confocalSted,
-            "label": "F-Actin confocal and STED",
+            "label": "F-Actin confocal (Left) and STED (Right)",
             "credit": "N/A",
         },
         {
             "id": 4,
             "img": cultures,
             "label": "Cultures",
-            "credit": "N/A",
+            "credit": "Lauence Émond and Francine Nault",
         },
         {
             "id": 5,
             "img": Tubulin,
-            "label": "Tubulin",
-            "credit": "N/A",
+            "label": "Tubulin in live neurons laabelled with Abberior LIVE 610-Tubulin",
+            "credit": "Andréanne Deschênes",
         },
         {
             "id": 6,
             "img": synapticProteins,
-            "label": "Synaptic Proteins",
-            "credit": "N/A",
+            "label": "Synaptic Proteins; PSD95 (Green), Bassoon (Red), Actin (Confocal, Blue)",
+            "credit": "Theresa Wiesner",
         }
     ]
 
