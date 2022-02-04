@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Gallery.css";
 import GalleryImage from "./GalleryImage";
-import actinCamkii from "./img/gallery/actin-camkii.png";
 import BassoonHomer from "./img/gallery/BassoonHomer.png"
 import actinSpectrin from "./img/gallery/ActinSpectrin.png";
 import confocalSted from "./img/gallery/confocal-sted-actin.png";
