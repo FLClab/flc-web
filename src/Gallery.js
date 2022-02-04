@@ -20,7 +20,7 @@ function Gallery() {
         {
             "id": 1,
             "img": BassoonHomer,
-            "label": "Bassoon (Magenta), Homer (Cyan) and Actin (Green)",
+            "label": "Bassoon (Magenta), Homer (Cyan) and Actin (Confocal, Green)",
             "credit": "Theresa Wiesner",
         },
         {
@@ -44,7 +44,7 @@ function Gallery() {
         {
             "id": 5,
             "img": Tubulin,
-            "label": "Tubulin in live neurons laabelled with Abberior LIVE 610-Tubulin",
+            "label": "Tubulin labelled with Abberior LIVE 610-Tubulin",
             "credit": "Andréanne Deschênes",
         },
         {
