@@ -23,7 +23,7 @@ function Nav({navY, introY, memberY, galleryY, pubY, fundingY, contactY}){
 
     useEffect(() => {
         changeActiveTab()
-    }, [currentScroll])
+    })
 
     const changeActiveTab = () => {
         window.addEventListener("scroll", () => {
