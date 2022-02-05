@@ -24,7 +24,7 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### Gallery
 
 - [ ] Switch from scrollbar to dots for moving between set of 3 images
-- [ ] Show image in full screen on click with description text (including name of who took the image)
+- [x] Show image in full screen on click with description text (including name of who took the image)
 - [ ] Add brain slice images (Andréanne)
 
 ### Images
