@@ -19,6 +19,7 @@ body {
 .members__label,
 .publications__label,
 .affiliations__label,
+.gallery__label,
 .funding__label {
   text-align: center;
   color: #ff9100;

@@ -15,7 +15,7 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 
 ### Navbar:
 
-- [ ] better implementation of active tab functionality
+- [x] better implementation of active tab functionality
 
 ### Members :
 

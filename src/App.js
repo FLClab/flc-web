@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Affiliations from "./Affiliations";
 import Nav from "./Nav";
@@ -33,9 +33,40 @@ import strings from "./strings.json";
 import synapses from "./img/gallery/SynapticProteins.png";
 
 function App() {
+  const [introScroll, setIntroScroll] = useState(0);
+  const [memberScroll, setMemberScroll] = useState(0);
+  const [galleryScroll, setGalleryScroll] = useState(0);
+  const [pubScroll, setPubScroll] = useState(0);
+  const [fundScroll, setFundScroll] = useState(0);
+  const [contactScroll, setContactScroll] = useState(0);
+
+  useEffect(() => {
+    const introTemp = document.getElementById('intro-section').offsetTop;
+    setIntroScroll(introTemp);
+    const memberTemp = document.getElementById('members-section').offsetTop;
+    setMemberScroll(memberTemp);
+    const galleryTemp = document.getElementById('gallery-section').offsetTop;
+    setGalleryScroll(galleryTemp)
+    const pubTemp = document.getElementById('publications-section').offsetTop;
+    setPubScroll(pubTemp);
+    const fundTemp = document.getElementById('funding-section').offsetTop;
+    setFundScroll(fundTemp);
+    const contactTemp = document.getElementById('contact-section').offsetTop;
+    setContactScroll(contactTemp);
+  }, [])
+
   return (
     <div className="app">
-      <Nav id="nav-section" />
+      <Nav 
+        id="nav-section" 
+        navY={0}
+        introY={introScroll}
+        memberY={memberScroll}
+        galleryY={galleryScroll}
+        pubY={pubScroll}
+        fundingY={fundScroll}
+        contactY={contactScroll}
+      />
       <Banner id="banner-section" />
       <div id="intro-section">
         <Intro/>

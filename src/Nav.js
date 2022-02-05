@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import "./Nav.css";
 import "./App";
 
-function Nav({active}){
+function Nav({navY, introY, memberY, galleryY, pubY, fundingY, contactY}){
     const [show, handleShow] = useState(false);
     const [activeNone, setActiveNone] = useState(false);
     const [activeIntro, setActiveIntro] = useState(false);
@@ -12,23 +12,26 @@ function Nav({active}){
     const [activeFunding, setActiveFunding] = useState(false);
     const [activeContact, setActiveContact] = useState(false); 
 
-    const navScroll = 0;
-    const introScroll = 505;
-    const memberScroll = 1667;
-    const galleryScroll = 3589;
-    const pubScroll = 3758;
-    const fundingScroll = 4537;
-    const contactScroll = 4610;
-
+    const navScroll = navY;
+    const introScroll = introY;
+    const memberScroll = memberY;
+    const galleryScroll = galleryY;
+    const pubScroll = pubY;
+    const fundingScroll = fundingY;
+    const contactScroll = contactY;
+    const currentScroll = window.scrollY;
 
     useEffect(() => {
-        // terribly ugly code but it works olé
+        changeActiveTab()
+    }, [currentScroll])
+
+    const changeActiveTab = () => {
         window.addEventListener("scroll", () => {
-            const currentScroll = window.scrollY;
+            
             if (window.scrollY > 120){
                 handleShow(true);
             } else handleShow(false);
-
+    
             if (currentScroll >= navScroll && currentScroll < introScroll ){
                 setActiveNone(true);
                 setActiveIntro(false);
@@ -90,10 +93,7 @@ function Nav({active}){
                 setActiveContact(true);
             }
         });
-        return () => {
-            window.removeEventListener("scroll", null);
-        };
-    }, []);
+    }
 
     const scrollToTop = () => {
         window.scrollTo(0, 0);

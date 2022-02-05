@@ -53,7 +53,7 @@ function Gallery() {
        <div className="gallery__container">
            <div className="row__images">
                 {images.map( (image) => (
-                    <div className="wrapper">
+                    <div key={image.id} className="wrapper">
                         <GalleryImage 
                             id={image.id}
                             imgSrc={image.img}
