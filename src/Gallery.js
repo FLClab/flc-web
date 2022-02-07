@@ -21,7 +21,7 @@ function Gallery() {
             "id": 1,
             "img": actinSpectrin,
             "label": "Actin (Green) and Spectrin (Red), confocal (Left) and STED (Right)",
-            "credit": "Flavie Lavoie-Cardinal",
+            "credit": "Flavie Lavoie-Cardinal and Mado Lemieux",
         },
         {
             "id": 2,
@@ -33,7 +33,7 @@ function Gallery() {
             "id": 3,
             "img": cultures,
             "label": "Neuronal cultures, MAP2 (Green), GFAP (Red), Dapi (Blue)",
-            "credit": "Lauence Émond and Francine Nault",
+            "credit": "Flavie Lavoie-Cardinal",
         },
         {
             "id": 4,
