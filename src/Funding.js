@@ -10,7 +10,7 @@ import chaires from "./img/logos/image12.png";
 import CIFAR from "./img/logos/image13.png";
 import NEURONEX from './img/logos/logo-neuronex.svg';
 import NF from './img/logos/NewFrontiers.svg';
-
+import CIHR from './img/logos/logo-cihr-reversed-en.jpg';
 function Funding() {
     return (
         <div className="funding__container">
@@ -47,6 +47,10 @@ function Funding() {
                 <a href="https://www.genomequebec.com/" className="logo__item">
                     <img src={GQ} alt=""></img>
                 </a>
+               <a href="https://cihr-irsc.gc.ca/e/193.html" className="logo__item">
+                    <img src={CIHR} alt=""></img>
+                </a>
+
             </div>
         </div>
     )
