@@ -164,7 +164,7 @@
         "label": "Key Publications",
         "MicraNet": {
             "authors": "Bilodeau, A., Delmas, C.V., Parent, M., De Koninck, P., Durand, A., Lavoie-Cardinal, F. (2021). ",
-            "title": "MICRA-Net: MICRoscopy Analysis Neural Network to solve detection, classification, and segmentation from a single simple auxiliary task. ",
+            "title": "Microscopy analysis neural network to solve detection, enumeration, and segmentation from image-level annotations ( Accepted in Nature Machine Intelligence)",
             "source": "https://www.biorxiv.org/content/10.1101/2021.07.19.452964v1.abstract",
             "journal": "bioRxiv"
         },
