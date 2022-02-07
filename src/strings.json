@@ -94,7 +94,7 @@
             "name": "Frédéric Beaupré",
             "info": "The main endeavour of my project is to develop new and improved anomaly detection methods designed for the detection of early signs of neurodegeneration (in Parkinson’s disease and ALS) in synaptic populations, and the discovery of new biomarkers associated with the neurodegenerative diseases. The striking similarities between optical brain imaging and astronomical data motivates our drawing inspiration from deep-learning-based methods in the latter field for developing our image acquisition and anomaly detection approaches.",
             "image": "./img/gallery/SynapticProteins.png",
-            "directors": "Flavie Lavoie-Cardinal, Christian Gagné"
+            "directors": "Christian Gagné, Flavie Lavoie-Cardinal"
         },
         "JM": {
             "name": "Jean-Michel Bellavance",
@@ -117,7 +117,7 @@
             "name": "Owen Ferguson",
             "info": "Parkinson’s disease affects more than 10 million people worldwide, and I’m interested in the mechanisms that lead to the death of dopamine-producing neurons in the disease. I am using stem cells from human patients to create neurons with Parkinson’s disease traits and I am using super-resolution microscopy to observe the differences between the mitochondria of healthy people and Parkinson’s disease patients.",
             "image": "./img/members/OwenFerguson_crop.JPG",
-            "directors": "Martin Lévesque, Flavie Lavoie-Cardinal"
+            "directors": "Flavie Lavoie-Cardinal, Martin Lévesque"
         },
         "Philippe": {
             "name": "Philippe Gagnon",
