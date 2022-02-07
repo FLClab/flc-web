@@ -17,7 +17,7 @@ function Student({ img, student, level, info, director, codirector }) {
                 <div className="student__name">{student}</div>
                 <div className="director__container">
                     <span className="student__director">Director: {director}</span>
-                    <span className="student__director">Codirector: {codirector}</span>
+                    <span className="student__director">Co-director: {codirector}</span>
                 </div>
                 <div className="student__level">{level}</div>
                 <button id="read-more" className="toggle-info__button" onClick={onReadMoreClick}>{showMoreString}</button>

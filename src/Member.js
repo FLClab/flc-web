@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Member.css";
 
-function Member({img, member, level}){
+function Member({img, member, level, hasDirectors, director, codirector}){
     const [showMore, setShowMore] = useState(false);
     const [showMoreString, setShowMoreString] = useState('Show more');
 
@@ -14,6 +14,12 @@ function Member({img, member, level}){
         <div className="member__container">
            <img className="member__img" src={img} alt=""></img>
            <div className="info__container">
+               {hasDirectors && 
+               <div className="director__container">
+                   <span className="member__director">Director: {director}</span>
+                   <span className="member__director">Co-director: {codirector}</span>
+                </div>
+               }
                <div className="member__name">{member.name}</div>
                <div className="member__level">{level}</div>
                <button id="read-more__member" className="member-toggle-info__button" onClick={onReadMoreClick}>{showMoreString}</button>

@@ -23,6 +23,12 @@
   margin-right: 30px;
 }
 
+.director__container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
 .member__name {
   letter-spacing: 1px;
   font-size: 120%;
@@ -39,6 +45,15 @@
   color: #fff;
   font-weight: 400;
   margin-bottom: 10px;
+}
+
+.member__director {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .member__info {

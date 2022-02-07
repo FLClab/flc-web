@@ -87,6 +87,15 @@ function App() {
         image1={img_Valerie}
         image2={img_Theresa}
         image3={img_Roseline}
+        hasDirectors1={false}
+        hasDirectors2={true}
+        hasDirectors3={true}
+        director1=""
+        director2={strings.Members.Theresa.director}
+        director3={strings.Members.Roseline.director}
+        codirector1=""
+        codirector2={strings.Members.Theresa.codirector}
+        codirector3={strings.Members.Roseline.codirector}
       />
       { /* Students */ }
       <div className="students__label" id="students-section">
