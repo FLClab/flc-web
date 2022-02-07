@@ -10,7 +10,7 @@ import chaires from "./img/logos/image12.png";
 import CIFAR from "./img/logos/image13.png";
 import NEURONEX from './img/logos/logo-neuronex.svg';
 import NF from './img/logos/NewFrontiers.svg';
-import CIHR from './img/logos/logo-cihr-reversed-en.jpg';
+import CIHR from './img/logos/leaf-cihr-colour-fr.jpg';
 function Funding() {
     return (
         <div className="funding__container">
