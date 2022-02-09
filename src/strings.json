@@ -177,6 +177,19 @@
             "codirector": "Audrey Durand"
         }
     },
+     "Alumni": {         
+         "Philippe": {
+            "name": "Philippe Gagnon",
+            "Program": "Undergraduate in engineering physics (2020-2021)",
+            "Project": "Titre de projet"
+        },
+        "Gabriel": {
+            "name": "Gabriel Leclerc",
+            "Program": "Masters in Electrical Engineering (2019-2021)",
+            "Project": "Apprendre de données positives et non étiquetées : application à la segmentation et la détection d'évènements calciques"
+            "url": "http://hdl.handle.net/20.500.11794/69813"
+        },
+          },
     "Gallery": {
         "label": "Gallery"
     },
