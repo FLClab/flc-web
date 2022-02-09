@@ -59,11 +59,7 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand"
         },
-        "Alexandre": {
-            "name": "Alexandre Boulay",
-            "info": "I am currently an undergraduate student in bioinformatics. I am working on applying a deep learning approach to the quantitative analysis of electron microscopy images of a rabbit retina. This project as well as the many other captivating projects ongoing in this lab have really caught my interest in both machine learning and neurosciences. I therefore intend to pursue my studies in those fields in the next few years.",
-            "image": "./img/members/Alexandre_Boulay_crop.JPG"
-        },
+
         "AntoineG": {
             "name": "Antoine Girard",
             "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique.",
@@ -132,11 +128,7 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Martin Lévesque"
         },
-        "Philippe": {
-            "name": "Philippe Gagnon",
-            "info": "I am currently an undergraduate student in physics engineering.",
-            "image": "./img/members/Philippe_Gagnon_crop.png"
-        },
+
         "Renaud": {
             "name": "Renaud Bernatchez",
             "info": "While completing internships in the lab during my bachelor’s degree in bioinformatics, I became fascinated with the application of deep learning to analyse microscopy images. However, such approaches require large amounts of painstakingly annotated data. The goal of my master’s degree is to use active learning to reduce the amount of annotated data required to train deep learning models to analyse fluorescence microscopy images.",
@@ -177,17 +169,43 @@
             "codirector": "Audrey Durand"
         }
     },
-     "Alumni": {         
+     "Alumni": { 
+            "Alexandre": {
+            "name": "Alexandre Boulay",
+            "Program": "Undergraduate in bioinformatics (2021)",
+            "Project":  "Project title"
+        },
+         "Louis-Émile":{
+             "name": "Louis-Émile Robitaille"
+             "Program": "Masters in Electrical Engineering (2017-2020)",
+             "Project":"Réseaux de neurones pour l'apprentissage de la préférence en microscopie super-résolution"
+             "url":"http://hdl.handle.net/20.500.11794/68744"
+         },
          "Philippe": {
             "name": "Philippe Gagnon",
-            "Program": "Undergraduate in engineering physics (2020-2021)",
-            "Project": "Titre de projet"
+            "Program": "Undergraduate in Engineering Physics (2020-2021)",
+            "Project": "Project title"
         },
         "Gabriel": {
             "name": "Gabriel Leclerc",
-            "Program": "Masters in Electrical Engineering (2019-2021)",
+            "Program": "Masters in Electrical Engineering (2018-2021)",
             "Project": "Apprendre de données positives et non étiquetées : application à la segmentation et la détection d'évènements calciques"
             "url": "http://hdl.handle.net/20.500.11794/69813"
+        },
+          "Gabrielle": {
+            "name": "Gabrielle Germain",
+            "Program": "Undergraduate in Engineering Physics (2020)",
+            "Project": "Project title"
+        },
+            "Mariame": {
+            "name": "Mariame Coulibaly",
+            "Program": "Undergraduate in bioinformatics (2021)",
+            "Project": "Project title"
+        },
+           "Marc-Antoine": {
+            "name": "Marc-Antoine Plourde",
+            "Program": "Undergraduate in Physics (2021)",
+            "Project": "Project title"
         },
           },
     "Gallery": {
