@@ -8,7 +8,7 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 
 ### General:
 
-- [ ] Delete old version (github.io)
+- [ ] Delete old version (github.io) (Catherine)
 - [ ] Compress large images for faster rendering
 - [x] Transfer repo to FLCLab org
 - [x] Transfer netlify publish url to FLCLab repo
@@ -21,6 +21,7 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### Members :
 
 - [ ] Create Alumni section (link to thesis)
+- [ ] Add Flavie as Principal Investigator on line above other members
 
 ### Gallery
 
@@ -33,3 +34,5 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 - [x] Change title to Key Publications
 - [x] Add show all button
 - [ ] Add Renaud and Benoît's workshop papers when published (Andréanne)
+- [ ] Change MICRA-NET publication link when published (Andréanne)
+
