@@ -7,6 +7,7 @@ import confocalSted from "./img/gallery/confocal-sted-actin.png";
 import cultures from "./img/gallery/cultures.png";
 import Tubulin from "./img/gallery/LIVE610_Tubulin.png";
 import synapticProteins from "./img/gallery/SynapticProteins.png";
+import Fourcolors from "./img/gallery/4colors_VCF_february2022.png";
 
 function Gallery() {
     const images = [
@@ -41,8 +42,14 @@ function Gallery() {
             "label": "Tubulin labelled with Abberior LIVE 610-Tubulin",
             "credit": "Andréanne Deschênes",
         },
-        {
+                {
             "id": 5,
+            "img": Fourcolors,
+            "label": "SMI31 (Confocal, magenta), Actin (STED, green), PSD95 (STED, red), Bassoon (STED, blue)",
+            "credit": "Valérie Clavet-Fournier",
+        },
+        {
+            "id": 6,
             "img": synapticProteins,
             "label": "Synaptic Proteins; PSD95 (STED, Green), Bassoon (STED, Red), Actin (Confocal, Blue)",
             "credit": "Theresa Wiesner",
