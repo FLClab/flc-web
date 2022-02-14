@@ -24,7 +24,6 @@ function Gallery() {
             "label": "Actin (Green) and Spectrin (Red), confocal (Left) and STED (Right)",
             "credit": "Flavie Lavoie-Cardinal and Mado Lemieux",
         },
-
         {
             "id": 2,
             "img": Tubulin,
