@@ -24,29 +24,30 @@ function Gallery() {
             "label": "Actin (Green) and Spectrin (Red), confocal (Left) and STED (Right)",
             "credit": "Flavie Lavoie-Cardinal and Mado Lemieux",
         },
+
         {
             "id": 2,
-            "img": confocalSted,
-            "label": "F-Actin confocal (Left) and STED (Right)",
-            "credit": "Flavie Lavoie-Cardinal",
-        },
-        {
-            "id": 3,
-            "img": cultures,
-            "label": "Neuronal cultures, MAP2 (Green), GFAP (Red), Dapi (Blue)",
-            "credit": "Flavie Lavoie-Cardinal",
-        },
-        {
-            "id": 4,
             "img": Tubulin,
             "label": "Tubulin labelled with Abberior LIVE 610-Tubulin",
             "credit": "Andréanne Deschênes",
         },
                 {
-            "id": 5,
+            "id": 3,
             "img": Fourcolors,
             "label": "SMI31 (Confocal, magenta), Actin (STED, green), PSD95 (STED, red), Bassoon (STED, blue)",
             "credit": "Valérie Clavet-Fournier",
+        },
+                {
+            "id":4,
+            "img": confocalSted,
+            "label": "F-Actin confocal (Left) and STED (Right)",
+            "credit": "Flavie Lavoie-Cardinal",
+        },
+                {
+            "id": 5,
+            "img": cultures,
+            "label": "Neuronal cultures, MAP2 (Green), GFAP (Red), Dapi (Blue)",
+            "credit": "Flavie Lavoie-Cardinal",
         },
         {
             "id": 6,
