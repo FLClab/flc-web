@@ -176,9 +176,9 @@
             "Project":  "Project title"
         },
          "Louis-Émile":{
-             "name": "Louis-Émile Robitaille"
+             "name": "Louis-Émile Robitaille",
              "Program": "Masters in Electrical Engineering (2017-2020)",
-             "Project":"Réseaux de neurones pour l'apprentissage de la préférence en microscopie super-résolution"
+             "Project":"Réseaux de neurones pour l'apprentissage de la préférence en microscopie super-résolution",
              "url":"http://hdl.handle.net/20.500.11794/68744"
          },
          "Philippe": {
@@ -189,7 +189,7 @@
         "Gabriel": {
             "name": "Gabriel Leclerc",
             "Program": "Masters in Electrical Engineering (2018-2021)",
-            "Project": "Apprendre de données positives et non étiquetées : application à la segmentation et la détection d'évènements calciques"
+            "Project": "Apprendre de données positives et non étiquetées : application à la segmentation et la détection d'évènements calciques",
             "url": "http://hdl.handle.net/20.500.11794/69813"
         },
           "Gabrielle": {
@@ -206,8 +206,8 @@
             "name": "Marc-Antoine Plourde",
             "Program": "Undergraduate in Physics (2021)",
             "Project": "Project title"
+          }
         },
-          },
     "Gallery": {
         "label": "Gallery"
     },
