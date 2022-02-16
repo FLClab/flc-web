@@ -1,0 +1,61 @@
+.pi__container {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.pi__container img {
+  max-width: 200px;
+  max-height: 200px;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.pi-info__container {
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pi__name {
+  letter-spacing: 1px;
+  font-size: 120%;
+  text-shadow: 2px 2px 2px #333;
+  color: #00bfff;
+}
+
+.pi__level {
+  letter-spacing: 1px;
+  font-size: 100%;
+  text-shadow: 2px 2px 2px #00bfff;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.pi__info {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.pi__toggle-info-button {
+  border: none;
+  background: none;
+  color: #8f8f8f;
+}
+
+.toggle-info__button:hover {
+  color: #00bfff;
+}

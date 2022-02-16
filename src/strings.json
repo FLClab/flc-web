@@ -29,7 +29,8 @@
             "masters": "MSc Student",
             "phd": "PhD student",
             "postdoc": "Postdoctoral Researcher",
-            "research": "Research Professional"
+            "research": "Research Professional",
+            "pi": "Principal Investigator"
         },
         "Albert": {
             "name": "Albert Michaud-Gagnon",
@@ -91,7 +92,7 @@
         },
         "Flavie": {
             "name": "Flavie Lavoie-Cardinal",
-            "info": "Lorem Ipsum",
+            "info": "TBD.",
             "email": "flavie.lavoie-cardinal@cervo.ulaval.ca",
             "scholar": "https://scholar.google.com/citations?user=ZrolyuIAAAAJ&hl=en&oi=ao"
         },

@@ -9,6 +9,7 @@ import Gallery from "./Gallery";
 import Intro from "./Intro";
 import Research from "./Research";
 import MemberSet from './MemberSet';
+import PI from "./PI";
 import PublicationSet from "./PublicationSet";
 import StudentSet from "./StudentSet"
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
@@ -20,6 +21,7 @@ import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
 import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
+import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png"
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg"
 import img_Laurence from "./img/members/Laurence_Fontaine_crop.png";
 import img_Owen from "./img/members/OwenFerguson_crop.JPG";
@@ -77,6 +79,7 @@ function App() {
       <div className="members__label" id="members-section">
         {strings.Members.members}
       </div>
+      <PI data={strings.Members.Flavie} level={strings.Members.Levels.pi} img={img_Flavie}/>
       <MemberSet
         member1={strings.Members.Valerie}
         member2={strings.Members.Theresa}
