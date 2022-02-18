@@ -32,7 +32,6 @@ import img_William from "./img/members/WilliamL_crop.png";
 import img_Vincent from "./img/members/Vincent_Boily_crop.png";
 import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
 import strings from "./strings.json";
-import synapses from "./img/gallery/SynapticProteins.png";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
 
 function App() {
