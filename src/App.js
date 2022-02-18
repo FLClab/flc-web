@@ -33,6 +33,7 @@ import img_Vincent from "./img/members/Vincent_Boily_crop.png";
 import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
 import strings from "./strings.json";
 import synapses from "./img/gallery/SynapticProteins.png";
+import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
 
 function App() {
   const [introScroll, setIntroScroll] = useState(0);
@@ -143,7 +144,7 @@ function App() {
         image2={img_JM}
         student3={strings.Members.Julia}
         level3={strings.Members.Levels.phd}
-        image3={synapses}
+        image3={img_Julia}
         student4={strings.Members.Laurence}
         level4={strings.Members.Levels.undergrad}
         image4={img_Laurence}
