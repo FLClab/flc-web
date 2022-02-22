@@ -215,97 +215,114 @@
     "Publications": {
         "label": "Key Publications",
         "MicraNet": {
-            "authors": "Bilodeau, A., Delmas, C.V., Parent, M., De Koninck, P., Durand, A., Lavoie-Cardinal, F. (2021). ",
+            "authors": [
+                "Bilodeau, A., ", "Delmas, C.V., " , "Parent, M., " , "De Koninck, P., ", "Durand, A., ", "Lavoie-Cardinal, F."],
+            "year": "2021",
             "title": "Microscopy analysis neural network to solve detection, enumeration, and segmentation from image-level annotations (Accepted in Nature Machine Intelligence)",
             "source": "https://www.biorxiv.org/content/10.1101/2021.06.29.448970v1",
             "journal": "bioRxiv"
         },
         "TAGAN": {
-            "authors": "Bouchard, C., Wiesner, T., Deschênes, A., Lavoie-Cardinal, F., Gagné, C. (2021). ",
+            "authors": ["Bouchard, C., ", "Wiesner, T., ", "Deschênes, A., ", "Lavoie-Cardinal, F., ", "Gagné, C."],
+            "year": "2021",
             "title": "Task-Assisted GAN for Resolution Enhancement and Modality Translation in Fluorescence Microscopy. ",
             "source": "https://www.biorxiv.org/content/10.1101/2021.07.19.452964v1.abstract",
             "journal": "bioRxiv"
         },
         "Theresa": {
-            "authors": "Wiesner, T., Bilodeau, A., Bernatchez, R., Deschênes, A., Raulier, B, De Koninck, P., Lavoie-Cardinal, F. (2020). ",
+            "authors": ["Wiesner, T., ", "Bilodeau, A., ", "Bernatchez, R., ", "Deschênes, A., ", "Raulier, B., ", "De Koninck, P., ", "Lavoie-Cardinal, F."],
+            "year": "2020",
             "title": "Activity-dependent remodeling of synaptic protein organization revealed by high throughput analysis of STED nanoscopy images. ",
             "source": "https://www.frontiersin.org/articles/10.3389/fncir.2020.00057/full",
             "journal": "Frontiers in neural circuit"
         },
         "FActin": {
-            "authors": "Lavoie-Cardinal, F., Bilodeau, A., Mado, L., Gardner, M-A., Wiesner, T., Gabrielle, L., Gagné, C., (2020). ",
+            "authors": ["Lavoie-Cardinal, F., ", "Bilodeau, A., "," Mado, L., "," Gardner, M-A., ", "Wiesner, T., ", "Gabrielle, L., ", "Gagné, C."],
+            "year": "2020",
             "title": "Neuronal activity remodels the F-actin based submembrane lattice in dendrites but not axons of hippocampal neurons. ",
             "source": "https://www.nature.com/articles/s41598-020-68180-2",
             "journal": "Scientific Reports"
         },
         "FluoLifetime": {
-            "authors": "Tardif, C., Nadeau, G., Labrecque, S., Côté, D., Lavoie-Cardinal, F., De Koninck, P., (2019). ",
+            "authors": ["Tardif, C., ", "Nadeau, G., ", "Labrecque, S., ", "Côté, D., ", "Lavoie-Cardinal, F., ", "De Koninck, P."],
+            "year": "2019",
             "title": "Fluorescence lifetime imaging nanoscopy for measuring Förster resonance energy transfer in cellular nanodomains. ",
             "source": "https://www.spiedigitallibrary.org/journals/neurophotonics/volume-6/issue-01/015002/Fluorescence-lifetime-imaging-nanoscopy-for-measuring-F%C3%B6rster-resonance-energy-transfer/10.1117/1.NPh.6.1.015002.full?SSO=1",
             "journal": "Neurophotonics"
         },
         "MLAuto": {
-            "authors": "Durand, A., Wiesner, T., Gardner, M. A., Robitaille, L. É., Bilodeau, A., Gagné, C., De Koninck, P. & Lavoie-Cardinal, F. (2018). ",
+            "authors": ["Durand, A., ", "Wiesner, T., ", "Gardner, M. A., ", "Robitaille, L. É., ", "Bilodeau, A., ", "Gagné, C., ", "De Koninck, P., ", "Lavoie-Cardinal, F."],
+            "year": "2018",
             "title": "A machine learning approach for online automated optimization of super-resolution optical microscopy. ",
             "source": "https://www.nature.com/articles/s41467-018-07668-y",
             "journal": "Nature communications"
         },
          "Prefnet": {
-            "authors": "Robitaille, L. É., Durand, A., Gardner, M. A., Gagné, C., De Koninck, P. and Lavoie-Cardinal, F. (2018). ",
+            "authors": ["Robitaille, L. É., ", "Durand, A., ", "Gardner, M. A., ", "Gagné, C., ", "De Koninck, P., ", "Lavoie-Cardinal, F., "],
+            "year": "2018",
             "title": "Learning to Become an Expert: Deep Networks Applied To Super-Resolution Microscopy. ",
             "source": "https://dl.acm.org/doi/abs/10.5555/3504035.3504994",
             "journal": " Thirty-Second AAAI Conference on Artificial Intelligence"
         },
         "Mitos": {
-            "authors": "Van Steenbergen,V., Lavoie-Cardinal,F., Kazwiny, Y., Decet, M., Martens, T., Verstreken, P., Boesmans, W., De Koninck, P. and Vanden Berghe, P.  (2020). ",
+            "authors": ["Van Steenbergen, V., ", "Lavoie-Cardinal, F., ", "Kazwiny, Y., ", "Decet, M., ", "Martens, T., ", "Verstreken, P., ", "Boesmans, W., ", "De Koninck, P., ", "Vanden Berghe, P."],
+            "year": "2020",
             "title": "Nano-positioning and tubuline conformation determine transport of mitochondria along microtubules. ",
             "source": "https://doi.org/10.1101/2020.04.27.064766",
             "journal": "bioRxiv"
         },
         "GoldNano": {
-            "authors": "Lavoie-Cardinal, F., Salesse, C., Bergeron, É., Meunier, M., & De Koninck, P. (2016). ",
+            "authors": ["Lavoie-Cardinal, F., ", "Salesse, C., ", "Bergeron, É., ", "Meunier, M., ","De Koninck, P."],
+            "year": "2016",
             "title": "Gold nanoparticle-assisted all optical localized stimulation and monitoring of Ca 2+ signaling in neurons. ",
             "source": "https://www.nature.com/articles/srep20619",
             "journal": "Scientific Reports"
         },
         "RESOLFT": {
-            "authors": "Lavoie-Cardinal, F., Jensen, N.A., Westphal, V., Stiel, A.C., Chmyrov, A., Bierwagen, J., Testa, I., Jakobs, S. and Hell, S.W. (2014).",
+            "authors": ["Lavoie-Cardinal, F., ", "Jensen, N.A., ", "Westphal, V., ", "Stiel, A.C., ", "Chmyrov, A., ", "Bierwagen, J., ", "Testa, I., ", "Jakobs, S., ", "Hell, S.W., "],
+            "year": "2014",
             "title": "Two-Color RESOLFT Nanoscopy with Green and Red Fluorescent Photochromic Proteins.",
             "source": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cphc.201301016",
             "journal": "ChemPhysChem"
     },
        "GFP": {
-            "authors": "Grotjohann, T., Testa, I., Leutenegger, M., Bock, H., Urban, N.T.,Lavoie-Cardinal, F., Willig, K.I., Eggeling, C., Jakobs, S. and Hell, S.W. (2011).",
+            "authors": ["Grotjohann, T., ", "Testa, I., ", "Leutenegger, M., ", "Bock, H., ", "Urban, N.T., ", "Lavoie-Cardinal, F., ", "Willig, K.I., ", "Eggeling, C., ", "Jakobs, S., ", "Hell, S.W."],
+            "year": "2011",
             "title": "Diffraction-unlimited all-optical imaging and writing with a photochromic GFP.",
             "source": "https://www.nature.com/articles/nature10497",
             "journal": "Nature"
     },
          "Dreiklang": {
-            "authors": "Jensen, N.A., Danzl, J.G., Willig, K.I.,Lavoie-Cardinal, F., Brakemann, T., Hell, S.W. and  Jakobs, S. (2014).",
+            "authors": ["Jensen, N.A., ", "Danzl, J.G., ", "Willig, K.I., ","Lavoie-Cardinal, F., ", "Brakemann, T., ", "Hell, S.W., ", "Jakobs, S."],
+            "year": "2014",
             "title": "Coordinate-Targeted and Coordinate-Stochastic Super-Resolution Microscopy with the Reversibly Switchable Fluorescent Protein Dreiklang.",
             "source": "https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cphc.201301034",
             "journal": "ChemPhysChem"
     },
           "Crystals2": {
-            "authors": "Suta, M., Larsen, P.,Lavoie-Cardinal, F. and Wickleder, C. (2013).",
+            "authors": ["Suta, M., "," Larsen, P., ", "Lavoie-Cardinal, F., ", "Wickleder, C."],
+            "year": "2013",
             "title": "Photoluminescence of CsMBr3:Eu2+ (M=Mg, Ca, Sr)—A novel strategy for the development of low-energy emitting phosphors.",
             "source": "https://www.sciencedirect.com/science/article/abs/pii/S0022231313008648",
             "journal": "J. Lumin."
     },
          "Crystals": {
-            "authors": "Feinle, A., Lavoie-Cardinal, F., Akbarzadeh, J., Peterlik, H., Adlung, M., Wickleder, C. and Hüsing, C. (2012).",
+            "authors": ["Feinle, A., ", "Lavoie-Cardinal, F., ", "Akbarzadeh, J., ", "Peterlik, H., ", "Adlung, M., ", "Wickleder, C., ", "Hüsing, C."],
+            "year": "2012",
             "title": "Novel Sol–Gel Precursors for Thin Mesoporous Eu3+-Doped Silica Coatings as Efficient Luminescent Materials.",
             "source": "https://pubs-acs-org.acces.bibl.ulaval.ca/doi/abs/10.1021/cm300996j",
             "journal": "Chem. Mater."
     },
         "Crystals3": {
-            "authors": "Suta, M., Lavoie-Cardinal, F., Olchowka, J. and Wickleder, C. (2018).",
+            "authors": ["Suta, M., ", "Lavoie-Cardinal, F., ", "Olchowka, J., ", "Wickleder, C., "],
+            "year": "2018",
             "title": "Nature of Localized Excitons in CsMg X 3 ( X = Cl , Br, I) and Their Interactions with Eu 2 + Ions.",
             "source": "https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.9.064024",
             "journal": "Phys. Rev. Applied."
     },
         "Crystals4": {
-            "authors": "Suta, M., Lavoie-Cardinal, F.and Wickleder, C. (2020).",
+            "authors": ["Suta, M., ", "Lavoie-Cardinal, F., ", "Wickleder, C."],
+            "year": "2020",
             "title": "Underestimated Color Centers: Defects as Useful Reducing Agents in Lanthanide-Activated Luminescent Materials.",
             "source": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202002009",
             "journal": "Angew. Chem. Int. Ed."

@@ -6,10 +6,16 @@
   margin-top: 30px;
 }
 
-.publication__authors {
+.publication__author {
   font-size: 1.2rem;
   line-height: 1.4;
   color: #8f8f8f;
+}
+
+.publication__author-color {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: #ff9100;
 }
 
 .publication__title {

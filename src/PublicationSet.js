@@ -16,22 +16,22 @@ function PublicationSet(){
     const showPubs = 3
 
     var publications = [
-        {"id": "micranet", "data": strings.Publications.MicraNet},
-        {"id": "TAGAN", "data": strings.Publications.TAGAN,},
-        {"id": "theresa", "data": strings.Publications.Theresa,},
-        {"id": "Factin", "data": strings.Publications.FActin,},
-        {"id": "fluo", "data": strings.Publications.FluoLifetime,},
-        {"id": "MLAuto", "data": strings.Publications.MLAuto,},
-        {"id": "Prefnet", "data": strings.Publications.Prefnet,},
-        {"id": "GoldNano", "data": strings.Publications.GoldNano,},
-        {"id": "RESOLFT", "data": strings.Publications.RESOLFT,},
-        {"id": "GFP", "data": strings.Publications.GFP,},
-        {"id": "Mitos", "data": strings.Publications.Mitos,},
-        {"id": "Dreiklang", "data": strings.Publications.Dreiklang,},
-        {"id": "Crystals", "data": strings.Publications.Crystals,},
-        {"id": "Crystals2", "data": strings.Publications.Crystals2,},
-        {"id": "Crystals3", "data": strings.Publications.Crystals3,},
-        {"id": "Crystals4", "data": strings.Publications.Crystals4,},
+        {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 1],},
+        {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1],},
+        {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1],},
+        {"id": "Factin", "data": strings.Publications.FActin, "students": [0, 1],},
+        {"id": "fluo", "data": strings.Publications.FluoLifetime, "students": [0, 1],},
+        {"id": "MLAuto", "data": strings.Publications.MLAuto, "students": [0, 1],},
+        {"id": "Prefnet", "data": strings.Publications.Prefnet, "students": [0, 1],},
+        {"id": "GoldNano", "data": strings.Publications.GoldNano, "students": [0, 1],},
+        {"id": "RESOLFT", "data": strings.Publications.RESOLFT, "students": [0, 1],},
+        {"id": "GFP", "data": strings.Publications.GFP, "students": [0, 1],},
+        {"id": "Mitos", "data": strings.Publications.Mitos, "students": [0, 1],},
+        {"id": "Dreiklang", "data": strings.Publications.Dreiklang, "students": [0, 1],},
+        {"id": "Crystals", "data": strings.Publications.Crystals, "students": [0, 1],},
+        {"id": "Crystals2", "data": strings.Publications.Crystals2, "students": [0, 1],},
+        {"id": "Crystals3", "data": strings.Publications.Crystals3, "students": [0, 1],},
+        {"id": "Crystals4", "data": strings.Publications.Crystals4, "students": [0, 1],},
     ]
 
     const numPubs = publications.length;
@@ -39,10 +39,10 @@ function PublicationSet(){
     return (
         <div className="test">
             {publications.slice(0, showPubs).map((publication) => (
-                <Publication key={publication.id} data={publication.data} />
+                <Publication key={publication.id} data={publication.data} studentIds={publication.students} />
             ))}
             {showAll && publications.slice(showPubs+1,numPubs).map((publication) => (
-                <Publication key={publication.id} data={publication.data} />
+                <Publication key={publication.id} data={publication.data} studentIds={publication.students} />
             ))}
             <div className="button__container">
                 <button id="read-more__publication" className="publication-toggle-info__button" onClick={onShowAllClick}>{showAllString}</button>

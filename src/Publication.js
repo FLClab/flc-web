@@ -1,10 +1,15 @@
 import React from 'react';
 import "./Publication.css";
 
-function Publication({data}){
+function Publication({data, studentIds}){
     return (
         <div className="publication__container">
-            <span className="publication__authors">{data.authors}</span>
+            <div className="authors__container">
+                {data.authors.map( (author, index) => (
+                    <span className={studentIds.includes(index)? "publication__author-color": "publication__author"}>{author}</span>
+                ))}
+            </div>
+            {/* <span className="publication__authors">{data.authors}</span> */}
             <span className="publication__title">{data.title} </span>
             <a href={data.source} className="publication__link">{data.journal}</a>
         </div>
