@@ -19,7 +19,7 @@ function PublicationSet(){
         {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 1],},
         {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1],},
         {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1],},
-        {"id": "Factin", "data": strings.Publications.FActin, "students": [0, 1],},
+        {"id": "FActin", "data": strings.Publications.FActin, "students": [0, 2],},
         {"id": "fluo", "data": strings.Publications.FluoLifetime, "students": [0, 1],},
         {"id": "MLAuto", "data": strings.Publications.MLAuto, "students": [0, 1],},
         {"id": "Prefnet", "data": strings.Publications.Prefnet, "students": [0, 1],},
@@ -41,7 +41,7 @@ function PublicationSet(){
             {publications.slice(0, showPubs).map((publication) => (
                 <Publication key={publication.id} data={publication.data} studentIds={publication.students} />
             ))}
-            {showAll && publications.slice(showPubs+1,numPubs).map((publication) => (
+            {showAll && publications.slice(showPubs,numPubs).map((publication) => (
                 <Publication key={publication.id} data={publication.data} studentIds={publication.students} />
             ))}
             <div className="button__container">

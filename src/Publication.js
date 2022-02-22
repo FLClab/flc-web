@@ -10,7 +10,7 @@ function Publication({data, studentIds}){
                 ))}
             </div>
             {/* <span className="publication__authors">{data.authors}</span> */}
-            <span className="publication__title">{data.title} </span>
+            <span className="publication__title">{data.title}, ({data.year}) </span>
             <a href={data.source} className="publication__link">{data.journal}</a>
         </div>
     )
