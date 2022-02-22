@@ -16,11 +16,11 @@ function PublicationSet(){
     const showPubs = 3
 
     var publications = [
-        {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 1],},
-        {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1],},
-        {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1],},
+        {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 5],},
+        {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1,2,3],},
+        {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1,2,3,4,6],},
         {"id": "Factin", "data": strings.Publications.FActin, "students": [0, 1],},
-        {"id": "fluo", "data": strings.Publications.FluoLifetime, "students": [0, 1],},
+        {"id": "fluo", "data": strings.Publications.FluoLifetime, "students": [4],},
         {"id": "MLAuto", "data": strings.Publications.MLAuto, "students": [0, 1],},
         {"id": "Prefnet", "data": strings.Publications.Prefnet, "students": [0, 1],},
         {"id": "GoldNano", "data": strings.Publications.GoldNano, "students": [0, 1],},
