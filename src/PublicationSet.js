@@ -16,22 +16,22 @@ function PublicationSet(){
     const showPubs = 3
 
     var publications = [
-        {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 1],},
-        {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1],},
-        {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1],},
-        {"id": "FActin", "data": strings.Publications.FActin, "students": [0, 2],},
-        {"id": "fluo", "data": strings.Publications.FluoLifetime, "students": [0, 1],},
-        {"id": "MLAuto", "data": strings.Publications.MLAuto, "students": [0, 1],},
-        {"id": "Prefnet", "data": strings.Publications.Prefnet, "students": [0, 1],},
-        {"id": "GoldNano", "data": strings.Publications.GoldNano, "students": [0, 1],},
-        {"id": "RESOLFT", "data": strings.Publications.RESOLFT, "students": [0, 1],},
-        {"id": "GFP", "data": strings.Publications.GFP, "students": [0, 1],},
-        {"id": "Mitos", "data": strings.Publications.Mitos, "students": [0, 1],},
-        {"id": "Dreiklang", "data": strings.Publications.Dreiklang, "students": [0, 1],},
-        {"id": "Crystals", "data": strings.Publications.Crystals, "students": [0, 1],},
-        {"id": "Crystals2", "data": strings.Publications.Crystals2, "students": [0, 1],},
-        {"id": "Crystals3", "data": strings.Publications.Crystals3, "students": [0, 1],},
-        {"id": "Crystals4", "data": strings.Publications.Crystals4, "students": [0, 1],},
+        {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 5],},
+        {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1,2,3],},
+        {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1,2,3,4,6],},
+        {"id": "FActin", "data": strings.Publications.FActin, "students": [0, 1,4],},
+        {"id": "fluo", "data": strings.Publications.FluoLifetime, "students": [4],},
+        {"id": "MLAuto", "data": strings.Publications.MLAuto, "students": [1,3,4,7],},
+        {"id": "Prefnet", "data": strings.Publications.Prefnet, "students": [0, 5],},
+        {"id": "GoldNano", "data": strings.Publications.GoldNano, "students": [0],},
+        {"id": "RESOLFT", "data": strings.Publications.RESOLFT, "students": [0],},
+        {"id": "GFP", "data": strings.Publications.GFP, "students": [5],},
+        {"id": "Mitos", "data": strings.Publications.Mitos, "students": [1],},
+        {"id": "Dreiklang", "data": strings.Publications.Dreiklang, "students": [3],},
+        {"id": "Crystals", "data": strings.Publications.Crystals, "students": [1],},
+        {"id": "Crystals2", "data": strings.Publications.Crystals2, "students": [2],},
+        {"id": "Crystals3", "data": strings.Publications.Crystals3, "students": [1],},
+        {"id": "Crystals4", "data": strings.Publications.Crystals4, "students": [1],},
     ]
 
     const numPubs = publications.length;
