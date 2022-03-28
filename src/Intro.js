@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import group from "./img/members/IMG_3364_group_nomask.png";
-import group_mask from "./img/members/IMG_3356_group_mask.png";
+import group_sled from "./img/members/Sledding_Group.jpg";
 import "./Intro.css"
 import strings from "./strings.json"
 
@@ -18,7 +18,7 @@ function Intro(){
     return (
         <div className="container">
             <div className="left" onMouseOver={onmouseover} onMouseOut={onmouseout}>
-                <img src={withMask ? group_mask : group} alt=""></img> 
+                <img src={withMask ? group_sled : group} alt=""></img> 
             </div>
             <div className="right">
                 <span className="right__title">{strings.Intro.label}</span>
