@@ -13,6 +13,7 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### Members :
 
 - [ ] Create Alumni section (link to thesis)
+- [ ] Create Summer students section (Could be a 3 text columns thing: Name, Program, years) We display those of the current year and have a show all button to show former students
 
 ### Gallery
 
