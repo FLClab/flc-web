@@ -23,7 +23,7 @@ import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
 import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png"
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg"
-import img_Laurence from "./img/members/Laurence_Fontaine_crop.png";
+
 import img_Owen from "./img/members/OwenFerguson_crop.JPG";
 import img_Renaud from "./img/members/renaud_bernatchez_crop.png";
 import img_Valerie from "./img/members/Valerie_ClavetFournier_crop.jpg";
