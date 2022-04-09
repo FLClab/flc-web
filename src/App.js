@@ -33,7 +33,7 @@ import img_Vincent from "./img/members/Vincent_Boily_crop.png";
 import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
-
+import img_Eric from "./img/gallery/SynapticProteins.png";
 function App() {
   const [introScroll, setIntroScroll] = useState(0);
   const [memberScroll, setMemberScroll] = useState(0);
@@ -135,18 +135,19 @@ function App() {
       
       />
       <StudentSet
-        student1={strings.Members.Frederic}
+        student1={strings.Members.Eric}
         level1={strings.Members.Levels.masters}
-        image1={img_Fred}
-        student2={strings.Members.JM}
+        image1={img_Eric}
+        student2={strings.Members.Frederic}
         level2={strings.Members.Levels.masters}
-        image2={img_JM}
-        student3={strings.Members.Julia}
-        level3={strings.Members.Levels.phd}
-        image3={img_Julia}
-        student4={strings.Members.Laurence}
-        level4={strings.Members.Levels.undergrad}
-        image4={img_Laurence}
+        image2={img_Fred}
+        student3={strings.Members.JM}
+        level3={strings.Members.Levels.masters}
+        image3={img_JM}
+        student4={strings.Members.Julia}
+        level4={strings.Members.Levels.phd}
+        image4={img_Julia}
+
 
       />
       <StudentSet
