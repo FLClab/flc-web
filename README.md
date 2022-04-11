@@ -9,6 +9,7 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### General:
 
 - [ ] Compress large images for faster rendering
+- [ ] Add Zooniverse banner at the top
 
 ### Members :
 
