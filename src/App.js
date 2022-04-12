@@ -99,6 +99,9 @@ function App() {
         codirector1=""
         codirector2={strings.Members.Theresa.codirector}
         codirector3={strings.Members.Roseline.codirector}
+        hasWebLinks1={false}
+        hasWebLinks2={true}
+        hasWebLinks3={false}
       />
       { /* Students */ }
       <div className="students__label" id="students-section">
