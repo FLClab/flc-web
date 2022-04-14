@@ -24,4 +24,4 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### Publications
 
 - [ ] Add Renaud and Benoît's workshop papers when published (Andréanne)
-- [ ] Change MICRA-NET publication link when published (Andréanne)
+- [X] Change MICRA-NET publication link when published (Andréanne)
