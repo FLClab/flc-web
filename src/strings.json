@@ -226,10 +226,10 @@
         "MicraNet": {
             "authors": [
                 "Bilodeau, A., ", "Delmas, C.V., " , "Parent, M., " , "De Koninck, P., ", "Durand, A., ", "Lavoie-Cardinal, F."],
-            "year": "2021",
-            "title": "Microscopy analysis neural network to solve detection, enumeration, and segmentation from image-level annotations (Accepted in Nature Machine Intelligence)",
-            "source": "https://www.biorxiv.org/content/10.1101/2021.06.29.448970v1",
-            "journal": "bioRxiv"
+            "year": "2022",
+            "title": "Microscopy analysis neural network to solve detection, enumeration, and segmentation from image-level annotations",
+            "source": "https://doi.org/10.1038/s42256-022-00472-w",
+            "journal": "Nature Machine Intelligence"
         },
         "TAGAN": {
             "authors": ["Bouchard, C., ", "Wiesner, T., ", "Deschênes, A., ", "Lavoie-Cardinal, F., ", "Gagné, C."],
@@ -243,7 +243,7 @@
             "year": "2020",
             "title": "Activity-dependent remodeling of synaptic protein organization revealed by high throughput analysis of STED nanoscopy images. ",
             "source": "https://www.frontiersin.org/articles/10.3389/fncir.2020.00057/full",
-            "journal": "Frontiers in neural circuit"
+            "journal": "Frontiers in neural circuits"
         },
         "FActin": {
             "authors": ["Lavoie-Cardinal, F., ", "Bilodeau, A., "," Mado, L., "," Gardner, M-A., ", "Wiesner, T., ", "Gabrielle, L., ", "Gagné, C."],
