@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import "./Member.css";
 
 
-function Member({img, member, level, hasDirectors, director, codirector, hasWebLinks}){
+function Member({img, member, level, hasDirectors, director, codirector}){
     const [showMore, setShowMore] = useState(false);
     const [showMoreString, setShowMoreString] = useState('Show more');
-
     const onReadMoreClick = () => {
+        if (member.twitter){
+            console.log("True")
+        }
         setShowMore(!showMore);
         showMore ? setShowMoreString('Show more') : setShowMoreString('Show less');
     }
@@ -23,12 +25,10 @@ function Member({img, member, level, hasDirectors, director, codirector, hasWebL
                     </div>
                 }
                 <div className="member__level">{level}</div>
-                {hasWebLinks &&
                 <div className="weblinks__container">
-                    <a href={member.twitter} className="twitter__link">Twitter</a>
-                    <a href={member.webpage} className="webpage__link">Web page</a>
+                    {member.twitter && <a href={member.twitter} className="twitter__link">Twitter</a>}
+                    {member.webpage && <a href={member.webpage} className="webpage__link">Web page</a>}
                 </div>
-                }
                 <button id="read-more__member" className="member-toggle-info__button" onClick={onReadMoreClick}>{showMoreString}</button>
                 {showMore && <div className="member__info">{member.info}</div>}
            </div>

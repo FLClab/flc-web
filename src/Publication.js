@@ -6,7 +6,7 @@ function Publication({data, studentIds}){
         <div className="publication__container">
             <div className="authors__container">
                 {data.authors.map( (author, index) => (
-                    <span className={studentIds.includes(index)? "publication__author-color": "publication__author"}>{author}</span>
+                    <span key={index} className={studentIds.includes(index)? "publication__author-color": "publication__author"}>{author}</span>
                 ))}
             </div>
             {/* <span className="publication__authors">{data.authors}</span> */}
