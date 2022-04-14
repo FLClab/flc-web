@@ -227,63 +227,63 @@
             "authors": [
                 "Bilodeau, A., ", "Delmas, C.V., " , "Parent, M., " , "De Koninck, P., ", "Durand, A., ", "Lavoie-Cardinal, F."],
             "year": "2022",
-            "title": "Microscopy analysis neural network to solve detection, enumeration, and segmentation from image-level annotations",
+            "title": "Microscopy analysis neural network to solve detection, enumeration, and segmentation from image-level annotations.",
             "source": "https://doi.org/10.1038/s42256-022-00472-w",
             "journal": "Nature Machine Intelligence"
         },
         "TAGAN": {
             "authors": ["Bouchard, C., ", "Wiesner, T., ", "Deschênes, A., ", "Lavoie-Cardinal, F., ", "Gagné, C."],
             "year": "2021",
-            "title": "Task-Assisted GAN for Resolution Enhancement and Modality Translation in Fluorescence Microscopy. ",
+            "title": "Task-Assisted GAN for Resolution Enhancement and Modality Translation in Fluorescence Microscopy.",
             "source": "https://www.biorxiv.org/content/10.1101/2021.07.19.452964v1.abstract",
             "journal": "bioRxiv"
         },
         "Theresa": {
             "authors": ["Wiesner, T., ", "Bilodeau, A., ", "Bernatchez, R., ", "Deschênes, A., ", "Raulier, B., ", "De Koninck, P., ", "Lavoie-Cardinal, F."],
             "year": "2020",
-            "title": "Activity-dependent remodeling of synaptic protein organization revealed by high throughput analysis of STED nanoscopy images. ",
+            "title": "Activity-dependent remodeling of synaptic protein organization revealed by high throughput analysis of STED nanoscopy images.",
             "source": "https://www.frontiersin.org/articles/10.3389/fncir.2020.00057/full",
             "journal": "Frontiers in neural circuits"
         },
         "FActin": {
             "authors": ["Lavoie-Cardinal, F., ", "Bilodeau, A., "," Mado, L., "," Gardner, M-A., ", "Wiesner, T., ", "Gabrielle, L., ", "Gagné, C."],
             "year": "2020",
-            "title": "Neuronal activity remodels the F-actin based submembrane lattice in dendrites but not axons of hippocampal neurons. ",
+            "title": "Neuronal activity remodels the F-actin based submembrane lattice in dendrites but not axons of hippocampal neurons.",
             "source": "https://www.nature.com/articles/s41598-020-68180-2",
             "journal": "Scientific Reports"
         },
         "FluoLifetime": {
             "authors": ["Tardif, C., ", "Nadeau, G., ", "Labrecque, S., ", "Côté, D., ", "Lavoie-Cardinal, F., ", "De Koninck, P."],
             "year": "2019",
-            "title": "Fluorescence lifetime imaging nanoscopy for measuring Förster resonance energy transfer in cellular nanodomains. ",
+            "title": "Fluorescence lifetime imaging nanoscopy for measuring Förster resonance energy transfer in cellular nanodomains.",
             "source": "https://www.spiedigitallibrary.org/journals/neurophotonics/volume-6/issue-01/015002/Fluorescence-lifetime-imaging-nanoscopy-for-measuring-F%C3%B6rster-resonance-energy-transfer/10.1117/1.NPh.6.1.015002.full?SSO=1",
             "journal": "Neurophotonics"
         },
         "MLAuto": {
             "authors": ["Durand, A., ", "Wiesner, T., ", "Gardner, M. A., ", "Robitaille, L. É., ", "Bilodeau, A., ", "Gagné, C., ", "De Koninck, P., ", "Lavoie-Cardinal, F."],
             "year": "2018",
-            "title": "A machine learning approach for online automated optimization of super-resolution optical microscopy. ",
+            "title": "A machine learning approach for online automated optimization of super-resolution optical microscopy.",
             "source": "https://www.nature.com/articles/s41467-018-07668-y",
             "journal": "Nature communications"
         },
          "Prefnet": {
             "authors": ["Robitaille, L. É., ", "Durand, A., ", "Gardner, M. A., ", "Gagné, C., ", "De Koninck, P., ", "Lavoie-Cardinal, F., "],
             "year": "2018",
-            "title": "Learning to Become an Expert: Deep Networks Applied To Super-Resolution Microscopy. ",
+            "title": "Learning to Become an Expert: Deep Networks Applied To Super-Resolution Microscopy.",
             "source": "https://dl.acm.org/doi/abs/10.5555/3504035.3504994",
             "journal": " Thirty-Second AAAI Conference on Artificial Intelligence"
         },
         "Mitos": {
             "authors": ["Van Steenbergen, V., ", "Lavoie-Cardinal, F., ", "Kazwiny, Y., ", "Decet, M., ", "Martens, T., ", "Verstreken, P., ", "Boesmans, W., ", "De Koninck, P., ", "Vanden Berghe, P."],
             "year": "2020",
-            "title": "Nano-positioning and tubuline conformation determine transport of mitochondria along microtubules. ",
+            "title": "Nano-positioning and tubuline conformation determine transport of mitochondria along microtubules.",
             "source": "https://doi.org/10.1101/2020.04.27.064766",
             "journal": "bioRxiv"
         },
         "GoldNano": {
             "authors": ["Lavoie-Cardinal, F., ", "Salesse, C., ", "Bergeron, É., ", "Meunier, M., ","De Koninck, P."],
             "year": "2016",
-            "title": "Gold nanoparticle-assisted all optical localized stimulation and monitoring of Ca 2+ signaling in neurons. ",
+            "title": "Gold nanoparticle-assisted all optical localized stimulation and monitoring of Ca 2+ signaling in neurons.",
             "source": "https://www.nature.com/articles/srep20619",
             "journal": "Scientific Reports"
         },
