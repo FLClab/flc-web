@@ -16,8 +16,8 @@ function PublicationSet(){
     const showPubs = 3
 
     var publications = [
-        {"id": "Methods", "data": strings.Publications.Methods, "students": [0, 1,2],},
         {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 5],},
+        {"id": "Methods", "data": strings.Publications.Methods, "students": [0, 1,2],},
         {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1,2,3],},
         {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1,2,3,4,6],},
         {"id": "NCDN", "data": strings.Publications.NCDN, "students": [4,28],},
