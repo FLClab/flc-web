@@ -122,12 +122,7 @@
             "director": "Paul De Koninck",
             "codirector": "Flavie Lavoie-Cardinal"
         },
-        "Laurence": {
-            "name": "Laurence Fontaine",
-            "info": "I am an undergraduate graduate student in bioinformatics. Currently, I am working on improving the classification of a CNN on a dataset of post synaptic proteins.",
-            "image": "/.img/members/Laurence_Fontaine_crop.png",
-            "director": "Flavie Lavoie-Cardinal"
-        },
+
         "Owen": {
             "name": "Owen Ferguson",
             "info": "Parkinson’s disease affects more than 10 million people worldwide, and I’m interested in the mechanisms that lead to the death of dopamine-producing neurons in the disease. I am using stem cells from human patients to create neurons with Parkinson’s disease traits and I am using super-resolution microscopy to observe the differences between the mitochondria of healthy people and Parkinson’s disease patients.",
@@ -179,44 +174,100 @@
             "codirector": "Audrey Durand"
         }
     },
-     "Alumni": { 
-            "Alexandre": {
+     "Summer Students": {          
+         "Katrine": {
+            "name": "Katrine Castonguay",
+            "Program": "Undergraduate in bioinformatics (2022)",
+        }, 
+         "Kamylle": {
+            "name": "Kamylle Thériault",
+            "Program": "Undergraduate in bioinformatics (2022)",
+        },  
+         "Koraly": {
+            "name": "Koraly Lessard",
+            "Program": "Undergraduate in bioinformatics (2022)",
+        },
+        "LaurenceF": {
+            "name": "Laurence Fontaine",
+            "Program": "Undergraduate in bioinformatics (2021-2022)",
+        },
+         "LaurenceD": {
+            "name": "Laurence Descombes",
+            "Program": "Undergraduate in Engineering Physics (2022)",       
+        },
+         "Élodie": {
+            "name": "Élodie Moth",
+            "Program": "Undergraduate in Engineering Physics (2022)",       
+        },
+         "Marie": {
+            "name": "Marie Lafontaine",
+            "Program": "Undergraduate in Engineering Physics (2022)",       
+        },
+         "Samuel": {
+            "name": " Samuel Gagnon",
+            "Program": "Undergraduate in Biochemistry (2022)",       
+        },
+         "Alexy": {
+            "name": " Alexy Pelletier-Rioux",
+            "Program": "Undergraduate in Biochemistry (2022)",       
+        },
+         "PhilippeGT": {
+            "name": "Philippe G. Tremblay",
+            "Program": "Undergraduate in Microbiology (2022)",       
+        },
+         "Alexandre": {
             "name": "Alexandre Boulay",
             "Program": "Undergraduate in bioinformatics (2021)",
-            "Project":  "Project title"
         },
+
+            "Mariame": {
+            "name": "Mariame Coulibaly",
+            "Program": "Undergraduate in bioinformatics (2021)",
+        },
+           "Marc-Antoine": {
+            "name": "Marc-Antoine Plourde",
+            "Program": "Undergraduate in Physics (2021)",         
+          },
+                   "Philippe": {
+            "name": "Philippe Gagnon",
+            "Program": "Undergraduate in Engineering Physics (2020-2021)",       
+        },
+                  	
+          "Gabrielle": {
+            "name": "Gabrielle Germain",
+            "Program": "Undergraduate in Engineering Physics (2020)",
+        }
+         
+     },
+     "Alumni": { 
+
          "Louis-Émile":{
              "name": "Louis-Émile Robitaille",
              "Program": "Masters in Electrical Engineering (2017-2020)",
              "Project":"Réseaux de neurones pour l'apprentissage de la préférence en microscopie super-résolution",
              "url":"http://hdl.handle.net/20.500.11794/68744"
          },
-         "Philippe": {
-            "name": "Philippe Gagnon",
-            "Program": "Undergraduate in Engineering Physics (2020-2021)",
-            "Project": "Project title"
-        },
+
         "Gabriel": {
             "name": "Gabriel Leclerc",
             "Program": "Masters in Electrical Engineering (2018-2021)",
             "Project": "Apprendre de données positives et non étiquetées : application à la segmentation et la détection d'évènements calciques",
             "url": "http://hdl.handle.net/20.500.11794/69813"
         },
-          "Gabrielle": {
-            "name": "Gabrielle Germain",
-            "Program": "Undergraduate in Engineering Physics (2020)",
-            "Project": "Project title"
+          "AndreanneMSc": {
+            "name": "Andréanne Deschênes",
+            "Program": "Masters in Biophotonics (2017-2018)",
+            "Project": "Développement d'un microscope super-résolution pour l'imagerie de l'activité neuronale",
+            "url": "http://hdl.handle.net/20.500.11794/67028"
         },
-            "Mariame": {
-            "name": "Mariame Coulibaly",
-            "Program": "Undergraduate in bioinformatics (2021)",
-            "Project": "Project title"
+                   "AnthonyMSc": {
+            "name": "Anthony Bilodeau",
+            "Program": "Masters in Biophotonics (2018-2019)",
+            "Project": "Apprentissage faiblement supervisé appliqué à la segmentation d'images de protéines neuronales",
+            "url": "	http://hdl.handle.net/20.500.11794/39752"
         },
-           "Marc-Antoine": {
-            "name": "Marc-Antoine Plourde",
-            "Program": "Undergraduate in Physics (2021)",
-            "Project": "Project title"
-          }
+         
+
         },
     "Gallery": {
         "label": "Gallery"
