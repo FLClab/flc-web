@@ -12,8 +12,8 @@ function Zooniverse(){
                     backgroundSize: "cover", 
                     backgroundPositionX: "center",
                     backgroundRepeat: "no-repeat", 
-                    height: "500px",
-                    backgroundPositionY: "50%" }}
+                    height: "550px",
+                    backgroundPositionY: "60%" }}
             >
                 <div className="zoo-banner">
                     <a href="https://www.zooniverse.org/projects/reber199/synaptic-protein-zoo" className="zoo-banner__textcontent">We have launched a citizen science project on Zooniverse. Click here to help us annotate synapses!</a>
