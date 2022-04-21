@@ -11,6 +11,10 @@
   text-align: center;
 }
 
-.banner img {
-  align-items: center;
+.banner {
+  left: 50%;
+  top: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }

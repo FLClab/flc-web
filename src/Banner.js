@@ -22,7 +22,8 @@ function Banner() {
                     height: "450px",
                     width: "450px",
                     paddingTop: "50px",
-                    marginLeft: "60vh",
+                    margin: "auto",
+                    position: "relative",
                 }}
                 ></img>
                 <div className="banner__textcontent">{strings.Banner.groupInfo}</div>
