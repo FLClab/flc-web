@@ -13,22 +13,21 @@ function Banner() {
                     backgroundSize: "cover", 
                     backgroundPositionX: "center",
                     backgroundRepeat: "no-repeat", 
-                    height: "600px",
+                    height: "650px",
                     backgroundPositionY: "80%" }}
             >
-            <div className="banner">
-                <img src={logo} alt="" 
-                style={{
-                    height: "450px",
-                    width: "450px",
-                    paddingTop: "50px",
-                    margin: "auto",
-                    position: "relative",
-                }}
-                ></img>
-                <div className="banner__textcontent">{strings.Banner.groupInfo}</div>
-            </div>
-            
+                <div className="banner">
+                    <div className="banner__fadeBottom" />
+                    <img src={logo} alt="" 
+                    style={{
+                        height: "450px",
+                        width: "450px",
+                        paddingTop: "20px",
+                        margin: "auto",
+                    }}
+                    ></img>
+                    <div className="banner__textcontent">{strings.Banner.groupInfo}</div>
+                </div>
             </div>
         </div>
     );

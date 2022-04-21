@@ -11,7 +11,8 @@ import Research from "./Research";
 import MemberSet from './MemberSet';
 import PI from "./PI";
 import PublicationSet from "./PublicationSet";
-import StudentSet from "./StudentSet"
+import StudentSet from "./StudentSet";
+import Zooniverse from "./Zooniverse";
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
@@ -69,6 +70,7 @@ function App() {
         fundingY={fundScroll}
         contactY={contactScroll}
       />
+      <Zooniverse />
       <Banner id="banner-section" />
       <div id="intro-section">
         <Intro/>
