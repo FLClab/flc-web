@@ -1,7 +1,6 @@
 import React from "react";
 import zoo from './img/zooniverse_banner.png';
 import "./Zoo.css"
-import strings from "./strings.json";
 
 function Zooniverse(){
     return (
