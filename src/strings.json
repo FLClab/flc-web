@@ -272,7 +272,7 @@
     "Publications": {
         "label": "Key Publications",
         "ContBandit":{
-            "authors": ["Bilodeau, A.,", "Bernatchez, R.,", "Michaud-Gagnon, A.,", "Lavoie-Cardinal, F.","Durand, A." ],
+            "authors": ["Bilodeau, A.,", " Bernatchez, R.,", " Michaud-Gagnon, A.,", " Lavoie-Cardinal, F.,"," Durand, A." ],
             "year": "2022",
             "title":"Contextual bandit optimization of super-resolution microscopy.",
             "source":" https://caiac.pubpub.org/pub/6th7w3yo",
