@@ -271,6 +271,13 @@
     },
     "Publications": {
         "label": "Key Publications",
+        "ContBandit":{
+            "authors": ["Bilodeau, A.,", "Bernatchez, R.,", "Michaud-Gagnon, A.,", "Lavoie-Cardinal, F.","Durand, A." ],
+            "year": "2022",
+            "title":"Contextual bandit optimization of super-resolution microscopy.",
+            "source":" https://caiac.pubpub.org/pub/6th7w3yo",
+            "journal":"Proceedings of the Canadian Conference on Artificial Intelligence"
+        },   
         "MicraNet": {
             "authors": [
                 "Bilodeau, A., ", "Delmas, C.V., " , "Parent, M., " , "De Koninck, P., ", "Durand, A., ", "Lavoie-Cardinal, F."],
