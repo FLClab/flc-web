@@ -17,6 +17,7 @@ function PublicationSet(){
 
     var publications = [
         {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 5],},
+        {"id": "ContBandit", "data": strings.Publications.ContBandit, "students": [0,1,2,3],},
         {"id": "Methods", "data": strings.Publications.Methods, "students": [0, 1,2],},
         {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1,2,3],},
         {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1,2,3,4,6],},
