@@ -16,7 +16,9 @@ function PublicationSet(){
     const showPubs = 3
 
     var publications = [
+       
         {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 5],},
+        {"id": "ActiveAAAI", "data": strings.Publications.ActiveAAAI, "students": [0, 2],},
         {"id": "ContBandit", "data": strings.Publications.ContBandit, "students": [0,1,2,3],},
         {"id": "Methods", "data": strings.Publications.Methods, "students": [0, 1,2],},
         {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1,2,3],},
