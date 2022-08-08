@@ -12,7 +12,7 @@ function AlumniPage(){
         <div className="alumni-page__container">
             <Link className="back" to="/">
                 <span className="back__icon"><FaRegArrowAltCircleLeft /></span>
-                <span>{strings.back}</span>
+                <span className="back__label">{strings.back}</span>
             </Link>
             <div className="alumnipage__label">
             {strings.Members.alumni}
