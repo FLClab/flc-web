@@ -24,10 +24,10 @@ import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
 import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
-import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png"
-import img_Fred from "./img/members/Fred_Beaupre_crop.jpg"
-import img_GabLeclerc from "./img/members/Gabriel_Leclerc.png"
-import img_Emile from "./img/members/LouisEmile_Robitaille.png"
+import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png";
+import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
+import img_GabLeclerc from "./img/members/Gabriel_Leclerc.png";
+import img_Emile from "./img/members/LouisEmile_Robitaille.png";
 import img_Owen from "./img/members/OwenFerguson_crop.JPG";
 import img_Renaud from "./img/members/renaud_bernatchez_crop.png";
 import img_Valerie from "./img/members/Valerie_ClavetFournier_crop.jpg";
@@ -38,7 +38,7 @@ import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
 import img_Eric from "./img/members/EricBergeron_crop.jpg";
-import synapses from "./img/gallery/SynapticProteins.png";
+
 
 function App() {
   const [introScroll, setIntroScroll] = useState(0);
