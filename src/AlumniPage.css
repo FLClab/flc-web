@@ -1,0 +1,23 @@
+.alumnipage__label{
+    text-align: center;
+    color: #ff9100;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 80px;
+  }
+
+.back{
+  color:#ff9100;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: space-between;
+}
+
+.back__icon{
+  margin-right: 5px;
+  margin-top: 5px;
+}

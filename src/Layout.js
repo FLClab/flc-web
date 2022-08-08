@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import { Link } from 'react-router-dom';
+import './Layout.css';
 import Affiliations from "./Affiliations";
-import AlumniSet from "./AlumniSet";
 import Nav from "./Nav";
 import Banner from "./Banner";
 import ContactUs from "./ContactUs";
@@ -26,8 +26,6 @@ import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
 import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png";
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
-import img_GabLeclerc from "./img/members/Gabriel_Leclerc.png";
-import img_Emile from "./img/members/LouisEmile_Robitaille.png";
 import img_Owen from "./img/members/OwenFerguson_crop.JPG";
 import img_Renaud from "./img/members/renaud_bernatchez_crop.png";
 import img_Valerie from "./img/members/Valerie_ClavetFournier_crop.jpg";
@@ -180,16 +178,10 @@ function App() {
         <SummerStudentList header={strings.SummerStudents.pastLabel} studentList={strings.SummerStudents.past}/>
       </div>
 
-      <div className="alumni__label">
-        {strings.Members.alumni}
+      <div className="alumni-label__container">
+        <Link className="alumni__label" to="alumni">{strings.Members.alumni}</Link>
       </div>
-      <AlumniSet
-        img1={img_GabLeclerc}
-        alumni1={strings.Alumni.Gabriel}
-        img2={img_Emile}
-        alumni2={strings.Alumni.LouisEmile}
 
-      />
    
       { /* Gallery */ }
       <div className="gallery__label" id="gallery-section">

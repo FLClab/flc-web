@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import "./Nav.css";
-import "./App";
+import "./Layout";
 
 function Nav({navY, introY, memberY, galleryY, pubY, fundingY, contactY}){
     const [show, handleShow] = useState(false);
