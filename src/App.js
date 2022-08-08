@@ -188,10 +188,7 @@ function App() {
         alumni1={strings.Alumni.Gabriel}
         img2={img_Emile}
         alumni2={strings.Alumni.LouisEmile}
-        img3={img_Anthony}
-        alumni3={strings.Alumni.AnthonyMSc}
-        img4={img_Andreanne}
-        alumni4={strings.Alumni.AndreanneMSc}
+
       />
    
       { /* Gallery */ }
