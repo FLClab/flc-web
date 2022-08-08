@@ -1,0 +1,15 @@
+.summerstudent__container{
+    margin:auto;
+    display:flex;
+    max-width: 600px;
+    justify-content:flex-start;
+}
+
+.summerstudent__name{
+    color: #ff9100;
+    margin-right: 20px;
+}
+
+.summerstudent__program{
+    color: #8f8f8f;
+}

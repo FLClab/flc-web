@@ -175,68 +175,75 @@
             "codirector": "Audrey Durand"
         }
     },
-     "Summer Students": {          
-         "Katrine": {
-            "name": "Katrine Castonguay",
-            "Program": "Undergraduate in bioinformatics (2022)"
-        }, 
-         "Kamylle": {
-            "name": "Kamylle Thériault",
-            "Program": "Undergraduate in bioinformatics (2022)"
-        },  
-         "Koraly": {
-            "name": "Koraly Lessard",
-            "Program": "Undergraduate in bioinformatics (2022)"
+     "SummerStudents": {     
+        "label": "Summer Students",  
+        "currentLabel": "Current",
+        "pastLabel": "Previous",
+        "current": {
+            "Katrine": {
+                "name": "Katrine Castonguay",
+                "Program": "Undergraduate in bioinformatics (2022)"
+            }, 
+            "Kamylle": {
+                "name": "Kamylle Thériault",
+                "Program": "Undergraduate in bioinformatics (2022)"
+            },  
+            "Koraly": {
+                "name": "Koraly Lessard",
+                "Program": "Undergraduate in bioinformatics (2022)"
+            },
+            "LaurenceF": {
+                "name": "Laurence Fontaine",
+                "Program": "Undergraduate in bioinformatics (2021-2022)"
+            },
+            "LaurenceD": {
+                "name": "Laurence Descombes",
+                "Program": "Undergraduate in Engineering Physics (2022)"      
+            },
+            "Élodie": {
+                "name": "Élodie Moth",
+                "Program": "Undergraduate in Engineering Physics (2022)"       
+            },
+            "Marie": {
+                "name": "Marie Lafontaine",
+                "Program": "Undergraduate in Engineering Physics (2022)"       
+            },
+            "Samuel": {
+                "name": " Samuel Gagnon",
+                "Program": "Undergraduate in Biochemistry (2022)"       
+            },
+            "Alexy": {
+                "name": " Alexy Pelletier-Rioux",
+                "Program": "Undergraduate in Biochemistry (2022)"       
+            },
+            "PhilippeGT": {
+                "name": "Philippe G. Tremblay",
+                "Program": "Undergraduate in Microbiology (2022)"       
+            }
         },
-        "LaurenceF": {
-            "name": "Laurence Fontaine",
-            "Program": "Undergraduate in bioinformatics (2021-2022)"
-        },
-         "LaurenceD": {
-            "name": "Laurence Descombes",
-            "Program": "Undergraduate in Engineering Physics (2022)"      
-        },
-         "Élodie": {
-            "name": "Élodie Moth",
-            "Program": "Undergraduate in Engineering Physics (2022)"       
-        },
-         "Marie": {
-            "name": "Marie Lafontaine",
-            "Program": "Undergraduate in Engineering Physics (2022)"       
-        },
-         "Samuel": {
-            "name": " Samuel Gagnon",
-            "Program": "Undergraduate in Biochemistry (2022)"       
-        },
-         "Alexy": {
-            "name": " Alexy Pelletier-Rioux",
-            "Program": "Undergraduate in Biochemistry (2022)"       
-        },
-         "PhilippeGT": {
-            "name": "Philippe G. Tremblay",
-            "Program": "Undergraduate in Microbiology (2022)"       
-        },
-         "Alexandre": {
-            "name": "Alexandre Boulay",
-            "Program": "Undergraduate in bioinformatics (2021)"
-        },
-            "Mariame": {
-            "name": "Mariame Coulibaly",
-            "Program": "Undergraduate in bioinformatics (2021)"
-        },
-           "Marc-Antoine": {
-            "name": "Marc-Antoine Plourde",
-            "Program": "Undergraduate in Physics (2021)"         
-          },
-                   "Philippe": {
-            "name": "Philippe Gagnon",
-            "Program": "Undergraduate in Engineering Physics (2020-2021)"       
-        },
-                  	
-          "Gabrielle": {
-            "name": "Gabrielle Germain",
-            "Program": "Undergraduate in Engineering Physics (2020)"
-        }  
+        "past": {
+            "Alexandre": {
+                "name": "Alexandre Boulay",
+                "Program": "Undergraduate in bioinformatics (2021)"
+            },
+                "Mariame": {
+                "name": "Mariame Coulibaly",
+                "Program": "Undergraduate in bioinformatics (2021)"
+            },
+            "Marc-Antoine": {
+                "name": "Marc-Antoine Plourde",
+                "Program": "Undergraduate in Physics (2021)"         
+            },
+                    "Philippe": {
+                "name": "Philippe Gagnon",
+                "Program": "Undergraduate in Engineering Physics (2020-2021)"       
+            },
+                        
+            "Gabrielle": {
+                "name": "Gabrielle Germain",
+                "Program": "Undergraduate in Engineering Physics (2020)"
+            }  
+        }
      },
      "Alumni": { 
          "LouisEmile":{

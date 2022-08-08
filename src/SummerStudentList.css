@@ -1,0 +1,11 @@
+.summerstudentlist__header{
+    letter-spacing: 1px;
+    font-size: 100%;
+    text-shadow: 2px 2px 2px #ff9100;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align:center;
+}

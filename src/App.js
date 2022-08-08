@@ -12,6 +12,7 @@ import Research from "./Research";
 import MemberSet from './MemberSet';
 import PI from "./PI";
 import PublicationSet from "./PublicationSet";
+import SummerStudentList from "./SummerStudentList";
 import StudentSet from "./StudentSet";
 import Zooniverse from "./Zooniverse";
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
@@ -169,6 +170,14 @@ function App() {
         level4={strings.Members.Levels.masters}
         image4={img_William}
       />
+
+      <div className="summerstudents__label">
+        {strings.SummerStudents.label}
+      </div>
+      <div className="summerstudent-section__container">
+        <SummerStudentList header={strings.SummerStudents.currentLabel} studentList={strings.SummerStudents.current}/>
+        <SummerStudentList header={strings.SummerStudents.pastLabel} studentList={strings.SummerStudents.past}/>
+      </div>
 
       <div className="alumni__label">
         {strings.Members.alumni}

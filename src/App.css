@@ -19,7 +19,8 @@ body {
 .publications__label,
 .affiliations__label,
 .gallery__label,
-.funding__label{
+.funding__label,
+.summerstudents__label{
   text-align: center;
   color: #ff9100;
   margin-bottom: 40px;
@@ -76,4 +77,9 @@ hr.contact__hr {
 
 .closing__line {
   width: 60%;
+}
+
+.summerstudent-section__container{
+  display:flex;
+  justify-content: space-evenly;
 }

@@ -10,10 +10,6 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 
 - [ ] Compress large images for faster rendering
 
-### Members :
-
-- [ ] Create Summer students section (Could be a 2 text columns thing: Name Program(years)) We display those of the current year and have a show all button to show former students (data currently present in strings.json)
-
 ### Gallery
 
 - [ ] Switch from scrollbar to dots for moving between set of 3 images
@@ -22,4 +18,3 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### Publications
 
 - [ ] Add Renaud and Benoît's workshop papers when published (Andréanne)
-- [x] Change MICRA-NET publication link when published (Andréanne)
