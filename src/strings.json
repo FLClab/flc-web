@@ -284,7 +284,7 @@
     "Publications": {
         "label": "Key Publications",
          "ActiveAAAI":{
-            "authors": [" Bernatchez, R.,"," Durand, A." , " Lavoie-Cardinal, F.,"],
+            "authors": [" Bernatchez, R.,"," Durand, A." , " Lavoie-Cardinal, F."],
             "year": "2022",
             "title":"Annotation Cost-Sensitive Deep Active Learning with Limited Data.",
             "source":" https://doi.org/10.1609/aaai.v36i11.21593",
