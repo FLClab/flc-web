@@ -70,8 +70,8 @@ function App() {
         fundingY={fundScroll}
         contactY={contactScroll}
       />
-      <Zooniverse />
       <Banner id="banner-section" />
+      <Zooniverse />
       <div id="intro-section">
         <Intro/>
       </div>
