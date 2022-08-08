@@ -26,6 +26,7 @@
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 .alumni__name {
@@ -38,6 +39,12 @@
 }
 
 .alumni__thesis{
-    color: #90EE90;
+    color: #8f8f8f;
     margin-bottom: 5px;
+    text-decoration:none;
+}
+
+.alumni__thesis:hover{
+    color: #90EE90;
+    text-decoration:underline;
 }
