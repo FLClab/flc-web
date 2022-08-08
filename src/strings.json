@@ -251,6 +251,7 @@
         }
      },
      "Alumni": { 
+        "label": "Alumni",
          "LouisEmile":{
              "name": "Louis-Émile Robitaille",
              "Program": "Masters in Electrical Engineering (2017-2020)",

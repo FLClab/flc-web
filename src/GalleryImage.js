@@ -9,7 +9,7 @@ function GalleryImage({id, imgSrc, credit, label}) {
         <div className="image-container">
             <ModalImage 
                 id={`gallery-img_${id}`}
-                className="modal__image"
+                className="gallery__modal-image"
                 small={imgSrc}
                 large={imgSrc}
                 alt={`${label}, taken by ${credit}`}

@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import "./Nav.css";
 import "./Layout";
+import strings from './strings.json';
 
 function Nav({navY, introY, memberY, galleryY, pubY, fundingY, contactY}){
     const [show, handleShow] = useState(false);
@@ -106,7 +107,7 @@ function Nav({navY, introY, memberY, galleryY, pubY, fundingY, contactY}){
             <div className="nav__link-container">
                 <a className={`nav__link ${show && "nav__link-white"} ${activeIntro && "nav__active"}`} href="#intro-section">Introduction</a>
                 <a className={`nav__link ${show && "nav__link-white"} ${activeMembers && "nav__active"}`} href="#members-section">Members</a>
-                <Link to="alumni" className="nav__link">Alumni</Link>
+                <Link to="alumni" className={`nav__link ${show && "nav__link-white"}`}>{strings.Alumni.label}</Link>
                 <a className={`nav__link ${show && "nav__link-white"} ${activeGallery && "nav__active"}`} href="#gallery-section">Gallery</a>
                 <a className={`nav__link ${show && "nav__link-white"} ${activePublications && "nav__active"}`} href="#publications-section">Publications</a>
                 <a className={`nav__link ${show && "nav__link-white"} ${activeFunding && "nav__active"}`} href="#funding-section">Funding</a>
