@@ -9,12 +9,10 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### General:
 
 - [ ] Compress large images for faster rendering
-- [ ] Add Zooniverse banner at the top
 
 ### Members :
 
-- [ ] Create Alumni section (link to thesis) (data currently present in strings.json)
-- [ ] Create Summer students section (Could be a 2 text columns thing: Name  Program(years)) We display those of the current year and have a show all button to show former students (data currently present in strings.json)
+- [ ] Create Summer students section (Could be a 2 text columns thing: Name Program(years)) We display those of the current year and have a show all button to show former students (data currently present in strings.json)
 
 ### Gallery
 
@@ -24,4 +22,4 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 ### Publications
 
 - [ ] Add Renaud and Benoît's workshop papers when published (Andréanne)
-- [X] Change MICRA-NET publication link when published (Andréanne)
+- [x] Change MICRA-NET publication link when published (Andréanne)
