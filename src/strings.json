@@ -290,6 +290,13 @@
             "source":" https://doi.org/10.1609/aaai.v36i11.21593",
             "journal":"Proceedings of the AAAI Conference on Artificial Intelligence"
         },   
+       "PYSTED":{
+            "authors": ["Turcotte, B., ","Bilodeau, A.,", " Lavoie-Cardinal, F.,"," Durand, A." ],
+            "year": "2022",
+            "title":"pySTED : A STED Microscopy Simulation Tool for Machine Learning Training.",
+            "source":" https://ai-2-ase.github.io/papers/23%5CCameraReady%5CpySTED.pdf",
+            "journal":"Proceedings of the AAAI Workshop on AI to Accelerate Science and Engineering"
+        },   
         "ContBandit":{
             "authors": ["Bilodeau, A.,", " Bernatchez, R.,", " Michaud-Gagnon, A.,", " Lavoie-Cardinal, F.,"," Durand, A." ],
             "year": "2022",
