@@ -15,6 +15,4 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 - [ ] Switch from scrollbar to dots for moving between set of 3 images
 - [ ] Add brain slice images (Andréanne)
 
-### Publications
 
-- [ ] Add Renaud and Benoît's workshop papers when published (Andréanne)
