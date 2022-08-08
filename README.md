@@ -10,9 +10,15 @@ run `yarn start` or `npm run build` from root (flc-web directory). This will ope
 
 - [ ] Compress large images for faster rendering
 
+### Alumni:
+
+- [ ] onClick to new page
+
+### Summer Students:
+
+- [ ] ModalWindow onClick as for the gallery
+
 ### Gallery
 
 - [ ] Switch from scrollbar to dots for moving between set of 3 images
 - [ ] Add brain slice images (Andréanne)
-
-
