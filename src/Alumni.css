@@ -1,0 +1,43 @@
+.alumni img {
+    max-width: 200px;
+    max-height: 200px;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.alumni__info-container{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   margin-top: 10px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   max-width: 250px;
+}
+
+.alumni__program{
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: #8f8f8f;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.alumni__name {
+    letter-spacing: 1px;
+    font-size: 120%;
+    text-shadow: 2px 2px 2px #333;
+    color: #90EE90;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.alumni__thesis{
+    color: #90EE90;
+    margin-bottom: 5px;
+}

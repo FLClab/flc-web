@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Affiliations from "./Affiliations";
+import AlumniSet from "./AlumniSet";
 import Nav from "./Nav";
 import Banner from "./Banner";
 import ContactUs from "./ContactUs";
@@ -35,6 +36,8 @@ import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
 import img_Eric from "./img/members/EricBergeron_crop.jpg";
+import synapses from "./img/gallery/SynapticProteins.png";
+
 function App() {
   const [introScroll, setIntroScroll] = useState(0);
   const [memberScroll, setMemberScroll] = useState(0);
@@ -165,6 +168,20 @@ function App() {
         student4={strings.Members.William}
         level4={strings.Members.Levels.masters}
         image4={img_William}
+      />
+
+      <div className="alumni__label">
+        {strings.Members.alumni}
+      </div>
+      <AlumniSet
+        img1={synapses}
+        alumni1={strings.Alumni.Gabriel}
+        img2={synapses}
+        alumni2={strings.Alumni.LouisEmile}
+        img3={img_Anthony}
+        alumni3={strings.Alumni.AnthonyMSc}
+        img4={img_Andreanne}
+        alumni4={strings.Alumni.AndreanneMSc}
       />
    
       { /* Gallery */ }

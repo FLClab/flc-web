@@ -24,6 +24,7 @@
     "Members": {
         "members": "Members",
         "students": "Graduate Students",
+        "alumni": "Alumni",
         "Levels": {
             "undergrad": "Undergraduate Student",
             "masters": "MSc Student",
@@ -238,7 +239,7 @@
         }  
      },
      "Alumni": { 
-         "Louis-Émile":{
+         "LouisEmile":{
              "name": "Louis-Émile Robitaille",
              "Program": "Masters in Electrical Engineering (2017-2020)",
              "Project":"Réseaux de neurones pour l'apprentissage de la préférence en microscopie super-résolution",
