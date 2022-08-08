@@ -26,7 +26,8 @@ import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
 import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png"
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg"
-
+import img_GabLeclerc from "./img/members/Gabriel_Leclerc.png"
+import img_Emile from "./img/members/LouisEmile_Robitaille.png"
 import img_Owen from "./img/members/OwenFerguson_crop.JPG";
 import img_Renaud from "./img/members/renaud_bernatchez_crop.png";
 import img_Valerie from "./img/members/Valerie_ClavetFournier_crop.jpg";
@@ -183,9 +184,9 @@ function App() {
         {strings.Members.alumni}
       </div>
       <AlumniSet
-        img1={synapses}
+        img1={img_GabLeclerc}
         alumni1={strings.Alumni.Gabriel}
-        img2={synapses}
+        img2={img_Emile}
         alumni2={strings.Alumni.LouisEmile}
         img3={img_Anthony}
         alumni3={strings.Alumni.AnthonyMSc}
