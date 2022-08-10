@@ -203,19 +203,13 @@ function App() {
         level4={strings.Members.Levels.undergrad}
         image4={synapses}
           />
-      <StudentSet
+      <StudentPair
         student1={strings.Members.Vincent}
         level1={strings.Members.Levels.masters}
         image1={img_Vincent}
         student2={strings.Members.William}
         level2={strings.Members.Levels.masters}
         image2={img_William}
-        student3={strings.Members.Vincent}
-        level3={strings.Members.Levels.masters}
-        image3={img_Vincent}
-        student4={strings.Members.William}
-        level4={strings.Members.Levels.masters}
-        image4={img_William}
       />
 
       <div className="summerstudents__label">
