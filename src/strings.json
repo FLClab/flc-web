@@ -183,43 +183,55 @@
         "current": {
             "Katrine": {
                 "name": "Katrine Castonguay",
-                "Program": "Undergraduate in Bioinformatics (2022)"
+                "Program": "Undergraduate in Bioinformatics (2022)",
+                "Project": "Détection des segmentations d'événements calciques par apprentissage profond dans des images de microscopie de diverses modalités"
+                
             }, 
             "Kamylle": {
                 "name": "Kamylle Thériault",
-                "Program": "Undergraduate in Bioinformatics (2022)"
+                "Program": "Undergraduate in Bioinformatics (2022)",
+                "Project":"Segmentation and analysis of mitochondria in human neurons"
             },  
             "Koraly": {
                 "name": "Koraly Lessard",
-                "Program": "Undergraduate in Bioinformatics (2022)"
+                "Program": "Undergraduate in Bioinformatics (2022)",
+                "Project": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution"
+                
             },
             "LaurenceF": {
                 "name": "Laurence Fontaine",
-                "Program": "Undergraduate in Bioinformatics (2021-2022)"
+                "Program": "Undergraduate in Bioinformatics (2021-2022)",
+                "Project": "Classification et génération automatique de protéines post synaptique (2022)"
             },
             "LaurenceD": {
                 "name": "Laurence Descombes",
-                "Program": "Undergraduate in Engineering Physics (2022)"      
+                "Program": "Undergraduate in Engineering Physics (2022)",
+                "Project": "Alignement et caractérisation d’un microscope STED."
             },
             "Élodie": {
                 "name": "Élodie Moth",
-                "Program": "Undergraduate in Engineering Physics (2022)"       
+                "Program": "Undergraduate in Engineering Physics (2022)",
+                "Project": "Développement d’un module d’anisotropie de fluorescence pour l’étude de la structure des neurones"
             },
             "Marie": {
                 "name": "Marie Lafontaine",
-                "Program": "Undergraduate in Engineering Physics (2022)"       
+                "Program": "Undergraduate in Engineering Physics (2022)",
+                "Project": "Analyse d’images de microscopie super-résolution de temps de vie"
             },
             "Samuel": {
                 "name": " Samuel Gagnon",
-                "Program": "Undergraduate in Biochemistry (2022)"       
+                "Program": "Undergraduate in Biochemistry (2022)",
+                "Project": "Protocole standardisé de culture de Caco-2"
             },
             "Alexy": {
                 "name": " Alexy Pelletier-Rioux",
-                "Program": "Undergraduate in Biochemistry (2022)"       
+                "Program": "Undergraduate in Biochemistry (2022)",
+                "Project": "Super-résolution de la Cofiline lors de la formation des fibres d'actines"
             },
             "PhilippeGT": {
                 "name": "Philippe G. Tremblay",
-                "Program": "Undergraduate in Microbiology (2022)"       
+                "Program": "Undergraduate in Microbiology (2022)",
+                "Project": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
             }
         },
         "past": {
