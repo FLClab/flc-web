@@ -52,7 +52,7 @@
             "name": "Alexy Pelletier-Rioux",
             "info": "Super-résolution de la Cofiline lors de la formation des fibres d'actine.",
             "image": "./img/members/Alexis_Lebrun_crop.jpg",
-            "director": "Flavie Lavoie-Cardinal"
+            "director": "Flavie Lavoie-Cardinal",
             "codirector": ""
         },
         "Andreanne": {
@@ -140,23 +140,26 @@
             "director": "Paul De Koninck",
             "codirector": "Flavie Lavoie-Cardinal"
         },
-                            "Katrine": {
+        "Katrine": {
                 "name": "Katrine Castonguay",
                 "Program": "Undergraduate in Bioinformatics (2022)",
                 "director": "Flavie Lavoie-Cardinal",
-                "info": "Détection des segmentations d'événements calciques par apprentissage profond dans des images de microscopie de diverses modalités"
-                
+                "info": "Détection des segmentations d'événements calciques par apprentissage profond dans des images de microscopie de diverses modalités",
+                 "codirector": ""
             }, 
-            "Kamylle": {
+        
+         "Kamylle": {
                 "name": "Kamylle Thériault",
                 "Program": "Undergraduate in Bioinformatics (2022)",
                 "director": "Flavie Lavoie-Cardinal",
+                "codirector": "",
                 "info":"Segmentation and analysis of mitochondria in human neurons"
             },  
             "Koraly": {
                 "name": "Koraly Lessard",
                 "Program": "Undergraduate in Bioinformatics (2022)",
                 "director": "Flavie Lavoie-Cardinal",
+                "codirector": "",
                 "info": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution"
                 
             },
@@ -164,18 +167,21 @@
                 "name": "Laurence Fontaine",
                 "Program": "Undergraduate in Bioinformatics (2021-2022)",
                 "director": "Flavie Lavoie-Cardinal",
+                "codirector": "",
                 "info": "Classification et génération automatique de protéines post synaptique (2022)"
             },
             "LaurenceD": {
                 "name": "Laurence Descombes",
                 "Program": "Undergraduate in Engineering Physics (2022)",
                 "director": "Flavie Lavoie-Cardinal",
+                "codirector": "",
                 "info": "Alignement et caractérisation d’un microscope STED."
             },
             "Marie": {
                 "name": "Marie Lafontaine",
                 "Program": "Undergraduate in Engineering Physics (2022)",
                 "director": "Flavie Lavoie-Cardinal",
+                "codirector": "",
                 "info": "Analyse d’images de microscopie super-résolution de temps de vie"
             },
 
@@ -190,6 +196,7 @@
                 "name": "Philippe G. Tremblay",
                 "Program": "Undergraduate in Microbiology (2022)",
                 "director": "Flavie Lavoie-Cardinal",
+                "codirector": "",
                 "info": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
             },
 
@@ -211,6 +218,7 @@
                 "name": " Samuel Gagnon",
                 "Program": "Undergraduate in Biochemistry (2022)",
                 "director": "Flavie Lavoie-Cardinal",
+               "codirector": "",
                 "info": "Protocole standardisé de culture de Caco-2"
             },
         "Theresa": {
