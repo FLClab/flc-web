@@ -25,10 +25,10 @@ function PublicationSet(){
         {"id": "PYSTED", "data": strings.Publications.PYSTED, "students": [0,1,2],},
         {"id": "Methods", "data": strings.Publications.Methods, "students": [0, 1,2],},
         {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1,2,3],},
-        {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1,2,3,4,6],},
+       
         {"id": "NCDN", "data": strings.Publications.NCDN, "students": [4,28],},
         {"id": "FActin", "data": strings.Publications.FActin, "students": [0, 1,4],},
-        {"id": "MLAuto", "data": strings.Publications.MLAuto, "students": [1,3,4,7],},
+       
         {"id": "Prefnet", "data": strings.Publications.Prefnet, "students": [0, 5],},
         {"id": "fluo", "data": strings.Publications.FluoLifetime, "students": [4],},
         {"id": "GoldNano", "data": strings.Publications.GoldNano, "students": [0],},
