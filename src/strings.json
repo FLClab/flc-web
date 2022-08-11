@@ -98,14 +98,6 @@
             "codirector": "Flavie Lavoie-Cardinal"
 
         },
-        "Elodie": {
-            "name": "Élodie Moth",
-            "info": "Développement d’un module d’anisotropie de fluorescence pour l’étude de la structure des neurones.",
-            "image": "./img/members/Catherine_Bouchard_crop.png",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Antoine Godin"
-
-        },
         "Eric": {
             "name": "Éric Bergeron",
             "info": "Programmer, computer scientist, world traveler, CDT thru-hiker, co-founder of Echovita and Funerago, I am currently finishing my master's degree in artificial intelligence (AI). Knowing several people dealing with a neurodegenerative disease, I decided to apply my AI knowledge to the cause. I work on automatic instance segmentation of microglial cells in 3D images. This will allow scientists to quantify the gut's impact on microglia during the development of larval zebrafish.",
@@ -174,26 +166,12 @@
             "codirector": "",
             "info": "Alignement et caractérisation d’un microscope STED."
         },
-        "Marie": {
-            "name": "Marie Lafontaine",
-            "Program": "Undergraduate in Engineering Physics (2022)",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "info": "Analyse d’images de microscopie super-résolution de temps de vie"
-        },
         "Owen": {
             "name": "Owen Ferguson",
             "info": "Parkinson’s disease affects more than 10 million people worldwide, and I’m interested in the mechanisms that lead to the death of dopamine-producing neurons in the disease. I am using stem cells from human patients to create neurons with Parkinson’s disease traits and I am using super-resolution microscopy to observe the differences between the mitochondria of healthy people and Parkinson’s disease patients.",
             "image": "./img/members/OwenFerguson_crop.JPG",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Martin Lévesque"
-        },
-        "PhilippeGT": {
-            "name": "Philippe G. Tremblay",
-            "Program": "Undergraduate in Microbiology (2022)",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "info": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
         },
         "Renaud": {
             "name": "Renaud Bernatchez",
@@ -209,13 +187,6 @@
             "codirector": "Audrey Durand",
             "webpage": "https://phifamin.github.io/"
         },
-           "Samuel": {
-                "name": " Samuel Gagnon",
-                "Program": "Undergraduate in Biochemistry (2022)",
-                "director": "Flavie Lavoie-Cardinal",
-               "codirector": "",
-                "info": "Protocole standardisé de culture de Caco-2"
-            },
         "Theresa": {
             "name": "Theresa Wiesner",
             "info": "Coming from cancer research with focus on high throughput screening for drug development in the early years of my bachelor, I got fascinated during an internship with functional assays such as field recordings to study neuronal cell behaviour. I got hooked on doing my master in bio-photonics to learn functional imaging. During my PhD I combined functional assays, super-resolution imaging and computational tools to quantitatively assess and explore synaptic protein organization and remodeling due to synaptic plasticity. Being a scientist for me is not a job, but a lifestyle in which I can be continuously curious and explore across fields, be it from neuroscience, photonics to machine learning. In another life, I would be a diplomat who writes fiction books on the side.",
@@ -245,108 +216,73 @@
             "codirector": "Audrey Durand"
         }
     },
-     "SummerStudents": {     
-        "label": "Summer Students",  
-        "currentLabel": "Current",
-        "pastLabel": "Previous",
-        "current": {
-            "Katrine": {
-                "name": "Katrine Castonguay",
-                "Program": "Undergraduate in Bioinformatics (2022)",
-                "Project": "Détection des segmentations d'événements calciques par apprentissage profond dans des images de microscopie de diverses modalités"
-                
-            }, 
-            "Kamylle": {
-                "name": "Kamylle Thériault",
-                "Program": "Undergraduate in Bioinformatics (2022)",
-                "Project":"Segmentation and analysis of mitochondria in human neurons"
-            },  
-            "Koraly": {
-                "name": "Koraly Lessard",
-                "Program": "Undergraduate in Bioinformatics (2022)",
-                "Project": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution"
-                
-            },
-            "LaurenceF": {
-                "name": "Laurence Fontaine",
-                "Program": "Undergraduate in Bioinformatics (2021-2022)",
-                "Project": "Classification et génération automatique de protéines post synaptique (2022)"
-            },
-            "LaurenceD": {
-                "name": "Laurence Descombes",
-                "Program": "Undergraduate in Engineering Physics (2022)",
-                "Project": "Alignement et caractérisation d’un microscope STED."
-            },
-            "Élodie": {
-                "name": "Élodie Moth",
-                "Program": "Undergraduate in Engineering Physics (2022)",
-                "Project": "Développement d’un module d’anisotropie de fluorescence pour l’étude de la structure des neurones"
-            },
-            "Marie": {
-                "name": "Marie Lafontaine",
-                "Program": "Undergraduate in Engineering Physics (2022)",
-                "Project": "Analyse d’images de microscopie super-résolution de temps de vie"
-            },
-            "Samuel": {
-                "name": " Samuel Gagnon",
-                "Program": "Undergraduate in Biochemistry (2022)",
-                "Project": "Protocole standardisé de culture de Caco-2"
-            },
-            "Alexy": {
-                "name": " Alexy Pelletier-Rioux",
-                "Program": "Undergraduate in Biochemistry (2022)",
-                "Project": "Super-résolution de la Cofiline lors de la formation des fibres d'actines"
-            },
-            "PhilippeGT": {
-                "name": "Philippe G. Tremblay",
-                "Program": "Undergraduate in Microbiology (2022)",
-                "Project": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
-            }
-        },
-        "past": {
-            "Alexandre": {
-                "name": "Alexandre Boulay",
-                "Program": "Undergraduate in Bioinformatics (2021)"
-            },
-                "Mariame": {
-                "name": "Mariame Coulibaly",
-                "Program": "Undergraduate in Bioinformatics (2021)"
-            },
-            "Marc-Antoine": {
-                "name": "Marc-Antoine Plourde",
-                "Program": "Undergraduate in Physics (2021)"         
-            },
-                    "Philippe": {
-                "name": "Philippe Gagnon",
-                "Program": "Undergraduate in Engineering Physics (2020-2021)"       
-            },
-                        
-            "Gabrielle": {
-                "name": "Gabrielle Germain",
-                "Program": "Undergraduate in Engineering Physics (2020)"
-            }  ,
-             "Bastian": {
-                "name": "Bastian Raulier",
-                "Program": "Undergraduate in Engineering Physics (2019)"
-            }  
-        }
-     },
-     "Alumni": { 
+    "Alumni": { 
         "label": "Alumni",
-         "LouisEmile":{
-             "name": "Louis-Émile Robitaille",
-             "Program": "Masters in Electrical Engineering (2017-2020)",
-             "Project":"Réseaux de neurones pour l'apprentissage de la préférence en microscopie super-résolution",
-             "url":"http://hdl.handle.net/20.500.11794/68744"
-         },
-
+        "Alexandre": {
+            "name": "Alexandre Boulay",
+            "Program": "Undergraduate in Bioinformatics (2021)"
+        },
+        "Elodie": {
+            "name": "Élodie Moth",
+            "info": "Développement d’un module d’anisotropie de fluorescence pour l’étude de la structure des neurones.",
+            "image": "./img/members/Catherine_Bouchard_crop.png",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Antoine Godin"
+        },
+        "Mariame": {
+            "name": "Mariame Coulibaly",
+            "Program": "Undergraduate in Bioinformatics (2021)"
+        },
+        "Marc-Antoine": {
+            "name": "Marc-Antoine Plourde",
+            "Program": "Undergraduate in Physics (2021)"         
+        },
+        "Philippe": {
+            "name": "Philippe Gagnon",
+            "Program": "Undergraduate in Engineering Physics (2020-2021)"       
+        },       
+        "Gabrielle": {
+            "name": "Gabrielle Germain",
+            "Program": "Undergraduate in Engineering Physics (2020)"
+        }  ,
+            "Bastian": {
+            "name": "Bastian Raulier",
+            "Program": "Undergraduate in Engineering Physics (2019)"
+        },
+        "LouisEmile":{
+            "name": "Louis-Émile Robitaille",
+            "Program": "Masters in Electrical Engineering (2017-2020)",
+            "Project":"Réseaux de neurones pour l'apprentissage de la préférence en microscopie super-résolution",
+            "url":"http://hdl.handle.net/20.500.11794/68744"
+        },
+        "Marie": {
+            "name": "Marie Lafontaine",
+            "Program": "Undergraduate in Engineering Physics (2022)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "Analyse d’images de microscopie super-résolution de temps de vie"
+        },
         "Gabriel": {
             "name": "Gabriel Leclerc",
             "Program": "Masters in Electrical Engineering (2018-2021)",
             "Project": "Apprendre de données positives et non étiquetées : application à la segmentation et la détection d'évènements calciques",
             "url": "http://hdl.handle.net/20.500.11794/69813"
         },
-          "AndreanneMSc": {
+        "PhilippeGT": {
+            "name": "Philippe G. Tremblay",
+            "Program": "Undergraduate in Microbiology (2022)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
+        },
+        "Samuel": {
+            "name": " Samuel Gagnon",
+            "Program": "Undergraduate in Biochemistry (2022)",
+            "director": "Flavie Lavoie-Cardinal",
+           "codirector": "",
+            "info": "Protocole standardisé de culture de Caco-2"
+        },
+        "AndreanneMSc": {
             "name": "Andréanne Deschênes",
             "Program": "Masters in Biophotonics (2017-2018)",
             "Project": "Développement d'un microscope super-résolution pour l'imagerie de l'activité neuronale",
@@ -358,9 +294,7 @@
             "Project": "Apprentissage faiblement supervisé appliqué à la segmentation d'images de protéines neuronales",
             "url": "http://hdl.handle.net/20.500.11794/39752"
         }
-         
-
-        },
+    },
     "Gallery": {
         "label": "Gallery"
     },

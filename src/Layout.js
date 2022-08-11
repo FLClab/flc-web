@@ -22,6 +22,11 @@ import img_Anthony from "./img/members/Anthony_Bilodeau_crop.JPG";
 import img_AntoineG from "./img/members/Antoine_Girard_crop.png";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
+import img_Alexy from "./img/members/Alexy_crop.jpg";
+import img_Kamylle from "./img/members/Kamylle_crop.jpg";
+import img_Koraly from "./img/members/Koraly_crop.jpg";
+import img_LaurenceD from "./img/members/LaurenceD_crop.jpg";
+import img_LaurenceF from "./img/members/LaurenceF_crop.jpg";
 import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
 import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png";
@@ -121,7 +126,7 @@ function App() {
         image2={img_Alexis}
         student3={strings.Members.Alexy}
         level3={strings.Members.Levels.undergrad}
-        image3={synapses}
+        image3={img_Alexy}
         student4={strings.Members.Andreanne}
         level4={strings.Members.Levels.phd}
         image4={img_Andreanne}
@@ -148,63 +153,49 @@ function App() {
         student1={strings.Members.Catherine}
         level1={strings.Members.Levels.phd}
         image1={img_Catherine}
-        student2={strings.Members.Elodie}
+        student2={strings.Members.Eric}
         level2={strings.Members.Levels.undergrad}
-        image2={synapses}
-        student3={strings.Members.Eric}
+        image2={img_Eric}
+        student3={strings.Members.Frederic}
         level3={strings.Members.Levels.masters}
-        image3={img_Eric}
-        student4={strings.Members.Frederic}
+        image3={img_Fred}
+        student4={strings.Members.JM}
         level4={strings.Members.Levels.masters}
-        image4={img_Fred}
+        image4={img_JM}
 
 
 
       />
       <StudentSet
-        student1={strings.Members.JM}
+        student1={strings.Members.Julia}
         level1={strings.Members.Levels.masters}
-        image1={img_JM}
-        student2={strings.Members.Julia}
+        image1={img_Julia}
+        student2={strings.Members.Kamylle}
         level2={strings.Members.Levels.phd}
-        image2={img_Julia}
-        student3={strings.Members.Kamylle}
+        image2={img_Kamylle}
+        student3={strings.Members.Katrine}
         level3={strings.Members.Levels.undergrad}
         image3={synapses}
-        student4={strings.Members.Katrine}
+        student4={strings.Members.Koraly}
         level4={strings.Members.Levels.undergrad}
-        image4={synapses}
+        image4={img_Koraly}
       />
           
       <StudentSet
-        student1={strings.Members.Koraly}
+        student1={strings.Members.LaurenceD}
         level1={strings.Members.Levels.undergrad}
-        image1={synapses}
-        student2={strings.Members.LaurenceD}
+        image1={img_LaurenceD}
+        student2={strings.Members.LaurenceF}
         level2={strings.Members.Levels.undergrad}
-        image2={synapses}
-        student3={strings.Members.LaurenceF}
+        image2={img_LaurenceF}
+        student3={strings.Members.Owen}
         level3={strings.Members.Levels.undergrad}
-        image3={synapses}
-        student4={strings.Members.Marie}
+        image3={img_Owen}
+        student4={strings.Members.Renaud}
         level4={strings.Members.Levels.undergrad}
-        image4={synapses}
+        image4={img_Renaud}
       />
           
-      <StudentSet
-        student1={strings.Members.Owen}
-        level1={strings.Members.Levels.phd}
-        image1={img_Owen}
-        student2={strings.Members.PhilippeGT}
-        level2={strings.Members.Levels.undergrad}
-        image2={synapses}
-        student3={strings.Members.Renaud}
-        level3={strings.Members.Levels.masters}
-        image3={img_Renaud}
-        student4={strings.Members.Samuel}
-        level4={strings.Members.Levels.undergrad}
-        image4={synapses}
-      />
       <StudentPair
         student1={strings.Members.Vincent}
         level1={strings.Members.Levels.masters}
