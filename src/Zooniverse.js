@@ -17,7 +17,6 @@ function Zooniverse(){
 
                 <div className="zoo-banner">
                     <a href="https://www.zooniverse.org/projects/reber199/synaptic-protein-zoo" className="zoo-banner__textcontent">We have launched a citizen science project on Zooniverse. Click here to help us annotate synapses!</a>
-            
                 </div>
             </div>
         </div>
