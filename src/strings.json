@@ -229,7 +229,8 @@
         "Elodie": {
             "name": "Élodie Moth",
             "info": "Développement d’un module d’anisotropie de fluorescence pour l’étude de la structure des neurones.",
-            "image": "./img/members/Catherine_Bouchard_crop.png",
+          
+            "Program": "Undergraduate in Engineering Physics (2022)",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Antoine Godin"
         },
