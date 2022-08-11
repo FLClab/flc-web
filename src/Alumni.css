@@ -19,14 +19,18 @@
    max-width: 250px;
 }
 
-.alumni__program{
-    font-size: 0.8rem;
+.alumni__program, .alumni__title{
     line-height: 1.4;
     color: #8f8f8f;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 5px;
+}
+
+.alumni__hr{
+    border: 1px solid #8f8f8f;
+    width: 80%;
 }
 
 .alumni__name {

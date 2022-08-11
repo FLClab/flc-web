@@ -9,7 +9,9 @@ function Alumni({img, info}){
             <div className="alumni__info-container">
                 <div className="alumni__name">{info.name}</div>
                 <span className="alumni__program">{info.Program}</span>
-                <a href={info.url} className="alumni__thesis">{info.Project}</a>
+                <hr className="alumni__hr"></hr>
+                { info.Project && <a href={info.url} className="alumni__thesis">{info.Project}</a>}
+                { info.Title && <span className="alumni__title">{info.Title}</span> }
             </div>
         </div>
     )
