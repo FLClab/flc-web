@@ -228,7 +228,7 @@
         },
         "Elodie": {
             "name": "Élodie Moth",
-            "info": "Développement d’un module d’anisotropie de fluorescence pour l’étude de la structure des neurones.",
+            "Project": "Développement d’un module d’anisotropie de fluorescence pour l’étude de la structure des neurones.",
           
             "Program": "Undergraduate in Engineering Physics (2022)",
             "director": "Flavie Lavoie-Cardinal",
@@ -263,7 +263,7 @@
             "Program": "Undergraduate in Engineering Physics (2022)",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
-            "info": "Analyse d’images de microscopie super-résolution de temps de vie"
+            "Project": "Analyse d’images de microscopie super-résolution de temps de vie"
         },
         "Philippe": {
             "name": "Philippe Gagnon",
@@ -274,14 +274,14 @@
             "Program": "Undergraduate in Microbiology (2022)",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
-            "info": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
+            "Project": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
         },
         "Samuel": {
             "name": " Samuel Gagnon",
             "Program": "Undergraduate in Biochemistry (2022)",
             "director": "Flavie Lavoie-Cardinal",
            "codirector": "",
-            "info": "Protocole standardisé de culture de Caco-2"
+            "Project": "Protocole standardisé de culture de Caco-2"
         },
         "AndreanneMSc": {
             "name": "Andréanne Deschênes",
