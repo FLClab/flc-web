@@ -1,3 +1,7 @@
+.zoo-banner__container{
+    margin-bottom: 50px;
+}
+
 .zoo-banner__img {
     display: flex;
     flex-direction: row;
