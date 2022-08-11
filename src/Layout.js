@@ -154,10 +154,10 @@ function App() {
         level1={strings.Members.Levels.phd}
         image1={img_Catherine}
         student2={strings.Members.Eric}
-        level2={strings.Members.Levels.undergrad}
+        level2={strings.Members.Levels.masters}
         image2={img_Eric}
         student3={strings.Members.Frederic}
-        level3={strings.Members.Levels.masters}
+        level3={strings.Members.Levels.phd}
         image3={img_Fred}
         student4={strings.Members.JM}
         level4={strings.Members.Levels.masters}
@@ -168,10 +168,10 @@ function App() {
       />
       <StudentSet
         student1={strings.Members.Julia}
-        level1={strings.Members.Levels.masters}
+        level1={strings.Members.Levels.phd}
         image1={img_Julia}
         student2={strings.Members.Kamylle}
-        level2={strings.Members.Levels.phd}
+        level2={strings.Members.Levels.undergrad}
         image2={img_Kamylle}
         student3={strings.Members.Katrine}
         level3={strings.Members.Levels.undergrad}
@@ -189,10 +189,10 @@ function App() {
         level2={strings.Members.Levels.undergrad}
         image2={img_LaurenceF}
         student3={strings.Members.Owen}
-        level3={strings.Members.Levels.undergrad}
+        level3={strings.Members.Levels.phd}
         image3={img_Owen}
         student4={strings.Members.Renaud}
-        level4={strings.Members.Levels.undergrad}
+        level4={strings.Members.Levels.masters}
         image4={img_Renaud}
       />
           
