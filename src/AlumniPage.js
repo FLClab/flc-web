@@ -2,8 +2,6 @@ import React from 'react';
 import AlumniSet from "./AlumniSet";
 import img_Alexandre from "./img/members/Alexandre_Boulay_crop.JPG";
 import img_GabLeclerc from "./img/members/Gabriel_Leclerc.png";
-import img_Emile from "./img/members/LouisEmile_Robitaille.png";
-import img_Mariame from "./img/members/Mariame_Coulibaly.PNG";
 import img_Philippe from "./img/members/Philippe_Gagnon_crop.png";
 import img_Marie from "./img/members/Marie_crop.jpg";
 import img_Samuel from "./img/members/Samuel_crop.jpg";
