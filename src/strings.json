@@ -69,7 +69,6 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand"
         },
-
         "AntoineG": {
             "name": "Antoine Girard",
             "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique.",
@@ -126,7 +125,6 @@
             "director": "Christian Gagné",
             "codirector": "Flavie Lavoie-Cardinal"
         },
-
         "JM": {
             "name": "Jean-Michel Bellavance",
             "info": " During my first year of bachelor’s degree in Microbiology, I completed a summer internship in a neuroscience laboratory where I learned the patch-clamp technique. I loved participating in this experience because of the challenge of being immersed in a field that I knew almost nothing of with a task as hard as to complete a patch-clamp project during the summer. My interest in psychology also further motivated me to start a master’s degree in Neuroscience. In Flavie’s lab, I will now combine STED microscopy and functional imaging to try to elucidate causal mechanisms of different diseases like ALS and Parkinson’s disease. I will focus on synaptic symptoms in these disease models.",
@@ -146,45 +144,43 @@
                 "director": "Flavie Lavoie-Cardinal",
                 "info": "Détection des segmentations d'événements calciques par apprentissage profond dans des images de microscopie de diverses modalités",
                  "codirector": ""
-            }, 
-        
-         "Kamylle": {
+        }, 
+        "Kamylle": {
                 "name": "Kamylle Thériault",
                 "Program": "Undergraduate in Bioinformatics (2022)",
                 "director": "Flavie Lavoie-Cardinal",
                 "codirector": "",
                 "info":"Segmentation and analysis of mitochondria in human neurons"
-            },  
-            "Koraly": {
-                "name": "Koraly Lessard",
-                "Program": "Undergraduate in Bioinformatics (2022)",
-                "director": "Flavie Lavoie-Cardinal",
-                "codirector": "",
-                "info": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution"
-                
-            },
-            "LaurenceF": {
-                "name": "Laurence Fontaine",
-                "Program": "Undergraduate in Bioinformatics (2021-2022)",
-                "director": "Flavie Lavoie-Cardinal",
-                "codirector": "",
-                "info": "Classification et génération automatique de protéines post synaptique (2022)"
-            },
-            "LaurenceD": {
-                "name": "Laurence Descombes",
-                "Program": "Undergraduate in Engineering Physics (2022)",
-                "director": "Flavie Lavoie-Cardinal",
-                "codirector": "",
-                "info": "Alignement et caractérisation d’un microscope STED."
-            },
-            "Marie": {
-                "name": "Marie Lafontaine",
-                "Program": "Undergraduate in Engineering Physics (2022)",
-                "director": "Flavie Lavoie-Cardinal",
-                "codirector": "",
-                "info": "Analyse d’images de microscopie super-résolution de temps de vie"
-            },
-
+        },  
+        "Koraly": {
+            "name": "Koraly Lessard",
+            "Program": "Undergraduate in Bioinformatics (2022)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution"
+            
+        },
+        "LaurenceF": {
+            "name": "Laurence Fontaine",
+            "Program": "Undergraduate in Bioinformatics (2021-2022)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "Classification et génération automatique de protéines post synaptique (2022)"
+        },
+        "LaurenceD": {
+            "name": "Laurence Descombes",
+            "Program": "Undergraduate in Engineering Physics (2022)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "Alignement et caractérisation d’un microscope STED."
+        },
+        "Marie": {
+            "name": "Marie Lafontaine",
+            "Program": "Undergraduate in Engineering Physics (2022)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "Analyse d’images de microscopie super-résolution de temps de vie"
+        },
         "Owen": {
             "name": "Owen Ferguson",
             "info": "Parkinson’s disease affects more than 10 million people worldwide, and I’m interested in the mechanisms that lead to the death of dopamine-producing neurons in the disease. I am using stem cells from human patients to create neurons with Parkinson’s disease traits and I am using super-resolution microscopy to observe the differences between the mitochondria of healthy people and Parkinson’s disease patients.",
@@ -192,14 +188,13 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Martin Lévesque"
         },
-                    "PhilippeGT": {
-                "name": "Philippe G. Tremblay",
-                "Program": "Undergraduate in Microbiology (2022)",
-                "director": "Flavie Lavoie-Cardinal",
-                "codirector": "",
-                "info": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
-            },
-
+        "PhilippeGT": {
+            "name": "Philippe G. Tremblay",
+            "Program": "Undergraduate in Microbiology (2022)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
+        },
         "Renaud": {
             "name": "Renaud Bernatchez",
             "info": "While completing internships in the lab during my bachelor’s degree in bioinformatics, I became fascinated with the application of deep learning to analyse microscopy images. However, such approaches require large amounts of painstakingly annotated data. The goal of my master’s degree is to use active learning to reduce the amount of annotated data required to train deep learning models to analyse fluorescence microscopy images.",

@@ -12,7 +12,7 @@ import Research from "./Research";
 import MemberSet from './MemberSet';
 import PI from "./PI";
 import PublicationSet from "./PublicationSet";
-import SummerStudentList from "./SummerStudentList";
+import StudentPair from "./StudentPair";
 import StudentSet from "./StudentSet";
 import Zooniverse from "./Zooniverse";
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
@@ -46,6 +46,8 @@ function App() {
   const [pubScroll, setPubScroll] = useState(0);
   const [fundScroll, setFundScroll] = useState(0);
   const [contactScroll, setContactScroll] = useState(0);
+
+  console.log(strings.Members)
 
   useEffect(() => {
     const introTemp = document.getElementById('intro-section').offsetTop;
@@ -189,20 +191,20 @@ function App() {
         image4={synapses}
       />
           
-               <StudentSet
+      <StudentSet
         student1={strings.Members.Owen}
         level1={strings.Members.Levels.phd}
         image1={img_Owen}
-        student2={strings.Members.PhilGT}
+        student2={strings.Members.PhilippeGT}
         level2={strings.Members.Levels.undergrad}
         image2={synapses}
         student3={strings.Members.Renaud}
         level3={strings.Members.Levels.masters}
         image3={img_Renaud}
-        student4={strings.Members.Sam}
+        student4={strings.Members.Samuel}
         level4={strings.Members.Levels.undergrad}
         image4={synapses}
-          />
+      />
       <StudentPair
         student1={strings.Members.Vincent}
         level1={strings.Members.Levels.masters}
@@ -211,14 +213,6 @@ function App() {
         level2={strings.Members.Levels.masters}
         image2={img_William}
       />
-
-      <div className="summerstudents__label">
-        {strings.SummerStudents.label}
-      </div>
-      <div className="summerstudent-section__container">
-        <SummerStudentList header={strings.SummerStudents.currentLabel} studentList={strings.SummerStudents.current}/>
-        <SummerStudentList header={strings.SummerStudents.pastLabel} studentList={strings.SummerStudents.past}/>
-      </div>
 
       <div className="alumni-label__container">
         <Link className="alumni__label" to="alumni">{strings.Members.alumni}</Link>
