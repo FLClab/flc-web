@@ -17,10 +17,9 @@ function Banner() {
                     backgroundPositionY: "80%" }}
             >
                 <div className="banner">
-                    <div className="banner__fadeBottom" />
                     <img src={logo} alt="" 
                     style={{
-                        height: "450px",
+                        height: "500px",
                         width: "450px",
                         paddingTop: "20px",
                         margin: "auto",
@@ -28,6 +27,7 @@ function Banner() {
                     ></img>
                     <div className="banner__textcontent">{strings.Banner.groupInfo}</div>
                 </div>
+                <div className="banner__fadeBottom" />
             </div>
         </div>
     );
