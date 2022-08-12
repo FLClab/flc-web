@@ -41,7 +41,7 @@ import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
 import img_Eric from "./img/members/EricBergeron_crop.jpg";
-import synapses from "./img/gallery/cultures.png"
+import img_Katrine from "./img/members/Katrine_crop.JPG"
 
 
 function App() {
@@ -175,7 +175,7 @@ function App() {
         image2={img_Kamylle}
         student3={strings.Members.Katrine}
         level3={strings.Members.Levels.undergrad}
-        image3={synapses}
+        image3={img_Katrine}
         student4={strings.Members.Koraly}
         level4={strings.Members.Levels.undergrad}
         image4={img_Koraly}

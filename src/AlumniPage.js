@@ -7,6 +7,7 @@ import img_Marie from "./img/members/Marie_crop.jpg";
 import img_Samuel from "./img/members/Samuel_crop.jpg";
 import img_PhilGT from "./img/members/PhilippeGT_crop.jpg";
 import synapses from "./img/gallery/cultures.png";
+import img_ELodie from"./img/members/ElodieMoth_crop.jpg";
 import strings from './strings.json'
 import "./AlumniPage.css"
 import {FaRegArrowAltCircleLeft} from 'react-icons/fa';
@@ -27,7 +28,7 @@ function AlumniPage(){
                 alumni1={strings.Alumni.Alexandre}
                 img2={synapses}
                 alumni2={strings.Alumni.Bastian}
-                img3={synapses}
+                img3={img_ELodie}
                 alumni3={strings.Alumni.Elodie}
                 img4={synapses}
                 alumni4={strings.Alumni.Gabrielle}
