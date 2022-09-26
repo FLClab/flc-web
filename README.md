@@ -21,7 +21,7 @@
 
 ### Publications :
 
-- [] Make journal name (blue text) change color on hover (so people know they can click on it)
+- [ ] Make journal name (blue text) change color on hover (so people know they can click on it)
 
 ### Gallery
 
