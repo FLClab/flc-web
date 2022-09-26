@@ -12,18 +12,20 @@
 - [ ] Add Theresa and Eric (Make Alumni set of 2 people)
 
 ### Members: 
+
 - [ ] Remove Theresa  (Make Member set of 2 people)
 
 
 ### Students: 
+
 - [ ] Remove Eric (Make Student set of 1 person)
 
 
-### Publications :
+### Publications:
 
 - [ ] Make journal name (blue text) change color on hover (so people know they can click on it)
 
-### Gallery
+### Gallery:
 
 - [ ] Switch from scrollbar to dots for moving between set of 3 images
 - [ ] Add brain slice images (Andréanne)
