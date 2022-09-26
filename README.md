@@ -8,11 +8,20 @@
 
 ### Alumni:
 
-- [ ] onClick to new page
+- [X] onClick to new page
+- [ ] Add Theresa and Eric (Make Alumni set of 2 people)
 
-### Summer Students:
+### Members: 
+- [ ] Remove Theresa  (Make Member set of 2 people)
 
-- [ ] ModalWindow onClick as for the gallery
+
+### Students: 
+- [ ] Remove Eric (Make Student set of 1 person)
+
+
+### Publications :
+
+- [] Make journal name (blue text) change color on hover (so people know they can click on it)
 
 ### Gallery
 
