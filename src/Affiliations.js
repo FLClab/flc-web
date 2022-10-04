@@ -29,7 +29,7 @@ function Affiliations() {
             <a href="https://rbiq-qbin.qc.ca/" className="logo__item">
                 <img src={RBIQ} alt=""></img>
             </a>
-            <a href="https://https://sites.google.com/view/unique-neuro-ai/home" className="logo__item">
+            <a href="https://www.unique.quebec/" className="logo__item">
                 <img src={UNIQUE} alt=""></img>
             </a>
         </div>
