@@ -41,7 +41,7 @@ function Funding() {
                 <a href="https://neuronex.org/" className="logo__item">
                     <img src={NEURONEX} alt=""></img>
                 </a>
-                <a href="https://www.sshrc-crsh.gc.ca/funding-financement/nfrf-fnfr/index-eng.aspxs" className="logo__item">
+                <a href="https://www.sshrc-crsh.gc.ca/funding-financement/nfrf-fnfr/index-eng.aspx" className="logo__item">
                     <img src={NF} alt=""></img>
                 </a>
                 <a href="https://www.genomequebec.com/" className="logo__item">
