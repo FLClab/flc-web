@@ -381,10 +381,10 @@
         },
         "Mitos": {
             "authors": ["Van Steenbergen, V., ", "Lavoie-Cardinal, F., ", "Kazwiny, Y., ", "Decet, M., ", "Martens, T., ", "Verstreken, P., ", "Boesmans, W., ", "De Koninck, P., ", "Vanden Berghe, P."],
-            "year": "2020",
+            "year": "2022",
             "title": "Nano-positioning and tubuline conformation determine transport of mitochondria along microtubules.",
-            "source": "https://doi.org/10.1101/2020.04.27.064766",
-            "journal": "bioRxiv"
+            "source": "https://www.pnas.org/doi/abs/10.1073/pnas.2203499119",
+            "journal": "PNAS"
         },
         "GoldNano": {
             "authors": ["Lavoie-Cardinal, F., ", "Salesse, C., ", "Bergeron, É., ", "Meunier, M., ","De Koninck, P."],
