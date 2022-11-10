@@ -8,22 +8,21 @@
 
 ### Alumni:
 
-- [X] onClick to new page
+- [x] onClick to new page
 - [ ] Add Theresa and Eric (Make Alumni set of 2 people)
 
-### Members: 
+### Members:
 
-- [ ] Remove Theresa  (Make Member set of 2 people)
+- [ ] Remove Theresa (Make Member set of 2 people)
 
-
-### Students: 
+### Students:
 
 - [ ] Remove Eric (Make Student set of 1 person)
-
 
 ### Publications:
 
 - [ ] Make journal name (blue text) change color on hover (so people know they can click on it)
+- [ ] Add link to website if available for a given publication
 
 ### Gallery:
 
