@@ -370,7 +370,8 @@
             "year": "2018",
             "title": "A machine learning approach for online automated optimization of super-resolution optical microscopy.",
             "source": "https://www.nature.com/articles/s41467-018-07668-y",
-            "journal": "Nature communications"
+            "journal": "Nature communications",
+            "website": "https://lvsn.github.io/optimnanoscopy/"
         },
          "Prefnet": {
             "authors": ["Robitaille, L. É., ", "Durand, A., ", "Gardner, M. A., ", "Gagné, C., ", "De Koninck, P., ", "Lavoie-Cardinal, F., "],
