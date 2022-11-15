@@ -335,14 +335,16 @@
             "year": "2022",
             "title": "Microscopy analysis neural network to solve detection, enumeration, and segmentation from image-level annotations.",
             "source": "https://doi.org/10.1038/s42256-022-00472-w",
-            "journal": "Nature Machine Intelligence"
+            "journal": "Nature Machine Intelligence",
+            "website": "https://s3.valeria.science/flclab-micranet/index.html"
         },
         "TAGAN": {
             "authors": ["Bouchard, C., ", "Wiesner, T., ", "Deschênes, A., ", "Lavoie-Cardinal, F., ", "Gagné, C."],
             "year": "2021",
             "title": "Task-Assisted GAN for Resolution Enhancement and Modality Translation in Fluorescence Microscopy.",
             "source": "https://www.biorxiv.org/content/10.1101/2021.07.19.452964v1.abstract",
-            "journal": "bioRxiv"
+            "journal": "bioRxiv",
+            "website": "https://s3.valeria.science/flclab-tagan/index.html"
         },
         "Theresa": {
             "authors": ["Wiesner, T., ", "Bilodeau, A., ", "Bernatchez, R., ", "Deschênes, A., ", "Raulier, B., ", "De Koninck, P., ", "Lavoie-Cardinal, F."],
@@ -448,7 +450,9 @@
             "year": "2022",
             "title": " A postzygotic de novo NCDN mutation identified in a sporadic FTLD patient results in Neurochondrin haploinsufficiency and altered FUS granule dynamics.",
             "source": "https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-022-01314-x",
-            "journal": " Acta Neuropathol. Commun."
+            "journal": " Acta Neuropathol. Commun.",
+            "website": "https://s3.valeria.science/ncdn-fus/index.html"
+            
         },
            "Methods": {
             "authors": ["Bilodeau, A., ","Bouchard, C., ","Lavoie-Cardinal, F. "],
