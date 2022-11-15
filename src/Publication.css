@@ -31,3 +31,7 @@
   color: #007bff;
   text-decoration: none;
 }
+
+.publication__link:hover{
+  color: #87CEFA;
+}
