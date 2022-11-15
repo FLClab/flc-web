@@ -21,8 +21,8 @@
 
 ### Publications:
 
-- [ ] Make journal name (blue text) change color on hover (so people know they can click on it)
-- [ ] Add link to website if available for a given publication
+- [x] Make journal name (blue text) change color on hover (so people know they can click on it)
+- [x] Add link to website if available for a given publication
 
 ### Gallery:
 
