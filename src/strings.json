@@ -200,16 +200,7 @@
             "webpage": "https://phifamin.github.io/",
             "level": "Postdoctoral Researcher"
         },
-        "Theresa": {
-            "name": "Theresa Wiesner",
-            "info": "Coming from cancer research with focus on high throughput screening for drug development in the early years of my bachelor, I got fascinated during an internship with functional assays such as field recordings to study neuronal cell behaviour. I got hooked on doing my master in bio-photonics to learn functional imaging. During my PhD I combined functional assays, super-resolution imaging and computational tools to quantitatively assess and explore synaptic protein organization and remodeling due to synaptic plasticity. Being a scientist for me is not a job, but a lifestyle in which I can be continuously curious and explore across fields, be it from neuroscience, photonics to machine learning. In another life, I would be a diplomat who writes fiction books on the side.",
-            "image": "./img/members/Theresa_Wiesner_crop.png",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Christian Gagné",
-            "twitter": "https://twitter.com/terrymosoly",
-            "webpage": "https://wiesnertheresa.github.io/",
-            "level": "Postdoctoral Researcher"
-        },
+
         "Valerie": {
             "name": "Valérie Clavet-Fournier",
             "info": "My fascination for neuroscience appeared during my bachelor’s degree in biochemistry where I got the opportunity to do an internship with Paul De Koninck. I learned a lot about the learning and memory process via glutamatergic transmission and synaptic plasticity. I got so interested in the subject that it became the heart of my master’s project which was to elucidate the role of calpain in synaptic transmission. I pursued my PhD degree in the same fascinating field of neuroscience where I studied the structural remodeling of synaptic proteins with super-resolution STED microscopy after activity-driven plasticity of glutamatergic synapses in organotypic slices. With my background, I am now really glad to work in the FLC lab on the structural plasticity of synaptic proteins using STED microscopy and correlate those changes with the local activity of the neurons.",
@@ -307,6 +298,21 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
             "Title": "Protocole standardisé de culture de Caco-2"
+        },
+                "Theresa": {
+            "name": "Theresa Wiesner",
+            "Program": "Doctorate in Biophotonics(-2021)",
+            "director": "Paul De Koninck",
+            "codirector": "Flavie Lavoie-Cardinal",
+            "Title": "Quantitative assessment of synaptic plasticity at the molecular scale with multimodal microscopy and computational tools",
+            
+            
+            "info": "Coming from cancer research with focus on high throughput screening for drug development in the early years of my bachelor, I got fascinated during an internship with functional assays such as field recordings to study neuronal cell behaviour. I got hooked on doing my master in bio-photonics to learn functional imaging. During my PhD I combined functional assays, super-resolution imaging and computational tools to quantitatively assess and explore synaptic protein organization and remodeling due to synaptic plasticity. Being a scientist for me is not a job, but a lifestyle in which I can be continuously curious and explore across fields, be it from neuroscience, photonics to machine learning. In another life, I would be a diplomat who writes fiction books on the side.",
+            "image": "./img/members/Theresa_Wiesner_crop.png",
+          
+            "twitter": "https://twitter.com/terrymosoly",
+            "webpage": "https://wiesnertheresa.github.io/",
+            "level": "Postdoctoral Researcher"
         },
         "AndreanneMSc": {
             "name": "Andréanne Deschênes",
