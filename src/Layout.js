@@ -5,12 +5,12 @@ import Affiliations from "./Affiliations";
 import Nav from "./Nav";
 import Banner from "./Banner";
 import ContactUs from "./ContactUs";
+import DynamicMemberSet from './DynamicMemberSet';
 import DynamicStudentSet from './DynamicStudentSet';
 import Funding from "./Funding";
 import Gallery from "./Gallery";
 import Intro from "./Intro";
 import Research from "./Research";
-import MemberSet from './MemberSet';
 import PI from "./PI";
 import PublicationSet from "./PublicationSet";
 import Zooniverse from "./Zooniverse";
@@ -22,9 +22,7 @@ import img_AntoineG from "./img/members/Antoine_Girard_crop.png";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
 import img_Alexy from "./img/members/Alexy_crop.jpg";
-import img_Kamylle from "./img/members/Kamylle_crop.jpg";
 import img_Koraly from "./img/members/Koraly_crop.jpg";
-import img_LaurenceD from "./img/members/LaurenceD_crop.jpg";
 import img_LaurenceF from "./img/members/LaurenceF_crop.jpg";
 import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
@@ -33,13 +31,11 @@ import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
 import img_Owen from "./img/members/OwenFerguson_crop.JPG";
 import img_Renaud from "./img/members/renaud_bernatchez_crop.png";
 import img_Valerie from "./img/members/Valerie_ClavetFournier_crop.jpg";
-import img_Theresa from "./img/members/Theresa_Wiesner_crop.png";
 import img_William from "./img/members/WilliamL_crop.png";
 import img_Vincent from "./img/members/Vincent_Boily_crop.png";
 import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
-import img_Eric from "./img/members/EricBergeron_crop.jpg";
 import img_Katrine from "./img/members/Katrine_crop.JPG"
 
 
@@ -85,6 +81,11 @@ function App() {
     {"student": strings.Members.William, "img": img_William},
   ]
 
+  let memberSet1 = [
+    {"member": strings.Members.Roseline, "img": img_Roseline},
+    {"member": strings.Members.Valerie, "img": img_Valerie},
+  ]
+
   useEffect(() => {
     const introTemp = document.getElementById('intro-section').offsetTop;
     setIntroScroll(introTemp);
@@ -124,26 +125,11 @@ function App() {
         {strings.Members.members}
       </div>
       <PI data={strings.Members.Flavie} level={strings.Members.Levels.pi} img={img_Flavie}/>
-      <MemberSet
-        member1={strings.Members.Valerie}
-        member2={strings.Members.Theresa}
-        member3={strings.Members.Roseline}
-        level1={strings.Members.Levels.research}
-        level2={strings.Members.Levels.postdoc}
-        level3={strings.Members.Levels.postdoc}
-        image1={img_Valerie}
-        image2={img_Theresa}
-        image3={img_Roseline}
-        hasDirectors1={false}
-        hasDirectors2={true}
-        hasDirectors3={true}
-        director1=""
-        director2={strings.Members.Theresa.director}
-        director3={strings.Members.Roseline.director}
-        codirector1=""
-        codirector2={strings.Members.Theresa.codirector}
-        codirector3={strings.Members.Roseline.codirector}
+      
+      <DynamicMemberSet
+        data={memberSet1}
       />
+
       { /* Students */ }
       <div className="students__label" id="students-section">
         {strings.Members.students}
