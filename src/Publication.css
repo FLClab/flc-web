@@ -25,7 +25,7 @@
   color: #d3d3d3;
 }
 
-.publication__link, .publication__website {
+.publication__link-button, .publication__website-button{
   font-size: 1.2rem;
   line-height: 1.4;
   color: #d3d3d3;
@@ -34,6 +34,13 @@
   background: none;
   border-radius: 10px;
   margin-right: 10px;
+}
+
+.publication__link, .publication__website {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: #d3d3d3;
+  text-decoration: none;
 }
 
 .publication__link:hover{

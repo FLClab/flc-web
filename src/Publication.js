@@ -12,8 +12,14 @@ function Publication({data, studentIds}){
             {/* <span className="publication__authors">{data.authors}</span> */}
             <span className="publication__title">{data.title}, ({data.year}) </span>
             <div className="publication__hyperlinks">
-                <button href={data.source} className="publication__link">{data.journal}</button>
-                {data.website && <button href={data.website} className="publication__website"> Website</button>}
+                <button className="publication__link-button">
+                    <a className="publication__link" href={data.source}>{data.journal}</a>
+                </button>
+                {data.website && 
+                    <button className="publication__website-button">
+                         <a href={data.website}className="publication__website">Website</a>
+                    </button>
+                }
             </div>
         </div>
     )
