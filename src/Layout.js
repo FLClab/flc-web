@@ -13,8 +13,6 @@ import Research from "./Research";
 import MemberSet from './MemberSet';
 import PI from "./PI";
 import PublicationSet from "./PublicationSet";
-import StudentPair from "./StudentPair";
-import StudentSet from "./StudentSet";
 import Zooniverse from "./Zooniverse";
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
