@@ -9,7 +9,7 @@
 .publication__author {
   font-size: 1.2rem;
   line-height: 1.4;
-  color: #8f8f8f;
+  color: #d3d3d3;
 }
 
 .publication__author-color {
@@ -22,7 +22,7 @@
   font-size: 1.2rem;
   font-style: italic;
   line-height: 1.4;
-  color: #8f8f8f;
+  color: #d3d3d3;
 }
 
 .publication__link, .publication__website {
