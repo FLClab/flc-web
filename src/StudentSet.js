@@ -6,8 +6,6 @@ function StudentSet({student1, level1, image1,
                     student2, level2, image2,
                     student3, level3, image3,
                     student4, level4, image4}){
-
-    console.log(student2)
     return (
         <div className="student-set__container">
             <Student

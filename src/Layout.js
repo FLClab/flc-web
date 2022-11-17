@@ -5,6 +5,7 @@ import Affiliations from "./Affiliations";
 import Nav from "./Nav";
 import Banner from "./Banner";
 import ContactUs from "./ContactUs";
+import DynamicStudentSet from './DynamicStudentSet';
 import Funding from "./Funding";
 import Gallery from "./Gallery";
 import Intro from "./Intro";
@@ -52,7 +53,39 @@ function App() {
   const [fundScroll, setFundScroll] = useState(0);
   const [contactScroll, setContactScroll] = useState(0);
 
-  console.log(strings.Members)
+  let studentSet1 = [
+    {"student": strings.Members.Albert, "img": img_Albert},
+    {"student": strings.Members.Alexis, "img": img_Alexis},
+    {"student": strings.Members.Alexy, "img": img_Alexy},
+    {"student": strings.Members.Andreanne, "img": img_Andreanne},
+  ]
+
+  let studentSet2 = [
+    {"student": strings.Members.Anthony, "img": img_Anthony},
+    {"student": strings.Members.AntoineG, "img": img_AntoineG},
+    {"student": strings.Members.AntoineO, "img": img_AntoineO},
+    {"student": strings.Members.Benoit, "img": img_Benoit}
+  ]
+
+  let studentSet3 = [
+    {"student": strings.Members.Catherine, "img": img_Catherine},
+    {"student": strings.Members.Frederic, "img": img_Fred},
+    {"student": strings.Members.JM, "img": img_JM},
+    {"student": strings.Members.Julia, "img": img_Julia},
+  ]
+
+  let studentSet4 = [
+    {"student": strings.Members.Katrine, "img": img_Katrine},
+    {"student": strings.Members.Koraly, "img": img_Koraly},
+    {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
+    {"student": strings.Members.Owen, "img": img_Owen},
+  ]
+
+  let studentSet5 = [
+    {"student": strings.Members.Renaud, "img": img_Renaud},
+    {"student": strings.Members.Vincent, "img": img_Vincent},
+    {"student": strings.Members.William, "img": img_William},
+  ]
 
   useEffect(() => {
     const introTemp = document.getElementById('intro-section').offsetTop;
@@ -117,92 +150,21 @@ function App() {
       <div className="students__label" id="students-section">
         {strings.Members.students}
       </div>
-      <StudentSet
-        student1={strings.Members.Albert}
-        level1={strings.Members.Levels.masters}
-        image1={img_Albert}
-        student2={strings.Members.Alexis}
-        level2={strings.Members.Levels.phd}
-        image2={img_Alexis}
-        student3={strings.Members.Alexy}
-        level3={strings.Members.Levels.undergrad}
-        image3={img_Alexy}
-        student4={strings.Members.Andreanne}
-        level4={strings.Members.Levels.phd}
-        image4={img_Andreanne}
-       
-
+      <DynamicStudentSet
+        data={studentSet1}
       />
-      <StudentSet 
-        student1={strings.Members.Anthony}
-        level1={strings.Members.Levels.phd}
-        image1={img_Anthony}
-        student2={strings.Members.AntoineG}
-        level2={strings.Members.Levels.masters}
-        image2={img_AntoineG}
-        student3={strings.Members.AntoineO}
-        level3={strings.Members.Levels.masters}
-        image3={img_AntoineO}
-        student4={strings.Members.Benoit}
-        level4={strings.Members.Levels.masters}
-        image4={img_Benoit}
-
-      
+      <DynamicStudentSet
+        data={studentSet2}
       />
-      <StudentSet
-        student1={strings.Members.Catherine}
-        level1={strings.Members.Levels.phd}
-        image1={img_Catherine}
-        student2={strings.Members.Eric}
-        level2={strings.Members.Levels.masters}
-        image2={img_Eric}
-        student3={strings.Members.Frederic}
-        level3={strings.Members.Levels.phd}
-        image3={img_Fred}
-        student4={strings.Members.JM}
-        level4={strings.Members.Levels.masters}
-        image4={img_JM}
-
-
-
+      <DynamicStudentSet
+        data={studentSet3}
       />
-      <StudentSet
-        student1={strings.Members.Julia}
-        level1={strings.Members.Levels.phd}
-        image1={img_Julia}
-        student2={strings.Members.Kamylle}
-        level2={strings.Members.Levels.undergrad}
-        image2={img_Kamylle}
-        student3={strings.Members.Katrine}
-        level3={strings.Members.Levels.undergrad}
-        image3={img_Katrine}
-        student4={strings.Members.Koraly}
-        level4={strings.Members.Levels.undergrad}
-        image4={img_Koraly}
+      <DynamicStudentSet
+        data={studentSet4}
       />
           
-      <StudentSet
-        student1={strings.Members.LaurenceD}
-        level1={strings.Members.Levels.undergrad}
-        image1={img_LaurenceD}
-        student2={strings.Members.LaurenceF}
-        level2={strings.Members.Levels.masters}
-        image2={img_LaurenceF}
-        student3={strings.Members.Owen}
-        level3={strings.Members.Levels.phd}
-        image3={img_Owen}
-        student4={strings.Members.Renaud}
-        level4={strings.Members.Levels.masters}
-        image4={img_Renaud}
-      />
-          
-      <StudentPair
-        student1={strings.Members.Vincent}
-        level1={strings.Members.Levels.masters}
-        image1={img_Vincent}
-        student2={strings.Members.William}
-        level2={strings.Members.Levels.masters}
-        image2={img_William}
+      <DynamicStudentSet
+        data={studentSet5}
       />
 
       <div className="alumni-label__container">

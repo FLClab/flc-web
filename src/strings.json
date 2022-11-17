@@ -39,153 +39,173 @@
             "info": "During my two years of experience as a junior engineer in the photonics industry, one thing I realized is that trial and error is an important part of numerous real-life problems. A good example of a problem involving trial and error is super-resolution imaging of biological samples, which typically requires the tuning of several parameters for a new sample. My research project is about multi-objective online bandit optimization of super-resolution microscope parameters.",
             "image": "./img/members/Albert_Michaud_crop.png",
             "director": "Audrey Durand",
-            "codirector": "Flavie Lavoie-Cardinal"
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "MSc Student"
         },
         "Alexis": {
             "name": "Alexis Lebrun",
             "info": "Graduated in Engineering Physics in 2018, I am currently pursuing a PhD in biophotonics at the CERVO and COPL (Centre d'Optique, Photonique et Laser) research centers. My project is ambitious and combines several disciplines in engineering and neuroscience, including nanomaterials, deep learning, super-resolution microscopy and microfluidics. In my project, I aim to develop a highly sensitive, machine-learning assisted molecular identification method that will allow real-time identification and differentiation of biomarkers of gut permeability in microfluidic devices that closely mimic the gastrointestinal tract environment. I am also trying to implement this technique in a super-resolution microscope to realize super-resolved molecular images.",
             "image": "./img/members/Alexis_Lebrun_crop.jpg",
             "director": "Denis Boudreau",
-            "codirector": "Flavie Lavoie-Cardinal"
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "MSc Student"
         },
         "Alexy": {
             "name": "Alexy Pelletier-Rioux",
             "info": "Super-résolution de la Cofiline lors de la formation des fibres d'actine.",
             "image": "./img/members/Alexis_Lebrun_crop.jpg",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": ""
+            "codirector": "",
+            "level": "Undergraduate Student"
         },
         "Andreanne": {
             "name": "Andréanne Deschênes",
             "info": "My PhD project consists in designing a multimodal super-resolution microscope which we will use to study how proteins reorganize in neurons when the strength of their connections is altered by activity. We also aim to use this microscope to investigate the influence of diet on the permeability of the gut.",
             "image": "./img/members/Andreanne_Deschenes_crop.JPG",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Paul De Koninck"
+            "codirector": "Paul De Koninck",
+            "level": "PhD Student"
         },
         "Anthony": {
             "name": "Anthony Bilodeau",
             "info": "My PhD project consists in building a super-resolution microscope that will be able to adapt to the sample using reinforcement learning. During my master, I developed weakly-supervised techniques to facilitate the analysis of microscopy images. ",
             "image": "./img/members/Anthony_Bilodeau_crop.JPG",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Audrey Durand"
+            "codirector": "Audrey Durand",
+            "level": "PhD Student"
         },
         "AntoineG": {
             "name": "Antoine Girard",
             "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique.",
             "image": "./img/members/Antoine_Girard_crop.png",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Marie-Eve Paquet"
+            "codirector": "Marie-Eve Paquet",
+            "level": "MSc Student"
         },
         "AntoineO": {
             "name": "Antoine Séverin Ollier",
             "info": "After obtaining my degree in Engineering from Télécom Saint-Étienne in France, I decided to continue my studies in the field of microscopy and machine learning. I decided to join a multidisciplinary lab because I was interested in collaborating with other scientists. In my Master’s degree project, I am working on implementing a new type of detector that will allow us to make temporal and hyperspectral images on the STED microscope. I’m also working on machine learning algorithms that will enhance the amount of acquired signal in low-photon conditions.",
             "image": "./img/members/AntoineSeverinOllier.JPG",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Christian Gagné"
+            "codirector": "Christian Gagné",
+            "level": "MSc Student"
         },
         "Benoit": {
             "name": "Benoit Turcotte",
             "info": "The objective of my project is to use reinforcement learning to learn an optimal imaging scheme that would allow to image Ca2+ signaling events by maximizing resolution while minimizing photobleaching. The training will be done in simulation, which means we will also study how well an optimal policy learned in simulation transfers to real life, and how we can further fine tune it.",
             "image": "./img/members/Benoit_Turcotte_crop.JPG",
             "director": "Audrey Durand",
-            "codirector": "Flavie Lavoie-Cardinal"
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "MSc Student"
         },
         "Catherine": {
             "name": "Catherine Bouchard",
             "info": "After a bachelor's degree in engineering physics, I'm pursuing my studies in the field of machine learning to extend my knowledge to new methods applied to subjects I was already passionate about, such as photonics and life science. My project focuses specifically on the application of deep neural networks for algorithmic super-resolution of fluorescence microscopy images.",
             "image": "./img/members/Catherine_Bouchard_crop.png",
             "director": "Christian Gagné",
-            "codirector": "Flavie Lavoie-Cardinal"
-
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "PhD Student"
         },
         "Eric": {
             "name": "Éric Bergeron",
             "info": "Programmer, computer scientist, world traveler, CDT thru-hiker, co-founder of Echovita and Funerago, I am currently finishing my master's degree in artificial intelligence (AI). Knowing several people dealing with a neurodegenerative disease, I decided to apply my AI knowledge to the cause. I work on automatic instance segmentation of microglial cells in 3D images. This will allow scientists to quantify the gut's impact on microglia during the development of larval zebrafish.",
             "director": "Paul De Koninck",
-            "codirector": "Flavie Lavoie-Cardinal"
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "MSc Student"
         },
         "Flavie": {
             "name": "Flavie Lavoie-Cardinal",
             "info": "TBD.",
             "email": "flavie.lavoie-cardinal@cervo.ulaval.ca",
-            "scholar": "https://scholar.google.com/citations?user=ZrolyuIAAAAJ&hl=en&oi=ao"
+            "scholar": "https://scholar.google.com/citations?user=ZrolyuIAAAAJ&hl=en&oi=ao",
+            "level": "Principal Investigator"
         },
         "Frederic": {
             "name": "Frédéric Beaupré",
             "info": "The main endeavour of my project is to develop new and improved anomaly detection methods designed for the detection of early signs of neurodegeneration (in Parkinson’s disease and ALS) in synaptic populations, and the discovery of new biomarkers associated with the neurodegenerative diseases. The striking similarities between optical brain imaging and astronomical data motivates our drawing inspiration from deep-learning-based methods in the latter field for developing our image acquisition and anomaly detection approaches.",
             "image": "./img/gallery/SynapticProteins.png",
             "director": "Christian Gagné",
-            "codirector": "Flavie Lavoie-Cardinal"
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "PhD Student"
         },
         "JM": {
             "name": "Jean-Michel Bellavance",
             "info": " During my first year of bachelor’s degree in Microbiology, I completed a summer internship in a neuroscience laboratory where I learned the patch-clamp technique. I loved participating in this experience because of the challenge of being immersed in a field that I knew almost nothing of with a task as hard as to complete a patch-clamp project during the summer. My interest in psychology also further motivated me to start a master’s degree in Neuroscience. In Flavie’s lab, I will now combine STED microscopy and functional imaging to try to elucidate causal mechanisms of different diseases like ALS and Parkinson’s disease. I will focus on synaptic symptoms in these disease models.",
             "image": "./img/members/JeanMichelBellavance_crop.png",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Chantelle Stephon"
+            "codirector": "Chantelle Stephon",
+            "level": "MSc Student"
         },
         "Julia": {
             "name": "Julia Chabbert",
             "info": "The brain is a super-machine governing our behaviors and emotions. Interested in understanding the functioning of this beautiful and complex organ, I completed a master's degree in neuroscience at the University of Bordeaux (France). My background in neuroscience directed my interests towards the discovery of the infinitely small. Indeed, connection interfaces between neurons, named synapses, replete proteins highly active to ensure good cell communication. Thus, my PhD project, co-supervised by Dr. Flavie Lavoie-Cardinal and Dr. Paul De Koninck, is to identify the molecular mechanisms underlying the remodeling of the synaptic cytoskeleton during long-term potentiation, a phenomenon involved in memory. In this aim, super-resolution microscopy is a considerable asset.",
             "director": "Paul De Koninck",
-            "codirector": "Flavie Lavoie-Cardinal"
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "PhD Student"
         },
         "Katrine": {
-                "name": "Katrine Castonguay",
-                "Program": "Undergraduate in Bioinformatics (2022)",
-                "director": "Flavie Lavoie-Cardinal",
-                "info": "Détection des segmentations d'événements calciques par apprentissage profond dans des images de microscopie de diverses modalités",
-                 "codirector": ""
+            "name": "Katrine Castonguay",
+            "Program": "Undergraduate in Bioinformatics (2022)",
+            "director": "Flavie Lavoie-Cardinal",
+            "info": "Détection des segmentations d'événements calciques par apprentissage profond dans des images de microscopie de diverses modalités",
+            "codirector": "",
+            "level": "Undergraduate Student"
         }, 
         "Kamylle": {
-                "name": "Kamylle Thériault",
-                "Program": "Undergraduate in Bioinformatics (2022)",
-                "director": "Flavie Lavoie-Cardinal",
-                "codirector": "",
-                "info":"Segmentation and analysis of mitochondria in human neurons"
+            "name": "Kamylle Thériault",
+            "Program": "Undergraduate in Bioinformatics (2022)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info":"Segmentation and analysis of mitochondria in human neurons",
+            "level": "Undergraduate Student"
         },  
         "Koraly": {
             "name": "Koraly Lessard",
             "Program": "Undergraduate in Bioinformatics (2022)",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
-            "info": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution"
-            
+            "info": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution",
+            "level": "Undergraduate Student"
         },
         "LaurenceF": {
             "name": "Laurence Fontaine",
             "Program": "Undergraduate in Bioinformatics (2021-2022)",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
-            "info": "Classification et génération automatique de protéines post synaptique (2022)"
+            "info": "Classification et génération automatique de protéines post synaptique (2022)",
+            "level": "MSc Student"
         },
         "LaurenceD": {
             "name": "Laurence Descombes",
             "Program": "Undergraduate in Engineering Physics (2022)",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
-            "info": "Alignement et caractérisation d’un microscope STED."
+            "info": "Alignement et caractérisation d’un microscope STED.",
+            "level": "Undergraduate Student"
         },
         "Owen": {
             "name": "Owen Ferguson",
             "info": "Parkinson’s disease affects more than 10 million people worldwide, and I’m interested in the mechanisms that lead to the death of dopamine-producing neurons in the disease. I am using stem cells from human patients to create neurons with Parkinson’s disease traits and I am using super-resolution microscopy to observe the differences between the mitochondria of healthy people and Parkinson’s disease patients.",
             "image": "./img/members/OwenFerguson_crop.JPG",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Martin Lévesque"
+            "codirector": "Martin Lévesque",
+            "level": "PhD Student"
         },
         "Renaud": {
             "name": "Renaud Bernatchez",
             "info": "While completing internships in the lab during my bachelor’s degree in bioinformatics, I became fascinated with the application of deep learning to analyse microscopy images. However, such approaches require large amounts of painstakingly annotated data. The goal of my master’s degree is to use active learning to reduce the amount of annotated data required to train deep learning models to analyse fluorescence microscopy images.",
             "image": "./img/members/renaud_bernatchez_crop.png",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Audrey Durand"
+            "codirector": "Audrey Durand",
+            "level": "PhD Student"
         },
         "Roseline": {
             "name": "Roseline Olory Agomma",
             "info": "TBD.",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
-            "webpage": "https://phifamin.github.io/"
+            "webpage": "https://phifamin.github.io/",
+            "level": "Postdoctoral Researcher"
         },
         "Theresa": {
             "name": "Theresa Wiesner",
@@ -194,26 +214,30 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Christian Gagné",
             "twitter": "https://twitter.com/terrymosoly",
-            "webpage": "https://wiesnertheresa.github.io/"
+            "webpage": "https://wiesnertheresa.github.io/",
+            "level": "Postdoctoral Researcher"
         },
         "Valerie": {
             "name": "Valérie Clavet-Fournier",
             "info": "My fascination for neuroscience appeared during my bachelor’s degree in biochemistry where I got the opportunity to do an internship with Paul De Koninck. I learned a lot about the learning and memory process via glutamatergic transmission and synaptic plasticity. I got so interested in the subject that it became the heart of my master’s project which was to elucidate the role of calpain in synaptic transmission. I pursued my PhD degree in the same fascinating field of neuroscience where I studied the structural remodeling of synaptic proteins with super-resolution STED microscopy after activity-driven plasticity of glutamatergic synapses in organotypic slices. With my background, I am now really glad to work in the FLC lab on the structural plasticity of synaptic proteins using STED microscopy and correlate those changes with the local activity of the neurons.",
-            "image": "./img/gallery/SynapticProteins.png"
+            "image": "./img/gallery/SynapticProteins.png",
+            "level": "Research Professional"
         },
         "Vincent": {
             "name": "Vincent Boily",
             "info": "For my master's project, I aim to refine a pipeline that will allow to combine whole-brain calcium imaging in larval zebrafish with visual stimulation, tail tracking and computational registration to brain atlases and postmortem immunostaining imaging to study the functional dynamics of the developing brain and the underlying contribution of specific neuromodulatory circuits in the context of learning and memory.",
             "image": "./img/gallery/SynapticProteins.png",
             "director": "Paul De Koninck",
-            "codirector": "Flavie Lavoie-Cardinal"
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "MSc Student"
         },
         "William": {
             "name": "William Leclerc",
             "info": "During my bachelor's degree in bioinformatics, I was introduced to the symbiosis between the field of machine learning and several aspects of neuroscience. My interests now revolve around what artificial intelligence, and particularly deep learning, can teach us about living organisms and the ways they learn. My master's project focuses more specifically on the detection of anomalies related to bacteria in culture. I aspire to combine my approaches from diverse fields to open the way to bold and multidisciplinary ideas.",
             "image": "./img/members/WilliamL_crop.png",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Audrey Durand"
+            "codirector": "Audrey Durand",
+            "level": "MSc Student"
         }
     },
     "Alumni": { 
