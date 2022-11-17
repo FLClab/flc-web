@@ -12,10 +12,10 @@
 .publication-toggle-info__button {
   border: none;
   background: none;
-  color: #ffc87c;
+  color: #ff9100;
   font-size: 1.2rem;
 }
 
 .publication-toggle-info__button:hover {
-  color: #ff9100;
+  color: tomato;
 }

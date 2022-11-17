@@ -28,14 +28,18 @@
 .publication__link, .publication__website {
   font-size: 1.2rem;
   line-height: 1.4;
-  color: #007bff;
+  color: #d3d3d3;
   text-decoration: none;
+  border-color: #ff9100;
+  background: none;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 .publication__link:hover{
-  color: #87CEFA;
+  color: #ff9100;
 }
 
 .publication__website:hover{
-  color: #87CEFA;
+  color: #ff9100;
 }
