@@ -32,8 +32,7 @@
 .member__name {
   letter-spacing: 1px;
   font-size: 120%;
-  text-shadow: 2px 2px 2px #333;
-  color: #00bfff;
+  color: #ff9100;
   margin-bottom: 5px;
   font-weight: 400;
 }
@@ -41,8 +40,7 @@
 .member__level {
   letter-spacing: 1px;
   font-size: 100%;
-  text-shadow: 2px 2px 2px #00bfff;
-  color: #fff;
+  color: white;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -50,7 +48,7 @@
 .member__director {
   font-size: 0.8rem;
   line-height: 1.4;
-  color: #8f8f8f;
+  color: #d3d3d3;
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
@@ -59,7 +57,7 @@
 .member__info {
   font-size: 1rem;
   line-height: 1.4;
-  color: #8f8f8f;
+  color: #d3d3d3;
   text-align: justify;
   margin-top: 10px;
 }
@@ -67,18 +65,23 @@
 .member-toggle-info__button {
   border: none;
   background: none;
-  color: #8f8f8f;
+  color: #d3d3d3;
+  font-size:0.9rem;
 }
 
 .member-toggle-info__button:hover {
-  color: #00bfff;
+  color: #ff9100;
 }
 
 .twitter__link, .webpage__link{
-  color: #00bfff;
+  color: #ff9100;
   margin-bottom: 5px;
-
 }
+
+.twitter__link:hover, .webpage__link:hover{
+  color:tomato;
+}
+
 
 .weblinks__container{
   display: flex;

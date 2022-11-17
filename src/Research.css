@@ -28,7 +28,8 @@
 .neuro__research-label {
   text-align: center;
   justify-content: center;
-  color: #ff9100;
+  color: white;
+  text-shadow: -1px -1px 0 #ff9100, 1px -1px 0 #ff9100, -1px 1px 0 #ff9100, 1px 1px 0 #ff9100;
   font-size: 1.5rem;
   margin-bottom: 20px;
 }
@@ -38,7 +39,7 @@
 .neuro__research-description {
   color: white;
   line-height: 1.9;
-  color: #8f8f8f;
+  color: #D3D3D3;
   font-size: 1.3rem;
   text-align: center;
 }

@@ -29,7 +29,7 @@
 .director__container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .student__name {
@@ -44,8 +44,7 @@
 .student__level {
   letter-spacing: 1px;
   font-size: 100%;
-  text-shadow: 2px 2px 2px #ff9100;
-  color: #fff;
+  color: white;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -62,15 +61,17 @@
 .student__info {
   font-size: 1rem;
   line-height: 1.4;
-  color: #8f8f8f;
+  color: #d3d3d3;
   text-align: justify;
   margin-top: 10px;
 }
 
 .toggle-info__button {
-  border: none;
+  border-color: #ff9100;
+  border-radius: 10px;
   background: none;
-  color: #8f8f8f;
+  color: #d3d3d3;
+  font-size: 0.9rem;
 }
 
 .toggle-info__button:hover {

@@ -27,8 +27,7 @@
 .pi__name {
   letter-spacing: 1px;
   font-size: 120%;
-  text-shadow: 2px 2px 2px #333;
-  color: #00bfff;
+  color: #ff9100;
   font-weight: 400;
   margin-bottom: 5px;
 }
@@ -36,8 +35,7 @@
 .pi__level {
   letter-spacing: 1px;
   font-size: 100%;
-  text-shadow: 2px 2px 2px #00bfff;
-  color: #fff;
+  color: white;
   font-weight: 400;
   margin-bottom: 10px;
 }

@@ -18,13 +18,13 @@ function Member({img, member, level, hasDirectors, director, codirector}){
            <img className="member__img" src={img} alt=""></img>
            <div className="info__container">
                 <div className="member__name">{member.name}</div>
+                <div className="member__level">{level}</div>
                 {hasDirectors && 
                 <div className="director__container">
                     <span className="member__director">Director: {director}</span>
                     <span className="member__director">Co-director: {codirector}</span>
                     </div>
                 }
-                <div className="member__level">{level}</div>
                 <div className="weblinks__container">
                     {member.twitter && <a href={member.twitter} className="twitter__link">Twitter</a>}
                     {member.webpage && <a href={member.webpage} className="webpage__link">Web page</a>}
