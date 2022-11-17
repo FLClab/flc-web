@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./PI.css";
 
 function PI({data, level, img}){
