@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import "./PI.css";
 
 function PI({data, level, img}){
-    const [showMore, setShowMore] = useState(false);
-    const [showMoreString, setShowMoreString] = useState('Show more');
+    // const [showMore, setShowMore] = useState(false);
+    // const [showMoreString, setShowMoreString] = useState('Show more');
 
-    const onReadMoreClick = () => {
-        setShowMore(!showMore);
-        showMore ? setShowMoreString('Show more') : setShowMoreString('Show less');
-    }
+    // const onReadMoreClick = () => {
+    //     setShowMore(!showMore);
+    //     showMore ? setShowMoreString('Show more') : setShowMoreString('Show less');
+    // }
 
     return (
         <div className="pi__container">
