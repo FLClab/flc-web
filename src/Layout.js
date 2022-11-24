@@ -18,7 +18,7 @@ import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
 import img_Anthony from "./img/members/Anthony_Bilodeau_crop.JPG";
-import img_AntoineG from "./img/members/Antoine_Girard_crop.png";
+import img_AntoineG from "./img/members/Antoine_Girard_crop.jpg";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
 import img_Alexy from "./img/members/Alexy_crop.jpg";
