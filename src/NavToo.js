@@ -20,13 +20,13 @@ function NavToo(){
     return(
         <div className={`nav__container ${scrolled && 'nav-white__container'}`}>
             <div className={`nav-link__container ${scrolled && 'nav-link-white__container'}`}>
-                <a className='nav-logo'>FLC Lab</a>
-                <a className={`nav-link ${scrolled && 'nav-link-white'}`}>Introduction</a>
-                <a className={`nav-link ${scrolled && 'nav-link-white'}`}>Members</a>
-                <a className={`nav-link ${scrolled && 'nav-link-white'}`}>Alumni</a>
-                <a className={`nav-link ${scrolled && 'nav-link-white'}`}>Gallery</a>
-                <a className={`nav-link ${scrolled && 'nav-link-white'}`}>Publications</a>
-                <a className={`nav-link ${scrolled && 'nav-link-white'}`}>Contact Us</a>
+                <a className='nav-logo' href="#home">FLC Lab</a>
+                <a className={`nav-link ${scrolled && 'nav-link-white'}`} href="#home">Introduction</a>
+                <a className={`nav-link ${scrolled && 'nav-link-white'}`} href="#home">Members</a>
+                <a className={`nav-link ${scrolled && 'nav-link-white'}`} href="#home">Alumni</a>
+                <a className={`nav-link ${scrolled && 'nav-link-white'}`} href="#home">Gallery</a>
+                <a className={`nav-link ${scrolled && 'nav-link-white'}`} href="#home">Publications</a>
+                <a className={`nav-link ${scrolled && 'nav-link-white'}`} href="#home">Contact Us</a>
             </div>
         </div>
     )
