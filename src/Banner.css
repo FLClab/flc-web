@@ -25,3 +25,7 @@
     #111
   );
 }
+
+.banner__container{
+  max-width: 100%;
+}

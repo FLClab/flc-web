@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Layout.css';
 import Affiliations from "./Affiliations";
-import Nav from "./Nav";
+// import Nav from "./Nav";
+import NavToo from './NavToo';
 import Banner from "./Banner";
 import ContactUs from "./ContactUs";
 import DynamicMemberSet from './DynamicMemberSet';
@@ -109,7 +110,7 @@ function App() {
 
   return (
     <div className="app">
-      <Nav 
+      {/* <Nav 
         id="nav-section" 
         navY={0}
         introY={introScroll}
@@ -118,7 +119,8 @@ function App() {
         pubY={pubScroll}
         fundingY={fundScroll}
         contactY={contactScroll}
-      />
+      /> */}
+      <NavToo />
       <Banner id="banner-section" />
       <Zooniverse />
       <div id="intro-section">
