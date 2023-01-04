@@ -43,12 +43,12 @@ import img_Katrine from "./img/members/Katrine_crop.JPG"
 
 
 function App() {
-  const [introScroll, setIntroScroll] = useState(0);
-  const [memberScroll, setMemberScroll] = useState(0);
-  const [galleryScroll, setGalleryScroll] = useState(0);
-  const [pubScroll, setPubScroll] = useState(0);
-  const [fundScroll, setFundScroll] = useState(0);
-  const [contactScroll, setContactScroll] = useState(0);
+  // const [introScroll, setIntroScroll] = useState(0);
+  // const [memberScroll, setMemberScroll] = useState(0);
+  // const [galleryScroll, setGalleryScroll] = useState(0);
+  // const [pubScroll, setPubScroll] = useState(0);
+  // const [fundScroll, setFundScroll] = useState(0);
+  // const [contactScroll, setContactScroll] = useState(0);
 
   let studentSet1 = [
     {"student": strings.Members.Albert, "img": img_Albert},
@@ -93,20 +93,20 @@ function App() {
     {"member": strings.Members.Valerie, "img": img_Valerie},
   ]
 
-  useEffect(() => {
-    const introTemp = document.getElementById('intro-section').offsetTop;
-    setIntroScroll(introTemp);
-    const memberTemp = document.getElementById('members-section').offsetTop;
-    setMemberScroll(memberTemp);
-    const galleryTemp = document.getElementById('gallery-section').offsetTop;
-    setGalleryScroll(galleryTemp)
-    const pubTemp = document.getElementById('publications-section').offsetTop;
-    setPubScroll(pubTemp);
-    const fundTemp = document.getElementById('funding-section').offsetTop;
-    setFundScroll(fundTemp);
-    const contactTemp = document.getElementById('contact-section').offsetTop;
-    setContactScroll(contactTemp);
-  }, [])
+  // useEffect(() => {
+  //   const introTemp = document.getElementById('intro-section').offsetTop;
+  //   setIntroScroll(introTemp);
+  //   const memberTemp = document.getElementById('members-section').offsetTop;
+  //   setMemberScroll(memberTemp);
+  //   const galleryTemp = document.getElementById('gallery-section').offsetTop;
+  //   setGalleryScroll(galleryTemp)
+  //   const pubTemp = document.getElementById('publications-section').offsetTop;
+  //   setPubScroll(pubTemp);
+  //   const fundTemp = document.getElementById('funding-section').offsetTop;
+  //   setFundScroll(fundTemp);
+  //   const contactTemp = document.getElementById('contact-section').offsetTop;
+  //   setContactScroll(contactTemp);
+  // }, [])
 
   return (
     <div className="app">
