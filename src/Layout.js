@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Layout.css';
 import Affiliations from "./Affiliations";
-// import Nav from "./Nav";
 import NavToo from './NavToo';
 import Banner from "./Banner";
 import ContactUs from "./ContactUs";
@@ -43,12 +42,12 @@ import img_Katrine from "./img/members/Katrine_crop.JPG"
 
 
 function App() {
-  // const [introScroll, setIntroScroll] = useState(0);
-  // const [memberScroll, setMemberScroll] = useState(0);
-  // const [galleryScroll, setGalleryScroll] = useState(0);
-  // const [pubScroll, setPubScroll] = useState(0);
-  // const [fundScroll, setFundScroll] = useState(0);
-  // const [contactScroll, setContactScroll] = useState(0);
+  const [introScroll, setIntroScroll] = useState(0);
+  const [memberScroll, setMemberScroll] = useState(0);
+  const [galleryScroll, setGalleryScroll] = useState(0);
+  const [pubScroll, setPubScroll] = useState(0);
+  const [fundScroll, setFundScroll] = useState(0);
+  const [contactScroll, setContactScroll] = useState(0);
 
   let studentSet1 = [
     {"student": strings.Members.Albert, "img": img_Albert},
@@ -75,9 +74,7 @@ function App() {
    {"student": strings.Members.Kamylle, "img": img_Kamylle},
     {"student": strings.Members.Katrine, "img": img_Katrine},
     {"student": strings.Members.Koraly, "img": img_Koraly},
-    {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
-   
-   
+    {"student": strings.Members.LaurenceD, "img": img_LaurenceD}, 
   ]
 
   let studentSet5 = [
@@ -93,20 +90,20 @@ function App() {
     {"member": strings.Members.Valerie, "img": img_Valerie},
   ]
 
-  // useEffect(() => {
-  //   const introTemp = document.getElementById('intro-section').offsetTop;
-  //   setIntroScroll(introTemp);
-  //   const memberTemp = document.getElementById('members-section').offsetTop;
-  //   setMemberScroll(memberTemp);
-  //   const galleryTemp = document.getElementById('gallery-section').offsetTop;
-  //   setGalleryScroll(galleryTemp)
-  //   const pubTemp = document.getElementById('publications-section').offsetTop;
-  //   setPubScroll(pubTemp);
-  //   const fundTemp = document.getElementById('funding-section').offsetTop;
-  //   setFundScroll(fundTemp);
-  //   const contactTemp = document.getElementById('contact-section').offsetTop;
-  //   setContactScroll(contactTemp);
-  // }, [])
+  useEffect(() => {
+    const introTemp = document.getElementById('intro-section').offsetTop;
+    setIntroScroll(introTemp);
+    const memberTemp = document.getElementById('members-section').offsetTop;
+    setMemberScroll(memberTemp);
+    const galleryTemp = document.getElementById('gallery-section').offsetTop;
+    setGalleryScroll(galleryTemp)
+    const pubTemp = document.getElementById('publications-section').offsetTop;
+    setPubScroll(pubTemp);
+    const fundTemp = document.getElementById('funding-section').offsetTop;
+    setFundScroll(fundTemp);
+    const contactTemp = document.getElementById('contact-section').offsetTop;
+    setContactScroll(contactTemp);
+  }, [])
 
   return (
     <div className="app">
@@ -120,7 +117,16 @@ function App() {
         fundingY={fundScroll}
         contactY={contactScroll}
       /> */}
-      <NavToo />
+      <NavToo 
+        id='nav-section'
+        navY={0}
+        introY={introScroll}
+        memberY={memberScroll}
+        galleryY={galleryScroll}
+        pubY={pubScroll}
+        fundingY={fundScroll}
+        contactY={contactScroll}
+      />
       <Banner id="banner-section" />
       <Zooniverse />
       <div id="intro-section">

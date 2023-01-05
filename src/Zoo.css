@@ -12,7 +12,8 @@
     flex-direction: column;
     width: 100%;
     align-self:center;
-    margin-top: 10%;
+    margin-top: 20%;
+    vertical-align: bottom;
 }
 
 .zoo-banner__textcontent{
