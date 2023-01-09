@@ -15,15 +15,6 @@
 
 - [ ] Remove Theresa (Make Member set of 2 people)
 
-### Students:
-
-- [ ] Remove Eric (Make Student set of 1 person)
-
-### Publications:
-
-- [x] Make journal name (blue text) change color on hover (so people know they can click on it)
-- [x] Add link to website if available for a given publication
-
 ### Gallery:
 
 - [ ] Switch from scrollbar to dots for moving between set of 3 images
