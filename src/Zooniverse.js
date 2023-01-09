@@ -11,7 +11,7 @@ function Zooniverse(){
                     backgroundSize: "cover", 
                     backgroundPositionX: "center",
                     backgroundRepeat: "no-repeat", 
-                    height: "80vh",
+                    height: "50vh",
                     backgroundPositionY: "60%" }}
             >
 

@@ -1,5 +1,8 @@
 .zoo-banner__container{
     margin-bottom: 5vh;
+    width: 80vw;
+    margin: auto;
+    border: 2vh solid white;
 }
 
 .zoo-banner__img {
