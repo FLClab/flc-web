@@ -13,7 +13,7 @@ import Intro from "./Intro";
 import Research from "./Research";
 import PI from "./PI";
 import PublicationSet from "./PublicationSet";
-import Zooniverse from "./Zooniverse";
+// import Zooniverse from "./Zooniverse";
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
