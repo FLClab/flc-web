@@ -1,5 +1,5 @@
 .zoo-banner__container{
-    margin-bottom: 50px;
+    margin-bottom: 5vh;
 }
 
 .zoo-banner__img {
@@ -13,23 +13,15 @@
     width: 100%;
     align-self:center;
     margin-top: 20%;
-    vertical-align: bottom;
 }
 
 .zoo-banner__textcontent{
-    font-size: 1.3rem;
+    font-size: 1.5vw;
     line-height: 1.4;
     color: magenta;
     text-align: center;
 }
 
-.zoo-banner__fadeBottom {
-    height: 7.4rem;
-    width: 100%;
-    background-image: linear-gradient(
-      180deg,
-      transparent,
-      rgba(37, 37, 37, 0.61),
-      #111
-    );
-  }
+.zoo-banner__textcontent:hover {
+    color: lightpink;
+}

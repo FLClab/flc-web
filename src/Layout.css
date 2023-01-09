@@ -25,15 +25,15 @@ body {
   text-align: center;
   color: white;
   text-shadow: -1px -1px 0 #ff9100, 1px -1px 0 #ff9100, -1px 1px 0 #ff9100, 1px 1px 0 #ff9100;
-  margin-bottom: 40px;
-  font-size: 2rem;
+  margin-bottom: 4vh;
+  font-size: 2.3vw;
   font-weight: 500;
   line-height: 1.2;
-  margin-top: 80px;
+  margin-top: 10vh;
 }
 
 .alumni-label__container{
-  margin-top: 40px;
+  margin-top: 5vh;
   text-align: center;
 }
 
@@ -41,11 +41,11 @@ body {
   text-align: center;
   color: white;
   text-shadow: -1px -1px 0 #ff9100, 1px -1px 0 #ff9100, -1px 1px 0 #ff9100, 1px 1px 0 #ff9100;
-  margin-bottom: 40px;
-  font-size: 2rem;
+  margin-bottom: 5vh;
+  font-size: 2.3vw;
   font-weight: 500;
   line-height: 1.2;
-  margin-top: 80px;
+  margin-top: 11vh;
   text-decoration: none;
   transition: transform 450ms;
   display: inline-block;
@@ -61,36 +61,36 @@ body {
   text-align: center;
   color: white;
   text-shadow: -1px -1px 0 #ff9100, 1px -1px 0 #ff9100, -1px 1px 0 #ff9100, 1px 1px 0 #ff9100;
-  margin-bottom: 40px;
-  font-size: 2rem;
+  margin-bottom: 4vh;
+  font-size: 2.3vw;
   font-weight: 500;
   line-height: 1.2;
-  margin-top: 80px;
+  margin-top: 11vh;
 }
 
 .contact__label {
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 4vh;
   font-size: 2.6rem;
   font-weight: 500;
   line-height: 1.2;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 6vw;
+  margin-right: 6vw;
 }
 
 hr.contact__hr {
   border: 1px solid white;
-  margin-bottom: 40px;
+  margin-bottom: 4vh;
 }
 
 .designed__by {
   color: white;
   margin: auto;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1vw;
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
 }
 
 .closing__line {
