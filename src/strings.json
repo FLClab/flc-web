@@ -192,14 +192,6 @@
             "codirector": "Audrey Durand",
             "level": "PhD Student"
         },
-        "Roseline": {
-            "name": "Roseline Olory Agomma",
-            "info": "TBD.",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Audrey Durand",
-            "webpage": "https://phifamin.github.io/",
-            "level": "Postdoctoral Researcher"
-        },
 
         "Valerie": {
             "name": "Valérie Clavet-Fournier",
@@ -207,14 +199,7 @@
             "image": "./img/gallery/SynapticProteins.png",
             "level": "Research Professional"
         },
-        "Vincent": {
-            "name": "Vincent Boily",
-            "info": "For my master's project, I aim to refine a pipeline that will allow to combine whole-brain calcium imaging in larval zebrafish with visual stimulation, tail tracking and computational registration to brain atlases and postmortem immunostaining imaging to study the functional dynamics of the developing brain and the underlying contribution of specific neuromodulatory circuits in the context of learning and memory.",
-            "image": "./img/gallery/SynapticProteins.png",
-            "director": "Paul De Koninck",
-            "codirector": "Flavie Lavoie-Cardinal",
-            "level": "MSc Student"
-        },
+
         "William": {
             "name": "William Leclerc",
             "info": "During my bachelor's degree in bioinformatics, I was introduced to the symbiosis between the field of machine learning and several aspects of neuroscience. My interests now revolve around what artificial intelligence, and particularly deep learning, can teach us about living organisms and the ways they learn. My master's project focuses more specifically on the detection of anomalies related to bacteria in culture. I aspire to combine my approaches from diverse fields to open the way to bold and multidisciplinary ideas.",
@@ -292,6 +277,17 @@
             "codirector": "",
             "Title": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
         },
+        
+                "Roseline": {
+            "name": "Roseline Olory Agomma",
+            "info": "TBD.",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Audrey Durand",
+            "webpage": "https://phifamin.github.io/",
+            "Program": "Postdoctoral Researcher (2022)",
+             "Title":  ""
+        },
+
         "Samuel": {
             "name": " Samuel Gagnon",
             "Program": "Undergraduate in Biochemistry (2022)",
@@ -313,6 +309,17 @@
             "twitter": "https://twitter.com/terrymosoly",
             "webpage": "https://wiesnertheresa.github.io/",
             "level": "Postdoctoral Researcher"
+        },
+        
+                "Vincent": {
+            "name": "Vincent Boily",
+            "info": "For my master's project, I aim to refine a pipeline that will allow to combine whole-brain calcium imaging in larval zebrafish with visual stimulation, tail tracking and computational registration to brain atlases and postmortem immunostaining imaging to study the functional dynamics of the developing brain and the underlying contribution of specific neuromodulatory circuits in the context of learning and memory.",
+            "image": "./img/gallery/SynapticProteins.png",
+            "director": "Paul De Koninck",
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "MSc Student",
+            "Title": "",
+            "Program": "Masters in Biophotonics (2018-2022)"
         },
         "AndreanneMSc": {
             "name": "Andréanne Deschênes",
