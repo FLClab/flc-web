@@ -34,8 +34,7 @@ import img_Owen from "./img/members/OwenFerguson_crop.JPG";
 import img_Renaud from "./img/members/renaud_bernatchez_crop.png";
 import img_Valerie from "./img/members/Valerie_ClavetFournier_crop.jpg";
 import img_William from "./img/members/WilliamL_crop.png";
-import img_Vincent from "./img/members/Vincent_Boily_crop.png";
-import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
+
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
 import img_Katrine from "./img/members/Katrine_crop.JPG"
@@ -81,12 +80,10 @@ function App() {
     {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
     {"student": strings.Members.Owen, "img": img_Owen},
     {"student": strings.Members.Renaud, "img": img_Renaud},
-    {"student": strings.Members.Vincent, "img": img_Vincent},
     {"student": strings.Members.William, "img": img_William},
   ]
 
-  let memberSet1 = [
-    {"member": strings.Members.Roseline, "img": img_Roseline},
+  let memberSet1 = [  
     {"member": strings.Members.Valerie, "img": img_Valerie},
   ]
 
