@@ -125,7 +125,7 @@ function App() {
         contactY={contactScroll}
       />
       <Banner id="banner-section" />
-      <Zooniverse />
+      {/* <Zooniverse /> */}
       <div id="intro-section">
         <Intro/>
       </div>
