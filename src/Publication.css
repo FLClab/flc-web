@@ -1,43 +1,43 @@
 .publication__container {
   display: list-item;
   color: white;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 30px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 3vh;
 }
 
 .publication__author {
-  font-size: 1.2rem;
+  font-size: 1.35vw;
   line-height: 1.4;
   color: #d3d3d3;
 }
 
 .publication__author-color {
-  font-size: 1.2rem;
+  font-size: 1.35vw;
   line-height: 1.4;
   color: #ff9100;
 }
 
 .publication__title {
-  font-size: 1.2rem;
+  font-size: 1.35vw;
   font-style: italic;
   line-height: 1.4;
   color: #d3d3d3;
 }
 
 .publication__link-button, .publication__website-button{
-  font-size: 1.2rem;
+  font-size: 1.35vw;
   line-height: 1.4;
   color: #d3d3d3;
   text-decoration: none;
   border-color: #ff9100;
   background: none;
   border-radius: 10px;
-  margin-right: 10px;
+  margin-right: 0.9vw;
 }
 
 .publication__link, .publication__website {
-  font-size: 1.2rem;
+  font-size: 1.35vw;
   line-height: 1.4;
   color: #d3d3d3;
   text-decoration: none;

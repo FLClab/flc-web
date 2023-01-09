@@ -13,7 +13,7 @@ function Banner() {
                     backgroundSize: "cover", 
                     backgroundPositionX: "center",
                     backgroundRepeat: "no-repeat", 
-                    height: "90vh",
+                    height: "100%",
                     backgroundPositionY: "80%" }}
             >
                 <div className="banner">

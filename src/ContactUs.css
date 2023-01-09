@@ -1,8 +1,8 @@
 .contact-us {
   color: white;
-  margin-bottom: 3rem;
+  margin-bottom: 3.5vh;
   line-height: 1.9;
-  font-size: 1rem;
+  font-size: 1.3vw;
   font-weight: 400;
   text-align: center;
 }
@@ -12,21 +12,21 @@
   color: white;
   display: flex;
   flex-direction: row;
-  padding-left: 50px;
-  margin-left: 50px;
+  padding-left: 3vw;
+  margin-left: 3vw;
 }
 
 .location {
   color: white;
   display: flex;
   flex-direction: row;
-  margin-right: 50px;
-  padding-right: 50px;
+  margin-right: 5vw;
+  padding-right: 5vw;
 }
 
 .scholar {
-  margin-right: 55px;
-  padding-right: 55px;
+  margin-right: 5.5vw;
+  padding-right: 5.5vw;
 }
 
 .mail:hover {
@@ -44,14 +44,14 @@
 .mail__icon,
 .twitter__icon,
 .location__icon {
-  margin-right: 20px;
+  margin-right: 1.5vw;
 }
 
 .email,
 .maps,
 .twitter__ref {
   color: white;
-  font-size: 1rem;
+  font-size: 1.15vw;
   font-weight: 400;
   line-height: 1.5;
   padding-top: 7px;
@@ -60,12 +60,12 @@
 
 .scholar__ref {
   color: white;
-  font-size: 1rem;
+  font-size: 1.15vw;
   font-weight: 400;
   line-height: 1.5;
-  padding-top: 7px;
+  padding-top: 0.07vh;
   text-decoration: none;
-  margin-top: 50px;
+  margin-top: 5vh;
 }
 
 .contact__row {
@@ -78,12 +78,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 3vh;
 }
 
 .scholar_img {
-  width: 50px;
-  height: 50px;
+  width: 3.5vw;
+  height: 3.5vw;
   vertical-align: bottom;
-  margin-right: 20px;
+  margin-right: 1.5vw;
 }
