@@ -9,7 +9,6 @@ import Carousel from "./Carousel";
 import DynamicMemberSet from './DynamicMemberSet';
 import DynamicStudentSet from './DynamicStudentSet';
 import Funding from "./Funding";
-import Gallery from "./Gallery";
 import Intro from "./Intro";
 import Research from "./Research";
 import PI from "./PI";

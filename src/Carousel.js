@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "./Carousel.css";
-import GalleryImage from "./GalleryImage";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import BassoonHomer from "./img/gallery/BassoonHomer.png"
 import actinSpectrin from "./img/gallery/ActinSpectrin.png";
