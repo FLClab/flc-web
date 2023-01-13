@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import "./NavToo.css";
 
 function NavToo({navY, introY, memberY, galleryY, pubY, contactY}){
@@ -80,7 +81,7 @@ function NavToo({navY, introY, memberY, galleryY, pubY, contactY}){
                 <a className={`nav-logo ${activeNone && 'nav__active'}`} href="#home" onClick={scrollToTop}>FLC Lab</a>
                 <a className={`nav-link ${scrolled && 'nav-link-white'} ${activeIntro && 'nav__active'}`} href="#intro-section">Introduction</a>
                 <a className={`nav-link ${scrolled && 'nav-link-white'}  ${activeMembers && 'nav__active'}`} href="#members-section">Members</a>
-                <a className={`nav-link ${scrolled && 'nav-link-white'}`} href="#alumni-section">Alumni</a>
+                <Link to="alumni" className={`nav-link ${scrolled && 'nav-link-white'}`}>Alumni</Link>
                 <a className={`nav-link ${scrolled && 'nav-link-white'} ${activeGallery && 'nav__active'}`} href="#gallery-section">Gallery</a>
                 <a className={`nav-link ${scrolled && 'nav-link-white'} ${activePublications && 'nav__active'}`} href="#publications-section">Publications</a>
                 <a className={`nav-link ${scrolled && 'nav-link-white'} ${activeContact && 'nav__active'}`} href="#contact-section">Contact Us</a>

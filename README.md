@@ -8,7 +8,7 @@
 
 ### Nav:
 
-- [ ] Fix Alumni routing to nowhere
+- [x] Fix Alumni routing to nowhere
 
 ### Members:
 
@@ -18,4 +18,4 @@
 
 - [x] Scrollbar to carousel implementation
 - [ ] Add brain slice images (Andréanne)
-- [ ] Dynamic image aspect ratios
+- [x] Dynamic image aspect ratios
