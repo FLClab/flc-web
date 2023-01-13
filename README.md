@@ -6,16 +6,11 @@
 
 - [ ] Compress large images for faster rendering
 
-### Alumni:
-
-- [x] onClick to new page
-- [ ] Add Theresa and Eric (Make Alumni set of 2 people)
-
 ### Members:
 
-- [ ] Remove Theresa (Make Member set of 2 people)
+- [ ] Fix Valerie's position in the Members section
 
 ### Gallery:
 
-- [ ] Switch from scrollbar to dots for moving between set of 3 images
+- [x] Scrollbar to carousel implementation
 - [ ] Add brain slice images (Andréanne)
