@@ -87,7 +87,7 @@ function Carousel(){
                             <div className="carousel-image__container">    
                                 <div className="carousel__label">{image.label}</div>
                                 <div className="carousel__credit">Image credit: {image.credit}</div>
-                                <img className="carousel__image" src={image.img} alt="gallery-image"/>
+                                <img className="carousel__image" src={image.img} alt="gallery"/>
                             </div>
                             )
                         }
