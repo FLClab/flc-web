@@ -1,0 +1,85 @@
+.carousel__container {
+    position:relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+
+.carousel-image__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel__image{
+    width: 50vw;
+    height: 70vh;
+    border-color: white;
+    border: 0.1vw solid white;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 3vw;
+    font-size: 5vw;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 3vw;
+    font-size: 5vw;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease
+}
+
+.slide-active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.carousel__label{
+    font-size: 1.5vw;
+    color:white;
+    text-shadow: none;
+    margin-bottom: 0.5vh;
+}
+
+.carousel__credit{
+    font-size: 1vw;
+    color: #d3d3d3;
+    text-shadow: none;
+    margin: auto;
+    margin-bottom: 1vh;
+}
+
+.dots__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-dot{
+    color: #ff9100;
+    text-shadow: none;
+    font-size: 6vw;
+    cursor: pointer;
+}
+

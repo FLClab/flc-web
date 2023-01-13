@@ -5,6 +5,7 @@ import Affiliations from "./Affiliations";
 import NavToo from './NavToo';
 import Banner from "./Banner";
 import ContactUs from "./ContactUs";
+import Carousel from "./Carousel";
 import DynamicMemberSet from './DynamicMemberSet';
 import DynamicStudentSet from './DynamicStudentSet';
 import Funding from "./Funding";
@@ -170,7 +171,8 @@ function App() {
       { /* Gallery */ }
       <div className="gallery__label" id="gallery-section">
         {strings.Gallery.label}
-        <Gallery />
+        {/* <Gallery /> */}
+        <Carousel />
       </div>
 
       <div className="publications__label" id="publications-section">
