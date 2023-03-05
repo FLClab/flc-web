@@ -38,8 +38,8 @@
             "name": "Albert Michaud-Gagnon",
             "info": "During my two years of experience as a junior engineer in the photonics industry, one thing I realized is that trial and error is an important part of numerous real-life problems. A good example of a problem involving trial and error is super-resolution imaging of biological samples, which typically requires the tuning of several parameters for a new sample. My research project is about multi-objective online bandit optimization of super-resolution microscope parameters.",
             "image": "./img/members/Albert_Michaud_crop.png",
-            "director": "Audrey Durand",
-            "codirector": "Flavie Lavoie-Cardinal",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Audrey Durand",
             "level": "MSc Student"
         },
         "Alexis": {
@@ -164,7 +164,7 @@
             "name": "Laurence Fontaine",
             "Program": "Undergraduate in Bioinformatics (2021-2022)",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
+            "codirector": "Audrey Durand",
             "info": "Classification et génération automatique de protéines post synaptique (2022)",
             "level": "MSc Student"
         },
