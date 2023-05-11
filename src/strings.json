@@ -143,7 +143,7 @@
             "info": "Détection des segmentations d'événements calciques par apprentissage profond dans des images de microscopie de diverses modalités",
             "codirector": "",
             "level": "Undergraduate Student"
-        }, 
+        },
         "Kamylle": {
             "name": "Kamylle Thériault",
             "Program": "Undergraduate in Bioinformatics (2022)",
@@ -151,7 +151,7 @@
             "codirector": "",
             "info":"Segmentation and analysis of mitochondria in human neurons",
             "level": "Undergraduate Student"
-        },  
+        },
         "Koraly": {
             "name": "Koraly Lessard",
             "Program": "Undergraduate in Bioinformatics (2022)",
@@ -209,7 +209,7 @@
             "level": "MSc Student"
         }
     },
-    "Alumni": { 
+    "Alumni": {
         "label": "Alumni",
         "Alexandre": {
             "name": "Alexandre Boulay",
@@ -222,7 +222,7 @@
         "Elodie": {
             "name": "Élodie Moth",
             "Title": "Développement d’un module d’anisotropie de fluorescence pour l’étude de la structure des neurones.",
-          
+
             "Program": "Undergraduate in Engineering Physics (2022)",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Antoine Godin"
@@ -253,7 +253,7 @@
         },
         "MarcAntoine": {
             "name": "Marc-Antoine Plourde",
-            "Program": "Undergraduate in Physics (2021)"         
+            "Program": "Undergraduate in Physics (2021)"
         },
         "Mariame": {
             "name": "Mariame Coulibaly",
@@ -268,8 +268,8 @@
         },
         "Philippe": {
             "name": "Philippe Gagnon",
-            "Program": "Undergraduate in Engineering Physics (2020-2021)"       
-        },       
+            "Program": "Undergraduate in Engineering Physics (2020-2021)"
+        },
         "PhilippeGT": {
             "name": "Philippe G. Tremblay",
             "Program": "Undergraduate in Microbiology (2022)",
@@ -277,7 +277,7 @@
             "codirector": "",
             "Title": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
         },
-        
+
                 "Roseline": {
             "name": "Roseline Olory Agomma",
             "info": "TBD.",
@@ -301,16 +301,16 @@
             "director": "Paul De Koninck",
             "codirector": "Flavie Lavoie-Cardinal",
             "Title": "Quantitative assessment of synaptic plasticity at the molecular scale with multimodal microscopy and computational tools",
-            
-            
+
+
             "info": "Coming from cancer research with focus on high throughput screening for drug development in the early years of my bachelor, I got fascinated during an internship with functional assays such as field recordings to study neuronal cell behaviour. I got hooked on doing my master in bio-photonics to learn functional imaging. During my PhD I combined functional assays, super-resolution imaging and computational tools to quantitatively assess and explore synaptic protein organization and remodeling due to synaptic plasticity. Being a scientist for me is not a job, but a lifestyle in which I can be continuously curious and explore across fields, be it from neuroscience, photonics to machine learning. In another life, I would be a diplomat who writes fiction books on the side.",
             "image": "./img/members/Theresa_Wiesner_crop.png",
-          
+
             "twitter": "https://twitter.com/terrymosoly",
             "webpage": "https://wiesnertheresa.github.io/",
             "level": "Postdoctoral Researcher"
         },
-        
+
                 "Vincent": {
             "name": "Vincent Boily",
             "info": "For my master's project, I aim to refine a pipeline that will allow to combine whole-brain calcium imaging in larval zebrafish with visual stimulation, tail tracking and computational registration to brain atlases and postmortem immunostaining imaging to study the functional dynamics of the developing brain and the underlying contribution of specific neuromodulatory circuits in the context of learning and memory.",
@@ -345,28 +345,28 @@
             "title":"Annotation Cost-Sensitive Deep Active Learning with Limited Data.",
             "source":" https://doi.org/10.1609/aaai.v36i11.21593",
             "journal":"Proceedings of the AAAI Conference on Artificial Intelligence"
-        },   
+        },
        "ChronicStress":{
-            "authors": ["Doney, E., ","Dion-Albert, L., ","Coulombe-Rozon, F., ","Osborne, N., ","Bernatchez, R., ","Paton, S.E.J., ","Neutzling Kaufmann, F., ","Olory Agomma, R., ","Solano, J.L., ","Gaumond, R., ","Dudek, K.A., ","Kasia Szyszkowicz, J., ","Signature Consortium, ","Lebel, M., ","Doyen, A., ","Durand, A., " , " Lavoie-Cardinal, F., ","Audet, M-C., ","Menard,C."],                                                                                                                                                                                                           
-            "year": "2022",
+            "authors": ["Doney, E., ","Dion-Albert, L., ","Coulombe-Rozon, F., ","Osborne, N., ","Bernatchez, R., ","Paton, S.E.J., ","Neutzling Kaufmann, F., ","Olory Agomma, R., ","Solano, J.L., ","Gaumond, R., ","Dudek, K.A., ","Kasia Szyszkowicz, J., ","Signature Consortium, ","Lebel, M., ","Doyen, A., ","Durand, A., " , " Lavoie-Cardinal, F., ","Audet, M-C., ","Menard,C."],
+            "year": "2023",
             "title":"Chronic stress exposure alters the gut barrier: sex-specific effects on microbiota and jejunum tight junctions.",
-            "source":" https://doi.org/10.1101/2022.09.13.507821",
-            "journal":"bioRxiv"
-        }, 
+            "source":" https://doi.org/10.1016/j.bpsgos.2023.04.007",
+            "journal":"Biological Psychiatry Global Open Science"
+        },
        "PYSTED":{
             "authors": ["Turcotte, B., ","Bilodeau, A.,", " Lavoie-Cardinal, F.,"," Durand, A." ],
             "year": "2022",
             "title":"pySTED : A STED Microscopy Simulation Tool for Machine Learning Training.",
             "source":" https://ai-2-ase.github.io/papers/23%5CCameraReady%5CpySTED.pdf",
             "journal":"Proceedings of the AAAI Workshop on AI to Accelerate Science and Engineering"
-        },   
+        },
         "ContBandit":{
             "authors": ["Bilodeau, A.,", " Bernatchez, R.,", " Michaud-Gagnon, A.,", " Lavoie-Cardinal, F.,"," Durand, A." ],
             "year": "2022",
             "title":"Contextual bandit optimization of super-resolution microscopy.",
             "source":" https://caiac.pubpub.org/pub/6th7w3yo",
             "journal":"Proceedings of the Canadian Conference on Artificial Intelligence"
-        },   
+        },
         "MicraNet": {
             "authors": [
                 "Bilodeau, A., ", "Delmas, C.V., " , "Parent, M., " , "De Koninck, P., ", "Durand, A., ", "Lavoie-Cardinal, F."],
@@ -490,7 +490,7 @@
             "source": "https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-022-01314-x",
             "journal": " Acta Neuropathol. Commun.",
             "website": "https://s3.valeria.science/ncdn-fus/index.html"
-            
+
         },
            "Methods": {
             "authors": ["Bilodeau, A., ","Bouchard, C., ","Lavoie-Cardinal, F. "],
