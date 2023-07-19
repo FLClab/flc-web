@@ -371,7 +371,7 @@
                 "Bilodeau, A., ", "Delmas, C.V., " , "Parent, M., " , "De Koninck, P., ", "Durand, A., ", "Lavoie-Cardinal, F."],
             "year": "2022",
             "title": "Microscopy analysis neural network to solve detection, enumeration, and segmentation from image-level annotations.",
-            "source": "https://doi.org/10.1038/s42256-022-00472-w",
+            "source": "https://www.nature.com/articles/s42256-022-00472-w.epdf?sharing_token=x4PG8eiOiVTv_nZtfPwCyNRgN0jAjWel9jnR3ZoTv0OKccv1yUWx8OK68DoK7O_26I3AfjL1HcauaAvU0gtZBtwi5E1IfZ_VTRgLgJtg5Pw26sOrxuxZ31CA8wFnt6Qg56u9O0fpj13ry8reo6I8czvX5-NRyWBb8dwJYaEd5Pw%3D",
             "journal": "Nature Machine Intelligence",
             "website": "https://s3.valeria.science/flclab-micranet/index.html"
         },
