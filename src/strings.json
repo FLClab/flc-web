@@ -114,7 +114,15 @@
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
         },
-                        "David": {
+        "Chi": {
+            "name": "Chi Huynh",
+            "info": "TBD.",
+            "image": "./img/gallery/SynapticProteins.png",
+            "director": "Christian Gagné",
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "Undergraduate Student"
+        },
+        "David": {
             "name":"David Vincent",
             "Program": "Undergraduate in Physics(2023)",
             "director": "Flavie Lavoie-Cardinal",

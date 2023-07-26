@@ -18,7 +18,6 @@ import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
 import img_Anthony from "./img/members/Anthony_Bilodeau_crop.JPG";
-import img_AnthonyL from "./img/gallery/SynapticProteins.png";
 import img_AntoineG from "./img/members/Antoine_Girard_crop.jpg";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
@@ -28,21 +27,16 @@ import img_Kamylle from "./img/members/Kamylle_crop.jpg";
 import img_LaurenceF from "./img/members/LaurenceF_crop.jpg";
 import img_LaurenceD from "./img/members/LaurenceD_crop.jpg";
 import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
-import img_David from "./img/gallery/SynapticProteins.png";
-import img_Hadi from "./img/gallery/SynapticProteins.png";
-import img_JGabriel from "./img/gallery/SynapticProteins.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
 import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png";
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
 import img_Owen from "./img/members/OwenFerguson_crop.JPG";
-import img_Sacha from "./img/gallery/SynapticProteins.png";
 import img_Valerie from "./img/members/Valerie_ClavetFournier_crop.jpg";
 import img_William from "./img/members/WilliamL_crop.png";
-import img_Zoe from "./img/gallery/SynapticProteins.png";
-import img_CatherineD from "./img/gallery/SynapticProteins.png";
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
 import img_Katrine from "./img/members/Katrine_crop.JPG";
+import synapses from "./img/gallery/SynapticProteins.png"
 
 
 function App() {
@@ -62,49 +56,46 @@ function App() {
 
   let studentSet2 = [
     {"student": strings.Members.Anthony, "img": img_Anthony},
-    {"student": strings.Members.AnthonyL, "img": img_AnthonyL},
+    {"student": strings.Members.AnthonyL, "img": synapses},
     {"student": strings.Members.AntoineG, "img": img_AntoineG},
     {"student": strings.Members.AntoineO, "img": img_AntoineO},
  
   ]
 
   let studentSet3 = [
-     {"student": strings.Members.Benoit, "img": img_Benoit},
+    {"student": strings.Members.Benoit, "img": img_Benoit},
     {"student": strings.Members.Catherine, "img": img_Catherine},
-        {"student": strings.Members.David, "img": img_David},
-    {"student": strings.Members.Frederic, "img": img_Fred},
+    {"student": strings.Members.Chi, "img": synapses},
+    {"student": strings.Members.David, "img": synapses},
 
   ]
 
   let studentSet4 = [
-      {"student": strings.Members.Hadi, "img": img_Hadi},
-       {"student": strings.Members.JGabriel, "img": img_JGabriel},
-      {"student": strings.Members.JM, "img": img_JM},
-    {"student": strings.Members.Julia, "img": img_Julia},
-
+    {"student": strings.Members.Frederic, "img": img_Fred},
+    {"student": strings.Members.Hadi, "img": synapses},
+    {"student": strings.Members.JGabriel, "img": synapses},
+    {"student": strings.Members.JM, "img": img_JM},
   ]
 
   let studentSet5 = [
-     {"student": strings.Members.Kamylle, "img": img_Kamylle},
+    {"student": strings.Members.Julia, "img": img_Julia},
+    {"student": strings.Members.Kamylle, "img": img_Kamylle},
     {"student": strings.Members.Katrine, "img": img_Katrine},
     {"student": strings.Members.Koraly, "img": img_Koraly},
-    {"student": strings.Members.LaurenceD, "img": img_LaurenceD}, 
-
-
   ]
-    let studentSet6 = [
 
+  let studentSet6 = [
+    {"student": strings.Members.LaurenceD, "img": img_LaurenceD}, 
     {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
     {"student": strings.Members.Owen, "img": img_Owen},
-    {"student": strings.Members.Sacha, "img": img_Sacha},
+    {"student": strings.Members.Sacha, "img": synapses},
     {"student": strings.Members.William, "img": img_William},
-    {"student": strings.Members.Zoe, "img": img_Zoe},
-
+    {"student": strings.Members.Zoe, "img": synapses},
   ]
 
   let memberSet1 = [ 
-  {"member": strings.Members.CatherineD, "img": img_CatherineD}, 
-  {"member": strings.Members.Valerie, "img": img_Valerie}
+    {"member": strings.Members.CatherineD, "img": synapses}, 
+    {"member": strings.Members.Valerie, "img": img_Valerie}
   ]
 
   useEffect(() => {
