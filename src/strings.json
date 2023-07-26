@@ -55,8 +55,8 @@
             "info": "Super-résolution de la Cofiline lors de la formation des fibres d'actine.",
             "image": "./img/members/Alexis_Lebrun_crop.jpg",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "level": "Undergraduate Student"
+            "codirector": "Yves De Koninck",
+            "level": "MSc Student"
         },
         "Andreanne": {
             "name": "Andréanne Deschênes",
@@ -73,6 +73,14 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
             "level": "PhD Student"
+        },
+                "AnthonyL": {
+            "name": "Anthony Lavertu",
+            "Program": "Undergraduate in Bioinformatics (2023)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "",
+            "level": "Undergraduate Student"
         },
         "AntoineG": {
             "name": "Antoine Girard",
@@ -106,6 +114,14 @@
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
         },
+                        "David": {
+            "name":"David Vincent",
+            "Program": "Undergraduate in Physics(2023)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "",
+            "level": "Undergraduate Student"
+        },
         "Flavie": {
             "name": "Flavie Lavoie-Cardinal",
             "info": "TBD.",
@@ -120,6 +136,22 @@
             "director": "Christian Gagné",
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
+        },
+                "Hadi": {
+            "name": "Hadi Moazen",
+            "info": "",
+ 
+            "director": "Audrey Durand",
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "PhD Student"
+        },
+                                "JGabriel": {
+            "name":"Jeffrey Gabriel Steavan Santiague",
+            "Program": "Undergraduate in Biochemistry(2023)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "",
+            "level": "Undergraduate Student"
         },
         "JM": {
             "name": "Jean-Michel Bellavance",
@@ -184,13 +216,13 @@
             "codirector": "Martin Lévesque",
             "level": "PhD Student"
         },
-        "Renaud": {
-            "name": "Renaud Bernatchez",
-            "info": "While completing internships in the lab during my bachelor’s degree in bioinformatics, I became fascinated with the application of deep learning to analyse microscopy images. However, such approaches require large amounts of painstakingly annotated data. The goal of my master’s degree is to use active learning to reduce the amount of annotated data required to train deep learning models to analyse fluorescence microscopy images.",
-            "image": "./img/members/renaud_bernatchez_crop.png",
+                                "Sacha": {
+            "name":"Sacha Baker",
+            "Program": "Undergraduate in Bioinformatics(2023)",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Audrey Durand",
-            "level": "PhD Student"
+            "codirector": "",
+            "info": "",
+            "level": "Undergraduate Student"
         },
 
         "Valerie": {
@@ -198,6 +230,12 @@
             "info": "My fascination for neuroscience appeared during my bachelor’s degree in biochemistry where I got the opportunity to do an internship with Paul De Koninck. I learned a lot about the learning and memory process via glutamatergic transmission and synaptic plasticity. I got so interested in the subject that it became the heart of my master’s project which was to elucidate the role of calpain in synaptic transmission. I pursued my PhD degree in the same fascinating field of neuroscience where I studied the structural remodeling of synaptic proteins with super-resolution STED microscopy after activity-driven plasticity of glutamatergic synapses in organotypic slices. With my background, I am now really glad to work in the FLC lab on the structural plasticity of synaptic proteins using STED microscopy and correlate those changes with the local activity of the neurons.",
             "image": "./img/gallery/SynapticProteins.png",
             "level": "Research Professional"
+        },
+                "CatherineD": {
+            "name": "Catherine Desjardins",
+            "info": "",
+            "image": "./img/gallery/SynapticProteins.png",
+            "level": "Administrative assistant"
         },
 
         "William": {
@@ -207,6 +245,15 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
             "level": "MSc Student"
+        },
+                "Zoe": {
+            "name": "Zoé Jargaille",
+            "Program": "Undergraduate in Biochemistry (2023)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "",
+            "image": "./img/gallery/SynapticProteins.png",
+            "level": "Undergraduate Student"
         }
     },
     "Alumni": {
@@ -276,6 +323,16 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
             "Title": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
+        },
+  
+        "Renaud": {
+            "name": "Renaud Bernatchez",
+            "info": "While completing internships in the lab during my bachelor’s degree in bioinformatics, I became fascinated with the application of deep learning to analyse microscopy images. However, such approaches require large amounts of painstakingly annotated data. The goal of my master’s degree is to use active learning to reduce the amount of annotated data required to train deep learning models to analyse fluorescence microscopy images.",
+            "image": "./img/members/renaud_bernatchez_crop.png",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Audrey Durand",
+            "Program": "Masters in Biophotonics (2020-2023)"
+            
         },
 
                 "Roseline": {

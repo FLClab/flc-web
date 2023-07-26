@@ -12,6 +12,7 @@ import img_Eric from "./img/members/EricBergeron_crop.jpg";
 import img_Theresa from "./img/members/Theresa_Wiesner_crop.png";
 import img_Vincent from "./img/members/Vincent_Boily_crop.png";
 import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
+import img_Renaud from "./img/members/renaud_bernatchez_crop.png";
 import strings from './strings.json'
 import "./AlumniPage.css"
 import {FaRegArrowAltCircleLeft} from 'react-icons/fa';
@@ -40,9 +41,14 @@ function AlumniPage(){
     ]
 
     let alumniSet4 = [
+            {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
         {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
          {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
         {"alumni": strings.Alumni.Theresa, "img": img_Theresa},
+
+    ]
+       let alumniSet5= [
+
         {"alumni": strings.Alumni.Vincent, "img": img_Vincent}
     ]
 
@@ -68,6 +74,9 @@ function AlumniPage(){
 
              <DynamicAlumniSet
                 data={alumniSet4}
+             />
+                          <DynamicAlumniSet
+                data={alumniSet5}
              />
         </div>
 
