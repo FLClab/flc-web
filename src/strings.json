@@ -441,11 +441,11 @@
             "website": "https://s3.valeria.science/flclab-micranet/index.html"
         },
         "TAGAN": {
-            "authors": ["Bouchard, C., ", "Wiesner, T., ", "Deschênes, A., ", "Lavoie-Cardinal, F., ", "Gagné, C."],
-            "year": "2021",
-            "title": "Task-Assisted GAN for Resolution Enhancement and Modality Translation in Fluorescence Microscopy.",
-            "source": "https://www.biorxiv.org/content/10.1101/2021.07.19.452964v1.abstract",
-            "journal": "bioRxiv",
+            "authors": ["Bouchard, C., ", "Wiesner, T., ", "Deschênes, A., ","Bilodeau, A., ","Turcotte, B., ", "Gagné, C.", "Lavoie-Cardinal, F. "],
+            "year": "2023",
+            "title": "Resolution enhancement with a task-assisted GAN to guide optical nanoscopy image analysis and acquisition.",
+            "source": "https://t.co/shuqPCRVB1",
+            "journal": "Nature Machine Intelligence",
             "website": "https://s3.valeria.science/flclab-tagan/index.html"
         },
         "Theresa": {
