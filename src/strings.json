@@ -441,7 +441,7 @@
             "website": "https://s3.valeria.science/flclab-micranet/index.html"
         },
         "TAGAN": {
-            "authors": ["Bouchard, C., ", "Wiesner, T., ", "Deschênes, A., ","Bilodeau, A., ","Turcotte, B., ", "Gagné, C.", "Lavoie-Cardinal, F. "],
+            "authors": ["Bouchard, C., ", "Wiesner, T., ", "Deschênes, A., ","Bilodeau, A., ","Turcotte, B., ", "Gagné, C., ", "Lavoie-Cardinal, F. "],
             "year": "2023",
             "title": "Resolution enhancement with a task-assisted GAN to guide optical nanoscopy image analysis and acquisition.",
             "source": "https://t.co/shuqPCRVB1",
