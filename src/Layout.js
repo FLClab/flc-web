@@ -89,6 +89,9 @@ function App() {
     {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
     {"student": strings.Members.Owen, "img": img_Owen},
     {"student": strings.Members.Sacha, "img": synapses},
+  ]
+
+  let studentSet7 = [
     {"student": strings.Members.William, "img": img_William},
     {"student": strings.Members.Zoe, "img": synapses},
   ]
@@ -172,8 +175,11 @@ function App() {
       <DynamicStudentSet
         data={studentSet5}
       />
-            <DynamicStudentSet
+      <DynamicStudentSet
         data={studentSet6}
+      />
+      <DynamicStudentSet
+        data={studentSet7}
       />
 
       <div className="alumni-label__container">
