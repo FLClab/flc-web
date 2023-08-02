@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import group from "./img/members/IMG_3364_group_nomask.png";
+import group from "./img/members/Group_2023.png";
 import group_sled from "./img/members/Sledding_Group.jpg";
 import "./Intro.css"
 import strings from "./strings.json"

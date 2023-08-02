@@ -26,7 +26,7 @@ import img_Koraly from "./img/members/Koraly_crop.jpg";
 import img_Kamylle from "./img/members/Kamylle_crop.jpg";
 import img_LaurenceF from "./img/members/LaurenceF_crop.jpg";
 import img_LaurenceD from "./img/members/LaurenceD_crop.jpg";
-import img_Catherine from "./img/members/Catherine_Bouchard_crop.png";
+import img_Catherine from "./img/members/CatherineBouchard_crop.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
 import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png";
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
