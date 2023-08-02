@@ -47,7 +47,7 @@ import Fourcolors from "./img/gallery/4colors_VCF_february2022.png";
 import Sledding from "./img/members/Sledding_Group.jpg";
 import Pentathlon from "./img/members/pentathlon.jpeg";
 import vieille from "./img/members/2019.png";
-
+import img_CatherineD from "./img/members/CatherineD_crop.png";
 
 function App() {
   const [introScroll, setIntroScroll] = useState(0);
@@ -171,7 +171,7 @@ function App() {
   ]
 
   let memberSet1 = [ 
-    {"member": strings.Members.CatherineD, "img": synapses}, 
+    {"member": strings.Members.CatherineD, "img": img_CatherineD}, 
   
   ]
 
