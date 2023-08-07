@@ -18,6 +18,7 @@ import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
 import img_Anthony from "./img/members/Anthony_Bilodeau_crop.JPG";
+import img_AnthonyL from "./img/members/AnthonyLavertu_crop.png";
 import img_AntoineG from "./img/members/Antoine_Girard_crop.jpg";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
@@ -130,7 +131,7 @@ function App() {
 
   let studentSet2 = [
     {"student": strings.Members.Anthony, "img": img_Anthony},
-    {"student": strings.Members.AnthonyL, "img": synapses},
+    {"student": strings.Members.AnthonyL, "img": img_AnthonyL},
     {"student": strings.Members.AntoineG, "img": img_AntoineG},
     {"student": strings.Members.AntoineO, "img": img_AntoineO},
  
