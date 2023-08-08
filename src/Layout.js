@@ -22,12 +22,14 @@ import img_AnthonyL from "./img/members/AnthonyLavertu_crop.png";
 import img_AntoineG from "./img/members/Antoine_Girard_crop.jpg";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
+import img_David from "./img/members/DavidVIncent_crop.png";
 import img_Alexy from "./img/members/Alexy_crop.jpg";
 import img_Koraly from "./img/members/Koraly_crop.jpg";
 import img_Kamylle from "./img/members/Kamylle_crop.jpg";
 import img_LaurenceF from "./img/members/LaurenceF_crop.jpg";
 import img_LaurenceD from "./img/members/LaurenceD_crop.jpg";
 import img_Catherine from "./img/members/CatherineBouchard_crop.png";
+import img_Hadi from "./img/members/Hadi_crop.png";
 import img_JM from "./img/members/JeanMichelBellavance_crop.png";
 import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png";
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
@@ -141,13 +143,13 @@ function App() {
     {"student": strings.Members.Benoit, "img": img_Benoit},
     {"student": strings.Members.Catherine, "img": img_Catherine},
     {"student": strings.Members.Chi, "img": synapses},
-    {"student": strings.Members.David, "img": synapses},
+    {"student": strings.Members.David, "img": img_David},
 
   ]
 
   let studentSet4 = [
     {"student": strings.Members.Frederic, "img": img_Fred},
-    {"student": strings.Members.Hadi, "img": synapses},
+    {"student": strings.Members.Hadi, "img": img_Hadi},
     {"student": strings.Members.JGabriel, "img": img_JGabriel },
     {"student": strings.Members.JM, "img": img_JM},
   ]
