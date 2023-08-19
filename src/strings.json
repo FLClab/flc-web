@@ -277,7 +277,6 @@
         "Elodie": {
             "name": "Élodie Moth",
             "Title": "Développement d’un module d’anisotropie de fluorescence pour l’étude de la structure des neurones.",
-
             "Program": "Undergraduate in Engineering Physics (2022)",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Antoine Godin"
@@ -362,17 +361,13 @@
         },
                 "Theresa": {
             "name": "Theresa Wiesner",
-            "Program": "Doctorate in Biophotonics (2015-2021)               Postdoctoral Researcher (2022)",
-
-
-
+            "Program": "Doctorate in Biophotonics (2015-2021), Postdoctoral Researcher (2022)",
             "director": "Paul De Koninck",
             "codirector": "Flavie Lavoie-Cardinal",
             "Project": "Quantitative assessment of synaptic plasticity at the molecular scale with multimodal microscopy and computational tools",
             "url":"http://hdl.handle.net/20.500.11794/107403",
             "info": "Coming from cancer research with focus on high throughput screening for drug development in the early years of my bachelor, I got fascinated during an internship with functional assays such as field recordings to study neuronal cell behaviour. I got hooked on doing my master in bio-photonics to learn functional imaging. During my PhD I combined functional assays, super-resolution imaging and computational tools to quantitatively assess and explore synaptic protein organization and remodeling due to synaptic plasticity. Being a scientist for me is not a job, but a lifestyle in which I can be continuously curious and explore across fields, be it from neuroscience, photonics to machine learning. In another life, I would be a diplomat who writes fiction books on the side.",
             "image": "./img/members/Theresa_Wiesner_crop.png",
-
             "twitter": "https://twitter.com/terrymosoly",
             "webpage": "https://wiesnertheresa.github.io/",
             "level": "Postdoctoral Researcher"
@@ -381,7 +376,7 @@
                 "Vincent": {
             "name": "Vincent Boily",
             "info": "For my master's project, I aim to refine a pipeline that will allow to combine whole-brain calcium imaging in larval zebrafish with visual stimulation, tail tracking and computational registration to brain atlases and postmortem immunostaining imaging to study the functional dynamics of the developing brain and the underlying contribution of specific neuromodulatory circuits in the context of learning and memory.",
-            "image": "./img/gallery/SynapticProteins.png",
+
             "director": "Paul De Koninck",
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "MSc Student",
