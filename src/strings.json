@@ -107,14 +107,7 @@
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
         },
-        "Chi": {
-            "name": "Chi Huynh",
-            "info": "TBD.",
-            "image": "./img/gallery/SynapticProteins.png",
-            "director": "Christian Gagné",
-            "codirector": "Flavie Lavoie-Cardinal",
-            "level": "Undergraduate Student"
-        },
+
 
         "Flavie": {
             "name": "Flavie Lavoie-Cardinal",
@@ -258,15 +251,20 @@
         },
         "AnthonyL": {
             "name": "Anthony Lavertu",
-            "Program": "Undergraduate in Bioinformatics (2023)",
+            "Program": "Undergraduate in Bioinformatics (2023)"
         },
         "Bastian": {
             "name": "Bastian Raulier",
             "Program": "Undergraduate in Engineering Physics (2019)"
         },
+
+        "Chi": {
+            "name": "Chi Huynh",
+            "Program": "Undergraduate Student (2023)"
+        },
         "David": {
             "name":"David Vincent",
-            "Program": "Undergraduate in Physics(2023)",
+            "Program": "Undergraduate in Physics (2023)"
 
         },
         "Elodie": {

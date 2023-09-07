@@ -26,41 +26,44 @@ function AlumniPage(){
         {"alumni": strings.Alumni.Alexandre, "img": img_Alexandre},
         {"alumni": strings.Alumni.AnthonyL, "img": img_AnthonyL},
         {"alumni": strings.Alumni.Bastian, "img": synapses},
-        {"alumni": strings.Alumni.David, "img": img_David},
-
+        {"alumni": strings.Alumni.Chi, "img": synapses},
     ]
 
     let alumniSet2 = [
+        {"alumni": strings.Alumni.David, "img": img_David},
         {"alumni": strings.Alumni.Elodie, "img": img_ELodie},
-        {"alumni": strings.Alumni.Eric, "img": img_Eric}
+        {"alumni": strings.Alumni.Eric, "img": img_Eric},
         {"alumni": strings.Alumni.Gabrielle, "img": synapses},
-        {"alumni": strings.Alumni.Gabriel, "img": img_GabLeclerc},
+
 
 
     ]
 
     let alumniSet3 = [
+     {"alumni": strings.Alumni.Gabriel, "img": img_GabLeclerc},
         {"alumni": strings.Alumni.JeanMichel, "img": img_JeanMichel},
         {"alumni": strings.Alumni.LouisEmile, "img": synapses},
         {"alumni": strings.Alumni.MarcAntoine, "img": synapses},
-        {"alumni": strings.Alumni.Mariame, "img": synapses},
+
 
 
     ]
 
     let alumniSet4 = [
+          {"alumni": strings.Alumni.Mariame, "img": synapses},
          {"alumni": strings.Alumni.Marie, "img": img_Marie},
          {"alumni": strings.Alumni.Philippe, "img": img_Philippe},
          {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
-         {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
-
-
 
     ]
        let alumniSet5= [
+       {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
         {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
         {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
         {"alumni": strings.Alumni.Theresa, "img": img_Theresa},
+
+    ]
+           let alumniSet6= [
         {"alumni": strings.Alumni.Vincent, "img": img_Vincent}
     ]
 
@@ -87,8 +90,12 @@ function AlumniPage(){
              <DynamicAlumniSet
                 data={alumniSet4}
              />
-                          <DynamicAlumniSet
+             <DynamicAlumniSet
                 data={alumniSet5}
+             />
+
+              <DynamicAlumniSet
+                data={alumniSet6}
              />
         </div>
 
