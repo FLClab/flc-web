@@ -74,14 +74,7 @@
             "codirector": "Audrey Durand",
             "level": "PhD Student"
         },
-                "AnthonyL": {
-            "name": "Anthony Lavertu",
-            "Program": "Undergraduate in Bioinformatics (2023)",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "info": "",
-            "level": "Undergraduate Student"
-        },
+
         "AntoineG": {
             "name": "Antoine Girard",
             "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique.",
@@ -122,14 +115,7 @@
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "Undergraduate Student"
         },
-        "David": {
-            "name":"David Vincent",
-            "Program": "Undergraduate in Physics(2023)",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "info": "",
-            "level": "Undergraduate Student"
-        },
+
         "Flavie": {
             "name": "Flavie Lavoie-Cardinal",
             "info": "TBD.",
@@ -270,9 +256,18 @@
             "name": "Alexandre Boulay",
             "Program": "Undergraduate in Bioinformatics (2021)"
         },
+        "AnthonyL": {
+            "name": "Anthony Lavertu",
+            "Program": "Undergraduate in Bioinformatics (2023)",
+        },
         "Bastian": {
             "name": "Bastian Raulier",
             "Program": "Undergraduate in Engineering Physics (2019)"
+        },
+        "David": {
+            "name":"David Vincent",
+            "Program": "Undergraduate in Physics(2023)",
+
         },
         "Elodie": {
             "name": "Élodie Moth",
@@ -298,6 +293,10 @@
             "Program": "Masters in Electrical Engineering (2018-2021)",
             "Project": "Apprendre de données positives et non étiquetées : application à la segmentation et la détection d'évènements calciques",
             "url": "http://hdl.handle.net/20.500.11794/69813"
+        },
+        "JeanMichel": {
+            "name": "Jean-Michel Bellavance",
+            "Program": "Masters in Neuroscience (2021-2023)"
         },
         "LouisEmile":{
             "name": "Louis-Émile Robitaille",
