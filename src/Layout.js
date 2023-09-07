@@ -162,6 +162,7 @@ function App() {
   let studentSet6 = [
     {"student": strings.Members.Sacha, "img": synapses},
     {"student": strings.Members.William, "img": img_William},
+     {"student": strings.Members.Zoe, "img": synapses},
   ]
 
   let memberSet1 = [ 
