@@ -104,7 +104,7 @@ function App() {
         "label": "Synaptic Proteins; PSD95 (STED, Green), Bassoon (STED, Red), Actin (Confocal, Blue)",
         "credit": "Theresa Wiesner",
     }
-  ] 
+  ]
 
   const funImages = [
     {
@@ -157,19 +157,20 @@ function App() {
 
     {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
     {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
+    {"student": strings.Members.Ludovic, "img": synapses},
     {"student": strings.Members.Owen, "img": img_Owen},
-     {"student": strings.Members.Sacha, "img": synapses},
+    
   ]
 
   let studentSet6 = [
-
+    {"student": strings.Members.Sacha, "img": synapses},
     {"student": strings.Members.William, "img": img_William},
      {"student": strings.Members.Zoe, "img": synapses},
   ]
 
-  let memberSet1 = [ 
-    {"member": strings.Members.CatherineD, "img": img_CatherineD}, 
-  
+  let memberSet1 = [
+    {"member": strings.Members.CatherineD, "img": img_CatherineD},
+
   ]
 
   useEffect(() => {
@@ -189,8 +190,8 @@ function App() {
 
   return (
     <div className="app">
-      {/* <Nav 
-        id="nav-section" 
+      {/* <Nav
+        id="nav-section"
         navY={0}
         introY={introScroll}
         memberY={memberScroll}
@@ -199,7 +200,7 @@ function App() {
         fundingY={fundScroll}
         contactY={contactScroll}
       /> */}
-      <NavToo 
+      <NavToo
         id='nav-section'
         navY={0}
         introY={introScroll}
@@ -221,7 +222,7 @@ function App() {
         {strings.Members.members}
       </div>
       <PI data={strings.Members.Flavie} level={strings.Members.Levels.pi} img={img_Flavie}/>
-      
+
       <DynamicMemberSet
         data={memberSet1}
       />
@@ -242,7 +243,7 @@ function App() {
       <DynamicStudentSet
         data={studentSet4}
       />
-          
+
       <DynamicStudentSet
         data={studentSet5}
       />
@@ -255,7 +256,7 @@ function App() {
         <Link className="alumni__label" to="alumni">{strings.Members.alumni}</Link>
       </div>
 
-   
+
       { /* Gallery */ }
       <div className="gallery__label" id="gallery-section">
         {strings.Gallery.label}
@@ -290,7 +291,7 @@ function App() {
           <hr className="closing__line"></hr>
           <span>Designed by: Frédéric Beaupré, Catherine Bouchard, Andréanne Deschênes</span>
         </footer>
-  
+
     </div>
   );
 }

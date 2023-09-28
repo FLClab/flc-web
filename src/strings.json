@@ -127,7 +127,7 @@
                 "Hadi": {
             "name": "Hadi Moazen",
             "info": "",
- 
+
             "director": "Audrey Durand",
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
@@ -179,6 +179,8 @@
             "info": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution",
             "level": "Undergraduate Student"
         },
+
+
         "LaurenceF": {
             "name": "Laurence Fontaine",
             "Program": "Undergraduate in Bioinformatics (2021-2022)",
@@ -194,6 +196,15 @@
             "codirector": "",
             "info": "Alignement et caractérisation d’un microscope STED.",
             "level": "Undergraduate Student"
+        },
+
+        "Ludovic": {
+            "name": "Ludovic Reymond",
+            "info": "",
+            "image": "",
+            "codirector": "Christian Gagné",
+            "director": "Flavie Lavoie-Cardinal",
+            "level": "MSc Student"
         },
         "Owen": {
             "name": "Owen Ferguson",
@@ -328,7 +339,7 @@
             "codirector": "",
             "Title": "Immunocytochimie de protéines synaptiques en contexte de SLA et imagerie en superrésolution STED"
         },
-  
+
         "Renaud": {
             "name": "Renaud Bernatchez",
             "info": "While completing internships in the lab during my bachelor’s degree in bioinformatics, I became fascinated with the application of deep learning to analyse microscopy images. However, such approaches require large amounts of painstakingly annotated data. The goal of my master’s degree is to use active learning to reduce the amount of annotated data required to train deep learning models to analyse fluorescence microscopy images.",
@@ -336,7 +347,7 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
             "Program": "Masters in Biophotonics (2020-2023)"
-            
+
         },
 
                 "Roseline": {
