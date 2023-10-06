@@ -462,7 +462,7 @@
             "journal": "Frontiers in neural circuits"
         },
         "FActin": {
-            "authors": ["Lavoie-Cardinal, F., ", "Bilodeau, A., "," Mado, L., "," Gardner, M-A., ", "Wiesner, T., ", "Gabrielle, L., ", "Gagné, C."],
+            "authors": ["Lavoie-Cardinal, F., ", "Bilodeau, A., "," Lemieux, M., "," Gardner, M-A., ", "Wiesner, T., ", "Laramée, G., ", "Gagné, C."],
             "year": "2020",
             "title": "Neuronal activity remodels the F-actin based submembrane lattice in dendrites but not axons of hippocampal neurons.",
             "source": "https://www.nature.com/articles/s41598-020-68180-2",
@@ -568,7 +568,14 @@
             "title": "Automated Microscopy Image Segmentation and Analysis with Machine Learning.",
             "source": "https://doi.org/10.1007/978-1-0716-2051-9_20",
             "journal": "Methods in Molecular Biology"
-        }
+        },
+                   "BBB": {
+            "authors": ["Donney, E., ","Bernatchez, R., ","Clavet-Fournier, V., ","Dudek, K.A., ","Dion-Albert, L., ","Lavoie-Cardinal, F. ","Menard, C., "],
+            "year": "2023",
+            "title": "Characterizing the blood–brain barrier and gut barrier with super-resolution imaging: opportunities and challenges.",
+            "source": "https://doi.org/10.1117/1.nph.10.4.044410",
+            "journal": "Neurophotonics"
+        },
     },
     "Affiliations": {
         "label": "Affiliations"
