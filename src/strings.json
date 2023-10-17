@@ -570,12 +570,20 @@
             "journal": "Methods in Molecular Biology"
         },
       "BBB": {
-            "authors": ["Donney, E., ","Bernatchez, R., ","Clavet-Fournier, V., ","Dudek, K.A., ","Dion-Albert, L., ","Lavoie-Cardinal, F. ","Menard, C., "],
+            "authors": ["Donney, E., ","Bernatchez, R., ","Clavet-Fournier, V., ","Dudek, K.A., ","Dion-Albert, L., ","Lavoie-Cardinal, F. ","Menard, C. "],
             "year": "2023",
             "title": "Characterizing the blood–brain barrier and gut barrier with super-resolution imaging: opportunities and challenges.",
             "source": "https://doi.org/10.1117/1.nph.10.4.044410",
             "journal": "Neurophotonics"
+        },
+              "Neurophot": {
+            "authors": ["Bouchard, C., ","Bernatchez, R., ","Lavoie-Cardinal, F. "],
+            "year": "2023",
+            "title": "Addressing annotation and data scarcity when designing machine learning strategies for neurophotonics.",
+            "source": "https://doi.org/10.1117/1.NPh.10.4.044405",
+            "journal": "Neurophotonics"
         }
+        
     },
     "Affiliations": {
         "label": "Affiliations"

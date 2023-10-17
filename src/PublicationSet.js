@@ -19,6 +19,7 @@ function PublicationSet(){
        {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1,2,3,4,6],},
         {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 5],},
         {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1,2,3,4,6],},
+         {"id": "Neurophot", "data": strings.Publications.Neurophot, "students": [0,1,2],},
         {"id": "BBB", "data": strings.Publications.BBB, "students": [1,2,5],},
         {"id": "MLAuto", "data": strings.Publications.MLAuto, "students": [1,3,4,7],},
         {"id": "Mitos", "data": strings.Publications.Mitos, "students": [1],},
