@@ -21,6 +21,7 @@ function PublicationSet(){
         {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1,2,3,4,6],},
          {"id": "Neurophot", "data": strings.Publications.Neurophot, "students": [0,1,2],},
         {"id": "BBB", "data": strings.Publications.BBB, "students": [1,2,5],},
+        {"id": "Astrocytes", "data": strings.Publications.Astrocytes, "students": [8,16],},
         {"id": "MLAuto", "data": strings.Publications.MLAuto, "students": [1,3,4,7],},
         {"id": "Mitos", "data": strings.Publications.Mitos, "students": [1],},
         {"id": "ChronicStress", "data": strings.Publications.ChronicStress, "students": [4,7,16],},

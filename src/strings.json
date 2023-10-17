@@ -582,6 +582,13 @@
             "title": "Addressing annotation and data scarcity when designing machine learning strategies for neurophotonics.",
             "source": "https://doi.org/10.1117/1.NPh.10.4.044405",
             "journal": "Neurophotonics"
+        },
+              "Astrocytes": {
+            "authors": ["Dudek, K.A., ","Paton, S., ","Collignon, A., ","Lebel, M., ","Lavoie, O., ","Bouchard, J., ","Neutzling Kaufmann , F., ","Dion-Albert, L., ","Clavet-Fournier, V., ","Bandeira Binder, L., ","Manca, C., ","Flamand, N., ","Guzman, M., ","Campbell, M., ","Turecki, G., ","Mechawar, N., ","Lavoie-Cardinal, F. ","Silvestri, C., ","Di Marzo, V., ","Menard, C. "],
+            "year": "2023",
+            "title": "Astrocytic cannabinoid receptor 1 promotes resilience by dampening stress-induced blood-brain barrier alterations.",
+            "source": "https://doi.org/10.21203/rs.3.rs-2978353/v1",
+            "journal": "Preprint"
         }
         
     },
