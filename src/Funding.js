@@ -11,6 +11,7 @@ import CIFAR from "./img/logos/image13.png";
 import NEURONEX from './img/logos/logo-neuronex.svg';
 import NF from './img/logos/NewFrontiers.svg';
 import CIHR from './img/logos/leaf-cihr-colour-fr.jpg';
+import BrainCan from "./img/logos/braincanada_logo.png";
 function Funding() {
     return (
         <div className="funding__container">
@@ -29,6 +30,9 @@ function Funding() {
                 </a>
                 <a href="https://frq.gouv.qc.ca/sante/" className="logo__item">
                     <img src={FRQS} alt=""></img>
+                </a>
+                 <a href="https://braincanada.ca/" className="logo__item">
+                    <img src={BrainCan} alt=""></img>
                 </a>
             </div>
             <div className="funding__row">
