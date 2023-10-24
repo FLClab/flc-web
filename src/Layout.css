@@ -1,9 +1,9 @@
 .app {
-  background-color: #111;
+  background-color: #1d2731;
 }
 
 body {
-  background-color: #111;
+  background-color: #1d2731;
   box-sizing: border-box;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .alumni__label:hover{
-  color: #FF4500;
+  color: #ff9100;
   transform: scale(1.28);
   opacity: 1;
 }

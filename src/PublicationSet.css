@@ -10,7 +10,7 @@
 }
 
 .publication-toggle-info__button {
-  border-color: #ff9100;
+  border-color: #f7f9fb;
   border-radius: 10px;
   background: none;
   color: #d3d3d3;
@@ -18,5 +18,5 @@
 }
 
 .publication-toggle-info__button:hover {
-  color: tomato;
+  color: #ff9100;
 }

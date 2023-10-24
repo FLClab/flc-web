@@ -24,7 +24,7 @@
 .pi__name {
   letter-spacing: 0.05vw;
   font-size: 1.5vw;
-  color: #ff9100;
+  color: #f7f9fb;
   font-weight: 400;
   margin-bottom: 1vh;
 }
@@ -32,7 +32,7 @@
 .pi__level {
   letter-spacing: 0.05vw;
   font-size: 1.1vw;
-  color: white;
+  color: #ff9100;
   font-weight: 400;
   margin-bottom: 1.2vh;
 }

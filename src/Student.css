@@ -33,7 +33,7 @@
 .student__name {
   letter-spacing: 0.05vw;
   font-size: 1.4vw;
-  color: #ff9100;
+  color: #f7f9fb;
   margin-bottom: 0.9vh;
   font-weight: 400;
 }
@@ -41,7 +41,7 @@
 .student__level {
   letter-spacing: 0.05vw;
   font-size: 1.1vw;
-  color: white;
+  color: #ff9100;
   font-weight: 400;
   margin-bottom: 0.7vh;
 }
@@ -64,7 +64,7 @@
 }
 
 .toggle-info__button {
-  border-color: #ff9100;
+  border-color: #f7f9fb;
   border-radius: 10px;
   background: none;
   color: #d3d3d3;

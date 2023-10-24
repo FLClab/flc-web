@@ -7,7 +7,7 @@ import strings from "./strings.json";
 function Banner() {
     return (
         <div className="banner__container">
-            <div
+            {/* <div
                 className="background_img"
                 style={{ backgroundImage: `url('${background_img}')`,
                     backgroundSize: "cover", 
@@ -15,7 +15,7 @@ function Banner() {
                     backgroundRepeat: "no-repeat", 
                     height: "100%",
                     backgroundPositionY: "80%" }}
-            >
+            > */}
                 <div className="banner">
                     <img src={logo} alt="" 
                     style={{
@@ -27,7 +27,7 @@ function Banner() {
                     ></img>
                     <div className="banner__textcontent">{strings.Banner.groupInfo}</div>
                 </div>
-            </div>
+            {/* </div> */}
         </div>
     );
 }

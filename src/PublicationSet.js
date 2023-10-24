@@ -25,6 +25,11 @@ function PublicationSet(){
         
         
     var publications = [
+        {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1,2,3,4,6],},
+        {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 5],},
+        {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1,2,3,4,6],},
+        {"id": "FActin", "data": strings.Publications.FActin, "students": [0, 1,4],},
+        {"id": "MLAuto", "data": strings.Publications.MLAuto, "students": [1,3,4,7],},
         {"id": "Neurophot", "data": strings.Publications.Neurophot, "students": [0,1,2],},
         {"id": "BBB", "data": strings.Publications.BBB, "students": [1,2,5],},
         {"id": "Astrocytes", "data": strings.Publications.Astrocytes, "students": [8,16],},
@@ -50,15 +55,18 @@ function PublicationSet(){
     // const numPubs = publications.length;
     
     const sortByYear = (item1, item2) => {
-        return item1.year - item2.year
+        console.log(item1.props)
+        console.log(item2.props)
+        return item2.props.data.year - item1.props.data.year
     }
 
 
     return (
         <div className="test">
-            {keyPublications.map((publication) => (
+            {!showAll && keyPublications.map((publication) => (
                 <Publication key={publication.id} data={publication.data} studentIds={publication.students} />
             ))}
+        
             {showAll && publications.map((publication) => (
                 <Publication key={publication.id} data={publication.data} studentIds={publication.students} />
             )).sort(sortByYear)}

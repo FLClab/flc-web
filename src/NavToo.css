@@ -1,14 +1,15 @@
 .nav__container{
-    background-color: black;
+    background-color: #1d2731;
     display: flex;
     top: 0;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
     z-index:1;
+    border-bottom: 1px solid #ff9100;
 }
 
 .nav-white__container{
-    background-color: white;
+    background-color: #f7f9fb;
     position: fixed;
     display: flex;
     padding-top: 1.5vw;
@@ -29,7 +30,7 @@
 }
 
 .nav-link{
-    color: white;
+    color: #f7f9fb;
     text-decoration: none;
     font-size: 1.5vw;
 }

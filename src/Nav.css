@@ -19,7 +19,7 @@
   margin:auto;
   position: relative;
   object-fit: contain;
-  color: #ff9100;
+  color: #f7f9fb;
   font-weight: bold;
   font-size: 1.6em;
   text-decoration: none;
@@ -42,7 +42,7 @@
 
 .nav__link:hover,
 .nav__logo:hover {
-  color: #ff9100;
+  color: #f7f9fb;
 }
 
 .nav__white {
@@ -57,5 +57,5 @@
 }
 
 .nav__active {
-  color: #ff9100;
+  color: #f7f9fb;
 }
