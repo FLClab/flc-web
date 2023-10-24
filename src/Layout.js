@@ -139,33 +139,31 @@ function App() {
   ]
 
   let studentSet3 = [
+    {"student": strings.Members.Bolin, "img": synapses},
     {"student": strings.Members.Catherine, "img": img_Catherine},
     {"student": strings.Members.Frederic, "img": img_Fred},
     {"student": strings.Members.Hadi, "img": img_Hadi},
-      {"student": strings.Members.JGabriel, "img": img_JGabriel },
   ]
 
   let studentSet4 = [
-
+    {"student": strings.Members.JGabriel, "img": img_JGabriel },
     {"student": strings.Members.Julia, "img": img_Julia},
     {"student": strings.Members.Kamylle, "img": img_Kamylle},
     {"student": strings.Members.Katrine, "img": img_Katrine},
-     {"student": strings.Members.Koraly, "img": img_Koraly},
   ]
 
   let studentSet5 = [
-
+    {"student": strings.Members.Koraly, "img": img_Koraly},
     {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
     {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
     {"student": strings.Members.Ludovic, "img": synapses},
-    {"student": strings.Members.Owen, "img": img_Owen},
-    
   ]
 
   let studentSet6 = [
+    {"student": strings.Members.Owen, "img": img_Owen},
     {"student": strings.Members.Sacha, "img": synapses},
     {"student": strings.Members.William, "img": img_William},
-     {"student": strings.Members.Zoe, "img": synapses},
+    {"student": strings.Members.Zoe, "img": synapses},
   ]
 
   let memberSet1 = [
