@@ -44,7 +44,7 @@
         },
         "Alexis": {
             "name": "Alexis Lebrun",
-            "info": "Graduated in Engineering Physics in 2018, I am currently pursuing a PhD in biophotonics at the CERVO and COPL (Centre d'Optique, Photonique et Laser) research centers. My project is ambitious and combines several disciplines in engineering and neuroscience, including nanomaterials, deep learning, super-resolution microscopy and microfluidics. In my project, I aim to develop a highly sensitive, machine-learning assisted molecular identification method that will allow real-time identification and differentiation of biomarkers of gut permeability in microfluidic devices that closely mimic the gastrointestinal tract environment. I am also trying to implement this technique in a super-resolution microscope to realize super-resolved molecular images.",
+            "info": "Graduated in Engineering Physics in 2018, I am currently pursuing a PhD in biophotonics at the CERVO and COPL (Centre d'Optique, Photonique et Laser) research centers. My project is ambitious and combines several disciplines in engineering and neuroscience, including nanomaterials, deep learning, super-resolution microscopy and microfluidics. I aim to develop a highly sensitive, machine-learning assisted molecular identification method that will allow real-time identification and differentiation of biomarkers of gut permeability in microfluidic devices that closely mimic the gastrointestinal tract environment. I am also trying to implement this technique in a super-resolution microscope to realize super-resolved molecular images.",
             "image": "./img/members/Alexis_Lebrun_crop.jpg",
             "director": "Denis Boudreau",
             "codirector": "Flavie Lavoie-Cardinal",
@@ -138,7 +138,7 @@
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
         },
-                                "JGabriel": {
+        "JGabriel": {
             "name":"Jeffrey Gabriel Steavan Santiague",
             "Program": "Undergraduate in Biochemistry(2023)",
             "director": "Flavie Lavoie-Cardinal",
@@ -156,7 +156,7 @@
         },
         "Julia": {
             "name": "Julia Chabbert",
-            "info": "The brain is a super-machine governing our behaviors and emotions. Interested in understanding the functioning of this beautiful and complex organ, I completed a master's degree in neuroscience at the University of Bordeaux (France). My background in neuroscience directed my interests towards the discovery of the infinitely small. Indeed, connection interfaces between neurons, named synapses, replete proteins highly active to ensure good cell communication. Thus, my PhD project, co-supervised by Dr. Flavie Lavoie-Cardinal and Dr. Paul De Koninck, is to identify the molecular mechanisms underlying the remodeling of the synaptic cytoskeleton during long-term potentiation, a phenomenon involved in memory. In this aim, super-resolution microscopy is a considerable asset.",
+            "info": "Interested in understanding the functioning of the brain, I completed a master's degree in neuroscience at the University of Bordeaux (France). My background in neuroscience directed my interests towards the discovery of the infinitely small. Indeed, connection interfaces between neurons, named synapses, replete proteins highly active to ensure good cell communication. Thus, my PhD project, co-supervised by Dr. Flavie Lavoie-Cardinal and Dr. Paul De Koninck, is to identify the molecular mechanisms underlying the remodeling of the synaptic cytoskeleton during long-term potentiation, a phenomenon involved in memory. In this aim, super-resolution microscopy is a considerable asset.",
             "director": "Paul De Koninck",
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
