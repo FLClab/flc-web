@@ -6,8 +6,11 @@ function Member({member, img}){
     const [showMore, setShowMore] = useState(false);
     const [showMoreString, setShowMoreString] = useState('Show more');
     const onReadMoreClick = () => {
-        setShowMore(!showMore);
-        showMore ? setShowMoreString('Show more') : setShowMoreString('Show less');
+        setShowMore(true);
+    }
+
+    const closeInfo = () => {
+        setShowMore(false)
     }
 
     return (
@@ -27,7 +30,11 @@ function Member({member, img}){
                     {member.webpage && <a href={member.webpage} className="webpage__link">Web page</a>}
                 </div>
                 <button id="read-more__member" className="member-toggle-info__button" onClick={onReadMoreClick}>{showMoreString}</button>
-                {showMore && <div className="member__info">{member.info}</div>}
+                {/* {showMore && <div className="member__info">{member.info}</div>} */}
+                <div className={`member-overlay ${showMore && 'show-member-overlay'}`}>
+                    <div className="member-info">{member.info}</div>
+                    <button className="member-close-button" onClick={closeInfo}></button>
+                </div>
            </div>
         </div>
     )

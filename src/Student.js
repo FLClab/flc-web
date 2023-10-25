@@ -6,10 +6,14 @@ function Student({ img, student, level, info, director, codirector }) {
     const [showMoreString, setShowMoreString] = useState('Show more');
 
     const onReadMoreClick = () => {
-        setShowMore(!showMore);
-        showMore ? setShowMoreString('Show more') : setShowMoreString('Show less');
+        setShowMore(true);
     }
 
+    const closeInfo = () => {
+        setShowMore(false);
+    }
+    
+    
     return (
         <div className="student">
             <img className="student_img" src={img} alt=""></img>
@@ -21,7 +25,11 @@ function Student({ img, student, level, info, director, codirector }) {
                     <span className="student__director">Co-director: {codirector}</span>
                 </div>
                 <button id="read-more" className="toggle-info__button" onClick={onReadMoreClick}>{showMoreString}</button>
-                {showMore && <div className="student__info">{info}</div>}
+                {/* {showMore && <div className="student__info">{info}</div>} */}
+                <div className={`overlay ${showMore && 'show-overlay'}`}>
+                    <div className="info">{info}</div>
+                    <button className="close-button" onClick={closeInfo}>X</button>
+                </div>
             </div>
         </div>
     )
