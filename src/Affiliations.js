@@ -7,6 +7,7 @@ import crdm_ul from "./img/logos/image5.png";
 import CERVIM from "./img/logos/image2.png";
 import IID from "./img/logos/image3.png";
 import Laval from "./img/logos/image4.jpeg";
+import NeuroQc from "./img/logos/logo-NeuroQc.svg";
 
 function Affiliations() {
     return (
@@ -31,6 +32,9 @@ function Affiliations() {
             </a>
             <a href="https://www.unique.quebec/" className="logo__item">
                 <img src={UNIQUE} alt=""></img>
+            </a>
+          <a href="https://neuroquebec.com/" className="logo__item">
+                <img src={NeuroQc} alt=""></img>
             </a>
         </div>
     )
