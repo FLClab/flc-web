@@ -3,7 +3,7 @@ import "./Funding.css";
 import GQ from "./img/logos/GQ-Logo-2.png";
 import NSERC from "./img/logos/image6.png";
 import INNO from "./img/logos/image7.png";
-import Sentinelle from "./img/logos/image9.png";
+import Sentinelle from "./img/logos/SentinelleNord.png";
 import FRQNT from "./img/logos/image10.png";
 import FRQS from "./img/logos/image11.png";
 import chaires from "./img/logos/image12.png";

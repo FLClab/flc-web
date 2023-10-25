@@ -2,11 +2,11 @@ import React from 'react';
 import "./Affiliations.css";
 import CERVO from "./img/logos/image1.png";
 import UNIQUE from "./img/logos/UNIQUE.png";
-import RBIQ from "./img/logos/RBIQ_standard.gif";
+import RBIQ from "./img/logos/RBIQ.png";
 import crdm_ul from "./img/logos/image5.png";
 import CERVIM from "./img/logos/image2.png";
 import IID from "./img/logos/image3.png";
-import Laval from "./img/logos/image4.jpeg";
+import Laval from "./img/logos/ULaval.png";
 import NeuroQc from "./img/logos/logo-NeuroQc.svg";
 
 function Affiliations() {
