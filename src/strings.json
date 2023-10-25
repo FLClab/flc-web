@@ -390,11 +390,12 @@
                 "Vincent": {
             "name": "Vincent Boily",
             "info": "For my master's project, I aim to refine a pipeline that will allow to combine whole-brain calcium imaging in larval zebrafish with visual stimulation, tail tracking and computational registration to brain atlases and postmortem immunostaining imaging to study the functional dynamics of the developing brain and the underlying contribution of specific neuromodulatory circuits in the context of learning and memory.",
-
+            "Project":"Enregistrement des fluctuations calciques des neurones dopaminergiques par microscopie multiphotonique dans la larve de poisson-zèbre",
+            "url":"http://hdl.handle.net/20.500.11794/123225",
             "director": "Paul De Koninck",
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "MSc Student",
-            "Title": "",
+            
             "Program": "Masters in Biophotonics (2018-2022)"
         },
         "AndreanneMSc": {
