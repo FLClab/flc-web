@@ -3,7 +3,7 @@ import "./Student.css";
 
 function Student({ img, student, level, info, director, codirector }) {
     const [showMore, setShowMore] = useState(false);
-    const [showMoreString, setShowMoreString] = useState('Show more');
+    const showMoreString = 'Show  more'
 
     const onReadMoreClick = () => {
         setShowMore(true);

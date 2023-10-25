@@ -4,7 +4,7 @@ import "./Member.css";
 
 function Member({member, img}){
     const [showMore, setShowMore] = useState(false);
-    const [showMoreString, setShowMoreString] = useState('Show more');
+    const showMoreString = 'Show more'
     const onReadMoreClick = () => {
         setShowMore(true);
     }
