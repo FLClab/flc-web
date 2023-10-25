@@ -11,7 +11,7 @@ import CIFAR from "./img/logos/image13.png";
 import NEURONEX from './img/logos/logo-neuronex.svg';
 import NF from './img/logos/NewFrontiers.svg';
 import CIHR from './img/logos/leaf-cihr-colour-fr.jpg';
-import BrainCan from "./img/logos/braincanada_logo.png";
+import BrainCan from "./img/logos/logo-brain-canada-white.svg";
 function Funding() {
     return (
         <div className="funding__container">
