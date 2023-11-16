@@ -47,9 +47,13 @@ import cultures from "./img/gallery/cultures.png";
 import Tubulin from "./img/gallery/LIVE610_Tubulin.png";
 import synapticProteins from "./img/gallery/SynapticProteins.png";
 import Fourcolors from "./img/gallery/4colors_VCF_february2022.png";
-import Sledding from "./img/members/Sledding_Group.jpg";
-import Pentathlon from "./img/members/pentathlon.jpeg";
-import vieille from "./img/members/2019.png";
+import Sledding from "./img/gallery/Fun/Sledding_Group.jpg";
+import Pentathlon from "./img/gallery/Fun/pentathlon.jpeg";
+import vieille from "./img/gallery/Fun/2019.png";
+import Carte2019 from "./img/gallery/Fun/CHRISTMAS_CARD_2019.png";
+import Carte2020 from "./img/gallery/Fun/CHRISTMAS_CARD_2020.png";
+import Carte2021 from "./img/gallery/Fun/CHRISTMAS_CARD_2021.png";
+import Carte2022 from "./img/gallery/Fun/CHRISTMAS_CARD_2022.png";
 import img_CatherineD from "./img/members/CatherineD_crop.png";
 
 function App() {
@@ -120,6 +124,26 @@ function App() {
     {
         "id": 2,
         "img": vieille,
+        "label": "",
+    },
+        {
+        "id": 3,
+        "img": Carte2019,
+        "label": "",
+    },
+        {
+        "id": 4,
+        "img": Carte2020,
+        "label": "",
+    },
+        {
+        "id": 5,
+        "img": Carte2021,
+        "label": "",
+    },
+        {
+        "id": 6,
+        "img": Carte2022,
         "label": "",
     }
   ]
