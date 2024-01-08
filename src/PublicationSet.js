@@ -25,6 +25,7 @@ function PublicationSet(){
         
         
     var publications = [
+    	{"id": "FilterLatent", "data": strings.Publications.FilterLatent, "students": [0, 2],},
         {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1,2,3,4,6],},
         {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 5],},
         {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1,2,3,4,6],},

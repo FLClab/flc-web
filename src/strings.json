@@ -167,7 +167,7 @@
             "director": "Flavie Lavoie-Cardinal",
             "info": "Détection des segmentations d'événements calciques par apprentissage profond dans des images de microscopie de diverses modalités",
             "codirector": "",
-            "level": "Undergraduate Student"
+            "level":"MSc Student"
         },
         "Kamylle": {
             "name": "Kamylle Thériault",
@@ -422,6 +422,13 @@
             "title":"Annotation Cost-Sensitive Deep Active Learning with Limited Data.",
             "source":" https://doi.org/10.1609/aaai.v36i11.21593",
             "journal":"Proceedings of the AAAI Conference on Artificial Intelligence"
+        },
+        "FilterLatent":{
+            "authors": [" Bouchard, C.,"," Boulanger, V.," , " Lavoie-Cardinal, F., "," Gagné, C."],
+            "year": "2023",
+            "title":"Filtering Pixel Latent Variables for Unmixing Volumetric Images.",
+            "source":" https://doi.org/10.48550/arXiv.2312.05357",
+            "journal":"Computer Vision and Pattern Recognition"
         },
        "ChronicStress":{
             "authors": ["Doney, E., ","Dion-Albert, L., ","Coulombe-Rozon, F., ","Osborne, N., ","Bernatchez, R., ","Paton, S.E.J., ","Neutzling Kaufmann, F., ","Olory Agomma, R., ","Solano, J.L., ","Gaumond, R., ","Dudek, K.A., ","Kasia Szyszkowicz, J., ","Signature Consortium, ","Lebel, M., ","Doyen, A., ","Durand, A., " , " Lavoie-Cardinal, F., ","Audet, M-C., ","Menard,C."],
