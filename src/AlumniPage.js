@@ -16,6 +16,8 @@ import img_Renaud from "./img/members/renaud_bernatchez_crop.png";
 import img_JeanMichel from "./img/members/JeanMichelBellavance_crop.png";
 import img_AnthonyL from "./img/members/AnthonyLavertu_crop.png";
 import img_David from "./img/members/DavidVIncent_crop.png";
+import img_Albert from "./img/members/Albert_Michaud_crop.png";
+import img_Benoit from"./img/members/Benoit_Turcotte_crop.JPG";
 import strings from './strings.json'
 import "./AlumniPage.css"
 import {FaRegArrowAltCircleLeft} from 'react-icons/fa';
@@ -23,47 +25,54 @@ import {Link} from 'react-router-dom'
 
 function AlumniPage(){
     let alumniSet1 = [
+        {"alumni": strings.Alumni.Albert, "img": img_Albert},
         {"alumni": strings.Alumni.Alexandre, "img": img_Alexandre},
         {"alumni": strings.Alumni.AnthonyL, "img": img_AnthonyL},
         {"alumni": strings.Alumni.Bastian, "img": synapses},
-        {"alumni": strings.Alumni.Chi, "img": synapses},
+
     ]
 
     let alumniSet2 = [
+            {"alumni": strings.Alumni.Benoit, "img": img_Benoit},
+        {"alumni": strings.Alumni.Chi, "img": synapses},
         {"alumni": strings.Alumni.David, "img": img_David},
         {"alumni": strings.Alumni.Elodie, "img": img_ELodie},
-        {"alumni": strings.Alumni.Eric, "img": img_Eric},
-        {"alumni": strings.Alumni.Gabrielle, "img": synapses},
+
 
 
 
     ]
 
     let alumniSet3 = [
+            {"alumni": strings.Alumni.Eric, "img": img_Eric},
+        {"alumni": strings.Alumni.Gabrielle, "img": synapses},
      {"alumni": strings.Alumni.Gabriel, "img": img_GabLeclerc},
         {"alumni": strings.Alumni.JeanMichel, "img": img_JeanMichel},
-        {"alumni": strings.Alumni.LouisEmile, "img": synapses},
-        {"alumni": strings.Alumni.MarcAntoine, "img": synapses},
+
 
 
 
     ]
 
     let alumniSet4 = [
+            {"alumni": strings.Alumni.LouisEmile, "img": synapses},
+        {"alumni": strings.Alumni.MarcAntoine, "img": synapses},
           {"alumni": strings.Alumni.Mariame, "img": synapses},
          {"alumni": strings.Alumni.Marie, "img": img_Marie},
-         {"alumni": strings.Alumni.Philippe, "img": img_Philippe},
-         {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
+
 
     ]
        let alumniSet5= [
+                {"alumni": strings.Alumni.Philippe, "img": img_Philippe},
+         {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
        {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
         {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
-        {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
-        {"alumni": strings.Alumni.Theresa, "img": img_Theresa},
+
 
     ]
            let alumniSet6= [
+                   {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
+        {"alumni": strings.Alumni.Theresa, "img": img_Theresa},
         {"alumni": strings.Alumni.Vincent, "img": img_Vincent}
     ]
 

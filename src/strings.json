@@ -34,14 +34,7 @@
             "research": "Research Professional",
             "pi": "Principal Investigator"
         },
-        "Albert": {
-            "name": "Albert Michaud-Gagnon",
-            "info": "During my two years of experience as a junior engineer in the photonics industry, one thing I realized is that trial and error is an important part of numerous real-life problems. A good example of a problem involving trial and error is super-resolution imaging of biological samples, which typically requires the tuning of several parameters for a new sample. My research project is about multi-objective online bandit optimization of super-resolution microscope parameters.",
-            "image": "./img/members/Albert_Michaud_crop.png",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Audrey Durand",
-            "level": "MSc Student"
-        },
+
         "Alexis": {
             "name": "Alexis Lebrun",
             "info": "Graduated in Engineering Physics in 2018, I am currently pursuing a PhD in biophotonics at the CERVO and COPL (Centre d'Optique, Photonique et Laser) research centers. My project is ambitious and combines several disciplines in engineering and neuroscience, including nanomaterials, deep learning, super-resolution microscopy and microfluidics. I aim to develop a highly sensitive, machine-learning assisted molecular identification method that will allow real-time identification and differentiation of biomarkers of gut permeability in microfluidic devices that closely mimic the gastrointestinal tract environment. I am also trying to implement this technique in a super-resolution microscope to realize super-resolved molecular images.",
@@ -91,14 +84,7 @@
             "codirector": "Christian Gagné",
             "level": "MSc Student"
         },
-        "Benoit": {
-            "name": "Benoit Turcotte",
-            "info": "The objective of my project is to use reinforcement learning to learn an optimal imaging scheme that would allow to image Ca2+ signaling events by maximizing resolution while minimizing photobleaching. The training will be done in simulation, which means we will also study how well an optimal policy learned in simulation transfers to real life, and how we can further fine tune it.",
-            "image": "./img/members/Benoit_Turcotte_crop.JPG",
-            "director": "Audrey Durand",
-            "codirector": "Flavie Lavoie-Cardinal",
-            "level": "MSc Student"
-        },
+
         "Bolin": {
             "name": "Bolin Fan",
             "info": "TBD.",
@@ -262,6 +248,14 @@
     },
     "Alumni": {
         "label": "Alumni",
+         "Albert": {
+            "name": "Albert Michaud-Gagnon",
+
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Audrey Durand",
+            "level": "MSc Student",
+             "Program": "Masters in Electrical Engineering (2020-2023)"
+        },
         "Alexandre": {
             "name": "Alexandre Boulay",
             "Program": "Undergraduate in Bioinformatics (2021)"
@@ -273,6 +267,15 @@
         "Bastian": {
             "name": "Bastian Raulier",
             "Program": "Undergraduate in Engineering Physics (2019)"
+        },
+                "Benoit": {
+            "name": "Benoit Turcotte",
+
+            "image": "./img/members/Benoit_Turcotte_crop.JPG",
+            "director": "Audrey Durand",
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "MSc Student",
+            "Program": "Masters in Electrical Engineering (2020-2023)"
         },
 
         "Chi": {

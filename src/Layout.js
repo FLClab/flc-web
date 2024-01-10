@@ -14,14 +14,14 @@ import Research from "./Research";
 import PI from "./PI";
 import PublicationSet from "./PublicationSet";
 // import Zooniverse from "./Zooniverse";
-import img_Albert from "./img/members/Albert_Michaud_crop.png";
+
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
 import img_Anthony from "./img/members/Anthony_Bilodeau_crop.JPG";
 
 import img_AntoineG from "./img/members/Antoine_Girard_crop.jpg";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
-import img_Benoit from "./img/members/Benoit_Turcotte_crop.JPG";
+
 
 import img_Alexy from "./img/members/Alexy_crop.jpg";
 import img_Koraly from "./img/members/Koraly_crop.jpg";
@@ -149,43 +149,48 @@ function App() {
   ]
 
   let studentSet1 = [
-    {"student": strings.Members.Albert, "img": img_Albert},
+    
     {"student": strings.Members.Alexis, "img": img_Alexis},
     {"student": strings.Members.Alexy, "img": img_Alexy},
     {"student": strings.Members.Andreanne, "img": img_Andreanne},
+    {"student": strings.Members.Anthony, "img": img_Anthony},
   ]
 
   let studentSet2 = [
-    {"student": strings.Members.Anthony, "img": img_Anthony},
+    
     {"student": strings.Members.AntoineG, "img": img_AntoineG},
     {"student": strings.Members.AntoineO, "img": img_AntoineO},
-    {"student": strings.Members.Benoit, "img": img_Benoit},
+    {"student": strings.Members.Bolin, "img": synapses},
+    {"student": strings.Members.Catherine, "img": img_Catherine},
+  
   ]
 
   let studentSet3 = [
-    {"student": strings.Members.Bolin, "img": synapses},
-    {"student": strings.Members.Catherine, "img": img_Catherine},
+
     {"student": strings.Members.Frederic, "img": img_Fred},
     {"student": strings.Members.Hadi, "img": img_Hadi},
+    {"student": strings.Members.JGabriel, "img": img_JGabriel },
+    {"student": strings.Members.Julia, "img": img_Julia},
   ]
 
   let studentSet4 = [
-    {"student": strings.Members.JGabriel, "img": img_JGabriel },
-    {"student": strings.Members.Julia, "img": img_Julia},
+
     {"student": strings.Members.Kamylle, "img": img_Kamylle},
     {"student": strings.Members.Katrine, "img": img_Katrine},
+        {"student": strings.Members.Koraly, "img": img_Koraly},
+    {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
   ]
 
   let studentSet5 = [
-    {"student": strings.Members.Koraly, "img": img_Koraly},
-    {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
+
     {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
     {"student": strings.Members.Ludovic, "img": synapses},
+        {"student": strings.Members.Owen, "img": img_Owen},
+    {"student": strings.Members.Sacha, "img": synapses},
   ]
 
   let studentSet6 = [
-    {"student": strings.Members.Owen, "img": img_Owen},
-    {"student": strings.Members.Sacha, "img": synapses},
+
     {"student": strings.Members.William, "img": img_William},
     {"student": strings.Members.Zoe, "img": synapses},
   ]
