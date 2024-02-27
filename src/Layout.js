@@ -55,7 +55,7 @@ import Carte2020 from "./img/gallery/Fun/CHRISTMAS_CARD_2020.png";
 import Carte2021 from "./img/gallery/Fun/CHRISTMAS_CARD_2021.png";
 import Carte2022 from "./img/gallery/Fun/CHRISTMAS_CARD_2022.png";
 import img_CatherineD from "./img/members/CatherineD_crop.png";
-import Pentathlon2024 from "./img/gallery/Fun/Pentathlon2024.jpg;
+import Pentathlon2024 from "./img/gallery/Fun/Pentathlon2024.jpg";
 
 function App() {
   const [introScroll, setIntroScroll] = useState(0);
@@ -120,12 +120,12 @@ function App() {
         "label": "",
     },
     {
-        "id": 1,
+        "id": 2,
         "img": Sledding,
         "label": "",
     },
     {
-        "id": 2,
+        "id": 1,
         "img": Pentathlon,
         "label": "",
     },
