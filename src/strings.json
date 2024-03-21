@@ -355,7 +355,10 @@
             "image": "./img/members/renaud_bernatchez_crop.png",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
-            "Program": "Masters in Biophotonics (2020-2023)"
+            "Program": "Masters in Biophotonics (2020-2023)",
+            "Project":"Génération et analyse de jeux de données adaptés à l'application de l’apprentissage automatique en biophotonique",
+            "url":"http://hdl.handle.net/20.500.11794/138543"
+        
 
         },
 
