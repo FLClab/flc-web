@@ -609,6 +609,13 @@
             "title": "Astrocytic cannabinoid receptor 1 promotes resilience by dampening stress-induced blood-brain barrier alterations.",
             "source": "https://doi.org/10.21203/rs.3.rs-2978353/v1",
             "journal": "Preprint"
+        },
+              "PySTED": {
+            "authors": ["Bilodeau, A., ","Michaud-Gagnon, A., ","Chabbert, J., ","Turcotte, B., ","Henie,J., ","Durand, A., ","Lavoie-Cardinal, F."],
+            "year": "2024",
+            "title": "Development of AI-assisted microscopy frameworks through realistic simulation in pySTED.",
+            "source": "https://www.biorxiv.org/content/10.1101/2024.03.25.586697v1",
+            "journal": "Preprint"
         }
         
     },
