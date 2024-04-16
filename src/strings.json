@@ -432,7 +432,7 @@
         "FilterLatent":{
             "authors": ["Bouchard, C.,"," Deschênes, A.,"," Boulanger, V.," ," Bellavance, J-M.,", " Lavoie-Cardinal, F., "," Gagné, C."],
             "year": "2024",
-            "title":"Filtering Pixel Latent Variables for Unmixing Volumetric Images.",
+            "title":"Filtering Pixel Latent Variables for Unmixing Noisy and Undersampled Volumetric Images.",
             "source":"https://doi.org/10.48550/arXiv.2312.05357",
             "journal":"Preprint"
         },
