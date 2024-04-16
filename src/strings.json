@@ -430,11 +430,11 @@
             "journal":"Proceedings of the AAAI Conference on Artificial Intelligence"
         },
         "FilterLatent":{
-            "authors": [" Bouchard, C.,"," Boulanger, V.," , " Lavoie-Cardinal, F., "," Gagné, C."],
-            "year": "2023",
+            "authors": ["Bouchard, C.,"," Deschênes, A.,"," Boulanger, V.," ," Bellavance, J-M.,", " Lavoie-Cardinal, F., "," Gagné, C."],
+            "year": "2024",
             "title":"Filtering Pixel Latent Variables for Unmixing Volumetric Images.",
-            "source":" https://doi.org/10.48550/arXiv.2312.05357",
-            "journal":"Computer Vision and Pattern Recognition"
+            "source":"https://doi.org/10.48550/arXiv.2312.05357",
+            "journal":"Preprint"
         },
        "ChronicStress":{
             "authors": ["Doney, E., ","Dion-Albert, L., ","Coulombe-Rozon, F., ","Osborne, N., ","Bernatchez, R., ","Paton, S.E.J., ","Neutzling Kaufmann, F., ","Olory Agomma, R., ","Solano, J.L., ","Gaumond, R., ","Dudek, K.A., ","Kasia Szyszkowicz, J., ","Signature Consortium, ","Lebel, M., ","Doyen, A., ","Durand, A., " , " Lavoie-Cardinal, F., ","Audet, M-C., ","Menard,C."],
