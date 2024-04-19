@@ -190,14 +190,6 @@
             "level": "Undergraduate Student"
         },
 
-        "Ludovic": {
-            "name": "Ludovic Reymond",
-            "info": "",
-            "image": "",
-            "codirector": "Christian Gagné",
-            "director": "Flavie Lavoie-Cardinal",
-            "level": "MSc Student"
-        },
         "Owen": {
             "name": "Owen Ferguson",
             "info": "Parkinson’s disease affects more than 10 million people worldwide, and I’m interested in the mechanisms that lead to the death of dopamine-producing neurons in the disease. I am using stem cells from human patients to create neurons with Parkinson’s disease traits and I am using super-resolution microscopy to observe the differences between the mitochondria of healthy people and Parkinson’s disease patients.",
@@ -321,6 +313,16 @@
             "Program": "Masters in Electrical Engineering (2017-2020)",
             "Project":"Réseaux de neurones pour l'apprentissage de la préférence en microscopie super-résolution",
             "url":"http://hdl.handle.net/20.500.11794/68744"
+        },
+        
+        "Ludovic": {
+            "name": "Ludovic Reymond",
+            "Program": "Masters in Artificial Intelligence (2023-2024)",
+            "info": "",
+            "image": "",
+            "codirector": "Christian Gagné",
+            "director": "Flavie Lavoie-Cardinal",
+            "level": "MSc Student"
         },
         "MarcAntoine": {
             "name": "Marc-Antoine Plourde",

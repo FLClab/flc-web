@@ -56,21 +56,24 @@ function AlumniPage(){
 
     let alumniSet4 = [
             {"alumni": strings.Alumni.LouisEmile, "img": synapses},
+              {"alumni": strings.Alumni.Ludovic, "img": synapses},
         {"alumni": strings.Alumni.MarcAntoine, "img": synapses},
           {"alumni": strings.Alumni.Mariame, "img": synapses},
-         {"alumni": strings.Alumni.Marie, "img": img_Marie},
+        
 
 
     ]
        let alumniSet5= [
+        {"alumni": strings.Alumni.Marie, "img": img_Marie},
                 {"alumni": strings.Alumni.Philippe, "img": img_Philippe},
          {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
        {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
-        {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
+       
 
 
     ]
            let alumniSet6= [
+            {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
                    {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
         {"alumni": strings.Alumni.Theresa, "img": img_Theresa},
         {"alumni": strings.Alumni.Vincent, "img": img_Vincent}
