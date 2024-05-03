@@ -93,6 +93,14 @@
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
         },
+                "Camille": {
+            "name": "Camille Vincent Provencher",
+            "info": "",
+            "image": "./img/members/Catherine_Bouchard_crop.png",
+            "director":"Flavie Lavoie-Cardinal",
+            "codirector":  "",
+            "level": "Undergraduate Student"
+        },
         "Catherine": {
             "name": "Catherine Bouchard",
             "info": "After a bachelor's degree in engineering physics, I'm pursuing my studies in the field of machine learning to extend my knowledge to new methods applied to subjects I was already passionate about, such as photonics and life science. My project focuses specifically on the application of deep neural networks for algorithmic super-resolution of fluorescence microscopy images.",
