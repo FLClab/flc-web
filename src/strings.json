@@ -98,7 +98,7 @@
             "info": "",
             "image": "./img/members/Catherine_Bouchard_crop.png",
             "director":"Flavie Lavoie-Cardinal",
-            "codirector":  "",
+            "codirector": "Christian Gagné",
             "level": "Undergraduate Student"
         },
         "Catherine": {
@@ -167,17 +167,17 @@
             "name": "Kamylle Thériault",
             "Program": "Undergraduate in Bioinformatics (2022)",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
+            "codirector": "Yves De Koninck",
             "info":" I greatly enjoy putting the 'multi' in multidisciplinary. Between analysing mitochondrial morphology in a human model of Parkinson's disease in 2022 and classifying antibacterial mode of action using deep learning in 2023, I’m always eager to find more ways to create a happy marriage between biology and informatics. My project mainly focuses on the informative relevance of channels in bi-modal microscopy images and the optimization of the efficiency of deep learning models trained solely on a small dataset.",
-            "level": "Undergraduate Student"
+            "level": "MSc Student"
         },
         "Koraly": {
             "name": "Koraly Lessard",
             "Program": "Undergraduate in Bioinformatics (2022)",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
+            "codirector": "Christian Gagné",
             "info": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution",
-            "level": "Undergraduate Student"
+            "level": "MSc Student"
         },
 
 
@@ -193,9 +193,9 @@
             "name": "Laurence Descombes",
             "Program": "Undergraduate in Engineering Physics (2022)",
             "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
+            "codirector": "Feng Wang",
             "info": "Alignement et caractérisation d’un microscope STED.",
-            "level": "Undergraduate Student"
+            "level": "MSc Student"
         },
 
         "Owen": {
