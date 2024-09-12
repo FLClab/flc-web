@@ -446,6 +446,16 @@
             "source":"https://doi.org/10.48550/arXiv.2312.05357",
             "journal":"Preprint"
         },
+        "Calcium":{
+            "authors": ["Beaupré, F.,"," Bilodeau, A.,"," Wiesner, T.," ," Leclerc, G.,", " Lemieux, M.,"," Nadeau, G.,"," Castonguay, K.,"," Fan, B.,"," Labrecque, S.,"," Hložek, R.,"," De Koninck, P.,"," Gagné, C.,"," Lavoie-Cardinal, F." ],
+            "year": "2024",
+            "title":"Quantitative Analysis of Miniature Synaptic Calcium Transients Using Positive Unlabeled Deep Learning.",
+            "source":" https://doi.org/10.1101/2024.07.04.602047",
+            "journal":"Preprint"
+        },
+
+
+
        "ChronicStress":{
             "authors": ["Doney, E., ","Dion-Albert, L., ","Coulombe-Rozon, F., ","Osborne, N., ","Bernatchez, R., ","Paton, S.E.J., ","Neutzling Kaufmann, F., ","Olory Agomma, R., ","Solano, J.L., ","Gaumond, R., ","Dudek, K.A., ","Kasia Szyszkowicz, J., ","Signature Consortium, ","Lebel, M., ","Doyen, A., ","Durand, A., " , " Lavoie-Cardinal, F., ","Audet, M-C., ","Menard,C."],
             "year": "2023",
