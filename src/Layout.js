@@ -171,39 +171,27 @@ function App() {
     {"student": strings.Members.AntoineO, "img": img_AntoineO},
     {"student": strings.Members.Bolin, "img": synapses},
     {"student": strings.Members.Catherine, "img": img_Catherine},
-       
-
-  
   ]
 
   let studentSet3 = [
     
     {"student": strings.Members.Frederic, "img": img_Fred},
     {"student": strings.Members.Hadi, "img": img_Hadi},
-
     {"student": strings.Members.Julia, "img": img_Julia},
     {"student": strings.Members.Kamylle, "img": img_Kamylle},
-
   ]
 
   let studentSet4 = [
-   
- 
     {"student": strings.Members.Katrine, "img": img_Katrine},
         {"student": strings.Members.Koraly, "img": img_Koraly},
         {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
         {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
-
   ]
 
   let studentSet5 = [
-   
-   
     {"student": strings.Members.William, "img": img_William},
     
   ]
-
-
 
   let memberSet1 = [
     {"member": strings.Members.CatherineD, "img": img_CatherineD},
@@ -280,10 +268,8 @@ function App() {
       <DynamicStudentSet
         data={studentSet4}
       />
-
       <DynamicStudentSet
         data={studentSet5}
-
       />
 
 

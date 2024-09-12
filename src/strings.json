@@ -176,21 +176,7 @@
             "level": "MSc Student"
         },
 
-        "Owen": {
-            "name": "Owen Ferguson",
-            "info": "Parkinson’s disease affects more than 10 million people worldwide, and I’m interested in the mechanisms that lead to the death of dopamine-producing neurons in the disease. I am using stem cells from human patients to create neurons with Parkinson’s disease traits and I am using super-resolution microscopy to observe the differences between the mitochondria of healthy people and Parkinson’s disease patients.",
-            "image": "./img/members/OwenFerguson_crop.JPG",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Martin Lévesque",
-            "level": "PhD Student"
-        },
 
-        "Valerie": {
-            "name": "Valérie Clavet-Fournier",
-            "info": "My fascination for neuroscience appeared during my bachelor’s degree in biochemistry where I got the opportunity to do an internship with Paul De Koninck. I learned a lot about the learning and memory process via glutamatergic transmission and synaptic plasticity. I got so interested in the subject that it became the heart of my master’s project which was to elucidate the role of calpain in synaptic transmission. I pursued my PhD degree in the same fascinating field of neuroscience where I studied the structural remodeling of synaptic proteins with super-resolution STED microscopy after activity-driven plasticity of glutamatergic synapses in organotypic slices. With my background, I am now really glad to work in the FLC lab on the structural plasticity of synaptic proteins using STED microscopy and correlate those changes with the local activity of the neurons.",
-            "image": "./img/gallery/SynapticProteins.png",
-            "level": "Research Professional"
-        },
                 "CatherineD": {
             "name": "Catherine Desjardins",
             "info": "",
@@ -327,6 +313,16 @@
             "codirector": "",
             "Title": "Analyse d’images de microscopie super-résolution de temps de vie"
         },
+
+        "Owen": {
+            "name": "Owen Ferguson",
+            "info": "Parkinson’s disease affects more than 10 million people worldwide, and I’m interested in the mechanisms that lead to the death of dopamine-producing neurons in the disease. I am using stem cells from human patients to create neurons with Parkinson’s disease traits and I am using super-resolution microscopy to observe the differences between the mitochondria of healthy people and Parkinson’s disease patients.",
+            "image": "./img/members/OwenFerguson_crop.JPG",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Martin Lévesque",
+            "level": "PhD Student"
+        },
+
         "Philippe": {
             "name": "Philippe Gagnon",
             "Program": "Undergraduate in Engineering Physics (2020-2021)"
@@ -391,6 +387,13 @@
             "webpage": "https://wiesnertheresa.github.io/",
             "level": "Postdoctoral Researcher"
         },
+        
+        "Valerie": {
+            "name": "Valérie Clavet-Fournier",
+            "info": "My fascination for neuroscience appeared during my bachelor’s degree in biochemistry where I got the opportunity to do an internship with Paul De Koninck. I learned a lot about the learning and memory process via glutamatergic transmission and synaptic plasticity. I got so interested in the subject that it became the heart of my master’s project which was to elucidate the role of calpain in synaptic transmission. I pursued my PhD degree in the same fascinating field of neuroscience where I studied the structural remodeling of synaptic proteins with super-resolution STED microscopy after activity-driven plasticity of glutamatergic synapses in organotypic slices. With my background, I am now really glad to work in the FLC lab on the structural plasticity of synaptic proteins using STED microscopy and correlate those changes with the local activity of the neurons.",
+            "image": "./img/gallery/SynapticProteins.png",
+            "level": "Research Professional"
+        },
 
                 "Vincent": {
             "name": "Vincent Boily",
@@ -452,7 +455,6 @@
             "source":" https://doi.org/10.1101/2024.07.04.602047",
             "journal":"Preprint"
         },
-
 
 
        "ChronicStress":{
