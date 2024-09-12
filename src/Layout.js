@@ -34,8 +34,8 @@ import img_Hadi from "./img/members/Hadi_crop.png";
 
 import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png";
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
-import img_Owen from "./img/members/OwenFerguson_crop.JPG";
-import img_JGabriel from "./img/members/JGabriel_crop.png";
+
+
 import img_William from "./img/members/WilliamL_crop.png";
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
@@ -170,40 +170,40 @@ function App() {
     {"student": strings.Members.AntoineG, "img": img_AntoineG},
     {"student": strings.Members.AntoineO, "img": img_AntoineO},
     {"student": strings.Members.Bolin, "img": synapses},
-        {"student": strings.Members.Camille, "img": synapses},
+    {"student": strings.Members.Catherine, "img": img_Catherine},
+       
 
   
   ]
 
   let studentSet3 = [
-    {"student": strings.Members.Catherine, "img": img_Catherine},
+    
     {"student": strings.Members.Frederic, "img": img_Fred},
     {"student": strings.Members.Hadi, "img": img_Hadi},
-    {"student": strings.Members.JGabriel, "img": img_JGabriel },
+
+    {"student": strings.Members.Julia, "img": img_Julia},
+    {"student": strings.Members.Kamylle, "img": img_Kamylle},
 
   ]
 
   let studentSet4 = [
-    {"student": strings.Members.Julia, "img": img_Julia},
-    {"student": strings.Members.Kamylle, "img": img_Kamylle},
+   
+ 
     {"student": strings.Members.Katrine, "img": img_Katrine},
         {"student": strings.Members.Koraly, "img": img_Koraly},
+        {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
+        {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
 
   ]
 
   let studentSet5 = [
-    {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
-    {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
-
-        {"student": strings.Members.Owen, "img": img_Owen},
-    {"student": strings.Members.Sacha, "img": synapses},
+   
+   
+    {"student": strings.Members.William, "img": img_William},
     
   ]
 
-  let studentSet6 = [
-    {"student": strings.Members.William, "img": img_William},
-    {"student": strings.Members.Zoe, "img": synapses},
-  ]
+
 
   let memberSet1 = [
     {"member": strings.Members.CatherineD, "img": img_CatherineD},
@@ -283,9 +283,7 @@ function App() {
 
       <DynamicStudentSet
         data={studentSet5}
-      />
-      <DynamicStudentSet
-        data={studentSet6}
+
       />
 
 

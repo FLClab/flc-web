@@ -93,14 +93,7 @@
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
         },
-                "Camille": {
-            "name": "Camille Vincent Provencher",
-            "info": "",
-            "image": "./img/members/Catherine_Bouchard_crop.png",
-            "director":"Flavie Lavoie-Cardinal",
-            "codirector": "Christian Gagné",
-            "level": "Undergraduate Student"
-        },
+
         "Catherine": {
             "name": "Catherine Bouchard",
             "info": "After a bachelor's degree in engineering physics, I'm pursuing my studies in the field of machine learning to extend my knowledge to new methods applied to subjects I was already passionate about, such as photonics and life science. My project focuses specifically on the application of deep neural networks for algorithmic super-resolution of fluorescence microscopy images.",
@@ -132,22 +125,7 @@
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
         },
-        "JGabriel": {
-            "name":"Jeffrey Gabriel Steavan Santiague",
-            "Program": "Undergraduate in Biochemistry(2023)",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "info": "",
-            "level": "Undergraduate Student"
-        },
-        "JM": {
-            "name": "Jean-Michel Bellavance",
-            "info": " During my first year of bachelor’s degree in Microbiology, I completed a summer internship in a neuroscience laboratory where I learned the patch-clamp technique. I loved participating in this experience because of the challenge of being immersed in a field that I knew almost nothing of with a task as hard as to complete a patch-clamp project during the summer. My interest in psychology also further motivated me to start a master’s degree in Neuroscience. In Flavie’s lab, I will now combine STED microscopy and functional imaging to try to elucidate causal mechanisms of different diseases like ALS and Parkinson’s disease. I will focus on synaptic symptoms in these disease models.",
-            "image": "./img/members/JeanMichelBellavance_crop.png",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Chantelle Stephon",
-            "level": "MSc Student"
-        },
+
         "Julia": {
             "name": "Julia Chabbert",
             "info": "Interested in understanding the functioning of the brain, I completed a master's degree in neuroscience at the University of Bordeaux (France). My background in neuroscience directed my interests towards the discovery of the infinitely small. Indeed, connection interfaces between neurons, named synapses, replete proteins highly active to ensure good cell communication. Thus, my PhD project, co-supervised by Dr. Flavie Lavoie-Cardinal and Dr. Paul De Koninck, is to identify the molecular mechanisms underlying the remodeling of the synaptic cytoskeleton during long-term potentiation, a phenomenon involved in memory. In this aim, super-resolution microscopy is a considerable asset.",
@@ -206,14 +184,6 @@
             "codirector": "Martin Lévesque",
             "level": "PhD Student"
         },
-                                "Sacha": {
-            "name":"Sacha Baker",
-            "Program": "Undergraduate in Bioinformatics(2023)",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "info": "",
-            "level": "Undergraduate Student"
-        },
 
         "Valerie": {
             "name": "Valérie Clavet-Fournier",
@@ -235,16 +205,8 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
             "level": "MSc Student"
-        },
-                "Zoe": {
-            "name": "Zoé Jargaille",
-            "Program": "Undergraduate in Biochemistry (2023)",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "info": "",
-            "image": "./img/gallery/SynapticProteins.png",
-            "level": "Undergraduate Student"
         }
+
     },
     "Alumni": {
         "label": "Alumni",
@@ -277,7 +239,15 @@
             "level": "MSc Student",
             "Program": "Masters in Electrical Engineering (2020-2023)"
         },
-
+        "Camille": {
+            "name": "Camille Vincent Provencher",
+            "info": "",
+            "image": "./img/members/Catherine_Bouchard_crop.png",
+            "director":"Flavie Lavoie-Cardinal",
+            "codirector": "Christian Gagné",
+            "level": "Undergraduate Student",
+            "Program":"Undergraduate in Engineering Physics (2024)"
+        },
         "Chi": {
             "name": "Chi Huynh",
             "Program": "Undergraduate Student (2023)"
@@ -316,6 +286,16 @@
             "name": "Jean-Michel Bellavance",
             "Program": "Masters in Neuroscience (2021-2023)"
         },
+
+        "JGabriel": {
+            "name":"Jeffrey Gabriel Steavan Santiague",
+            "Program": "Undergraduate in Biochemistry(2023-2024)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "",
+            "level": "Undergraduate Student"
+        },
+
         "LouisEmile":{
             "name": "Louis-Émile Robitaille",
             "Program": "Masters in Electrical Engineering (2017-2020)",
@@ -381,6 +361,15 @@
             "Program": "Postdoctoral Researcher (2022)",
              "Title":  ""
         },
+        "Sacha": {
+            "name":"Sacha Baker",
+            "Program": "Undergraduate in Bioinformatics (2023-2024)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "",
+            "level": "Undergraduate Student"
+        },
+
 
         "Samuel": {
             "name": " Samuel Gagnon",
@@ -413,6 +402,16 @@
             "level": "MSc Student",
             
             "Program": "Masters in Biophotonics (2018-2022)"
+        },
+
+        "Zoe": {
+            "name": "Zoé Jargaille",
+            "Program": "Undergraduate in Biochemistry (2023-2024)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "",
+            "image": "./img/gallery/SynapticProteins.png",
+            "level": "Undergraduate Student"
         },
         "AndreanneMSc": {
             "name": "Andréanne Deschênes",
