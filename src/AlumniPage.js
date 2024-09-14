@@ -19,6 +19,7 @@ import img_AnthonyL from "./img/members/AnthonyLavertu_crop.png";
 import img_David from "./img/members/DavidVIncent_crop.png";
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Benoit from"./img/members/Benoit_Turcotte_crop.JPG";
+import img_William from "./img/members/WilliamL_crop.png";
 import strings from './strings.json'
 import "./AlumniPage.css"
 import {FaRegArrowAltCircleLeft} from 'react-icons/fa';
@@ -71,27 +72,30 @@ function AlumniPage(){
         {"alumni": strings.Alumni.MarcAntoine, "img": synapses},
         {"alumni": strings.Alumni.Mariame, "img": synapses},
         {"alumni": strings.Alumni.Marie, "img": img_Marie},
-                {"alumni": strings.Alumni.Philippe, "img": img_Philippe},
+        {"alumni": strings.Alumni.Philippe, "img": img_Philippe},
 
        
 
 
     ]
-           let alumniSet6= [
-            {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
-            {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
-            {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
-            {"alumni": strings.Alumni.Sacha, "img": synapses},
-
+    let alumniSet6= [
+        {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
+        {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
+        {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
+        {"alumni": strings.Alumni.Sacha, "img": synapses},
     ]
 
     let alumniSet7= [
 
-               {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
-    {"alumni": strings.Alumni.Theresa, "img": img_Theresa},
-    {"alumni": strings.Alumni.Vincent, "img": img_Vincent},
-    {"alumni": strings.Alumni.Zoe, "img": synapses},
-]
+            {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
+            {"alumni": strings.Alumni.Theresa, "img": img_Theresa},
+            {"alumni": strings.Alumni.Vincent, "img": img_Vincent},
+            {"alumni": strings.Alumni.Zoe, "img": synapses},
+        ]
+
+    let alumniSet8 = [
+        {"alumni": strings.Alumni.William, "img": img_William},
+    ]
 
     return (
         <div className="alumni-page__container">
@@ -127,6 +131,9 @@ function AlumniPage(){
              <DynamicAlumniSet
                 data={alumniSet7}
              />
+             <DynamicAlumniSet
+                data={alumniSet8}
+            />
         </div>
 
     )

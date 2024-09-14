@@ -35,8 +35,6 @@ import img_Hadi from "./img/members/Hadi_crop.png";
 import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png";
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
 
-
-import img_William from "./img/members/WilliamL_crop.png";
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
 import img_Katrine from "./img/members/Katrine_crop.JPG";
@@ -188,11 +186,6 @@ function App() {
         {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
   ]
 
-  let studentSet5 = [
-    {"student": strings.Members.William, "img": img_William},
-    
-  ]
-
   let memberSet1 = [
     {"member": strings.Members.CatherineD, "img": img_CatherineD},
 
@@ -267,9 +260,6 @@ function App() {
       />
       <DynamicStudentSet
         data={studentSet4}
-      />
-      <DynamicStudentSet
-        data={studentSet5}
       />
 
 

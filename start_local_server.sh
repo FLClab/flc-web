@@ -2,4 +2,4 @@
 
 export NODE_OPTIONS=--openssl-legacy-provider
 
-yarn start
+yarn start --openssl-legacy-provider

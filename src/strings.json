@@ -182,17 +182,7 @@
             "info": "",
             "image": "./img/gallery/SynapticProteins.png",
             "level": "Research Coordinator"
-        },
-
-        "William": {
-            "name": "William Leclerc",
-            "info": "During my bachelor's degree in bioinformatics, I was introduced to the symbiosis between the field of machine learning and several aspects of neuroscience. My interests now revolve around what artificial intelligence, and particularly deep learning, can teach us about living organisms and the ways they learn. My master's project focuses more specifically on the detection of anomalies related to bacteria in culture. I aspire to combine my approaches from diverse fields to open the way to bold and multidisciplinary ideas.",
-            "image": "./img/members/WilliamL_crop.png",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Audrey Durand",
-            "level": "MSc Student"
         }
-
     },
     "Alumni": {
         "label": "Alumni",
@@ -394,8 +384,7 @@
             "image": "./img/gallery/SynapticProteins.png",
             "level": "Research Professional"
         },
-
-                "Vincent": {
+        "Vincent": {
             "name": "Vincent Boily",
             "info": "For my master's project, I aim to refine a pipeline that will allow to combine whole-brain calcium imaging in larval zebrafish with visual stimulation, tail tracking and computational registration to brain atlases and postmortem immunostaining imaging to study the functional dynamics of the developing brain and the underlying contribution of specific neuromodulatory circuits in the context of learning and memory.",
             "Project":"Enregistrement des fluctuations calciques des neurones dopaminergiques par microscopie multiphotonique dans la larve de poisson-zèbre",
@@ -406,7 +395,14 @@
             
             "Program": "Masters in Biophotonics (2018-2022)"
         },
-
+        "William": {
+            "name": "William Leclerc",
+            "info": "During my bachelor's degree in bioinformatics, I was introduced to the symbiosis between the field of machine learning and several aspects of neuroscience. My interests now revolve around what artificial intelligence, and particularly deep learning, can teach us about living organisms and the ways they learn. My master's project focuses more specifically on the detection of anomalies related to bacteria in culture. I aspire to combine my approaches from diverse fields to open the way to bold and multidisciplinary ideas.",
+            "image": "./img/members/WilliamL_crop.png",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Audrey Durand",
+            "level": "MSc Student"
+        },
         "Zoe": {
             "name": "Zoé Jargaille",
             "Program": "Undergraduate in Biochemistry (2023-2024)",
