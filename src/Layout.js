@@ -53,6 +53,7 @@ import Carte2019 from "./img/gallery/Fun/CHRISTMAS_CARD_2019.png";
 import Carte2020 from "./img/gallery/Fun/CHRISTMAS_CARD_2020.png";
 import Carte2021 from "./img/gallery/Fun/CHRISTMAS_CARD_2021.png";
 import Carte2022 from "./img/gallery/Fun/CHRISTMAS_CARD_2022.png";
+import Carte2023 from "./img/gallery/Fun/CHRISTMAS_CARD_2023.png";
 import img_CatherineD from "./img/members/CatherineD_crop.png";
 import Pentathlon2024 from "./img/gallery/Fun/Pentathlon2024.jpg";
 
@@ -152,7 +153,12 @@ function App() {
         "id": 7,
         "img": Carte2022,
         "label": "",
-    }
+    },
+    {
+      "id": 8,
+      "img": Carte2023,
+      "label": "",
+  }
   ]
 
   let studentSet1 = [
