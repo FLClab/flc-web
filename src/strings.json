@@ -631,8 +631,8 @@
             "authors": ["Bilodeau, A., ","Michaud-Gagnon, A., ","Chabbert, J., ","Turcotte, B., ","Henie,J., ","Durand, A., ","Lavoie-Cardinal, F."],
             "year": "2024",
             "title": "Development of AI-assisted microscopy frameworks through realistic simulation in pySTED.",
-            "source": "https://www.biorxiv.org/content/10.1101/2024.03.25.586697v1",
-            "journal": "Preprint"
+            "source": "https://doi.org/10.1038/s42256-024-00903-w",
+            "journal": "Nature Machine Intelligence"
         }
         
     },
