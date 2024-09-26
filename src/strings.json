@@ -632,7 +632,8 @@
             "year": "2024",
             "title": "Development of AI-assisted microscopy frameworks through realistic simulation in pySTED.",
             "source": "https://doi.org/10.1038/s42256-024-00903-w",
-            "journal": "Nature Machine Intelligence"
+            "journal": "Nature Machine Intelligence",
+            "website":"https://s3.valeria.science/flclab-pysted/index.html"
         }
         
     },
