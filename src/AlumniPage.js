@@ -82,20 +82,20 @@ function AlumniPage(){
         {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
         {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
         {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
-        {"alumni": strings.Alumni.Sacha, "img": synapses},
+        {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
     ]
 
     let alumniSet7= [
 
-            {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
+            
             {"alumni": strings.Alumni.Theresa, "img": img_Theresa},
             {"alumni": strings.Alumni.Vincent, "img": img_Vincent},
+           
+            {"alumni": strings.Alumni.William, "img": img_William},
             {"alumni": strings.Alumni.Zoe, "img": synapses},
         ]
 
-    let alumniSet8 = [
-        {"alumni": strings.Alumni.William, "img": img_William},
-    ]
+
 
     return (
         <div className="alumni-page__container">
@@ -131,9 +131,7 @@ function AlumniPage(){
              <DynamicAlumniSet
                 data={alumniSet7}
              />
-             <DynamicAlumniSet
-                data={alumniSet8}
-            />
+
         </div>
 
     )

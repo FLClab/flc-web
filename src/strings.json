@@ -176,6 +176,15 @@
             "level": "MSc Student"
         },
 
+        "Sacha": {
+            "name":"Sacha Baker",
+            "Program": "Undergraduate in Bioinformatics (2023-2024)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "info": "",
+            "level": "Undergraduate Student"
+        },
+
 
                 "CatherineD": {
             "name": "Catherine Desjardins",
@@ -265,7 +274,7 @@
 
         "JGabriel": {
             "name":"Jeffrey Gabriel Steavan Santiague",
-            "Program": "Undergraduate in Biochemistry(2023-2024)",
+            "Program": "Undergraduate in Biochemistry (2023-2024)",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
             "info": "",
@@ -347,14 +356,7 @@
             "Program": "Postdoctoral Researcher (2022)",
              "Title":  ""
         },
-        "Sacha": {
-            "name":"Sacha Baker",
-            "Program": "Undergraduate in Bioinformatics (2023-2024)",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "info": "",
-            "level": "Undergraduate Student"
-        },
+
 
 
         "Samuel": {
@@ -392,7 +394,6 @@
             "director": "Paul De Koninck",
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "MSc Student",
-            
             "Program": "Masters in Biophotonics (2018-2022)"
         },
         "William": {
@@ -401,7 +402,8 @@
             "image": "./img/members/WilliamL_crop.png",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
-            "level": "MSc Student"
+            "level": "MSc Student",
+            "Program": "Masters in Informatics (2021-2024)"
         },
         "Zoe": {
             "name": "Zoé Jargaille",
