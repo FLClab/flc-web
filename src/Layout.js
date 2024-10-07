@@ -120,12 +120,12 @@ function App() {
         "label": "",
     },
     {
-        "id": 2,
+        "id": 1,
         "img": Sledding,
         "label": "",
     },
     {
-        "id": 1,
+        "id": 2,
         "img": Pentathlon,
         "label": "",
     },
