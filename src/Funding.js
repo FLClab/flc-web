@@ -9,7 +9,7 @@ import FRQS from "./img/logos/image11.png";
 import chaires from "./img/logos/image12.png";
 import CIFAR from "./img/logos/image13.png";
 import NEURONEX from './img/logos/logo-neuronex.svg';
-import NF from './img/logos/NewFrontiers.svg';
+import NF from './img/logos/NewFrontiers.png';
 import CIHR from './img/logos/leaf-cihr-colour-fr.jpg';
 import BrainCan from "./img/logos/logo-brain-canada-white.svg";
 function Funding() {

@@ -80,9 +80,8 @@
             "name": "Antoine Séverin Ollier",
             "info": "After obtaining my degree in Engineering from Télécom Saint-Étienne in France, I decided to continue my studies in the field of microscopy and machine learning. I decided to join a multidisciplinary lab because I was interested in collaborating with other scientists. In my Master’s degree project, I am working on implementing a new type of detector that will allow us to make temporal and hyperspectral images on the STED microscope. I’m also working on machine learning algorithms that will enhance the amount of acquired signal in low-photon conditions.",
             "image": "./img/members/AntoineSeverinOllier.JPG",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Christian Gagné",
-            "level": "MSc Student"
+
+            "level": "Research Professional"
         },
 
         "Bolin": {
@@ -147,14 +146,6 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Yves De Koninck",
             "info":" I greatly enjoy putting the 'multi' in multidisciplinary. Between analysing mitochondrial morphology in a human model of Parkinson's disease in 2022 and classifying antibacterial mode of action using deep learning in 2023, I’m always eager to find more ways to create a happy marriage between biology and informatics. My project mainly focuses on the informative relevance of channels in bi-modal microscopy images and the optimization of the efficiency of deep learning models trained solely on a small dataset.",
-            "level": "MSc Student"
-        },
-        "Koraly": {
-            "name": "Koraly Lessard",
-            "Program": "Undergraduate in Bioinformatics (2022)",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Christian Gagné",
-            "info": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution",
             "level": "MSc Student"
         },
 
@@ -280,6 +271,16 @@
             "info": "",
             "level": "Undergraduate Student"
         },
+
+        "Koraly": {
+            "name": "Koraly Lessard",
+            "Program": "Undergraduate in Bioinformatics (2022-2023)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Christian Gagné",
+            "info": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution",
+            "level": "MSc Student"
+        },
+
 
         "LouisEmile":{
             "name": "Louis-Émile Robitaille",

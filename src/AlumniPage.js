@@ -9,6 +9,7 @@ import img_PhilGT from "./img/members/PhilippeGT_crop.jpg";
 import synapses from "./img/gallery/cultures.png";
 import img_ELodie from"./img/members/ElodieMoth_crop.jpg";
 import img_Eric from "./img/members/EricBergeron_crop.jpg";
+import img_Koraly from "./img/members/Koraly_crop.jpg";
 import img_Theresa from "./img/members/Theresa_Wiesner_crop.png";
 import img_Vincent from "./img/members/Vincent_Boily_crop.png";
 import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
@@ -61,37 +62,46 @@ function AlumniPage(){
     let alumniSet4 = [
         {"alumni": strings.Alumni.JeanMichel, "img": img_JeanMichel},
         {"alumni": strings.Alumni.JGabriel, "img": img_JGabriel},
+        {"alumni": strings.Alumni.Koraly, "img": img_Koraly},
             {"alumni": strings.Alumni.LouisEmile, "img": synapses},
-              {"alumni": strings.Alumni.Ludovic, "img": synapses},
+  
   
         
 
 
     ]
        let alumniSet5= [
+        {"alumni": strings.Alumni.Ludovic, "img": synapses},
         {"alumni": strings.Alumni.MarcAntoine, "img": synapses},
         {"alumni": strings.Alumni.Mariame, "img": synapses},
         {"alumni": strings.Alumni.Marie, "img": img_Marie},
-        {"alumni": strings.Alumni.Philippe, "img": img_Philippe},
+       
 
        
 
 
     ]
     let alumniSet6= [
+        {"alumni": strings.Alumni.Philippe, "img": img_Philippe},
         {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
         {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
         {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
-        {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
+    
     ]
 
     let alumniSet7= [
 
-            
+        {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
             {"alumni": strings.Alumni.Theresa, "img": img_Theresa},
             {"alumni": strings.Alumni.Vincent, "img": img_Vincent},
            
             {"alumni": strings.Alumni.William, "img": img_William},
+     
+        ]
+
+        let alumniSet8= [
+
+
             {"alumni": strings.Alumni.Zoe, "img": synapses},
         ]
 
@@ -130,6 +140,10 @@ function AlumniPage(){
              
              <DynamicAlumniSet
                 data={alumniSet7}
+             />
+
+            <DynamicAlumniSet
+                data={alumniSet8}
              />
 
         </div>
