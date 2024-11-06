@@ -213,7 +213,9 @@
             "director": "Audrey Durand",
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "MSc Student",
-            "Program": "Masters in Electrical Engineering (2020-2023)"
+            "Program": "Masters in Electrical Engineering (2020-2023)",
+            "Project":"Développement et utilisation d'un simulateur de microscopie STED pour l'apprentissage machine",
+            "url":"https://hdl.handle.net/20.500.11794/148785"
         },
         "Camille": {
             "name": "Camille Vincent Provencher",
