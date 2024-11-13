@@ -28,7 +28,7 @@ function PublicationSet(){
     var publications = [
         {"id": "PySTED", "data": strings.Publications.PySTED, "students": [0,1, 2,3,6],},
         {"id": "Calcium", "data": strings.Publications.Calcium, "students": [0,1,2,3,6,7,12],},
-    	{"id": "FilterLatent", "data": strings.Publications.FilterLatent, "students": [0,1,3,4],},
+    	{"id": "Unmixing", "data": strings.Publications.Unmixing, "students": [0,1,3,4,5,6],},
         {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1,2,3,4,6],},
         {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 5],},
         {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1,2,3,4,6],},

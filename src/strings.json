@@ -442,12 +442,13 @@
             "source":" https://doi.org/10.1609/aaai.v36i11.21593",
             "journal":"Proceedings of the AAAI Conference on Artificial Intelligence"
         },
-        "FilterLatent":{
-            "authors": ["Bouchard, C.,"," Deschênes, A.,"," Boulanger, V.," ," Bellavance, J-M.,", " Lavoie-Cardinal, F., "," Gagné, C."],
+        "Unmixing":{
+            "authors": ["Bouchard, C.,"," Deschênes, A.,"," Boulanger, V.," ," Bellavance, J-M.,"," Chabbert, J."," Pelletier-Rioux, A."," Lavoie-Cardinal, F., "," Gagné, C."],
             "year": "2024",
-            "title":"Filtering Pixel Latent Variables for Unmixing Noisy and Undersampled Volumetric Images.",
+            "title":"Unmixing Optical Signals from Undersampled Volumetric Measurements by Filtering the Pixel Latent Variables.",
             "source":"https://doi.org/10.48550/arXiv.2312.05357",
-            "journal":"Preprint"
+            "journal":"Preprint",
+            "website":"https://s3.valeria.science/flclab-unmixing/index.html"
         },
         "Calcium":{
             "authors": ["Beaupré, F.,"," Bilodeau, A.,"," Wiesner, T.," ," Leclerc, G.,", " Lemieux, M.,"," Nadeau, G.,"," Castonguay, K.,"," Fan, B.,"," Labrecque, S.,"," Hložek, R.,"," De Koninck, P.,"," Gagné, C.,"," Lavoie-Cardinal, F." ],
