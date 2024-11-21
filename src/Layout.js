@@ -32,7 +32,7 @@ import img_LaurenceD from "./img/members/LaurenceD_crop.jpg";
 import img_Catherine from "./img/members/CatherineBouchard_crop.png";
 import img_Hadi from "./img/members/Hadi_crop.png";
 
-import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png";
+import img_Flavie from "./img/members/Flavie_RadioCan2023.png";
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
 
 import strings from "./strings.json";
@@ -56,7 +56,7 @@ import Carte2022 from "./img/gallery/Fun/CHRISTMAS_CARD_2022.png";
 import Carte2023 from "./img/gallery/Fun/CHRISTMAS_CARD_2023.png";
 import img_CatherineD from "./img/members/CatherineD_crop.png";
 import Pentathlon2024 from "./img/gallery/Fun/Pentathlon2024.jpg";
-
+import EscapeRoom from "./img/gallery/Fun/EscapeRoom_2024.jpeg";
 function App() {
   const [introScroll, setIntroScroll] = useState(0);
   const [memberScroll, setMemberScroll] = useState(0);
@@ -112,50 +112,54 @@ function App() {
   ]
 
   const funImages = [
-
+    {
+      "id": 0,
+      "img": EscapeRoom,
+      "label": "",
+  },
     
         {
-        "id": 0,
+        "id": 1,
         "img": Pentathlon2024,
         "label": "",
     },
     {
-        "id": 1,
+        "id": 2,
         "img": Sledding,
         "label": "",
     },
     {
-        "id": 2,
+        "id": 3,
         "img": Pentathlon,
         "label": "",
     },
     {
-        "id": 3,
+        "id": 4,
         "img": vieille,
         "label": "",
     },
         {
-        "id": 4,
+        "id": 5,
         "img": Carte2019,
         "label": "",
     },
         {
-        "id": 5,
+        "id": 6,
         "img": Carte2020,
         "label": "",
     },
         {
-        "id": 6,
+        "id": 7,
         "img": Carte2021,
         "label": "",
     },
         {
-        "id": 7,
+        "id": 8,
         "img": Carte2022,
         "label": "",
     },
     {
-      "id": 8,
+      "id": 9,
       "img": Carte2023,
       "label": "",
   }
