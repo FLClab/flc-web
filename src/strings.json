@@ -453,10 +453,10 @@
         "Calcium":{
             "authors": ["Beaupré, F.,"," Bilodeau, A.,"," Wiesner, T.," ," Leclerc, G.,", " Lemieux, M.,"," Nadeau, G.,"," Castonguay, K.,"," Fan, B.,"," Labrecque, S.,"," Hložek, R.,"," De Koninck, P.,"," Gagné, C.,"," Lavoie-Cardinal, F." ],
             "year": "2024",
-            "title":"Quantitative Analysis of Miniature Synaptic Calcium Transients Using Positive Unlabeled Deep Learning.",
-            "source":" https://doi.org/10.1101/2024.07.04.602047",
-            "journal":"Preprint",
-            "website":"https://s3.valeria.science/flclab-calcium/index.html"
+            "title":"Quantitative analysis of miniature synaptic calcium transients using positive unlabeled deep learning.",
+            "source":" https://doi.org/10.1039/D4DD00197D",
+            "journal":"Digital Discovery",
+            "website":"https://s3.valeria.science/flclab-calcium/index.html."
         },
 
 
