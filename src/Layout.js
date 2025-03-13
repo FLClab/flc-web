@@ -15,7 +15,7 @@ import PI from "./PI";
 import PublicationSet from "./PublicationSet";
 // import Zooniverse from "./Zooniverse";
 
-import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
+
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
 import img_Anthony from "./img/members/Anthony_Bilodeau_crop.JPG";
 
@@ -167,34 +167,37 @@ function App() {
 
   let studentSet1 = [
     
-    {"student": strings.Members.Alexis, "img": img_Alexis},
+    
     {"student": strings.Members.Alexy, "img": img_Alexy},
     {"student": strings.Members.Andreanne, "img": img_Andreanne},
     {"student": strings.Members.Anthony, "img": img_Anthony},
+    {"student": strings.Members.AntoineG, "img": img_AntoineG},
   ]
 
   let studentSet2 = [
     
-    {"student": strings.Members.AntoineG, "img": img_AntoineG},
+ 
    
     {"student": strings.Members.Bolin, "img": synapses},
     {"student": strings.Members.Catherine, "img": img_Catherine},
     {"student": strings.Members.Frederic, "img": img_Fred},
+    {"student": strings.Members.Hadi, "img": img_Hadi},
   ]
 
   let studentSet3 = [
     
     
-    {"student": strings.Members.Hadi, "img": img_Hadi},
+   
     {"student": strings.Members.Julia, "img": img_Julia},
     {"student": strings.Members.Kamylle, "img": img_Kamylle},
     {"student": strings.Members.Katrine, "img": img_Katrine},
+    {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
   ]
 
   let studentSet4 = [
 
        
-        {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
+       
         {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
         {"student": strings.Members.Sacha, "img": synapses},
   ]

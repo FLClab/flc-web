@@ -35,14 +35,7 @@
             "pi": "Principal Investigator"
         },
 
-        "Alexis": {
-            "name": "Alexis Lebrun",
-            "info": "Graduated in Engineering Physics in 2018, I am currently pursuing a PhD in biophotonics at the CERVO and COPL (Centre d'Optique, Photonique et Laser) research centers. My project is ambitious and combines several disciplines in engineering and neuroscience, including nanomaterials, deep learning, super-resolution microscopy and microfluidics. I aim to develop a highly sensitive, machine-learning assisted molecular identification method that will allow real-time identification and differentiation of biomarkers of gut permeability in microfluidic devices that closely mimic the gastrointestinal tract environment. I am also trying to implement this technique in a super-resolution microscope to realize super-resolved molecular images.",
-            "image": "./img/members/Alexis_Lebrun_crop.jpg",
-            "director": "Denis Boudreau",
-            "codirector": "Flavie Lavoie-Cardinal",
-            "level": "PhD Student"
-        },
+
         "Alexy": {
             "name": "Alexy Pelletier-Rioux",
             "info": "Super-résolution de la Cofiline lors de la formation des fibres d'actine.",
@@ -197,6 +190,15 @@
         "Alexandre": {
             "name": "Alexandre Boulay",
             "Program": "Undergraduate in Bioinformatics (2021)"
+        },
+        "Alexis": {
+            "name": "Alexis Lebrun",
+            "info": "Graduated in Engineering Physics in 2018, I am currently pursuing a PhD in biophotonics at the CERVO and COPL (Centre d'Optique, Photonique et Laser) research centers. My project is ambitious and combines several disciplines in engineering and neuroscience, including nanomaterials, deep learning, super-resolution microscopy and microfluidics. I aim to develop a highly sensitive, machine-learning assisted molecular identification method that will allow real-time identification and differentiation of biomarkers of gut permeability in microfluidic devices that closely mimic the gastrointestinal tract environment. I am also trying to implement this technique in a super-resolution microscope to realize super-resolved molecular images.",
+            "image": "./img/members/Alexis_Lebrun_crop.jpg",
+            "director": "Denis Boudreau",
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "PhD Student",
+            "Program": "Doctorate in Biophotonics (2021-2024)"
         },
         "AnthonyL": {
             "name": "Anthony Lavertu",
@@ -406,7 +408,7 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
             "level": "MSc Student",
-            "Program": "Masters in Informatics (2021-2024)"
+            "Program": "Undergraduate in Bioinformatics (2021)"
         },
         "Zoe": {
             "name": "Zoé Jargaille",
