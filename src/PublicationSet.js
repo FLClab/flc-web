@@ -26,6 +26,7 @@ function PublicationSet(){
         
         
     var publications = [
+        {"id":"NeuralStemCells", "data": strings.Publications.NeuralStemCells, "students": [3,6,7],},
         {"id": "Calcium", "data": strings.Publications.Calcium, "students": [0,1,2,3,6,7,12],},
         {"id": "PySTED", "data": strings.Publications.PySTED, "students": [0,1, 2,3,6],},
     	{"id": "Unmixing", "data": strings.Publications.Unmixing, "students": [0,1,3,4,5,6],},

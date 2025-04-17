@@ -438,11 +438,18 @@
     "Publications": {
         "label": "Publications",
          "ActiveAAAI":{
-            "authors": [" Bernatchez, R.,"," Durand, A." , " Lavoie-Cardinal, F."],
+            "authors": ["Bernatchez, R.,"," Durand, A." , " Lavoie-Cardinal, F."],
             "year": "2022",
             "title":"Annotation Cost-Sensitive Deep Active Learning with Limited Data.",
             "source":" https://doi.org/10.1609/aaai.v36i11.21593",
             "journal":"Proceedings of the AAAI Conference on Artificial Intelligence"
+        },
+        "NeuralStemCells":{
+            "authors":["Marymonchyk, A.,"," Rodriguez-Aller, R.,"," Willis, A.,"," Beaupré, F.,"," Warsi, S.,"," Snapyan, M.,"," Clavet-Fournier, V.,"," Lavoie-Cardinal, F.,"," Kaplan, D.,"," Miller, F.,"," Saghatelyan, A."],
+            "title" : "Neural Stem Cell Quiescence and Activation Dynamics Are Regulated by Feedback Input from Their Progeny under Homeostatic and Regenerative Conditions.",
+            "year" :"2025",
+            "journal":"Cell Stem Cell",
+            "source":" https://doi.org/10.1016/j.stem.2025.01.001"
         },
         "Unmixing":{
             "authors": ["Bouchard, C.,"," Deschênes, A.,"," Boulanger, V.," ," Bellavance, J-M.,"," Chabbert, J."," Pelletier-Rioux, A."," Lavoie-Cardinal, F., "," Gagné, C."],
