@@ -16,7 +16,7 @@ function PublicationSet(){
     // const showPubs = 5
 
     var keyPublications = [
-        {"id": "PySTED", "data": strings.Publications.PySTED, "students": [0,1, 2,3,6,9],},
+        {"id": "PySTED", "data": strings.Publications.PySTED, "students": [0,1, 2,3,6],},
         {"id": "TAGAN", "data": strings.Publications.TAGAN, "students": [0, 1,2,3,4,6],},
         {"id": "micranet", "data": strings.Publications.MicraNet, "students": [0, 5],},
         {"id": "theresa", "data": strings.Publications.Theresa, "students": [0, 1,2,3,4,6],},
@@ -26,7 +26,7 @@ function PublicationSet(){
         
         
     var publications = [
-        {"id":"STEDFM", "data": strings.Publications.STEDFM, "students": [0,1,2,3,4,5,6],},
+        {"id":"STEDFM", "data": strings.Publications.STEDFM, "students": [0,1,2,3,4,5,6,9],},
         {"id":"NeuralStemCells", "data": strings.Publications.NeuralStemCells, "students": [3,6,7],},
         {"id": "Calcium", "data": strings.Publications.Calcium, "students": [0,1,2,3,6,7,12],},
         {"id": "PySTED", "data": strings.Publications.PySTED, "students": [0,1, 2,3,6],},
