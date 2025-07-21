@@ -209,7 +209,8 @@ function App() {
 
   ]
 
-    let studentSet5 = [ 
+    let studentSet5 = [
+      {"student": strings.Members.Rayane, "img": img_Rayane}, 
       {"student": strings.Members.Tassnym, "img": synapses},
       {"student": strings.Members.Tristan, "img": img_Tristan},
      {"student": strings.Members.WilliamS, "img": img_WilliamS}]
