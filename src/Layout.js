@@ -16,18 +16,18 @@ import PublicationSet from "./PublicationSet";
 // import Zooniverse from "./Zooniverse";
 
 
-import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
+import img_Andreanne from "./img/members/Andreanne_2025.jpg";
 import img_Anthony from "./img/members/Anthony_Bilodeau_crop.JPG";
 
 import img_AntoineG from "./img/members/Antoine_Girard_crop.jpg";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 
+import img_Alexis from "./img/members/AlexisE.jpg";
+import img_Alexy from "./img/members/Alexy_2025.jpg";
 
-import img_Alexy from "./img/members/Alexy_crop.jpg";
-
-import img_Kamylle from "./img/members/Kamylle_crop.jpg";
+import img_Kamylle from "./img/members/Kamylle_2025.jpg";
 import img_LaurenceF from "./img/members/LaurenceF_crop.jpg";
-import img_LaurenceD from "./img/members/LaurenceD_crop.jpg";
+import img_LaurenceD from "./img/members/LaurenceD_2025.jpg";
 
 import img_Catherine from "./img/members/CatherineBouchard_crop.png";
 import img_Hadi from "./img/members/Hadi_crop.png";
@@ -37,7 +37,12 @@ import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
 
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
+import img_Jeanne from "./img/members/Jeanne.jpg";
 import img_Katrine from "./img/members/Katrine_crop.JPG";
+import img_Mathieu from "./img/members/Mathieu.jpg";
+import img_Rayane from "./img/members/Rayane.jpg";
+import img_Tristan from "./img/members/Tristan.jpg";
+import img_WilliamS from "./img/members/WilliamS.jpg";
 import synapses from "./img/gallery/SynapticProteins.png"
 import BassoonHomer from "./img/gallery/BassoonHomer.png"
 import actinSpectrin from "./img/gallery/ActinSpectrin.png";
@@ -167,40 +172,47 @@ function App() {
 
   let studentSet1 = [
     
-    
+     {"student": strings.Members.Alexis, "img": img_Alexis},
     {"student": strings.Members.Alexy, "img": img_Alexy},
     {"student": strings.Members.Andreanne, "img": img_Andreanne},
     {"student": strings.Members.Anthony, "img": img_Anthony},
-    {"student": strings.Members.AntoineG, "img": img_AntoineG},
+    
   ]
 
   let studentSet2 = [
     
  
-   
+   {"student": strings.Members.AntoineG, "img": img_AntoineG},
     {"student": strings.Members.Bolin, "img": synapses},
     {"student": strings.Members.Catherine, "img": img_Catherine},
     {"student": strings.Members.Frederic, "img": img_Fred},
-    {"student": strings.Members.Hadi, "img": img_Hadi},
+   
   ]
 
   let studentSet3 = [
     
     
-   
+    {"student": strings.Members.Hadi, "img": img_Hadi},
+    {"student": strings.Members.Jeanne, "img": img_Jeanne},
     {"student": strings.Members.Julia, "img": img_Julia},
     {"student": strings.Members.Kamylle, "img": img_Kamylle},
-    {"student": strings.Members.Katrine, "img": img_Katrine},
-    {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
+
   ]
 
   let studentSet4 = [
 
        
-       
+           {"student": strings.Members.Katrine, "img": img_Katrine},
+    {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
         {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
-        {"student": strings.Members.Sacha, "img": synapses},
+        {"student": strings.Members.Mathieu, "img": img_Mathieu},
+
   ]
+
+    let studentSet5 = [ 
+      {"student": strings.Members.Tassnym, "img": synapses},
+      {"student": strings.Members.Tristan, "img": img_Tristan},
+     {"student": strings.Members.WilliamS, "img": img_WilliamS}]
 
   let memberSet1 = [
     {"member": strings.Members.CatherineD, "img": img_CatherineD},
@@ -277,6 +289,9 @@ function App() {
       />
       <DynamicStudentSet
         data={studentSet4}
+      />
+            <DynamicStudentSet
+        data={studentSet5}
       />
 
 
