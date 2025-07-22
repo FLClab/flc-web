@@ -12,23 +12,30 @@ import AlumniPage from './AlumniPage';
 //   document.getElementById('root')
 // );
 
+function Shop() {
+  window.location.href = "https://www.google.com";
+  return null; // This component will never render anything since it redirects immediately
+}
+
+
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />} />
         <Route path="/alumni" element={<AlumniPage />} />
-        <Route
+        <Route path="/shop" element={<Shop />} />
+        {/* <Route
           path="/shop"
           element={
             window.location.pathname === "/shop"
               ? (() => {
-                  window.location.href = "http://172.16.1.169:5050";
+                  window.location.href = "https://www.google.com";
                   return null;
                 })()
               : null
           }
-        />
+        /> */}
       </Routes>
     </BrowserRouter>
   );
