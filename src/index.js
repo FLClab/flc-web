@@ -13,15 +13,11 @@ import AlumniPage from './AlumniPage';
 // );
 
 function Shop() {
-  console.log("Redirecting to shop...");
-  window.location.href = "https://www.google.com";
+  window.location.href = "http://172.16.1.169:5050";
   return null; // This component will never render anything since it redirects immediately
 }
 
-
 export default function App() {
-  console.log("App component rendered");
-  console.log("Desired path:", window.location.pathname);
   return (
     <BrowserRouter>
       <Routes>
