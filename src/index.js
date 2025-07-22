@@ -16,8 +16,19 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}></Route>
-        <Route path="alumni" element={<AlumniPage />}></Route>
+        <Route path="/" element={<Layout />} />
+        <Route path="/alumni" element={<AlumniPage />} />
+        <Route
+          path="/shop"
+          element={
+            window.location.pathname === "/shop"
+              ? (() => {
+                  window.location.href = "http://172.16.1.169:5050";
+                  return null;
+                })()
+              : null
+          }
+        />
       </Routes>
     </BrowserRouter>
   );
