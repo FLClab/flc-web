@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.73db1a0d.css",
-    "main.js": "./static/js/main.03e1a207.js",
+    "main.js": "./static/js/main.4404061f.js",
     "static/media/CHRISTMAS_CARD_2020.png": "./static/media/CHRISTMAS_CARD_2020.e42dd24b683551c760c8.png",
     "static/media/Hadi_crop.png": "./static/media/Hadi_crop.1e546625dded13c6b973.png",
     "static/media/DavidVIncent_crop.png": "./static/media/DavidVIncent_crop.a44c34776f64a8d76d63.png",
@@ -82,10 +82,10 @@
     "index.html": "./index.html",
     "static/media/Google_Scholar_logo.svg": "./static/media/Google_Scholar_logo.40e3b4f719a57a3d034b854054a25c66.svg",
     "main.73db1a0d.css.map": "./static/css/main.73db1a0d.css.map",
-    "main.03e1a207.js.map": "./static/js/main.03e1a207.js.map"
+    "main.4404061f.js.map": "./static/js/main.4404061f.js.map"
   },
   "entrypoints": [
     "static/css/main.73db1a0d.css",
-    "static/js/main.03e1a207.js"
+    "static/js/main.4404061f.js"
   ]
 }

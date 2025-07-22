@@ -28,6 +28,7 @@ import {FaRegArrowAltCircleLeft} from 'react-icons/fa';
 import {Link} from 'react-router-dom'
 
 function AlumniPage(){
+
     let alumniSet1 = [
         {"alumni": strings.Alumni.Albert, "img": img_Albert},
         {"alumni": strings.Alumni.Alexandre, "img": img_Alexandre},
