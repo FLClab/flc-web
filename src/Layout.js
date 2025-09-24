@@ -41,7 +41,7 @@ import img_Jeanne from "./img/members/Jeanne.jpg";
 import img_Katrine from "./img/members/Katrine_crop.JPG";
 import img_Mathieu from "./img/members/Mathieu.jpg";
 import img_Rayane from "./img/members/Rayane.jpg";
-import img_Tristan from "./img/members/Tristan.jpg";
+
 import img_WilliamS from "./img/members/WilliamS.jpg";
 import synapses from "./img/gallery/SynapticProteins.png"
 import BassoonHomer from "./img/gallery/BassoonHomer.png"
@@ -211,8 +211,6 @@ function App() {
 
     let studentSet5 = [
       {"student": strings.Members.Rayane, "img": img_Rayane}, 
-      {"student": strings.Members.Tassnym, "img": synapses},
-      {"student": strings.Members.Tristan, "img": img_Tristan},
      {"student": strings.Members.WilliamS, "img": img_WilliamS}]
 
   let memberSet1 = [

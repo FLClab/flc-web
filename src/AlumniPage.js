@@ -22,6 +22,7 @@ import img_David from "./img/members/DavidVIncent_crop.png";
 import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Benoit from"./img/members/Benoit_Turcotte_crop.JPG";
 import img_William from "./img/members/WilliamL_crop.png";
+import img_Tristan from "./img/members/Tristan.jpg";
 import strings from './strings.json'
 import "./AlumniPage.css"
 import {FaRegArrowAltCircleLeft} from 'react-icons/fa';
@@ -110,6 +111,8 @@ function AlumniPage(){
         ]
 
         let alumniSet8= [
+            {"alumni": strings.Alumni.Tristan, "img": img_Tristan},
+            {"alumni": strings.Alumni.Tassnym, "img": synapses},
             {"alumni": strings.Alumni.Vincent, "img": img_Vincent},
             {"alumni": strings.Alumni.William, "img": img_William},
             {"alumni": strings.Alumni.Zoe, "img": synapses},

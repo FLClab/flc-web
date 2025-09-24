@@ -190,22 +190,7 @@
             "codirector": "",
             "level": "Undergraduate Student"
         },
-                        "Tristan": {
-            "name": "Tristan Charlebois",
-            "info": "",
-            "image": "./img/members/Tristan.jpg",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "level": "Undergraduate Student"
-        },
-                                "Tassnym": {
-            "name": "Tassnym Echchahed",
-            "info": "",
-            "image": "./img/members/Tristan.jpg",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "level": "Undergraduate Student"
-        },
+
                         "WilliamS": {
             "name": "William Saxon",
             "info": "",
@@ -234,7 +219,9 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
             "level": "MSc Student",
-             "Program": "Masters in Electrical Engineering (2020-2023)"
+             "Program": "Masters in Electrical Engineering (2020-2023)",
+            "Project":"Optimisation en ligne multiparamètre et multiobjectif de la microscopie de super-résolution",
+            "url":"https://hdl.handle.net/20.500.11794/171446"
         },
         "Alexandre": {
             "name": "Alexandre Boulay",
@@ -430,6 +417,22 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
             "Title": "Protocole standardisé de culture de Caco-2"
+        },
+                                "Tristan": {
+            "name": "Tristan Charlebois",
+             "Program": "Undergraduate in Bioinformatics (2025)",
+            "image": "./img/members/Tristan.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "level": "Undergraduate Student"
+        },
+                                "Tassnym": {
+            "name": "Tassnym Echchahed",
+            "info": "",
+            "image": "./img/members/Tristan.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "Program": "Undergraduate Student (2025)"
         },
                 "Theresa": {
             "name": "Theresa Wiesner",
