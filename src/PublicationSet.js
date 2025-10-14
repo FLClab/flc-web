@@ -26,6 +26,7 @@ function PublicationSet(){
         
         
     var publications = [
+        {"id":"SERS", "data": strings.Publications.SERS, "students": [0,1],},
         {"id":"SPLITSTED", "data": strings.Publications.SPLITSTED, "students": [0,1,2,3,4,5,8],},
         {"id":"STEDFM", "data": strings.Publications.STEDFM, "students": [0,1,2,3,4,5,6,9],},
         {"id":"NeuralStemCells", "data": strings.Publications.NeuralStemCells, "students": [3,6,7],},

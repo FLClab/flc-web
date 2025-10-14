@@ -546,6 +546,14 @@
             "journal":"Preprint"
 
         },
+        "SERS":{
+            "authors": ["Lebrun, A.,"," Lavoie-Cardinal, F., ","Boudreau, D."],
+            "year": "2025",
+            "title":"Surface-Enhanced Raman Spectroscopy Semi-Quantitative Molecular Profiling with a Convolutional Neural Network.",
+            "source":" https://doi.org/10.1177/00037028251377474",
+            "journal":"Applied Spectroscopy"
+
+        },
 
        "ChronicStress":{
             "authors": ["Doney, E., ","Dion-Albert, L., ","Coulombe-Rozon, F., ","Osborne, N., ","Bernatchez, R., ","Paton, S.E.J., ","Neutzling Kaufmann, F., ","Olory Agomma, R., ","Solano, J.L., ","Gaumond, R., ","Dudek, K.A., ","Kasia Szyszkowicz, J., ","Signature Consortium, ","Lebel, M., ","Doyen, A., ","Durand, A., " , " Lavoie-Cardinal, F., ","Audet, M-C., ","Menard,C."],
