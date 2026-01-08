@@ -14,19 +14,12 @@ import Research from "./Research";
 import PI from "./PI";
 import PublicationSet from "./PublicationSet";
 // import Zooniverse from "./Zooniverse";
-
-import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
 import img_Andreanne from "./img/members/Andreanne_Deschenes_crop.JPG";
 import img_Anthony from "./img/members/Anthony_Bilodeau_crop.JPG";
 
 import img_AntoineG from "./img/members/Antoine_Girard_crop.jpg";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
-
-
-import img_Alexy from "./img/members/Alexy_crop.jpg";
-import img_Koraly from "./img/members/Koraly_crop.jpg";
 import img_Kamylle from "./img/members/Kamylle_crop.jpg";
-import img_LaurenceF from "./img/members/LaurenceF_crop.jpg";
 import img_LaurenceD from "./img/members/LaurenceD_crop.jpg";
 
 import img_Catherine from "./img/members/CatherineBouchard_crop.png";
@@ -156,9 +149,6 @@ function App() {
   ]
 
   let studentSet1 = [
-    
-    {"student": strings.Members.Alexis, "img": img_Alexis},
-    {"student": strings.Members.Alexy, "img": img_Alexy},
     {"student": strings.Members.Andreanne, "img": img_Andreanne},
     {"student": strings.Members.Anthony, "img": img_Anthony},
   ]
@@ -181,9 +171,7 @@ function App() {
 
   let studentSet4 = [
     {"student": strings.Members.Katrine, "img": img_Katrine},
-        {"student": strings.Members.Koraly, "img": img_Koraly},
-        {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
-        {"student": strings.Members.LaurenceF, "img": img_LaurenceF},
+    {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
   ]
 
   let memberSet1 = [
