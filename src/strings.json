@@ -27,6 +27,7 @@
         "students": "Students",
         "alumni": "Alumni",
         "Levels": {
+            
             "undergrad": "Undergraduate Student",
             "masters": "MSc Student",
             "phd": "PhD student",
@@ -36,12 +37,12 @@
         },
 
         "Alexis": {
-            "name": "Alexis Lebrun",
-            "info": "Graduated in Engineering Physics in 2018, I am currently pursuing a PhD in biophotonics at the CERVO and COPL (Centre d'Optique, Photonique et Laser) research centers. My project is ambitious and combines several disciplines in engineering and neuroscience, including nanomaterials, deep learning, super-resolution microscopy and microfluidics. I aim to develop a highly sensitive, machine-learning assisted molecular identification method that will allow real-time identification and differentiation of biomarkers of gut permeability in microfluidic devices that closely mimic the gastrointestinal tract environment. I am also trying to implement this technique in a super-resolution microscope to realize super-resolved molecular images.",
-            "image": "./img/members/Alexis_Lebrun_crop.jpg",
-            "director": "Denis Boudreau",
-            "codirector": "Flavie Lavoie-Cardinal",
-            "level": "PhD Student"
+            "name": "Alexis Ermel",
+            "info": "",
+            "image": "./img/members/AlexisE_crop.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "level": "Undergraduate Student"
         },
         "Alexy": {
             "name": "Alexy Pelletier-Rioux",
@@ -80,9 +81,8 @@
             "name": "Antoine Séverin Ollier",
             "info": "After obtaining my degree in Engineering from Télécom Saint-Étienne in France, I decided to continue my studies in the field of microscopy and machine learning. I decided to join a multidisciplinary lab because I was interested in collaborating with other scientists. In my Master’s degree project, I am working on implementing a new type of detector that will allow us to make temporal and hyperspectral images on the STED microscope. I’m also working on machine learning algorithms that will enhance the amount of acquired signal in low-photon conditions.",
             "image": "./img/members/AntoineSeverinOllier.JPG",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Christian Gagné",
-            "level": "MSc Student"
+
+            "level": "Research Professional"
         },
 
         "Bolin": {
@@ -125,7 +125,14 @@
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
         },
-
+        "Jeanne": {
+            "name": "Jeanne Langevin-Robitaille",
+            "info": "",
+            "image": "./img/members/Jeanne.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "level": "Undergraduate Student"
+        },
         "Julia": {
             "name": "Julia Chabbert",
             "info": "Interested in understanding the functioning of the brain, I completed a master's degree in neuroscience at the University of Bordeaux (France). My background in neuroscience directed my interests towards the discovery of the infinitely small. Indeed, connection interfaces between neurons, named synapses, replete proteins highly active to ensure good cell communication. Thus, my PhD project, co-supervised by Dr. Flavie Lavoie-Cardinal and Dr. Paul De Koninck, is to identify the molecular mechanisms underlying the remodeling of the synaptic cytoskeleton during long-term potentiation, a phenomenon involved in memory. In this aim, super-resolution microscopy is a considerable asset.",
@@ -147,15 +154,7 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Yves De Koninck",
             "info":" I greatly enjoy putting the 'multi' in multidisciplinary. Between analysing mitochondrial morphology in a human model of Parkinson's disease in 2022 and classifying antibacterial mode of action using deep learning in 2023, I’m always eager to find more ways to create a happy marriage between biology and informatics. My project mainly focuses on the informative relevance of channels in bi-modal microscopy images and the optimization of the efficiency of deep learning models trained solely on a small dataset.",
-            "level": "MSc Student"
-        },
-        "Koraly": {
-            "name": "Koraly Lessard",
-            "Program": "Undergraduate in Bioinformatics (2022)",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Christian Gagné",
-            "info": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution",
-            "level": "MSc Student"
+            "level": "PhD Student"
         },
 
 
@@ -175,6 +174,34 @@
             "info": "Alignement et caractérisation d’un microscope STED.",
             "level": "MSc Student"
         },
+        "Mathieu": {
+            "name": "Mathieu Landry",
+            "info": "",
+            "image": "./img/members/Mathieu.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Christian Gagné",
+            "level": "Undergraduate Student"
+        },
+                "Rayane": {
+            "name": "Mohamed Rayane Hayjoub",
+            "info": "",
+            "image": "./img/members/Rayane.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "level": "Undergraduate Student"
+        },
+
+                        "WilliamS": {
+            "name": "William Saxon",
+            "info": "",
+            "image": "./img/members/WilliamS.jpg",
+            "director": "David Gosselin",
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "PhD Student"
+        },
+
+
+
 
 
                 "CatherineD": {
@@ -192,11 +219,22 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
             "level": "MSc Student",
-             "Program": "Masters in Electrical Engineering (2020-2023)"
+             "Program": "Masters in Electrical Engineering (2020-2023)",
+            "Project":"Optimisation en ligne multiparamètre et multiobjectif de la microscopie de super-résolution",
+            "url":"https://hdl.handle.net/20.500.11794/171446"
         },
         "Alexandre": {
             "name": "Alexandre Boulay",
             "Program": "Undergraduate in Bioinformatics (2021)"
+        },
+        "Alexis": {
+            "name": "Alexis Lebrun",
+            "info": "Graduated in Engineering Physics in 2018, I am currently pursuing a PhD in biophotonics at the CERVO and COPL (Centre d'Optique, Photonique et Laser) research centers. My project is ambitious and combines several disciplines in engineering and neuroscience, including nanomaterials, deep learning, super-resolution microscopy and microfluidics. I aim to develop a highly sensitive, machine-learning assisted molecular identification method that will allow real-time identification and differentiation of biomarkers of gut permeability in microfluidic devices that closely mimic the gastrointestinal tract environment. I am also trying to implement this technique in a super-resolution microscope to realize super-resolved molecular images.",
+            "image": "./img/members/Alexis_Lebrun_crop.jpg",
+            "director": "Denis Boudreau",
+            "codirector": "Flavie Lavoie-Cardinal",
+            "level": "PhD Student",
+            "Program": "Doctorate in Biophotonics (2021-2024)"
         },
         "AnthonyL": {
             "name": "Anthony Lavertu",
@@ -213,7 +251,9 @@
             "director": "Audrey Durand",
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "MSc Student",
-            "Program": "Masters in Electrical Engineering (2020-2023)"
+            "Program": "Masters in Electrical Engineering (2020-2023)",
+            "Project":"Développement et utilisation d'un simulateur de microscopie STED pour l'apprentissage machine",
+            "url":"https://hdl.handle.net/20.500.11794/148785"
         },
         "Camille": {
             "name": "Camille Vincent Provencher",
@@ -260,17 +300,30 @@
         },
         "JeanMichel": {
             "name": "Jean-Michel Bellavance",
-            "Program": "Masters in Neuroscience (2021-2023)"
+            "Program": "Masters in Neuroscience (2021-2023)",
+            "Project": " Caractérisation de la structure de protéines synaptiques dans un modèle de la sclérose latérale amyotrophique à l'aide de la microscopie de super-résolution",
+            "url": "https://hdl.handle.net/20.500.11794/166125"
+
         },
 
         "JGabriel": {
             "name":"Jeffrey Gabriel Steavan Santiague",
-            "Program": "Undergraduate in Biochemistry(2023-2024)",
+            "Program": "Undergraduate in Biochemistry (2023-2024)",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
             "info": "",
             "level": "Undergraduate Student"
         },
+
+        "Koraly": {
+            "name": "Koraly Lessard",
+            "Program": "Undergraduate in Bioinformatics (2022-2023)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Christian Gagné",
+            "info": "Détection d’anomalies synaptiques par apprentissage profond en microscopie à super-résolution",
+            "level": "MSc Student"
+        },
+
 
         "LouisEmile":{
             "name": "Louis-Émile Robitaille",
@@ -347,6 +400,7 @@
             "Program": "Postdoctoral Researcher (2022)",
              "Title":  ""
         },
+
         "Sacha": {
             "name":"Sacha Baker",
             "Program": "Undergraduate in Bioinformatics (2023-2024)",
@@ -354,8 +408,8 @@
             "codirector": "",
             "info": "",
             "level": "Undergraduate Student"
+            
         },
-
 
         "Samuel": {
             "name": " Samuel Gagnon",
@@ -363,6 +417,22 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
             "Title": "Protocole standardisé de culture de Caco-2"
+        },
+                                "Tristan": {
+            "name": "Tristan Charlebois",
+             "Program": "Undergraduate in Bioinformatics (2025)",
+            "image": "./img/members/Tristan.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "level": "Undergraduate Student"
+        },
+                                "Tassnym": {
+            "name": "Tassnym Echchahed",
+            "info": "",
+            "image": "./img/members/Tristan.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "Program": "Undergraduate Student (2025)"
         },
                 "Theresa": {
             "name": "Theresa Wiesner",
@@ -392,7 +462,6 @@
             "director": "Paul De Koninck",
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "MSc Student",
-            
             "Program": "Masters in Biophotonics (2018-2022)"
         },
         "William": {
@@ -401,7 +470,8 @@
             "image": "./img/members/WilliamL_crop.png",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
-            "level": "MSc Student"
+            "level": "MSc Student",
+            "Program": "Undergraduate in Bioinformatics (2021)"
         },
         "Zoe": {
             "name": "Zoé Jargaille",
@@ -431,27 +501,59 @@
     "Publications": {
         "label": "Publications",
          "ActiveAAAI":{
-            "authors": [" Bernatchez, R.,"," Durand, A." , " Lavoie-Cardinal, F."],
+            "authors": ["Bernatchez, R.,"," Durand, A." , " Lavoie-Cardinal, F."],
             "year": "2022",
             "title":"Annotation Cost-Sensitive Deep Active Learning with Limited Data.",
             "source":" https://doi.org/10.1609/aaai.v36i11.21593",
             "journal":"Proceedings of the AAAI Conference on Artificial Intelligence"
         },
-        "FilterLatent":{
-            "authors": ["Bouchard, C.,"," Deschênes, A.,"," Boulanger, V.," ," Bellavance, J-M.,", " Lavoie-Cardinal, F., "," Gagné, C."],
+        "NeuralStemCells":{
+            "authors":["Marymonchyk, A.,"," Rodriguez-Aller, R.,"," Willis, A.,"," Beaupré, F.,"," Warsi, S.,"," Snapyan, M.,"," Clavet-Fournier, V.,"," Lavoie-Cardinal, F.,"," Kaplan, D.,"," Miller, F.,"," Saghatelyan, A."],
+            "title" : "Neural Stem Cell Quiescence and Activation Dynamics Are Regulated by Feedback Input from Their Progeny under Homeostatic and Regenerative Conditions.",
+            "year" :"2025",
+            "journal":"Cell Stem Cell",
+            "source":" https://doi.org/10.1016/j.stem.2025.01.001"
+        },
+        "Unmixing":{
+            "authors": ["Bouchard, C.,"," Deschênes, A.,"," Boulanger, V.," ," Bellavance, J-M.,"," Chabbert, J."," Pelletier-Rioux, A."," Lavoie-Cardinal, F., "," Gagné, C."],
             "year": "2024",
-            "title":"Filtering Pixel Latent Variables for Unmixing Noisy and Undersampled Volumetric Images.",
+            "title":"Unmixing Optical Signals from Undersampled Volumetric Measurements by Filtering the Pixel Latent Variables.",
             "source":"https://doi.org/10.48550/arXiv.2312.05357",
-            "journal":"Preprint"
+            "journal":"Preprint",
+            "website":"https://s3.valeria.science/flclab-unmixing/index.html"
         },
         "Calcium":{
             "authors": ["Beaupré, F.,"," Bilodeau, A.,"," Wiesner, T.," ," Leclerc, G.,", " Lemieux, M.,"," Nadeau, G.,"," Castonguay, K.,"," Fan, B.,"," Labrecque, S.,"," Hložek, R.,"," De Koninck, P.,"," Gagné, C.,"," Lavoie-Cardinal, F." ],
             "year": "2024",
-            "title":"Quantitative Analysis of Miniature Synaptic Calcium Transients Using Positive Unlabeled Deep Learning.",
-            "source":" https://doi.org/10.1101/2024.07.04.602047",
-            "journal":"Preprint"
+            "title":"Quantitative analysis of miniature synaptic calcium transients using positive unlabeled deep learning.",
+            "source":" https://doi.org/10.1039/D4DD00197D",
+            "journal":"Digital Discovery",
+            "website":"https://s3.valeria.science/flclab-calcium/index.html."
         },
+                "SPLITSTED":{
+            "authors": ["Deschênes, A.,"," Ollier, A.,"," Lafontaine, M.,"," Michaud-Gagnon, A.,"," Santiague, J-G.S.,"," Bilodeau, A.,"," Gagné, C.,"," De Koninck, P.,"," Lavoie-Cardinal, F." ],
+            "year": "2025",
+            "title":"Enhancing STED Microscopy via Fluorescence Lifetime Unmixing and Filtering in Two-Species SPLIT-STED.",
+            "source":"https://doi.org/10.1515/mim-2025-0026",
+            "journal":"Methods in Microscopy"
 
+        },
+        "STEDFM":{
+            "authors": [" Bilodeau, A.,","Beaupré, F.,"," Chabbert, J.," ," Bellavance, J-M.,", " Lessard, K.,"," Deschênes, A.,"," Bernatchez, R.,"," De Koninck, P.,"," Gagné, C.,"," Lavoie-Cardinal, F." ],
+            "year": "2025",
+            "title":"A Self-Supervised Foundation Model for Robust and Generalizable Representation Learning in STED Microscopy.",
+            "source":" https://doi.org/10.1101/2025.06.06.656993",
+            "journal":"Preprint"
+
+        },
+        "SERS":{
+            "authors": ["Lebrun, A.,"," Lavoie-Cardinal, F., ","Boudreau, D."],
+            "year": "2025",
+            "title":"Surface-Enhanced Raman Spectroscopy Semi-Quantitative Molecular Profiling with a Convolutional Neural Network.",
+            "source":" https://doi.org/10.1177/00037028251377474",
+            "journal":"Applied Spectroscopy"
+
+        },
 
        "ChronicStress":{
             "authors": ["Doney, E., ","Dion-Albert, L., ","Coulombe-Rozon, F., ","Osborne, N., ","Bernatchez, R., ","Paton, S.E.J., ","Neutzling Kaufmann, F., ","Olory Agomma, R., ","Solano, J.L., ","Gaumond, R., ","Dudek, K.A., ","Kasia Szyszkowicz, J., ","Signature Consortium, ","Lebel, M., ","Doyen, A., ","Durand, A., " , " Lavoie-Cardinal, F., ","Audet, M-C., ","Menard,C."],
@@ -628,11 +730,12 @@
             "journal": "Preprint"
         },
               "PySTED": {
-            "authors": ["Bilodeau, A., ","Michaud-Gagnon, A., ","Chabbert, J., ","Turcotte, B., ","Henie,J., ","Durand, A., ","Lavoie-Cardinal, F."],
+            "authors": ["Bilodeau, A., ","Michaud-Gagnon, A., ","Chabbert, J., ","Turcotte, B., ","Heine,J., ","Durand, A., ","Lavoie-Cardinal, F."],
             "year": "2024",
             "title": "Development of AI-assisted microscopy frameworks through realistic simulation in pySTED.",
-            "source": "https://www.biorxiv.org/content/10.1101/2024.03.25.586697v1",
-            "journal": "Preprint"
+            "source": "https://doi.org/10.1038/s42256-024-00903-w",
+            "journal": "Nature Machine Intelligence",
+            "website":"https://s3.valeria.science/flclab-pysted/index.html"
         }
         
     },

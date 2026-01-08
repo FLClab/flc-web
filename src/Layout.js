@@ -25,12 +25,17 @@ import img_LaurenceD from "./img/members/LaurenceD_crop.jpg";
 import img_Catherine from "./img/members/CatherineBouchard_crop.png";
 import img_Hadi from "./img/members/Hadi_crop.png";
 
-import img_Flavie from "./img/members/Flavie_Lavoie-Cardinal.png";
+import img_Flavie from "./img/members/Flavie_RadioCan2023.png";
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
 
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
+import img_Jeanne from "./img/members/Jeanne.jpg";
 import img_Katrine from "./img/members/Katrine_crop.JPG";
+import img_Mathieu from "./img/members/Mathieu.jpg";
+import img_Rayane from "./img/members/Rayane.jpg";
+
+import img_WilliamS from "./img/members/WilliamS.jpg";
 import synapses from "./img/gallery/SynapticProteins.png"
 import BassoonHomer from "./img/gallery/BassoonHomer.png"
 import actinSpectrin from "./img/gallery/ActinSpectrin.png";
@@ -46,9 +51,10 @@ import Carte2019 from "./img/gallery/Fun/CHRISTMAS_CARD_2019.png";
 import Carte2020 from "./img/gallery/Fun/CHRISTMAS_CARD_2020.png";
 import Carte2021 from "./img/gallery/Fun/CHRISTMAS_CARD_2021.png";
 import Carte2022 from "./img/gallery/Fun/CHRISTMAS_CARD_2022.png";
+import Carte2023 from "./img/gallery/Fun/CHRISTMAS_CARD_2023.png";
 import img_CatherineD from "./img/members/CatherineD_crop.png";
 import Pentathlon2024 from "./img/gallery/Fun/Pentathlon2024.jpg";
-
+import EscapeRoom from "./img/gallery/Fun/EscapeRoom_2024.jpeg";
 function App() {
   const [introScroll, setIntroScroll] = useState(0);
   const [memberScroll, setMemberScroll] = useState(0);
@@ -104,10 +110,14 @@ function App() {
   ]
 
   const funImages = [
-
+    {
+      "id": 0,
+      "img": EscapeRoom,
+      "label": "",
+  },
     
         {
-        "id": 0,
+        "id": 1,
         "img": Pentathlon2024,
         "label": "",
     },
@@ -117,56 +127,66 @@ function App() {
         "label": "",
     },
     {
-        "id": 1,
+        "id": 3,
         "img": Pentathlon,
         "label": "",
     },
     {
-        "id": 3,
+        "id": 4,
         "img": vieille,
         "label": "",
     },
         {
-        "id": 4,
+        "id": 5,
         "img": Carte2019,
         "label": "",
     },
         {
-        "id": 5,
+        "id": 6,
         "img": Carte2020,
         "label": "",
     },
         {
-        "id": 6,
+        "id": 7,
         "img": Carte2021,
         "label": "",
     },
         {
-        "id": 7,
+        "id": 8,
         "img": Carte2022,
         "label": "",
-    }
+    },
+    {
+      "id": 9,
+      "img": Carte2023,
+      "label": "",
+  }
   ]
 
   let studentSet1 = [
     {"student": strings.Members.Andreanne, "img": img_Andreanne},
     {"student": strings.Members.Anthony, "img": img_Anthony},
+    
   ]
 
   let studentSet2 = [
     
-    {"student": strings.Members.AntoineG, "img": img_AntoineG},
-    {"student": strings.Members.AntoineO, "img": img_AntoineO},
+ 
+   {"student": strings.Members.AntoineG, "img": img_AntoineG},
     {"student": strings.Members.Bolin, "img": synapses},
     {"student": strings.Members.Catherine, "img": img_Catherine},
+    {"student": strings.Members.Frederic, "img": img_Fred},
+   
   ]
 
   let studentSet3 = [
     
-    {"student": strings.Members.Frederic, "img": img_Fred},
+    
     {"student": strings.Members.Hadi, "img": img_Hadi},
+    {"student": strings.Members.Jeanne, "img": img_Jeanne},
     {"student": strings.Members.Julia, "img": img_Julia},
     {"student": strings.Members.Kamylle, "img": img_Kamylle},
+
   ]
 
   let studentSet4 = [
@@ -174,8 +194,13 @@ function App() {
     {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
   ]
 
+    let studentSet5 = [
+      {"student": strings.Members.Rayane, "img": img_Rayane}, 
+     {"student": strings.Members.WilliamS, "img": img_WilliamS}]
+
   let memberSet1 = [
     {"member": strings.Members.CatherineD, "img": img_CatherineD},
+    {"member": strings.Members.AntoineO, "img": img_AntoineO},
 
   ]
 
@@ -248,6 +273,9 @@ function App() {
       />
       <DynamicStudentSet
         data={studentSet4}
+      />
+            <DynamicStudentSet
+        data={studentSet5}
       />
 
 

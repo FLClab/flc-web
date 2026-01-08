@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './img/logos/logo-flclab_darkbckg.svg';
+import logo from './img/logos/logo-flclab_darkbckg.png';
 import "./Banner.css"
 import strings from "./strings.json";
 

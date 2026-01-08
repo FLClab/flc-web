@@ -11,6 +11,7 @@ import img_PhilGT from "./img/members/PhilippeGT_crop.jpg";
 import synapses from "./img/gallery/cultures.png";
 import img_ELodie from"./img/members/ElodieMoth_crop.jpg";
 import img_Eric from "./img/members/EricBergeron_crop.jpg";
+import img_Koraly from "./img/members/Koraly_crop.jpg";
 import img_Theresa from "./img/members/Theresa_Wiesner_crop.png";
 import img_Vincent from "./img/members/Vincent_Boily_crop.png";
 import img_Roseline from "./img/members/RoselineOloryAgomma_crop.jpg";
@@ -30,6 +31,7 @@ import {FaRegArrowAltCircleLeft} from 'react-icons/fa';
 import {Link} from 'react-router-dom'
 
 function AlumniPage(){
+
     let alumniSet1 = [
         {"alumni": strings.Alumni.Albert, "img": img_Albert},
         {"alumni": strings.Alumni.Alexandre, "img": img_Alexandre},
@@ -75,8 +77,8 @@ function AlumniPage(){
     let alumniSet7= [
         {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
         {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
-        {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
-        {"alumni": strings.Alumni.Sacha, "img": synapses},
+       
+    
     ]
 
     let alumniSet8 = [
@@ -121,9 +123,11 @@ function AlumniPage(){
              <DynamicAlumniSet
                 data={alumniSet7}
              />
-             <DynamicAlumniSet
+
+            <DynamicAlumniSet
                 data={alumniSet8}
-            />
+             />
+
         </div>
 
     )
