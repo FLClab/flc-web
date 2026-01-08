@@ -44,14 +44,6 @@
             "codirector": "",
             "level": "Undergraduate Student"
         },
-        "Alexy": {
-            "name": "Alexy Pelletier-Rioux",
-            "info": "Super-résolution de la Cofiline lors de la formation des fibres d'actine.",
-            "image": "./img/members/Alexis_Lebrun_crop.jpg",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Yves De Koninck",
-            "level": "MSc Student"
-        },
         "Andreanne": {
             "name": "Andréanne Deschênes",
             "info": "My PhD project consists in designing a multimodal super-resolution microscope which we will use to study how proteins reorganize in neurons when the strength of their connections is altered by activity. We also aim to use this microscope to investigate the influence of diet on the permeability of the gut.",
@@ -117,7 +109,7 @@
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
         },
-                "Hadi": {
+        "Hadi": {
             "name": "Hadi Moazen",
             "info": "",
 
@@ -157,15 +149,6 @@
             "level": "PhD Student"
         },
 
-
-        "LaurenceF": {
-            "name": "Laurence Fontaine",
-            "Program": "Undergraduate in Bioinformatics (2021-2022)",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Audrey Durand",
-            "info": "Classification et génération automatique de protéines post synaptique (2022)",
-            "level": "MSc Student"
-        },
         "LaurenceD": {
             "name": "Laurence Descombes",
             "Program": "Undergraduate in Engineering Physics (2022)",
@@ -236,6 +219,14 @@
             "level": "PhD Student",
             "Program": "Doctorate in Biophotonics (2021-2024)"
         },
+        "Alexy": {
+            "name": "Alexy Pelletier-Rioux",
+            "info": "Super-résolution de la Cofiline lors de la formation des fibres d'actine.",
+            "image": "./img/members/Alexis_Lebrun_crop.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Yves De Koninck",
+            "level": "MSc Student"
+        },
         "AnthonyL": {
             "name": "Anthony Lavertu",
             "Program": "Undergraduate in Bioinformatics (2023)"
@@ -244,7 +235,7 @@
             "name": "Bastian Raulier",
             "Program": "Undergraduate in Engineering Physics (2019)"
         },
-                "Benoit": {
+        "Benoit": {
             "name": "Benoit Turcotte",
 
             "image": "./img/members/Benoit_Turcotte_crop.JPG",
@@ -324,6 +315,15 @@
             "level": "MSc Student"
         },
 
+        "LaurenceF": {
+            "name": "Laurence Fontaine",
+            "Program": "Undergraduate in Bioinformatics (2021-2022)",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Audrey Durand",
+            "info": "Classification et génération automatique de protéines post synaptique (2022)",
+            "level": "MSc Student"
+        },
+
 
         "LouisEmile":{
             "name": "Louis-Émile Robitaille",
@@ -391,7 +391,7 @@
 
         },
 
-                "Roseline": {
+        "Roseline": {
             "name": "Roseline Olory Agomma",
             "info": "TBD.",
             "director": "Flavie Lavoie-Cardinal",
