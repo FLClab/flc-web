@@ -1,6 +1,6 @@
 # Local Netlify folder
 .netlify
-
+src/img/.DS_Store
 node_modules
-
-.DS_STORE
+src/.DS_Store
+.DS_Store
