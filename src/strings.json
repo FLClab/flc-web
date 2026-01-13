@@ -217,7 +217,9 @@
             "director": "Denis Boudreau",
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student",
-            "Program": "Doctorate in Biophotonics (2021-2024)"
+            "Program": "Doctorate in Biophotonics (2021-2024)",
+            "Project":"SERS et profilage moléculaire : explorer la barrière intestinale",
+            "url":"https://hdl.handle.net/20.500.11794/175328"
         },
         "Alexy": {
             "name": "Alexy Pelletier-Rioux",
@@ -225,7 +227,8 @@
             "image": "./img/members/Alexis_Lebrun_crop.jpg",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Yves De Koninck",
-            "level": "MSc Student"
+            "level": "MSc Student",
+            "Program": "Masters in Biophotonics (2023-2025)"
         },
         "AnthonyL": {
             "name": "Anthony Lavertu",
