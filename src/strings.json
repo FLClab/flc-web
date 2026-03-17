@@ -503,6 +503,12 @@
     },
     "Publications": {
         "label": "Publications",
+
+        "AstroBEATS":{"authors": ["Fan, B., "," Bilodeau, A., ","Beaupré, F., ","Wiesner, T., "," Gagné, C., "," Lavoie-Cardinal, F., "," Hložek, R." ],
+            "year": "2026",
+            "title":"Calcium transient detection and segmentation with the astronomically motivated algorithm for background estimation and transient segmentation (Astro-BEATS).",
+            "source":" https://doi.org/10.64898/2026.03.13.711411",
+            "journal":"Preprint"},
          "ActiveAAAI":{
             "authors": ["Bernatchez, R.,"," Durand, A." , " Lavoie-Cardinal, F."],
             "year": "2022",
