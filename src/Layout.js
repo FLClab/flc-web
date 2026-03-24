@@ -56,6 +56,10 @@ import Carte2023 from "./img/gallery/Fun/CHRISTMAS_CARD_2023.png";
 import img_CatherineD from "./img/members/CatherineD_crop.png";
 import Pentathlon2024 from "./img/gallery/Fun/Pentathlon2024.jpg";
 import EscapeRoom from "./img/gallery/Fun/EscapeRoom_2024.jpeg";
+
+import AlexisHat from "./img/gallery/PeopleWithHats/AlexisAvecChapeau.jpg";
+import TheresaHat from "./img/gallery/PeopleWithHats/TheresaWithHat.jpg";
+import AnthonyHat from "./img/gallery/PeopleWithHats/AnthonyAvecChapeau.png";
 function App() {
   const [introScroll, setIntroScroll] = useState(0);
   const [memberScroll, setMemberScroll] = useState(0);
@@ -162,6 +166,25 @@ function App() {
       "img": Carte2023,
       "label": "",
   }
+  ,
+  {    "id": 10,
+      "img": AnthonyHat,
+      "label": "",
+  }
+   ,
+      {
+      "id": 11,
+      "img": AlexisHat,
+      "label": "",
+  }
+  ,
+      {
+      "id": 12,
+      "img": TheresaHat,
+      "label": "",
+  }
+
+
   ]
 
   let studentSet1 = [
