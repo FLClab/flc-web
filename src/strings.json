@@ -167,6 +167,25 @@
             "level": "PhD Student"
         },
 
+        "Mathis": {
+            "name": "Mathis Rezzouk ",
+            "info": "",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Christian Gagné",
+            "level": "PhD Student"
+
+        },
+
+                "Xavier": {
+            "name": "Xavier Mathieu",
+            "Program": "Undergraduate in Engineering Physics (2022)",
+            "director": "Claudine Allen",
+            "codirector":  "Flavie Lavoie-Cardinal",
+            "info":"",
+            "level": "MSc Student"
+        },
+
+
 
 
 
