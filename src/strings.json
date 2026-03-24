@@ -56,9 +56,8 @@
             "name": "Anthony Bilodeau",
             "info": "My PhD project consists in building a super-resolution microscope that will be able to adapt to the sample using reinforcement learning. During my master, I developed weakly-supervised techniques to facilitate the analysis of microscopy images. ",
             "image": "./img/members/Anthony_Bilodeau_crop.JPG",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Audrey Durand",
-            "level": "PhD Student"
+
+            "level": "Research Professional"
         },
 
         "AntoineG": {
@@ -157,22 +156,7 @@
             "info": "Alignement et caractérisation d’un microscope STED.",
             "level": "MSc Student"
         },
-        "Mathieu": {
-            "name": "Mathieu Landry",
-            "info": "",
-            "image": "./img/members/Mathieu.jpg",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Christian Gagné",
-            "level": "Undergraduate Student"
-        },
-                "Rayane": {
-            "name": "Mohamed Rayane Hayjoub",
-            "info": "",
-            "image": "./img/members/Rayane.jpg",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "level": "Undergraduate Student"
-        },
+
 
                         "WilliamS": {
             "name": "William Saxon",
@@ -358,6 +342,24 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
             "Title": "Analyse d’images de microscopie super-résolution de temps de vie"
+        },
+                "Mathieu": {
+            "name": "Mathieu Landry",
+            "Program": "Undergraduate in Bioinformatics (2025)",
+            "info": "",
+            "image": "./img/members/Mathieu.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Christian Gagné",
+            "level": "Undergraduate Student"
+        },
+                "Rayane": {
+            "name": "Mohamed Rayane Hayjoub",
+             "Program": "Undergraduate in Engineering Physics (2025)",
+            "info": "",
+            "image": "./img/members/Rayane.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "level": "Undergraduate Student"
         },
 
         "Owen": {

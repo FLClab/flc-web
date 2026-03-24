@@ -33,8 +33,7 @@ import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
 import img_Jeanne from "./img/members/Jeanne.jpg";
 import img_Katrine from "./img/members/Katrine_crop.JPG";
-import img_Mathieu from "./img/members/Mathieu.jpg";
-import img_Rayane from "./img/members/Rayane.jpg";
+
 
 import img_WilliamS from "./img/members/WilliamS.jpg";
 import synapses from "./img/gallery/SynapticProteins.png"
@@ -190,30 +189,31 @@ function App() {
   let studentSet1 = [
     {"student": strings.Members.Alexis, "img": img_Alexis},
     {"student": strings.Members.Andreanne, "img": img_Andreanne},
-    {"student": strings.Members.Anthony, "img": img_Anthony},
+  
     {"student": strings.Members.AntoineG, "img": img_AntoineG},
+    {"student": strings.Members.Bolin, "img": synapses},
   ]
 
   let studentSet2 = [
-    {"student": strings.Members.Bolin, "img": synapses},
+    
     {"student": strings.Members.Catherine, "img": img_Catherine},
     {"student": strings.Members.Frederic, "img": img_Fred},
     {"student": strings.Members.Hadi, "img": img_Hadi},
+     {"student": strings.Members.Jeanne, "img": img_Jeanne},
     
    
   ]
 
   let studentSet3 = [
-    {"student": strings.Members.Jeanne, "img": img_Jeanne},
+   
     {"student": strings.Members.Julia, "img": img_Julia},
     {"student": strings.Members.Kamylle, "img": img_Kamylle},
     {"student": strings.Members.Katrine, "img": img_Katrine},
+     {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
   ]
 
   let studentSet4 = [
-    {"student": strings.Members.Mathieu, "img": img_Mathieu},
-    {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
-    {"student": strings.Members.Rayane, "img": img_Rayane}, 
+  
     {"student": strings.Members.WilliamS, "img": img_WilliamS}
   ]
     
@@ -221,6 +221,7 @@ function App() {
   let memberSet1 = [
     {"member": strings.Members.CatherineD, "img": img_CatherineD},
     {"member": strings.Members.AntoineO, "img": img_AntoineO},
+     {"member": strings.Members.Anthony, "img": img_Anthony},
 
   ]
 
