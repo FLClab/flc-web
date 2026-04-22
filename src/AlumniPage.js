@@ -35,52 +35,55 @@ import {Link} from 'react-router-dom'
 function AlumniPage(){
 
     let alumniSet1 = [
+           {"alumni": strings.Alumni.LaurenceF, "img": img_LaurenceF}, 
             {"alumni": strings.Alumni.Alexy, "img": img_Alexy},
         {"alumni": strings.Alumni.Mathieu, "img": img_Mathieu},
         {"alumni": strings.Alumni.Rayane, "img": img_Rayane},
-        {"alumni": strings.Alumni.Tassnym, "img": synapses},
+        
     ]
 
     let alumniSet2 = [
+        {"alumni": strings.Alumni.Tassnym, "img": synapses},
         {"alumni": strings.Alumni.Tristan, "img": img_Tristan},
           {"alumni": strings.Alumni.Alexis, "img": img_Alexis},
          {"alumni": strings.Alumni.Camille, "img": synapses},
-          {"alumni": strings.Alumni.JGabriel, "img": img_JGabriel},
-
+   
        
     ]
 
     let alumniSet3 = [
+               {"alumni": strings.Alumni.JGabriel, "img": img_JGabriel},
          {"alumni": strings.Alumni.Ludovic, "img": synapses},
           {"alumni": strings.Alumni.Sacha, "img": synapses},
            {"alumni": strings.Alumni.Zoe, "img": synapses},
-              {"alumni": strings.Alumni.Albert, "img": img_Albert},
+            
          
 
     ]
 
     let alumniSet4 = [
-      
+        {"alumni": strings.Alumni.Albert, "img": img_Albert},
         {"alumni": strings.Alumni.AnthonyL, "img": img_AnthonyL},
         {"alumni": strings.Alumni.Benoit, "img": img_Benoit},
         {"alumni": strings.Alumni.Chi, "img": synapses},
-          {"alumni": strings.Alumni.David, "img": img_David},
+         
     
     ]
 
     let alumniSet5= [
-  
+   {"alumni": strings.Alumni.David, "img": img_David},
                 {"alumni": strings.Alumni.JeanMichel, "img": img_JeanMichel},
         {"alumni": strings.Alumni.Koraly, "img": img_Koraly},
           {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
-            {"alumni": strings.Alumni.Elodie, "img": img_ELodie},
+           
 
         
     ]
 
     let alumniSet6= [
+         {"alumni": strings.Alumni.Elodie, "img": img_ELodie},
          {"alumni": strings.Alumni.Eric, "img": img_Eric},
-      {"alumni": strings.Alumni.LaurenceF, "img": img_LaurenceF},  
+     
        
         {"alumni": strings.Alumni.Marie, "img": img_Marie},
         {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
