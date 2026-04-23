@@ -57,7 +57,10 @@
             "info": "My PhD project consists in building a super-resolution microscope that will be able to adapt to the sample using reinforcement learning. During my master, I developed weakly-supervised techniques to facilitate the analysis of microscopy images. ",
             "image": "./img/members/Anthony_Bilodeau_crop.JPG",
 
-            "level": "Research Professional"
+            "level": "Research Professional",
+
+            "url": "https://hdl.handle.net/20.500.11794/183263",
+            "Project": "Reducing human interactions in automated microscopy with machine learning"
         },
 
         "AntoineG": {
