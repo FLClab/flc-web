@@ -63,14 +63,7 @@
             "Project": "Reducing human interactions in automated microscopy with machine learning"
         },
 
-        "AntoineG": {
-            "name": "Antoine Girard",
-            "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique.",
-            "image": "./img/members/Antoine_Girard_crop.png",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Marie-Eve Paquet",
-            "level": "PhD Student"
-        },
+
         "AntoineO": {
             "name": "Antoine Séverin Ollier",
             "info": "After obtaining my degree in Engineering from Télécom Saint-Étienne in France, I decided to continue my studies in the field of microscopy and machine learning. I decided to join a multidisciplinary lab because I was interested in collaborating with other scientists. In my Master’s degree project, I am working on implementing a new type of detector that will allow us to make temporal and hyperspectral images on the STED microscope. I’m also working on machine learning algorithms that will enhance the amount of acquired signal in low-photon conditions.",
@@ -235,6 +228,17 @@
             "codirector": "Yves De Koninck",
             "level": "MSc Student",
             "Program": "Masters in Biophotonics (2023-2025)"
+        },
+                "AntoineG": {
+            "name": "Antoine Girard",
+            "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique.",
+            "image": "./img/members/Antoine_Girard_crop.png",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Marie-Eve Paquet",
+            "level": "PhD Student",
+             "url": "https://hdl.handle.net/20.500.11794/169326",
+            "Project": "Développement d'outils moléculaires adaptés pour la microscopie de super-résolution des protéines des jonctions serrées endogènes",
+            "Program": "Masters in Neuroscience (2021-2024)"
         },
         "AnthonyL": {
             "name": "Anthony Lavertu",
