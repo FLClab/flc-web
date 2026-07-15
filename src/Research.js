@@ -13,16 +13,17 @@ function Research(){
                 <div className="sr__research-label">{strings.Research.SuperResolution.label}</div>
                 <div className="sr__research-description">{strings.Research.SuperResolution.description}</div>
             </div>
-            <div className="ml__container">
-                <img className="research__image" src={ML_image} alt=""></img> 
-                <div className="ml__research-label">{strings.Research.MachineLearning.label}</div>
-                <div className="ml__research-description">{strings.Research.MachineLearning.description}</div>
-            </div>
             <div className="neuro__container">
                 <img className="research__image" src={neuro_image} alt=""></img> 
                 <div className="neuro__research-label">{strings.Research.Neuro.label}</div>
                 <div className="neuro__research-description">{strings.Research.Neuro.description}</div>
             </div>
+            <div className="ml__container">
+                <img className="research__image" src={ML_image} alt=""></img> 
+                <div className="ml__research-label">{strings.Research.MachineLearning.label}</div>
+                <div className="ml__research-description">{strings.Research.MachineLearning.description}</div>
+            </div>
+            
         </div>
     )
 
