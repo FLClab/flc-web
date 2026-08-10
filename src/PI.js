@@ -1,7 +1,7 @@
 import React from 'react';
 import "./PI.css";
 
-function PI({data, level, img}){
+function PI({data, level, img, cv}){
     // const [showMore, setShowMore] = useState(false);
     // const [showMoreString, setShowMoreString] = useState('Show more');
 
@@ -16,6 +16,11 @@ function PI({data, level, img}){
             <div className="pi-info__container">
                 <div className="pi__name">{data.name}</div>
                 <div className="pi__level">{level}</div>
+                {cv && (
+                    <div className="pi-weblinks__container">
+                        <a href={cv} className="pi__cv-link" target="_blank" rel="noopener noreferrer">CV</a>
+                    </div>
+                )}
                 {/* <button id="pi__read-more" className="pi__toggle-info-button" onClick={onReadMoreClick}>{showMoreString}</button>
                 {showMore && <div className="pi__info">{data.info}</div>} */}
             </div>

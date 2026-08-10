@@ -51,3 +51,16 @@
   color: #8f8f8f;
 }
 
+.pi-weblinks__container {
+  margin-top: 0.5vh;
+}
+
+.pi__cv-link {
+  color: #f7f9fb;
+  font-size: 1vw;
+}
+
+.pi__cv-link:hover {
+  color: tomato;
+}
+
