@@ -75,12 +75,12 @@
   color: #f7f9fb;
 }
 
-.twitter__link, .webpage__link{
+.twitter__link, .webpage__link, .cv__link{
   color: #f7f9fb;
   margin-bottom: 1.2vh;
 }
 
-.twitter__link:hover, .webpage__link:hover{
+.twitter__link:hover, .webpage__link:hover, .cv__link:hover{
   color:tomato;
 }
 

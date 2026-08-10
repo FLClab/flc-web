@@ -27,6 +27,7 @@ import img_Catherine from "./img/members/CatherineBouchard_crop.png";
 import img_Hadi from "./img/members/Hadi_crop.png";
 
 import img_Flavie from "./img/members/Flavie_RadioCan2023.png";
+import cv_Flavie from "./img/biosketch-6p-FLC.pdf";
 import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
 
 import strings from "./strings.json";
@@ -278,7 +279,7 @@ function App() {
       <div className="members__label" id="members-section">
         {strings.Members.members}
       </div>
-      <PI data={strings.Members.Flavie} level={strings.Members.Levels.pi} img={img_Flavie}/>
+      <PI data={strings.Members.Flavie} level={strings.Members.Levels.pi} img={img_Flavie} cv={cv_Flavie}/>
 
       <DynamicMemberSet
         data={memberSet1}

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./Member.css";
 
 
-function Member({member, img}){
+function Member({member, img, cv}){
     const [showMore, setShowMore] = useState(false);
     const showMoreString = 'Show more'
     const onReadMoreClick = () => {
@@ -28,6 +28,7 @@ function Member({member, img}){
                 <div className="weblinks__container">
                     {member.twitter && <a href={member.twitter} className="twitter__link">Twitter</a>}
                     {member.webpage && <a href={member.webpage} className="webpage__link">Web page</a>}
+                    {cv && <a href={cv} className="cv__link" target="_blank" rel="noopener noreferrer">CV</a>}
                 </div>
                 <button id="read-more__member" className="member-toggle-info__button" onClick={onReadMoreClick}>{showMoreString}</button>
                 {/* {showMore && <div className="member__info">{member.info}</div>} */}
