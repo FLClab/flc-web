@@ -207,8 +207,6 @@ function App() {
   let memberSet1 = [
     {"member": strings.Members.CatherineD, "img": img_CatherineD},
     {"member": strings.Members.AntoineO, "img": img_AntoineO},
-  ]
-  let memberSet2 = [
     {"member": strings.Members.Marine, "img": img_Marine},
   ]
 
@@ -264,10 +262,6 @@ function App() {
 
       <DynamicMemberSet
         data={memberSet1}
-      />
-
-      <DynamicMemberSet
-        data={memberSet2}
       />
 
       { /* Students */ }
