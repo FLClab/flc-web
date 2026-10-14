@@ -14,11 +14,7 @@ import Research from "./Research";
 import PI from "./PI";
 import PublicationSet from "./PublicationSet";
 // import Zooniverse from "./Zooniverse";
-import img_Andreanne from "./img/members/Andreanne_2025.jpg";
 import img_Alexis from "./img/members/AlexisE.jpg";
-import img_Anthony from "./img/members/Anthony_Bilodeau_crop.JPG";
-
-import img_AntoineG from "./img/members/Antoine_Girard_crop.jpg";
 import img_AntoineO from "./img/members/AntoineSeverinOllier.JPG";
 import img_Kamylle from "./img/members/Kamylle_2025.jpg";
 import img_LaurenceD from "./img/members/LaurenceD_2025.jpg";
@@ -32,11 +28,8 @@ import img_Fred from "./img/members/Fred_Beaupre_crop.jpg";
 
 import strings from "./strings.json";
 import img_Julia from "./img/members/Julia_Chabbert_crop.jpg";
-import img_Jeanne from "./img/members/Jeanne.jpg";
 import img_Katrine from "./img/members/Katrine_crop.JPG";
-import img_Mathieu from "./img/members/Mathieu.jpg";
-import img_Rayane from "./img/members/Rayane.jpg";
-
+import img_Marine from "./img/members/img_Marine.jpg";
 import img_WilliamS from "./img/members/WilliamS.jpg";
 import synapses from "./img/gallery/SynapticProteins.png"
 import BassoonHomer from "./img/gallery/BassoonHomer.png"
@@ -57,6 +50,7 @@ import Carte2023 from "./img/gallery/Fun/CHRISTMAS_CARD_2023.png";
 import img_CatherineD from "./img/members/CatherineD_crop.png";
 import Pentathlon2024 from "./img/gallery/Fun/Pentathlon2024.jpg";
 import EscapeRoom from "./img/gallery/Fun/EscapeRoom_2024.jpeg";
+import img_Elisa from "./img/members/Elisa_Corti_Pic.jpeg";
 function App() {
   const [introScroll, setIntroScroll] = useState(0);
   const [memberScroll, setMemberScroll] = useState(0);
@@ -167,31 +161,26 @@ function App() {
 
   let studentSet1 = [
     {"student": strings.Members.Alexis, "img": img_Alexis},
-    {"student": strings.Members.Andreanne, "img": img_Andreanne},
-    {"student": strings.Members.Anthony, "img": img_Anthony},
-    {"student": strings.Members.AntoineG, "img": img_AntoineG},
+    {"student": strings.Members.Bolin, "img": synapses},
+    {"student": strings.Members.Catherine, "img": img_Catherine},
+    {"student": strings.Members.Charles, "img": synapses},
   ]
 
   let studentSet2 = [
-    {"student": strings.Members.Bolin, "img": synapses},
-    {"student": strings.Members.Catherine, "img": img_Catherine},
+    {"student": strings.Members.Elisa, "img": img_Elisa},
     {"student": strings.Members.Frederic, "img": img_Fred},
     {"student": strings.Members.Hadi, "img": img_Hadi},
-    
-   
+    {"student": strings.Members.Julia, "img": img_Julia},
+
   ]
 
   let studentSet3 = [
-    {"student": strings.Members.Jeanne, "img": img_Jeanne},
-    {"student": strings.Members.Julia, "img": img_Julia},
     {"student": strings.Members.Kamylle, "img": img_Kamylle},
     {"student": strings.Members.Katrine, "img": img_Katrine},
+    {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
   ]
 
   let studentSet4 = [
-    {"student": strings.Members.Mathieu, "img": img_Mathieu},
-    {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
-    {"student": strings.Members.Rayane, "img": img_Rayane}, 
     {"student": strings.Members.WilliamS, "img": img_WilliamS}
   ]
     
@@ -199,7 +188,9 @@ function App() {
   let memberSet1 = [
     {"member": strings.Members.CatherineD, "img": img_CatherineD},
     {"member": strings.Members.AntoineO, "img": img_AntoineO},
-
+  ]
+  let memberSet2 = [
+    {"member": strings.Members.Marine, "img": img_Marine},
   ]
 
   useEffect(() => {
@@ -254,6 +245,10 @@ function App() {
 
       <DynamicMemberSet
         data={memberSet1}
+      />
+
+      <DynamicMemberSet
+        data={memberSet2}
       />
 
       { /* Students */ }
