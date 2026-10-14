@@ -44,14 +44,6 @@
             "codirector": "",
             "level": "Undergraduate Student"
         },
-        "Andreanne": {
-            "name": "Andréanne Deschênes",
-            "info": "My PhD project consists in designing a multimodal super-resolution microscope which we will use to study how proteins reorganize in neurons when the strength of their connections is altered by activity. We also aim to use this microscope to investigate the influence of diet on the permeability of the gut.",
-            "image": "./img/members/Andreanne_Deschenes_crop.JPG",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Paul De Koninck",
-            "level": "PhD Student"
-        },
         "Anthony": {
             "name": "Anthony Bilodeau",
             "info": "My PhD project consists in building a super-resolution microscope that will be able to adapt to the sample using reinforcement learning. During my master, I developed weakly-supervised techniques to facilitate the analysis of microscopy images. ",
@@ -62,13 +54,10 @@
             "url": "https://hdl.handle.net/20.500.11794/183263",
             "Project": "Reducing human interactions in automated microscopy with machine learning"
         },
-
-
         "AntoineO": {
             "name": "Antoine Séverin Ollier",
             "info": "After obtaining my degree in Engineering from Télécom Saint-Étienne in France, I decided to continue my studies in the field of microscopy and machine learning. I decided to join a multidisciplinary lab because I was interested in collaborating with other scientists. In my Master’s degree project, I am working on implementing a new type of detector that will allow us to make temporal and hyperspectral images on the STED microscope. I’m also working on machine learning algorithms that will enhance the amount of acquired signal in low-photon conditions.",
             "image": "./img/members/AntoineSeverinOllier.JPG",
-
             "level": "Research Professional"
         },
 
@@ -162,35 +151,28 @@
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student"
         },
-
-        "Mathis": {
-            "name": "Mathis Rezzouk ",
-            "info": "",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Christian Gagné",
-            "level": "PhD Student"
-
-        },
-
-                "Xavier": {
-            "name": "Xavier Mathieu",
-            "Program": "Undergraduate in Engineering Physics (2022)",
-            "director": "Claudine Allen",
-            "codirector":  "Flavie Lavoie-Cardinal",
-            "info":"",
-            "level": "MSc Student"
-        },
-
-
-
-
-
-
-                "CatherineD": {
+        "CatherineD": {
             "name": "Catherine Desjardins",
             "info": "",
             "image": "./img/gallery/SynapticProteins.png",
             "level": "Research Coordinator"
+        },
+        "Marine": {
+            "name": "Marine Delamare",
+            "info": "",
+            "level": "Research Professional"
+        },
+        "Elisa": {
+            "name": "Elisa Corti",
+            "info": "",
+            "level": "Postdoctoral Researcher",
+            "director": "Flavie Lavoie-Cardinal"
+        },
+        "Charles": {
+            "name": "Charles Plamondon",
+            "info": "",
+            "level": "Undergraduate Student",
+            "director": "Flavie Lavoie-Cardinal"
         }
     },
     "Alumni": {
@@ -242,9 +224,34 @@
             "Project": "Développement d'outils moléculaires adaptés pour la microscopie de super-résolution des protéines des jonctions serrées endogènes",
             "Program": "Masters in Neuroscience (2021-2024)"
         },
+        "Andreanne": {
+            "name": "Andréanne Deschênes",
+            "info": "My PhD project consists in designing a multimodal super-resolution microscope which we will use to study how proteins reorganize in neurons when the strength of their connections is altered by activity. We also aim to use this microscope to investigate the influence of diet on the permeability of the gut.",
+            "image": "./img/members/Andreanne_Deschenes_crop.JPG",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Paul De Koninck",
+            "level": "PhD Student",
+            "Program": "Doctorate in Biophotonics"
+        },
+        "Anthony": {
+            "name": "Anthony Bilodeau",
+            "directior": "Flavie Lavoie-Cardinal",
+            "co-director": "Audrey Durand",
+            "Program": "Doctorate in Biophotonics (2020-2026)",
+            "Project": "Reducing human interactions in automated microscopy with machine learning",
+            "url": "https://corpus.ulaval.ca/entities/publication/7e702012-9f8e-4918-8d08-125aa110b5fd"
+        },
         "AnthonyL": {
             "name": "Anthony Lavertu",
             "Program": "Undergraduate in Bioinformatics (2023)"
+        },
+        "AntoineG": {
+            "name": "Antoine Girard",
+            "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique.",
+            "image": "./img/members/Antoine_Girard_crop.png",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Marie-Eve Paquet",
+            "level": "PhD Student"
         },
         "Bastian": {
             "name": "Bastian Raulier",
@@ -451,7 +458,7 @@
             "codirector": "",
             "Title": "Protocole standardisé de culture de Caco-2"
         },
-                                "Tristan": {
+        "Tristan": {
             "name": "Tristan Charlebois",
              "Program": "Undergraduate in Bioinformatics (2025)",
             "image": "./img/members/Tristan.jpg",
@@ -467,7 +474,7 @@
             "codirector": "",
             "Program": "Undergraduate Student (2025)"
         },
-                "Theresa": {
+        "Theresa": {
             "name": "Theresa Wiesner",
             "Program": "Doctorate in Biophotonics (2015-2021), Postdoctoral Researcher (2022)",
             "director": "Paul De Koninck",
