@@ -17,7 +17,6 @@ import img_JeanMichel from "./img/members/JeanMichelBellavance_crop.png";
 import img_JGabriel from "./img/members/JGabriel_crop.png";
 import img_AnthonyL from "./img/members/AnthonyLavertu_crop.png";
 import img_David from "./img/members/DavidVIncent_crop.png";
-import img_Albert from "./img/members/Albert_Michaud_crop.png";
 import img_Benoit from"./img/members/Benoit_Turcotte_crop.JPG";
 import img_William from "./img/members/WilliamL_crop.png";
 import img_LaurenceF from "./img/members/LaurenceF_crop.jpg";
