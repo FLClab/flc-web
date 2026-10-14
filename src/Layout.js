@@ -158,22 +158,22 @@ function App() {
       "label": "",
   }
   ,
-  {    "id": 10,
-      "img": AnthonyHat,
-      "label": "",
-  }
-   ,
-      {
-      "id": 11,
-      "img": AlexisHat,
-      "label": "",
-  }
-  ,
-      {
-      "id": 12,
-      "img": TheresaHat,
-      "label": "",
-  }
+  // {    "id": 10,
+  //     "img": AnthonyHat,
+  //     "label": "",
+  // }
+  //  ,
+  //     {
+  //     "id": 11,
+  //     "img": AlexisHat,
+  //     "label": "",
+  // }
+  // ,
+  //     {
+  //     "id": 12,
+  //     "img": TheresaHat,
+  //     "label": "",
+  // }
 
 
   ]
