@@ -2,6 +2,7 @@ import DynamicAlumniSet from './DynamicAlumniSet';
 import img_Alexandre from "./img/members/Alexandre_Boulay_crop.JPG";
 import img_Alexy from "./img/members/Alexy_crop.jpg";
 import img_Alexis from "./img/members/Alexis_Lebrun_crop.jpg";
+import img_AntoineG from "./img/members/Antoine_Girard_crop.jpg";
 import img_GabLeclerc from "./img/members/Gabriel_Leclerc.png";
 import img_Philippe from "./img/members/Philippe_Gagnon_crop.png";
 import img_Marie from "./img/members/Marie_crop.jpg";
@@ -38,10 +39,11 @@ import {Link} from 'react-router-dom'
 function AlumniPage(){
 
     let alumniSet1 = [
-        {"alumni": strings.Alumni.Albert, "img": img_Albert},
-        {"alumni": strings.Alumni.Alexandre, "img": img_Alexandre},
-        {"alumni": strings.Alumni.Alexis, "img": img_Alexis},
-        {"alumni": strings.Alumni.Alexy, "img": img_Alexy},
+           {"alumni": strings.Alumni.LaurenceF, "img": img_LaurenceF}, 
+            {"alumni": strings.Alumni.Alexy, "img": img_Alexy},
+        {"alumni": strings.Alumni.Mathieu, "img": img_Mathieu},
+        {"alumni": strings.Alumni.Rayane, "img": img_Rayane},
+        
     ]
 
     let alumniSet2 = [
@@ -74,9 +76,10 @@ function AlumniPage(){
 
     let alumniSet6= [
         {"alumni": strings.Alumni.Koraly, "img": img_Koraly},
-        {"alumni": strings.Alumni.LaurenceF, "img": img_LaurenceF},
-        {"alumni": strings.Alumni.LouisEmile, "img": synapses},
-        {"alumni": strings.Alumni.Ludovic, "img": synapses},
+      
+           
+
+        
     ]
 
     let alumniSet7= [
@@ -110,7 +113,6 @@ function AlumniPage(){
     let alumniSet11 = [
         {"alumni": strings.Alumni.Zoe, "img": synapses},
     ]
-
     return (
         <div className="alumni-page__container">
             <Link className="back" to="/">
@@ -151,6 +153,9 @@ function AlumniPage(){
              />
              <DynamicAlumniSet
                 data={alumniSet9}
+             />
+             <DynamicAlumniSet
+                data={alumniSet10}
              />
 
             <DynamicAlumniSet

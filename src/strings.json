@@ -48,9 +48,11 @@
             "name": "Anthony Bilodeau",
             "info": "My PhD project consists in building a super-resolution microscope that will be able to adapt to the sample using reinforcement learning. During my master, I developed weakly-supervised techniques to facilitate the analysis of microscopy images. ",
             "image": "./img/members/Anthony_Bilodeau_crop.JPG",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Audrey Durand",
-            "level": "PhD Student"
+
+            "level": "Research Professional",
+
+            "url": "https://hdl.handle.net/20.500.11794/183263",
+            "Project": "Reducing human interactions in automated microscopy with machine learning"
         },
         "AntoineO": {
             "name": "Antoine Séverin Ollier",
@@ -139,22 +141,7 @@
             "info": "Alignement et caractérisation d’un microscope STED.",
             "level": "MSc Student"
         },
-        "Mathieu": {
-            "name": "Mathieu Landry",
-            "info": "",
-            "image": "./img/members/Mathieu.jpg",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "Christian Gagné",
-            "level": "Undergraduate Student"
-        },
-                "Rayane": {
-            "name": "Mohamed Rayane Hayjoub",
-            "info": "",
-            "image": "./img/members/Rayane.jpg",
-            "director": "Flavie Lavoie-Cardinal",
-            "codirector": "",
-            "level": "Undergraduate Student"
-        },
+
 
                         "WilliamS": {
             "name": "William Saxon",
@@ -211,7 +198,9 @@
             "director": "Denis Boudreau",
             "codirector": "Flavie Lavoie-Cardinal",
             "level": "PhD Student",
-            "Program": "Doctorate in Biophotonics (2021-2024)"
+            "Program": "Doctorate in Biophotonics (2021-2024)",
+            "Project":"SERS et profilage moléculaire : explorer la barrière intestinale",
+            "url":"https://hdl.handle.net/20.500.11794/175328"
         },
         "Alexy": {
             "name": "Alexy Pelletier-Rioux",
@@ -219,7 +208,21 @@
             "image": "./img/members/Alexis_Lebrun_crop.jpg",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Yves De Koninck",
-            "level": "MSc Student"
+            "level": "MSc Student",
+            "Program": "Masters in Biophotonics (2023-2025)",
+            "Project":"Développement d’une méthode d’immunohistochimie optimisée pour les tissus et adaptée à la microscopie de super-résolution de protéines neuronales",
+            "url":"https://hdl.handle.net/20.500.11794/187806"
+        },
+                "AntoineG": {
+            "name": "Antoine Girard",
+            "info": "Mon baccalauréat en biochimie a permis de mettre en évidence ma passion pour la biologie moléculaire et les neurosciences. Mon projet de ma maîtrise en neurosciences est de contribuer à investiguer le rôle de toute sortes de protéines dans la perméabilité de l’intestin. Pour ce faire, je travaille à développer une stratégie rapide et polyvalente nous permettant de marquer ces protéines, question de déterminer leur organisation spatiotemporelle en super-résolution. Bien qu’en pensant aux neurosciences, on ne pense pas automatiquement à l’intestin, des études récentes ont permis de mettre en évidence le lien étroit entre la perméabilité intestinale et la barrière hémato-encéphalique.",
+            "image": "./img/members/Antoine_Girard_crop.png",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Marie-Eve Paquet",
+            "level": "PhD Student",
+             "url": "https://hdl.handle.net/20.500.11794/169326",
+            "Project": "Développement d'outils moléculaires adaptés pour la microscopie de super-résolution des protéines des jonctions serrées endogènes",
+            "Program": "Masters in Neuroscience (2021-2024)"
         },
         "Andreanne": {
             "name": "Andréanne Deschênes",
@@ -336,7 +339,7 @@
 
         "LaurenceF": {
             "name": "Laurence Fontaine",
-            "Program": "Undergraduate in Bioinformatics (2021-2022)",
+            "Program": "Masters in Informatics (2022-2026)",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "Audrey Durand",
             "info": "Classification et génération automatique de protéines post synaptique (2022)",
@@ -374,6 +377,24 @@
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
             "Title": "Analyse d’images de microscopie super-résolution de temps de vie"
+        },
+                "Mathieu": {
+            "name": "Mathieu Landry",
+            "Program": "Undergraduate in Bioinformatics (2025)",
+            "info": "",
+            "image": "./img/members/Mathieu.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Christian Gagné",
+            "level": "Undergraduate Student"
+        },
+                "Rayane": {
+            "name": "Mohamed Rayane Hayjoub",
+             "Program": "Undergraduate in Engineering Physics (2025)",
+            "info": "",
+            "image": "./img/members/Rayane.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "level": "Undergraduate Student"
         },
 
         "Owen": {
@@ -519,6 +540,12 @@
     },
     "Publications": {
         "label": "Publications",
+
+        "AstroBEATS":{"authors": ["Fan, B., "," Bilodeau, A., ","Beaupré, F., ","Wiesner, T., "," Gagné, C., "," Lavoie-Cardinal, F., "," Hložek, R." ],
+            "year": "2026",
+            "title":"Calcium transient detection and segmentation with the astronomically motivated algorithm for background estimation and transient segmentation (Astro-BEATS).",
+            "source":" https://doi.org/10.64898/2026.03.13.711411",
+            "journal":"Preprint"},
          "ActiveAAAI":{
             "authors": ["Bernatchez, R.,"," Durand, A." , " Lavoie-Cardinal, F."],
             "year": "2022",
