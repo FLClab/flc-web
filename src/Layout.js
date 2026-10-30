@@ -208,6 +208,7 @@ function App() {
     {"member": strings.Members.CatherineD, "img": img_CatherineD},
     {"member": strings.Members.AntoineO, "img": img_AntoineO},
     {"member": strings.Members.Marine, "img": img_Marine},
+    {"member": strings.Members.Maryse, "img": synapses},
   ]
 
   useEffect(() => {

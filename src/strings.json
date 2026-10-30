@@ -143,7 +143,7 @@
         },
 
 
-                        "WilliamS": {
+        "WilliamS": {
             "name": "William Saxon",
             "info": "",
             "image": "./img/members/WilliamS.jpg",
@@ -159,6 +159,11 @@
         },
         "Marine": {
             "name": "Marine Delamare",
+            "info": "",
+            "level": "Research Professional"
+        },
+        "Maryse": {
+            "name": "Maryse Pinel",
             "info": "",
             "level": "Research Professional"
         },
@@ -378,7 +383,7 @@
             "codirector": "",
             "Title": "Analyse d’images de microscopie super-résolution de temps de vie"
         },
-                "Mathieu": {
+        "Mathieu": {
             "name": "Mathieu Landry",
             "Program": "Undergraduate in Bioinformatics (2025)",
             "info": "",
@@ -392,6 +397,15 @@
              "Program": "Undergraduate in Engineering Physics (2025)",
             "info": "",
             "image": "./img/members/Rayane.jpg",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "level": "Undergraduate Student"
+        },
+        "Jeanne": {
+            "name": "Jeanne Langevin-Robitaille",
+            "Program": "Undergraduate Student",
+            "info": "",
+            "image": "./img/members/Jeanne.jpg",
             "director": "Flavie Lavoie-Cardinal",
             "codirector": "",
             "level": "Undergraduate Student"
