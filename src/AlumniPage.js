@@ -35,8 +35,8 @@ import {Link} from 'react-router-dom'
 function AlumniPage(){
 
     let alumniSet1 = [
-           {"alumni": strings.Alumni.LaurenceF, "img": img_LaurenceF}, 
-            {"alumni": strings.Alumni.Alexy, "img": img_Alexy},
+        {"alumni": strings.Alumni.LaurenceF, "img": img_LaurenceF}, 
+        {"alumni": strings.Alumni.Alexy, "img": img_Alexy},
         {"alumni": strings.Alumni.Mathieu, "img": img_Mathieu},
         {"alumni": strings.Alumni.Rayane, "img": img_Rayane},
         
