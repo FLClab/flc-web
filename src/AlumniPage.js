@@ -35,78 +35,71 @@ import {Link} from 'react-router-dom'
 function AlumniPage(){
 
     let alumniSet1 = [
-        {"alumni": strings.Alumni.LaurenceF, "img": img_LaurenceF}, 
         {"alumni": strings.Alumni.Alexy, "img": img_Alexy},
-        {"alumni": strings.Alumni.Mathieu, "img": img_Mathieu},
-        {"alumni": strings.Alumni.Rayane, "img": img_Rayane},
-        
-    ]
-
-    let alumniSet2 = [
         {"alumni": strings.Alumni.Andreanne, "img": img_Andreanne},
         {"alumni": strings.Alumni.Anthony, "img": img_Anthony},
         {"alumni": strings.Alumni.AnthonyL, "img": img_AnthonyL},
-        {"alumni": strings.Alumni.AntoineG, "img": img_AntoineG},
     ]
 
-    let alumniSet3 = [
+    let alumniSet2 = [
+        {"alumni": strings.Alumni.AntoineG, "img": img_AntoineG},
         {"alumni": strings.Alumni.Bastian, "img": synapses},
         {"alumni": strings.Alumni.Benoit, "img": img_Benoit},
         {"alumni": strings.Alumni.Camille, "img": synapses},
-        {"alumni": strings.Alumni.Chi, "img": synapses},
-    ]
-
-    let alumniSet4 = [
-        {"alumni": strings.Alumni.David, "img": img_David},
-        {"alumni": strings.Alumni.Elodie, "img": img_ELodie},
-        {"alumni": strings.Alumni.Eric, "img": img_Eric},
-        {"alumni": strings.Alumni.Gabrielle, "img": synapses},
-    ]
-
-    let alumniSet5= [
-        {"alumni": strings.Alumni.Gabriel, "img": img_GabLeclerc},
-        {"alumni": strings.Alumni.Jeanne, "img": img_Jeanne},
-        {"alumni": strings.Alumni.JeanMichel, "img": img_JeanMichel},
-        {"alumni": strings.Alumni.JGabriel, "img": img_JGabriel},
-    ]
-
-    let alumniSet6= [
-        {"alumni": strings.Alumni.Koraly, "img": img_Koraly},
-      
-           
-
         
     ]
 
-    let alumniSet7= [
+    let alumniSet3 = [
+        {"alumni": strings.Alumni.Chi, "img": synapses},
+        {"alumni": strings.Alumni.David, "img": img_David},
+        {"alumni": strings.Alumni.Elodie, "img": img_ELodie},
+        {"alumni": strings.Alumni.Eric, "img": img_Eric},
+        
+    ]
+
+    let alumniSet4 = [
+        {"alumni": strings.Alumni.Gabrielle, "img": synapses},
+        {"alumni": strings.Alumni.Gabriel, "img": img_GabLeclerc},
+        {"alumni": strings.Alumni.Jeanne, "img": img_Jeanne},
+        {"alumni": strings.Alumni.JeanMichel, "img": img_JeanMichel},
+        
+    ]
+
+    let alumniSet5= [
+        {"alumni": strings.Alumni.JGabriel, "img": img_JGabriel},
+        {"alumni": strings.Alumni.Koraly, "img": img_Koraly},
+        {"alumni": strings.Alumni.LaurenceF, "img": img_LaurenceF}, 
+        {"alumni": strings.Alumni.Mathieu, "img": img_Mathieu},
+      
+    ]
+
+
+    let alumniSet6 = [
         {"alumni": strings.Alumni.MarcAntoine, "img": synapses},
         {"alumni": strings.Alumni.Mariame, "img": synapses},
         {"alumni": strings.Alumni.Marie, "img": img_Marie},
-        {"alumni": strings.Alumni.Mathieu, "img": img_Mathieu},
+        {"alumni": strings.Alumni.Philippe, "img": img_Philippe},
+    ]
+
+    let alumniSet7 = [
+        {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
+        {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
+        {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
+        {"alumni": strings.Alumni.Rayane, "img": img_Rayane},
+        
     ]
 
     let alumniSet8 = [
-        {"alumni": strings.Alumni.Philippe, "img": img_Philippe},
-        {"alumni": strings.Alumni.PhilippeGT, "img": img_PhilGT},
-        {"alumni": strings.Alumni.Rayane, "img": img_Rayane},
-        {"alumni": strings.Alumni.Renaud, "img": img_Renaud},
-    ]
-
-    let alumniSet9 = [
-        {"alumni": strings.Alumni.Roseline, "img": img_Roseline},
         {"alumni": strings.Alumni.Sacha, "img": synapses},
         {"alumni": strings.Alumni.Samuel, "img": img_Samuel},
         {"alumni": strings.Alumni.Tassnym, "img": synapses},
+        {"alumni": strings.Alumni.Theresa, "img": img_Theresa},
     ]
 
-    let alumniSet10 = [
-        {"alumni": strings.Alumni.Theresa, "img": img_Theresa},
+    let alumniSet9 = [
         {"alumni": strings.Alumni.Tristan, "img": img_Tristan},
         {"alumni": strings.Alumni.Vincent, "img": img_Vincent},
         {"alumni": strings.Alumni.William, "img": img_William},
-    ]
-
-    let alumniSet11 = [
         {"alumni": strings.Alumni.Zoe, "img": synapses},
     ]
     return (
@@ -150,17 +143,14 @@ function AlumniPage(){
              <DynamicAlumniSet
                 data={alumniSet9}
              />
-             <DynamicAlumniSet
+             {/* <DynamicAlumniSet
                 data={alumniSet10}
-             />
+             /> */}
 
-            <DynamicAlumniSet
+            {/* <DynamicAlumniSet
                 data={alumniSet10}
-             />
+             /> */}
 
-            <DynamicAlumniSet
-                data={alumniSet11}
-             />
 
         </div>
 
