@@ -61,6 +61,15 @@
             "level": "Research Professional"
         },
 
+        "Chloe": {
+            "name": "Chloe Morin",
+            "info": "TBD.",
+            "image": "./img/gallery/SynapticProteins.png",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "Christian Gagné",
+            "level": "MSc Student"
+        },
+
         "Bolin": {
             "name": "Bolin Fan",
             "info": "TBD.",
@@ -178,7 +187,16 @@
             "info": "",
             "level": "Undergraduate Student",
             "director": "Flavie Lavoie-Cardinal"
+        },
+        "LaurenceStG": {
+            "name": "Laurence St-Germain",
+            "info": "TBD.",
+            "image": "./img/gallery/SynapticProteins.png",
+            "director": "Flavie Lavoie-Cardinal",
+            "codirector": "",
+            "level": "Undergraduate Student"
         }
+
     },
     "Alumni": {
         "label": "Alumni",

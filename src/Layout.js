@@ -186,20 +186,23 @@ function App() {
   ]
 
   let studentSet2 = [
+    {"student": strings.Members.Chloe, "img": synapses},
     {"student": strings.Members.Elisa, "img": img_Elisa},
     {"student": strings.Members.Frederic, "img": img_Fred},
     {"student": strings.Members.Hadi, "img": img_Hadi},
-    {"student": strings.Members.Julia, "img": img_Julia},
+    
 
   ]
 
   let studentSet3 = [
+    {"student": strings.Members.Julia, "img": img_Julia},
     {"student": strings.Members.Kamylle, "img": img_Kamylle},
     {"student": strings.Members.Katrine, "img": img_Katrine},
     {"student": strings.Members.LaurenceD, "img": img_LaurenceD},
   ]
 
   let studentSet4 = [
+    {"student": strings.Members.LaurenceStG, "img": synapses},
     {"student": strings.Members.WilliamS, "img": img_WilliamS}
   ]
     
